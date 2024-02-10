@@ -26,7 +26,7 @@
         "Type": "LG1",
         "Price": 10000000,
         "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Boss\\LG1\\Riverven_LG_1.png"
+        "Path": "Boss/LG1/Riverven_LG_1.png"
     },
     {
         "id": 2,
@@ -55,7 +55,7 @@
         "Type": "LG1",
         "Price": 10000000,
         "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Boss\\LG1\\Riverven_LG_10.png"
+        "Path": "Boss/LG1/Riverven_LG_10.png"
     },
     {
         "id": 3,
@@ -84,7 +84,7 @@
         "Type": "LG1",
         "Price": 10000000,
         "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Boss\\LG1\\Riverven_LG_11.png"
+        "Path": "Boss/LG1/Riverven_LG_11.png"
     },
     {
         "id": 4,
@@ -113,7 +113,7 @@
         "Type": "LG1",
         "Price": 10000000,
         "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Boss\\LG1\\Riverven_LG_12.png"
+        "Path": "Boss/LG1/Riverven_LG_12.png"
     },
     {
         "id": 5,
@@ -142,7 +142,7 @@
         "Type": "LG1",
         "Price": 10000000,
         "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Boss\\LG1\\Riverven_LG_13.png"
+        "Path": "Boss/LG1/Riverven_LG_13.png"
     },
     {
         "id": 6,
@@ -171,7 +171,7 @@
         "Type": "LG1",
         "Price": 10000000,
         "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Boss\\LG1\\Riverven_LG_14.png"
+        "Path": "Boss/LG1/Riverven_LG_14.png"
     },
     {
         "id": 7,
@@ -200,7 +200,7 @@
         "Type": "LG1",
         "Price": 10000000,
         "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Boss\\LG1\\Riverven_LG_15.png"
+        "Path": "Boss/LG1/Riverven_LG_15.png"
     },
     {
         "id": 8,
@@ -229,7 +229,7 @@
         "Type": "LG1",
         "Price": 10000000,
         "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Boss\\LG1\\Riverven_LG_16.png"
+        "Path": "Boss/LG1/Riverven_LG_16.png"
     },
     {
         "id": 9,
@@ -258,7 +258,7 @@
         "Type": "LG1",
         "Price": 10000000,
         "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Boss\\LG1\\Riverven_LG_17.png"
+        "Path": "Boss/LG1/Riverven_LG_17.png"
     },
     {
         "id": 10,
@@ -287,7 +287,7 @@
         "Type": "LG1",
         "Price": 10000000,
         "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Boss\\LG1\\Riverven_LG_18.png"
+        "Path": "Boss/LG1/Riverven_LG_18.png"
     },
     {
         "id": 11,
@@ -316,7 +316,7 @@
         "Type": "LG1",
         "Price": 10000000,
         "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Boss\\LG1\\Riverven_LG_19.png"
+        "Path": "Boss/LG1/Riverven_LG_19.png"
     },
     {
         "id": 12,
@@ -345,7 +345,7 @@
         "Type": "LG1",
         "Price": 10000000,
         "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Boss\\LG1\\Riverven_LG_2.png"
+        "Path": "Boss/LG1/Riverven_LG_2.png"
     },
     {
         "id": 13,
@@ -374,7 +374,7 @@
         "Type": "LG1",
         "Price": 10000000,
         "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Boss\\LG1\\Riverven_LG_20.png"
+        "Path": "Boss/LG1/Riverven_LG_20.png"
     },
     {
         "id": 14,
@@ -403,7 +403,7 @@
         "Type": "LG1",
         "Price": 10000000,
         "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Boss\\LG1\\Riverven_LG_21.png"
+        "Path": "Boss/LG1/Riverven_LG_21.png"
     },
     {
         "id": 15,
@@ -432,7 +432,7 @@
         "Type": "LG1",
         "Price": 10000000,
         "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Boss\\LG1\\Riverven_LG_22.png"
+        "Path": "Boss/LG1/Riverven_LG_22.png"
     },
     {
         "id": 16,
@@ -461,7 +461,7 @@
         "Type": "LG1",
         "Price": 10000000,
         "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Boss\\LG1\\Riverven_LG_23.png"
+        "Path": "Boss/LG1/Riverven_LG_23.png"
     },
     {
         "id": 17,
@@ -490,7 +490,7 @@
         "Type": "LG1",
         "Price": 10000000,
         "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Boss\\LG1\\Riverven_LG_24.png"
+        "Path": "Boss/LG1/Riverven_LG_24.png"
     },
     {
         "id": 18,
@@ -519,7 +519,7 @@
         "Type": "LG1",
         "Price": 10000000,
         "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Boss\\LG1\\Riverven_LG_3.png"
+        "Path": "Boss/LG1/Riverven_LG_3.png"
     },
     {
         "id": 19,
@@ -548,7 +548,7 @@
         "Type": "LG1",
         "Price": 10000000,
         "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Boss\\LG1\\Riverven_LG_4.png"
+        "Path": "Boss/LG1/Riverven_LG_4.png"
     },
     {
         "id": 20,
@@ -577,7 +577,7 @@
         "Type": "LG1",
         "Price": 10000000,
         "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Boss\\LG1\\Riverven_LG_5.png"
+        "Path": "Boss/LG1/Riverven_LG_5.png"
     },
     {
         "id": 21,
@@ -606,7 +606,7 @@
         "Type": "LG1",
         "Price": 10000000,
         "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Boss\\LG1\\Riverven_LG_6.png"
+        "Path": "Boss/LG1/Riverven_LG_6.png"
     },
     {
         "id": 22,
@@ -635,7 +635,7 @@
         "Type": "LG1",
         "Price": 10000000,
         "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Boss\\LG1\\Riverven_LG_7.png"
+        "Path": "Boss/LG1/Riverven_LG_7.png"
     },
     {
         "id": 23,
@@ -664,7 +664,7 @@
         "Type": "LG1",
         "Price": 10000000,
         "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Boss\\LG1\\Riverven_LG_8.png"
+        "Path": "Boss/LG1/Riverven_LG_8.png"
     },
     {
         "id": 24,
@@ -693,7 +693,7 @@
         "Type": "LG1",
         "Price": 10000000,
         "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Boss\\LG1\\Riverven_LG_9.png"
+        "Path": "Boss/LG1/Riverven_LG_9.png"
     },
     {
         "id": 25,
@@ -722,7 +722,7 @@
         "Type": "LG2",
         "Price": 10000000,
         "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Boss\\LG2\\Onyx_LG_1.png"
+        "Path": "Boss/LG2/Onyx_LG_1.png"
     },
     {
         "id": 26,
@@ -751,7 +751,7 @@
         "Type": "LG2",
         "Price": 10000000,
         "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Boss\\LG2\\Onyx_LG_10.png"
+        "Path": "Boss/LG2/Onyx_LG_10.png"
     },
     {
         "id": 27,
@@ -780,7 +780,7 @@
         "Type": "LG2",
         "Price": 10000000,
         "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Boss\\LG2\\Onyx_LG_11.png"
+        "Path": "Boss/LG2/Onyx_LG_11.png"
     },
     {
         "id": 28,
@@ -809,7 +809,7 @@
         "Type": "LG2",
         "Price": 10000000,
         "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Boss\\LG2\\Onyx_LG_12.png"
+        "Path": "Boss/LG2/Onyx_LG_12.png"
     },
     {
         "id": 29,
@@ -838,7 +838,7 @@
         "Type": "LG2",
         "Price": 10000000,
         "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Boss\\LG2\\Onyx_LG_13.png"
+        "Path": "Boss/LG2/Onyx_LG_13.png"
     },
     {
         "id": 30,
@@ -867,7 +867,7 @@
         "Type": "LG2",
         "Price": 10000000,
         "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Boss\\LG2\\Onyx_LG_14.png"
+        "Path": "Boss/LG2/Onyx_LG_14.png"
     },
     {
         "id": 31,
@@ -896,7 +896,7 @@
         "Type": "LG2",
         "Price": 10000000,
         "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Boss\\LG2\\Onyx_LG_15.png"
+        "Path": "Boss/LG2/Onyx_LG_15.png"
     },
     {
         "id": 32,
@@ -925,7 +925,7 @@
         "Type": "LG2",
         "Price": 10000000,
         "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Boss\\LG2\\Onyx_LG_16.png"
+        "Path": "Boss/LG2/Onyx_LG_16.png"
     },
     {
         "id": 33,
@@ -954,7 +954,7 @@
         "Type": "LG2",
         "Price": 10000000,
         "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Boss\\LG2\\Onyx_LG_17.png"
+        "Path": "Boss/LG2/Onyx_LG_17.png"
     },
     {
         "id": 34,
@@ -983,7 +983,7 @@
         "Type": "LG2",
         "Price": 10000000,
         "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Boss\\LG2\\Onyx_LG_2.png"
+        "Path": "Boss/LG2/Onyx_LG_2.png"
     },
     {
         "id": 35,
@@ -1012,7 +1012,7 @@
         "Type": "LG2",
         "Price": 10000000,
         "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Boss\\LG2\\Onyx_LG_3.png"
+        "Path": "Boss/LG2/Onyx_LG_3.png"
     },
     {
         "id": 36,
@@ -1041,7 +1041,7 @@
         "Type": "LG2",
         "Price": 10000000,
         "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Boss\\LG2\\Onyx_LG_4.png"
+        "Path": "Boss/LG2/Onyx_LG_4.png"
     },
     {
         "id": 37,
@@ -1070,7 +1070,7 @@
         "Type": "LG2",
         "Price": 10000000,
         "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Boss\\LG2\\Onyx_LG_5.png"
+        "Path": "Boss/LG2/Onyx_LG_5.png"
     },
     {
         "id": 38,
@@ -1099,7 +1099,7 @@
         "Type": "LG2",
         "Price": 10000000,
         "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Boss\\LG2\\Onyx_LG_6.png"
+        "Path": "Boss/LG2/Onyx_LG_6.png"
     },
     {
         "id": 39,
@@ -1128,7 +1128,7 @@
         "Type": "LG2",
         "Price": 10000000,
         "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Boss\\LG2\\Onyx_LG_7.png"
+        "Path": "Boss/LG2/Onyx_LG_7.png"
     },
     {
         "id": 40,
@@ -1157,7 +1157,7 @@
         "Type": "LG2",
         "Price": 10000000,
         "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Boss\\LG2\\Onyx_LG_8.png"
+        "Path": "Boss/LG2/Onyx_LG_8.png"
     },
     {
         "id": 41,
@@ -1186,6 +1186,6 @@
         "Type": "LG2",
         "Price": 10000000,
         "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Boss\\LG2\\Onyx_LG_9.png"
+        "Path": "Boss/LG2/Onyx_LG_9.png"
     }
 ]

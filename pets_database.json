@@ -25,8 +25,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10010_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10010_1_combined.png"
     },
     {
         "id": 2,
@@ -54,8 +54,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10010_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10010_1_stand.png"
     },
     {
         "id": 3,
@@ -83,8 +83,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10010_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10010_2_combined.png"
     },
     {
         "id": 4,
@@ -112,8 +112,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10010_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10010_2_stand.png"
     },
     {
         "id": 5,
@@ -141,8 +141,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10010_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10010_3_combined.png"
     },
     {
         "id": 6,
@@ -170,8 +170,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10010_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10010_3_stand.png"
     },
     {
         "id": 7,
@@ -199,8 +199,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10020_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10020_1_combined.png"
     },
     {
         "id": 8,
@@ -228,8 +228,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10020_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10020_1_stand.png"
     },
     {
         "id": 9,
@@ -257,8 +257,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10020_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10020_2_combined.png"
     },
     {
         "id": 10,
@@ -286,8 +286,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10020_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10020_2_stand.png"
     },
     {
         "id": 11,
@@ -315,8 +315,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10020_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10020_3_combined.png"
     },
     {
         "id": 12,
@@ -344,8 +344,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10020_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10020_3_stand.png"
     },
     {
         "id": 13,
@@ -373,8 +373,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10021_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10021_1_combined.png"
     },
     {
         "id": 14,
@@ -402,8 +402,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10021_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10021_1_stand.png"
     },
     {
         "id": 15,
@@ -431,8 +431,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10021_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10021_2_combined.png"
     },
     {
         "id": 16,
@@ -460,8 +460,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10021_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10021_2_stand.png"
     },
     {
         "id": 17,
@@ -489,8 +489,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10021_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10021_3_combined.png"
     },
     {
         "id": 18,
@@ -518,8 +518,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10021_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10021_3_stand.png"
     },
     {
         "id": 19,
@@ -547,8 +547,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10027_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10027_1_combined.png"
     },
     {
         "id": 20,
@@ -576,8 +576,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10027_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10027_1_stand.png"
     },
     {
         "id": 21,
@@ -605,8 +605,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10027_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10027_2_combined.png"
     },
     {
         "id": 22,
@@ -634,8 +634,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10027_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10027_2_stand.png"
     },
     {
         "id": 23,
@@ -663,8 +663,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10027_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10027_3_combined.png"
     },
     {
         "id": 24,
@@ -692,8 +692,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10027_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10027_3_stand.png"
     },
     {
         "id": 25,
@@ -721,8 +721,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10033_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10033_1_combined.png"
     },
     {
         "id": 26,
@@ -750,8 +750,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10033_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10033_1_stand.png"
     },
     {
         "id": 27,
@@ -779,8 +779,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10033_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10033_2_combined.png"
     },
     {
         "id": 28,
@@ -808,8 +808,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10033_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10033_2_stand.png"
     },
     {
         "id": 29,
@@ -837,8 +837,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10033_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10033_3_combined.png"
     },
     {
         "id": 30,
@@ -866,8 +866,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10033_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10033_3_stand.png"
     },
     {
         "id": 31,
@@ -895,8 +895,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10042_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10042_1_combined.png"
     },
     {
         "id": 32,
@@ -924,8 +924,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10042_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10042_1_stand.png"
     },
     {
         "id": 33,
@@ -953,8 +953,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10042_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10042_2_combined.png"
     },
     {
         "id": 34,
@@ -982,8 +982,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10042_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10042_2_stand.png"
     },
     {
         "id": 35,
@@ -1011,8 +1011,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10042_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10042_3_combined.png"
     },
     {
         "id": 36,
@@ -1040,8 +1040,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10042_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10042_3_stand.png"
     },
     {
         "id": 37,
@@ -1069,8 +1069,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10043_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10043_1_combined.png"
     },
     {
         "id": 38,
@@ -1098,8 +1098,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10043_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10043_1_stand.png"
     },
     {
         "id": 39,
@@ -1127,8 +1127,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10043_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10043_2_combined.png"
     },
     {
         "id": 40,
@@ -1156,8 +1156,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10043_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10043_2_stand.png"
     },
     {
         "id": 41,
@@ -1185,8 +1185,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10043_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10043_3_combined.png"
     },
     {
         "id": 42,
@@ -1214,8 +1214,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10043_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10043_3_stand.png"
     },
     {
         "id": 43,
@@ -1243,8 +1243,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10072_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10072_1_combined.png"
     },
     {
         "id": 44,
@@ -1272,8 +1272,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10072_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10072_1_stand.png"
     },
     {
         "id": 45,
@@ -1301,8 +1301,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10072_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10072_2_combined.png"
     },
     {
         "id": 46,
@@ -1330,8 +1330,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10072_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10072_2_stand.png"
     },
     {
         "id": 47,
@@ -1359,8 +1359,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10072_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10072_3_combined.png"
     },
     {
         "id": 48,
@@ -1388,8 +1388,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10072_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10072_3_stand.png"
     },
     {
         "id": 49,
@@ -1417,8 +1417,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10073_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10073_1_combined.png"
     },
     {
         "id": 50,
@@ -1446,8 +1446,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10073_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10073_1_stand.png"
     },
     {
         "id": 51,
@@ -1475,8 +1475,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10073_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10073_2_combined.png"
     },
     {
         "id": 52,
@@ -1504,8 +1504,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10073_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10073_2_stand.png"
     },
     {
         "id": 53,
@@ -1533,8 +1533,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10073_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10073_3_combined.png"
     },
     {
         "id": 54,
@@ -1562,8 +1562,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10073_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10073_3_stand.png"
     },
     {
         "id": 55,
@@ -1591,8 +1591,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10084_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10084_1_combined.png"
     },
     {
         "id": 56,
@@ -1620,8 +1620,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10084_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10084_1_stand.png"
     },
     {
         "id": 57,
@@ -1649,8 +1649,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10084_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10084_2_combined.png"
     },
     {
         "id": 58,
@@ -1678,8 +1678,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10084_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10084_2_stand.png"
     },
     {
         "id": 59,
@@ -1707,8 +1707,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10084_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10084_3_combined.png"
     },
     {
         "id": 60,
@@ -1736,8 +1736,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10084_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10084_3_stand.png"
     },
     {
         "id": 61,
@@ -1765,8 +1765,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10085_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10085_1_combined.png"
     },
     {
         "id": 62,
@@ -1794,8 +1794,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10085_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10085_1_stand.png"
     },
     {
         "id": 63,
@@ -1823,8 +1823,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10085_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10085_2_combined.png"
     },
     {
         "id": 64,
@@ -1852,8 +1852,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10085_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10085_2_stand.png"
     },
     {
         "id": 65,
@@ -1881,8 +1881,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10085_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10085_3_combined.png"
     },
     {
         "id": 66,
@@ -1910,8 +1910,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10085_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10085_3_stand.png"
     },
     {
         "id": 67,
@@ -1939,8 +1939,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10096_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10096_1_combined.png"
     },
     {
         "id": 68,
@@ -1968,8 +1968,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10096_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10096_1_stand.png"
     },
     {
         "id": 69,
@@ -1997,8 +1997,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10096_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10096_2_combined.png"
     },
     {
         "id": 70,
@@ -2026,8 +2026,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10096_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10096_2_stand.png"
     },
     {
         "id": 71,
@@ -2055,8 +2055,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10096_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10096_3_combined.png"
     },
     {
         "id": 72,
@@ -2084,8 +2084,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10096_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10096_3_stand.png"
     },
     {
         "id": 73,
@@ -2113,8 +2113,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10097_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10097_1_combined.png"
     },
     {
         "id": 74,
@@ -2142,8 +2142,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10097_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10097_1_stand.png"
     },
     {
         "id": 75,
@@ -2171,8 +2171,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10097_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10097_2_combined.png"
     },
     {
         "id": 76,
@@ -2200,8 +2200,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10097_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10097_2_stand.png"
     },
     {
         "id": 77,
@@ -2229,8 +2229,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10097_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10097_3_combined.png"
     },
     {
         "id": 78,
@@ -2258,8 +2258,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10097_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10097_3_stand.png"
     },
     {
         "id": 79,
@@ -2287,8 +2287,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10098_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10098_1_combined.png"
     },
     {
         "id": 80,
@@ -2316,8 +2316,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10098_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10098_1_stand.png"
     },
     {
         "id": 81,
@@ -2345,8 +2345,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10098_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10098_2_combined.png"
     },
     {
         "id": 82,
@@ -2374,8 +2374,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10098_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10098_2_stand.png"
     },
     {
         "id": 83,
@@ -2403,8 +2403,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10098_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10098_3_combined.png"
     },
     {
         "id": 84,
@@ -2432,8 +2432,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10098_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10098_3_stand.png"
     },
     {
         "id": 85,
@@ -2461,8 +2461,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10129_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10129_1_combined.png"
     },
     {
         "id": 86,
@@ -2490,8 +2490,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10129_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10129_1_stand.png"
     },
     {
         "id": 87,
@@ -2519,8 +2519,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10129_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10129_2_combined.png"
     },
     {
         "id": 88,
@@ -2548,8 +2548,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10129_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10129_2_stand.png"
     },
     {
         "id": 89,
@@ -2577,8 +2577,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10129_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10129_3_combined.png"
     },
     {
         "id": 90,
@@ -2606,8 +2606,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10129_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10129_3_stand.png"
     },
     {
         "id": 91,
@@ -2635,8 +2635,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10139_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10139_1_combined.png"
     },
     {
         "id": 92,
@@ -2664,8 +2664,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10139_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10139_1_stand.png"
     },
     {
         "id": 93,
@@ -2693,8 +2693,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10139_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10139_2_combined.png"
     },
     {
         "id": 94,
@@ -2722,8 +2722,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10139_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10139_2_stand.png"
     },
     {
         "id": 95,
@@ -2751,8 +2751,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10139_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10139_3_combined.png"
     },
     {
         "id": 96,
@@ -2780,8 +2780,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10139_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10139_3_stand.png"
     },
     {
         "id": 97,
@@ -2809,8 +2809,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10145_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10145_1_combined.png"
     },
     {
         "id": 98,
@@ -2838,8 +2838,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10145_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10145_1_stand.png"
     },
     {
         "id": 99,
@@ -2867,8 +2867,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10145_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10145_2_combined.png"
     },
     {
         "id": 100,
@@ -2896,8 +2896,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10145_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10145_2_stand.png"
     },
     {
         "id": 101,
@@ -2925,8 +2925,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10145_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10145_3_combined.png"
     },
     {
         "id": 102,
@@ -2954,8 +2954,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10145_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10145_3_stand.png"
     },
     {
         "id": 103,
@@ -2983,8 +2983,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10156_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10156_1_combined.png"
     },
     {
         "id": 104,
@@ -3012,8 +3012,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10156_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10156_1_stand.png"
     },
     {
         "id": 105,
@@ -3041,8 +3041,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10156_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10156_2_combined.png"
     },
     {
         "id": 106,
@@ -3070,8 +3070,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10156_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10156_2_stand.png"
     },
     {
         "id": 107,
@@ -3099,8 +3099,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10156_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10156_3_combined.png"
     },
     {
         "id": 108,
@@ -3128,8 +3128,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10156_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10156_3_stand.png"
     },
     {
         "id": 109,
@@ -3157,8 +3157,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10157_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10157_1_combined.png"
     },
     {
         "id": 110,
@@ -3186,8 +3186,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10157_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10157_1_stand.png"
     },
     {
         "id": 111,
@@ -3215,8 +3215,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10157_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10157_2_combined.png"
     },
     {
         "id": 112,
@@ -3244,8 +3244,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10157_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10157_2_stand.png"
     },
     {
         "id": 113,
@@ -3273,8 +3273,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10157_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10157_3_combined.png"
     },
     {
         "id": 114,
@@ -3302,8 +3302,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10157_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10157_3_stand.png"
     },
     {
         "id": 115,
@@ -3331,8 +3331,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10176_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10176_1_combined.png"
     },
     {
         "id": 116,
@@ -3360,8 +3360,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10176_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10176_1_stand.png"
     },
     {
         "id": 117,
@@ -3389,8 +3389,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10176_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10176_2_combined.png"
     },
     {
         "id": 118,
@@ -3418,8 +3418,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10176_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10176_2_stand.png"
     },
     {
         "id": 119,
@@ -3447,8 +3447,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10176_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10176_3_combined.png"
     },
     {
         "id": 120,
@@ -3476,8 +3476,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10176_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10176_3_stand.png"
     },
     {
         "id": 121,
@@ -3505,8 +3505,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10189_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10189_1_combined.png"
     },
     {
         "id": 122,
@@ -3534,8 +3534,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10189_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10189_1_stand.png"
     },
     {
         "id": 123,
@@ -3563,8 +3563,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10189_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10189_2_combined.png"
     },
     {
         "id": 124,
@@ -3592,8 +3592,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10189_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10189_2_stand.png"
     },
     {
         "id": 125,
@@ -3621,8 +3621,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10189_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10189_3_combined.png"
     },
     {
         "id": 126,
@@ -3650,8 +3650,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10189_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10189_3_stand.png"
     },
     {
         "id": 127,
@@ -3679,8 +3679,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10205_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10205_1_combined.png"
     },
     {
         "id": 128,
@@ -3708,8 +3708,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10205_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10205_1_stand.png"
     },
     {
         "id": 129,
@@ -3737,8 +3737,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10205_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10205_2_combined.png"
     },
     {
         "id": 130,
@@ -3766,8 +3766,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10205_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10205_2_stand.png"
     },
     {
         "id": 131,
@@ -3795,8 +3795,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10205_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10205_3_combined.png"
     },
     {
         "id": 132,
@@ -3824,8 +3824,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10205_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10205_3_stand.png"
     },
     {
         "id": 133,
@@ -3853,8 +3853,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10221_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10221_1_combined.png"
     },
     {
         "id": 134,
@@ -3882,8 +3882,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10221_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10221_1_stand.png"
     },
     {
         "id": 135,
@@ -3911,8 +3911,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10221_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10221_2_combined.png"
     },
     {
         "id": 136,
@@ -3940,8 +3940,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10221_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10221_2_stand.png"
     },
     {
         "id": 137,
@@ -3969,8 +3969,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10221_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10221_3_combined.png"
     },
     {
         "id": 138,
@@ -3998,8 +3998,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10221_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10221_3_stand.png"
     },
     {
         "id": 139,
@@ -4027,8 +4027,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10236_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10236_1_combined.png"
     },
     {
         "id": 140,
@@ -4056,8 +4056,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10236_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10236_1_stand.png"
     },
     {
         "id": 141,
@@ -4085,8 +4085,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10236_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10236_2_combined.png"
     },
     {
         "id": 142,
@@ -4114,8 +4114,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10236_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10236_2_stand.png"
     },
     {
         "id": 143,
@@ -4143,8 +4143,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10236_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10236_3_combined.png"
     },
     {
         "id": 144,
@@ -4172,8 +4172,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10236_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10236_3_stand.png"
     },
     {
         "id": 145,
@@ -4201,8 +4201,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10238_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10238_1_combined.png"
     },
     {
         "id": 146,
@@ -4230,8 +4230,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10238_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10238_1_stand.png"
     },
     {
         "id": 147,
@@ -4259,8 +4259,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10238_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10238_2_combined.png"
     },
     {
         "id": 148,
@@ -4288,8 +4288,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10238_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10238_2_stand.png"
     },
     {
         "id": 149,
@@ -4317,8 +4317,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10238_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10238_3_combined.png"
     },
     {
         "id": 150,
@@ -4346,8 +4346,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10238_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10238_3_stand.png"
     },
     {
         "id": 151,
@@ -4375,8 +4375,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10250_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10250_1_combined.png"
     },
     {
         "id": 152,
@@ -4404,8 +4404,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10250_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10250_1_stand.png"
     },
     {
         "id": 153,
@@ -4433,8 +4433,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10250_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10250_2_combined.png"
     },
     {
         "id": 154,
@@ -4462,8 +4462,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10250_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10250_2_stand.png"
     },
     {
         "id": 155,
@@ -4491,8 +4491,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10250_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10250_3_combined.png"
     },
     {
         "id": 156,
@@ -4520,8 +4520,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10250_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10250_3_stand.png"
     },
     {
         "id": 157,
@@ -4549,8 +4549,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10265_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10265_1_combined.png"
     },
     {
         "id": 158,
@@ -4578,8 +4578,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10265_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10265_1_stand.png"
     },
     {
         "id": 159,
@@ -4607,8 +4607,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10265_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10265_2_combined.png"
     },
     {
         "id": 160,
@@ -4636,8 +4636,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10265_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10265_2_stand.png"
     },
     {
         "id": 161,
@@ -4665,8 +4665,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10265_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10265_3_combined.png"
     },
     {
         "id": 162,
@@ -4694,8 +4694,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10265_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10265_3_stand.png"
     },
     {
         "id": 163,
@@ -4723,8 +4723,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10271_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10271_1_combined.png"
     },
     {
         "id": 164,
@@ -4752,8 +4752,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10271_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10271_1_stand.png"
     },
     {
         "id": 165,
@@ -4781,8 +4781,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10271_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10271_2_combined.png"
     },
     {
         "id": 166,
@@ -4810,8 +4810,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10271_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10271_2_stand.png"
     },
     {
         "id": 167,
@@ -4839,8 +4839,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10271_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10271_3_combined.png"
     },
     {
         "id": 168,
@@ -4868,8 +4868,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10271_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10271_3_stand.png"
     },
     {
         "id": 169,
@@ -4897,8 +4897,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10278_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10278_1_combined.png"
     },
     {
         "id": 170,
@@ -4926,8 +4926,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10278_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10278_1_stand.png"
     },
     {
         "id": 171,
@@ -4955,8 +4955,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10278_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10278_2_combined.png"
     },
     {
         "id": 172,
@@ -4984,8 +4984,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10278_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10278_2_stand.png"
     },
     {
         "id": 173,
@@ -5013,8 +5013,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10278_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10278_3_combined.png"
     },
     {
         "id": 174,
@@ -5042,8 +5042,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10278_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10278_3_stand.png"
     },
     {
         "id": 175,
@@ -5071,8 +5071,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10288_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10288_1_combined.png"
     },
     {
         "id": 176,
@@ -5100,8 +5100,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10288_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10288_1_stand.png"
     },
     {
         "id": 177,
@@ -5129,8 +5129,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10288_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10288_2_combined.png"
     },
     {
         "id": 178,
@@ -5158,8 +5158,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10288_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10288_2_stand.png"
     },
     {
         "id": 179,
@@ -5187,8 +5187,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10288_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10288_3_combined.png"
     },
     {
         "id": 180,
@@ -5216,8 +5216,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10288_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10288_3_stand.png"
     },
     {
         "id": 181,
@@ -5245,8 +5245,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10298_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10298_1_combined.png"
     },
     {
         "id": 182,
@@ -5274,8 +5274,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10298_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10298_1_stand.png"
     },
     {
         "id": 183,
@@ -5303,8 +5303,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10298_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10298_2_combined.png"
     },
     {
         "id": 184,
@@ -5332,8 +5332,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10298_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10298_2_stand.png"
     },
     {
         "id": 185,
@@ -5361,8 +5361,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10298_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10298_3_combined.png"
     },
     {
         "id": 186,
@@ -5390,8 +5390,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10298_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10298_3_stand.png"
     },
     {
         "id": 187,
@@ -5419,8 +5419,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10308_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10308_1_combined.png"
     },
     {
         "id": 188,
@@ -5448,8 +5448,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10308_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10308_1_stand.png"
     },
     {
         "id": 189,
@@ -5477,8 +5477,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10308_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10308_2_combined.png"
     },
     {
         "id": 190,
@@ -5506,8 +5506,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10308_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10308_2_stand.png"
     },
     {
         "id": 191,
@@ -5535,8 +5535,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10308_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10308_3_combined.png"
     },
     {
         "id": 192,
@@ -5564,8 +5564,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10308_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10308_3_stand.png"
     },
     {
         "id": 193,
@@ -5593,8 +5593,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10309_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10309_1_combined.png"
     },
     {
         "id": 194,
@@ -5622,8 +5622,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10309_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10309_1_stand.png"
     },
     {
         "id": 195,
@@ -5651,8 +5651,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10309_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10309_2_combined.png"
     },
     {
         "id": 196,
@@ -5680,8 +5680,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10309_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10309_2_stand.png"
     },
     {
         "id": 197,
@@ -5709,8 +5709,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10309_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10309_3_combined.png"
     },
     {
         "id": 198,
@@ -5738,8 +5738,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10309_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10309_3_stand.png"
     },
     {
         "id": 199,
@@ -5767,8 +5767,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10339_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10339_1_combined.png"
     },
     {
         "id": 200,
@@ -5796,8 +5796,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10339_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10339_1_stand.png"
     },
     {
         "id": 201,
@@ -5825,8 +5825,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10339_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10339_2_combined.png"
     },
     {
         "id": 202,
@@ -5854,8 +5854,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10339_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10339_2_stand.png"
     },
     {
         "id": 203,
@@ -5883,8 +5883,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10339_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10339_3_combined.png"
     },
     {
         "id": 204,
@@ -5912,8 +5912,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10339_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10339_3_stand.png"
     },
     {
         "id": 205,
@@ -5941,8 +5941,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10353_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10353_1_combined.png"
     },
     {
         "id": 206,
@@ -5970,8 +5970,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10353_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10353_1_stand.png"
     },
     {
         "id": 207,
@@ -5999,8 +5999,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10353_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10353_2_combined.png"
     },
     {
         "id": 208,
@@ -6028,8 +6028,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10353_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10353_2_stand.png"
     },
     {
         "id": 209,
@@ -6057,8 +6057,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10353_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10353_3_combined.png"
     },
     {
         "id": 210,
@@ -6086,8 +6086,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10353_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10353_3_stand.png"
     },
     {
         "id": 211,
@@ -6115,8 +6115,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10361_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10361_1_combined.png"
     },
     {
         "id": 212,
@@ -6144,8 +6144,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10361_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10361_1_stand.png"
     },
     {
         "id": 213,
@@ -6173,8 +6173,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10361_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10361_2_combined.png"
     },
     {
         "id": 214,
@@ -6202,8 +6202,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10361_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10361_2_stand.png"
     },
     {
         "id": 215,
@@ -6231,8 +6231,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10361_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10361_3_combined.png"
     },
     {
         "id": 216,
@@ -6260,8 +6260,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10361_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10361_3_stand.png"
     },
     {
         "id": 217,
@@ -6289,8 +6289,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10363_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10363_1_combined.png"
     },
     {
         "id": 218,
@@ -6318,8 +6318,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10363_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10363_1_stand.png"
     },
     {
         "id": 219,
@@ -6347,8 +6347,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10363_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10363_2_combined.png"
     },
     {
         "id": 220,
@@ -6376,8 +6376,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10363_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10363_2_stand.png"
     },
     {
         "id": 221,
@@ -6405,8 +6405,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10363_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10363_3_combined.png"
     },
     {
         "id": 222,
@@ -6434,8 +6434,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10363_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10363_3_stand.png"
     },
     {
         "id": 223,
@@ -6463,8 +6463,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10365_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10365_1_combined.png"
     },
     {
         "id": 224,
@@ -6492,8 +6492,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10365_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10365_1_stand.png"
     },
     {
         "id": 225,
@@ -6521,8 +6521,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10365_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10365_2_combined.png"
     },
     {
         "id": 226,
@@ -6550,8 +6550,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10365_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10365_2_stand.png"
     },
     {
         "id": 227,
@@ -6579,8 +6579,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10365_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10365_3_combined.png"
     },
     {
         "id": 228,
@@ -6608,8 +6608,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10365_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10365_3_stand.png"
     },
     {
         "id": 229,
@@ -6637,8 +6637,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10368_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10368_1_combined.png"
     },
     {
         "id": 230,
@@ -6666,8 +6666,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10368_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10368_1_stand.png"
     },
     {
         "id": 231,
@@ -6695,8 +6695,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10368_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10368_2_combined.png"
     },
     {
         "id": 232,
@@ -6724,8 +6724,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10368_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10368_2_stand.png"
     },
     {
         "id": 233,
@@ -6753,8 +6753,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10368_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10368_3_combined.png"
     },
     {
         "id": 234,
@@ -6782,8 +6782,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10368_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10368_3_stand.png"
     },
     {
         "id": 235,
@@ -6811,8 +6811,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10375_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10375_1_combined.png"
     },
     {
         "id": 236,
@@ -6840,8 +6840,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10375_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10375_1_stand.png"
     },
     {
         "id": 237,
@@ -6869,8 +6869,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10375_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10375_2_combined.png"
     },
     {
         "id": 238,
@@ -6898,8 +6898,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10375_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10375_2_stand.png"
     },
     {
         "id": 239,
@@ -6927,8 +6927,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10375_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10375_3_combined.png"
     },
     {
         "id": 240,
@@ -6956,8 +6956,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10375_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10375_3_stand.png"
     },
     {
         "id": 241,
@@ -6985,8 +6985,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10392_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10392_1_combined.png"
     },
     {
         "id": 242,
@@ -7014,8 +7014,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10392_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10392_1_stand.png"
     },
     {
         "id": 243,
@@ -7043,8 +7043,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10392_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10392_2_combined.png"
     },
     {
         "id": 244,
@@ -7072,8 +7072,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10392_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10392_2_stand.png"
     },
     {
         "id": 245,
@@ -7101,8 +7101,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10392_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10392_3_combined.png"
     },
     {
         "id": 246,
@@ -7130,8 +7130,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10392_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10392_3_stand.png"
     },
     {
         "id": 247,
@@ -7159,8 +7159,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10395_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10395_1_combined.png"
     },
     {
         "id": 248,
@@ -7188,8 +7188,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10395_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10395_1_stand.png"
     },
     {
         "id": 249,
@@ -7217,8 +7217,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10395_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10395_2_combined.png"
     },
     {
         "id": 250,
@@ -7246,8 +7246,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10395_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10395_2_stand.png"
     },
     {
         "id": 251,
@@ -7275,8 +7275,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10395_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10395_3_combined.png"
     },
     {
         "id": 252,
@@ -7304,8 +7304,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10395_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10395_3_stand.png"
     },
     {
         "id": 253,
@@ -7333,8 +7333,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10397_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10397_1_combined.png"
     },
     {
         "id": 254,
@@ -7362,8 +7362,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10397_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10397_1_stand.png"
     },
     {
         "id": 255,
@@ -7391,8 +7391,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10397_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10397_2_combined.png"
     },
     {
         "id": 256,
@@ -7420,8 +7420,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10397_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10397_2_stand.png"
     },
     {
         "id": 257,
@@ -7449,8 +7449,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10397_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10397_3_combined.png"
     },
     {
         "id": 258,
@@ -7478,8 +7478,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10397_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10397_3_stand.png"
     },
     {
         "id": 259,
@@ -7507,8 +7507,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10411_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10411_1_combined.png"
     },
     {
         "id": 260,
@@ -7536,8 +7536,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10411_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10411_1_stand.png"
     },
     {
         "id": 261,
@@ -7565,8 +7565,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10411_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10411_2_combined.png"
     },
     {
         "id": 262,
@@ -7594,8 +7594,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10411_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10411_2_stand.png"
     },
     {
         "id": 263,
@@ -7623,8 +7623,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10411_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10411_3_combined.png"
     },
     {
         "id": 264,
@@ -7652,8 +7652,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10411_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10411_3_stand.png"
     },
     {
         "id": 265,
@@ -7681,8 +7681,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10442_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10442_1_combined.png"
     },
     {
         "id": 266,
@@ -7710,8 +7710,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10442_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10442_1_stand.png"
     },
     {
         "id": 267,
@@ -7739,8 +7739,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10442_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10442_2_combined.png"
     },
     {
         "id": 268,
@@ -7768,8 +7768,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10442_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10442_2_stand.png"
     },
     {
         "id": 269,
@@ -7797,8 +7797,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10442_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10442_3_combined.png"
     },
     {
         "id": 270,
@@ -7826,8 +7826,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10442_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10442_3_stand.png"
     },
     {
         "id": 271,
@@ -7855,8 +7855,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10450_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10450_1_combined.png"
     },
     {
         "id": 272,
@@ -7884,8 +7884,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10450_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10450_1_stand.png"
     },
     {
         "id": 273,
@@ -7913,8 +7913,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10450_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10450_2_combined.png"
     },
     {
         "id": 274,
@@ -7942,8 +7942,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10450_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10450_2_stand.png"
     },
     {
         "id": 275,
@@ -7971,8 +7971,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10450_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10450_3_combined.png"
     },
     {
         "id": 276,
@@ -8000,8 +8000,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10450_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10450_3_stand.png"
     },
     {
         "id": 277,
@@ -8029,8 +8029,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10455_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10455_1_combined.png"
     },
     {
         "id": 278,
@@ -8058,8 +8058,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10455_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10455_1_stand.png"
     },
     {
         "id": 279,
@@ -8087,8 +8087,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10455_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10455_2_combined.png"
     },
     {
         "id": 280,
@@ -8116,8 +8116,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10455_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10455_2_stand.png"
     },
     {
         "id": 281,
@@ -8145,8 +8145,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10455_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10455_3_combined.png"
     },
     {
         "id": 282,
@@ -8174,8 +8174,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10455_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10455_3_stand.png"
     },
     {
         "id": 283,
@@ -8203,8 +8203,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10462_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10462_1_combined.png"
     },
     {
         "id": 284,
@@ -8232,8 +8232,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10462_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10462_1_stand.png"
     },
     {
         "id": 285,
@@ -8261,8 +8261,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10462_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10462_2_combined.png"
     },
     {
         "id": 286,
@@ -8290,8 +8290,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10462_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10462_2_stand.png"
     },
     {
         "id": 287,
@@ -8319,8 +8319,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10462_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10462_3_combined.png"
     },
     {
         "id": 288,
@@ -8348,8 +8348,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10462_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10462_3_stand.png"
     },
     {
         "id": 289,
@@ -8377,8 +8377,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10473_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10473_1_combined.png"
     },
     {
         "id": 290,
@@ -8406,8 +8406,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10473_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10473_1_stand.png"
     },
     {
         "id": 291,
@@ -8435,8 +8435,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10473_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10473_2_combined.png"
     },
     {
         "id": 292,
@@ -8464,8 +8464,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10473_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10473_2_stand.png"
     },
     {
         "id": 293,
@@ -8493,8 +8493,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10473_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10473_3_combined.png"
     },
     {
         "id": 294,
@@ -8522,8 +8522,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10473_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10473_3_stand.png"
     },
     {
         "id": 295,
@@ -8551,8 +8551,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10484_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10484_1_combined.png"
     },
     {
         "id": 296,
@@ -8580,8 +8580,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10484_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10484_1_stand.png"
     },
     {
         "id": 297,
@@ -8609,8 +8609,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10484_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10484_2_combined.png"
     },
     {
         "id": 298,
@@ -8638,8 +8638,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10484_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10484_2_stand.png"
     },
     {
         "id": 299,
@@ -8667,8 +8667,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10484_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10484_3_combined.png"
     },
     {
         "id": 300,
@@ -8696,8 +8696,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10484_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10484_3_stand.png"
     },
     {
         "id": 301,
@@ -8725,8 +8725,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10501_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10501_1_combined.png"
     },
     {
         "id": 302,
@@ -8754,8 +8754,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10501_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10501_1_stand.png"
     },
     {
         "id": 303,
@@ -8783,8 +8783,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10501_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10501_2_combined.png"
     },
     {
         "id": 304,
@@ -8812,8 +8812,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10501_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10501_2_stand.png"
     },
     {
         "id": 305,
@@ -8841,8 +8841,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10501_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10501_3_combined.png"
     },
     {
         "id": 306,
@@ -8870,8 +8870,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10501_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10501_3_stand.png"
     },
     {
         "id": 307,
@@ -8899,8 +8899,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10514_1_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10514_1_combined.png"
     },
     {
         "id": 308,
@@ -8928,8 +8928,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10514_1_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10514_1_stand.png"
     },
     {
         "id": 309,
@@ -8957,8 +8957,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10514_2_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10514_2_combined.png"
     },
     {
         "id": 310,
@@ -8986,8 +8986,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10514_2_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10514_2_stand.png"
     },
     {
         "id": 311,
@@ -9015,8 +9015,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10514_3_combined.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10514_3_combined.png"
     },
     {
         "id": 312,
@@ -9044,8 +9044,8 @@
         "Rare": "LG",
         "Type": "LegendaryDragon",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\LegendaryDragon\\10514_3_stand.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/LegendaryDragon/10514_3_stand.png"
     },
     {
         "id": 313,
@@ -9073,8 +9073,8 @@
         "Rare": "LG",
         "Type": "MysthicMonster",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\MysthicMonster\\IMG_20230918_094825.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/MysthicMonster/IMG_20230918_094825.png"
     },
     {
         "id": 314,
@@ -9102,8 +9102,8 @@
         "Rare": "LG",
         "Type": "MysthicMonster",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\MysthicMonster\\IMG_20230918_094845.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/MysthicMonster/IMG_20230918_094845.png"
     },
     {
         "id": 315,
@@ -9131,8 +9131,8 @@
         "Rare": "LG",
         "Type": "MysthicMonster",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\MysthicMonster\\IMG_20230918_094902.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/MysthicMonster/IMG_20230918_094902.png"
     },
     {
         "id": 316,
@@ -9160,8 +9160,8 @@
         "Rare": "LG",
         "Type": "MysthicMonster",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\MysthicMonster\\IMG_20230918_094920.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/MysthicMonster/IMG_20230918_094920.png"
     },
     {
         "id": 317,
@@ -9189,8 +9189,8 @@
         "Rare": "LG",
         "Type": "MysthicMonster",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\MysthicMonster\\IMG_20230918_094939.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/MysthicMonster/IMG_20230918_094939.png"
     },
     {
         "id": 318,
@@ -9218,8 +9218,8 @@
         "Rare": "LG",
         "Type": "MysthicMonster",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\MysthicMonster\\IMG_20230918_094956.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/MysthicMonster/IMG_20230918_094956.png"
     },
     {
         "id": 319,
@@ -9247,8 +9247,8 @@
         "Rare": "LG",
         "Type": "MysthicMonster",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\MysthicMonster\\IMG_20230918_095010.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/MysthicMonster/IMG_20230918_095010.png"
     },
     {
         "id": 320,
@@ -9276,8 +9276,8 @@
         "Rare": "LG",
         "Type": "MysthicMonster",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\MysthicMonster\\IMG_20230918_095025.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/MysthicMonster/IMG_20230918_095025.png"
     },
     {
         "id": 321,
@@ -9305,8 +9305,8 @@
         "Rare": "LG",
         "Type": "MysthicMonster",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\MysthicMonster\\IMG_20230918_095042.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/MysthicMonster/IMG_20230918_095042.png"
     },
     {
         "id": 322,
@@ -9334,8 +9334,8 @@
         "Rare": "LG",
         "Type": "MysthicMonster",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\MysthicMonster\\IMG_20230918_095101.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/MysthicMonster/IMG_20230918_095101.png"
     },
     {
         "id": 323,
@@ -9363,8 +9363,8 @@
         "Rare": "LG",
         "Type": "MysthicMonster",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\MysthicMonster\\IMG_20230918_095127.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/MysthicMonster/IMG_20230918_095127.png"
     },
     {
         "id": 324,
@@ -9392,8 +9392,8 @@
         "Rare": "LG",
         "Type": "MysthicMonster",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\MysthicMonster\\IMG_20230918_095153.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/MysthicMonster/IMG_20230918_095153.png"
     },
     {
         "id": 325,
@@ -9421,8 +9421,8 @@
         "Rare": "LG",
         "Type": "UltimateMonster",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\UltimateMonster\\IMG_20230924_114534.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/UltimateMonster/IMG_20230924_114534.png"
     },
     {
         "id": 326,
@@ -9450,8 +9450,8 @@
         "Rare": "LG",
         "Type": "UltimateMonster",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\UltimateMonster\\IMG_20230924_114553.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/UltimateMonster/IMG_20230924_114553.png"
     },
     {
         "id": 327,
@@ -9479,8 +9479,8 @@
         "Rare": "LG",
         "Type": "UltimateMonster",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\UltimateMonster\\IMG_20230924_114610.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/UltimateMonster/IMG_20230924_114610.png"
     },
     {
         "id": 328,
@@ -9508,8 +9508,8 @@
         "Rare": "LG",
         "Type": "UltimateMonster",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\UltimateMonster\\IMG_20230924_114630.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/UltimateMonster/IMG_20230924_114630.png"
     },
     {
         "id": 329,
@@ -9537,8 +9537,8 @@
         "Rare": "LG",
         "Type": "UltimateMonster",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\UltimateMonster\\IMG_20230924_114651.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/UltimateMonster/IMG_20230924_114651.png"
     },
     {
         "id": 330,
@@ -9566,8 +9566,8 @@
         "Rare": "LG",
         "Type": "UltimateMonster",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\UltimateMonster\\IMG_20230924_114710.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/UltimateMonster/IMG_20230924_114710.png"
     },
     {
         "id": 331,
@@ -9595,8 +9595,8 @@
         "Rare": "LG",
         "Type": "UltimateMonster",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\UltimateMonster\\IMG_20230924_115049.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/UltimateMonster/IMG_20230924_115049.png"
     },
     {
         "id": 332,
@@ -9624,8 +9624,8 @@
         "Rare": "LG",
         "Type": "UltimateMonster",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\UltimateMonster\\IMG_20230924_115106.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/UltimateMonster/IMG_20230924_115106.png"
     },
     {
         "id": 333,
@@ -9653,8 +9653,8 @@
         "Rare": "LG",
         "Type": "UltimateMonster",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\UltimateMonster\\IMG_20230924_115125.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/UltimateMonster/IMG_20230924_115125.png"
     },
     {
         "id": 334,
@@ -9682,8 +9682,8 @@
         "Rare": "LG",
         "Type": "UltimateMonster",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\UltimateMonster\\IMG_20230924_115144.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/UltimateMonster/IMG_20230924_115144.png"
     },
     {
         "id": 335,
@@ -9711,8 +9711,8 @@
         "Rare": "LG",
         "Type": "UltimateMonster",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\UltimateMonster\\IMG_20230924_115159.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/UltimateMonster/IMG_20230924_115159.png"
     },
     {
         "id": 336,
@@ -9740,8 +9740,8 @@
         "Rare": "LG",
         "Type": "UltimateMonster",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\UltimateMonster\\IMG_20230924_115218.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/UltimateMonster/IMG_20230924_115218.png"
     },
     {
         "id": 337,
@@ -9769,8 +9769,8 @@
         "Rare": "LG",
         "Type": "UltimateMonster",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\UltimateMonster\\IMG_20230924_115236.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/UltimateMonster/IMG_20230924_115236.png"
     },
     {
         "id": 338,
@@ -9798,8 +9798,8 @@
         "Rare": "LG",
         "Type": "UltimateMonster",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\UltimateMonster\\IMG_20230924_115253.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/UltimateMonster/IMG_20230924_115253.png"
     },
     {
         "id": 339,
@@ -9827,8 +9827,8 @@
         "Rare": "LG",
         "Type": "UltimateMonster",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\UltimateMonster\\IMG_20230924_115310.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/UltimateMonster/IMG_20230924_115310.png"
     },
     {
         "id": 340,
@@ -9856,8 +9856,8 @@
         "Rare": "LG",
         "Type": "UltimateMonster",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\UltimateMonster\\IMG_20230924_115328.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/UltimateMonster/IMG_20230924_115328.png"
     },
     {
         "id": 341,
@@ -9885,8 +9885,8 @@
         "Rare": "LG",
         "Type": "UltimateMonster",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\UltimateMonster\\IMG_20230928_173955.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/UltimateMonster/IMG_20230928_173955.png"
     },
     {
         "id": 342,
@@ -9914,8 +9914,8 @@
         "Rare": "LG",
         "Type": "UltimateMonster",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\UltimateMonster\\IMG_20230928_174011.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/UltimateMonster/IMG_20230928_174011.png"
     },
     {
         "id": 343,
@@ -9943,8 +9943,8 @@
         "Rare": "LG",
         "Type": "UltimateMonster",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\UltimateMonster\\IMG_20230928_174025.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/UltimateMonster/IMG_20230928_174025.png"
     },
     {
         "id": 344,
@@ -9972,8 +9972,8 @@
         "Rare": "LG",
         "Type": "UltimateMonster",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\UltimateMonster\\IMG_20230928_174038.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/UltimateMonster/IMG_20230928_174038.png"
     },
     {
         "id": 345,
@@ -10001,8 +10001,8 @@
         "Rare": "LG",
         "Type": "UltimateMonster",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\UltimateMonster\\IMG_20230928_174100.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/UltimateMonster/IMG_20230928_174100.png"
     },
     {
         "id": 346,
@@ -10030,7 +10030,7 @@
         "Rare": "LG",
         "Type": "UltimateMonster",
         "Price": 10000000,
-        "PriceUnit": "Chasmic_Grey_Crystalyte",
-        "Path": "Pet\\UltimateMonster\\IMG_20230928_174114.png"
+        "PriceUnit": "Ancient_Rune_Crystal_Fire",
+        "Path": "Pet/UltimateMonster/IMG_20230928_174114.png"
     }
 ]

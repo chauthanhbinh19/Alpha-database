@@ -26,7 +26,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game,JobIconM,ankh_gunl.png"
+        "Path": "Symbol/Symbol1/Game,JobIconM,ankh_gunl.png"
     },
     {
         "id": 2,
@@ -55,7 +55,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game,JobIconM,asuw_kil.png"
+        "Path": "Symbol/Symbol1/Game,JobIconM,asuw_kil.png"
     },
     {
         "id": 3,
@@ -84,7 +84,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game,JobIconM,cord_val.png"
+        "Path": "Symbol/Symbol1/Game,JobIconM,cord_val.png"
     },
     {
         "id": 4,
@@ -113,7 +113,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game,JobIconM,dart_spe.png"
+        "Path": "Symbol/Symbol1/Game,JobIconM,dart_spe.png"
     },
     {
         "id": 5,
@@ -142,7 +142,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game,JobIconM,gl_los2.png"
+        "Path": "Symbol/Symbol1/Game,JobIconM,gl_los2.png"
     },
     {
         "id": 6,
@@ -171,7 +171,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game,JobIconM,gl_sav2.png"
+        "Path": "Symbol/Symbol1/Game,JobIconM,gl_sav2.png"
     },
     {
         "id": 7,
@@ -200,7 +200,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game,JobIconM,gl_tin2.png"
+        "Path": "Symbol/Symbol1/Game,JobIconM,gl_tin2.png"
     },
     {
         "id": 8,
@@ -229,7 +229,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game,JobIconM,ira_mad.png"
+        "Path": "Symbol/Symbol1/Game,JobIconM,ira_mad.png"
     },
     {
         "id": 9,
@@ -258,7 +258,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game,JobIconM,kagu_dai2_cc.png"
+        "Path": "Symbol/Symbol1/Game,JobIconM,kagu_dai2_cc.png"
     },
     {
         "id": 10,
@@ -287,7 +287,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game,JobIconM,kaya01_cc.png"
+        "Path": "Symbol/Symbol1/Game,JobIconM,kaya01_cc.png"
     },
     {
         "id": 11,
@@ -316,7 +316,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game,JobIconM,kurt_onm.png"
+        "Path": "Symbol/Symbol1/Game,JobIconM,kurt_onm.png"
     },
     {
         "id": 12,
@@ -345,7 +345,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game,JobIconM,loti_mou.png"
+        "Path": "Symbol/Symbol1/Game,JobIconM,loti_mou.png"
     },
     {
         "id": 13,
@@ -374,7 +374,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game,JobIconM,magn_gun.png"
+        "Path": "Symbol/Symbol1/Game,JobIconM,magn_gun.png"
     },
     {
         "id": 14,
@@ -403,7 +403,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game,JobIconM,mare_dai.png"
+        "Path": "Symbol/Symbol1/Game,JobIconM,mare_dai.png"
     },
     {
         "id": 15,
@@ -432,7 +432,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game,JobIconM,marg_shn.png"
+        "Path": "Symbol/Symbol1/Game,JobIconM,marg_shn.png"
     },
     {
         "id": 16,
@@ -461,7 +461,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game,JobIconM,noin01_cc.png"
+        "Path": "Symbol/Symbol1/Game,JobIconM,noin01_cc.png"
     },
     {
         "id": 17,
@@ -490,7 +490,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game,JobIconM,ren_rap.png"
+        "Path": "Symbol/Symbol1/Game,JobIconM,ren_rap.png"
     },
     {
         "id": 18,
@@ -519,7 +519,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game,JobIconM,tere_bers.png"
+        "Path": "Symbol/Symbol1/Game,JobIconM,tere_bers.png"
     },
     {
         "id": 19,
@@ -548,7 +548,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game,JobIconM,yomi_kam.png"
+        "Path": "Symbol/Symbol1/Game,JobIconM,yomi_kam.png"
     },
     {
         "id": 20,
@@ -577,7 +577,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cacha01_cc.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cacha01_cc.png"
     },
     {
         "id": 21,
@@ -606,7 +606,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Calbe_lnc.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Calbe_lnc.png"
     },
     {
         "id": 22,
@@ -635,7 +635,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Calex_pri.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Calex_pri.png"
     },
     {
         "id": 23,
@@ -664,7 +664,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Canas_baa.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Canas_baa.png"
     },
     {
         "id": 24,
@@ -693,7 +693,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Carki_mah.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Carki_mah.png"
     },
     {
         "id": 25,
@@ -722,7 +722,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cbalt_sol.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cbalt_sol.png"
     },
     {
         "id": 26,
@@ -751,7 +751,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cbasi_sol_cc.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cbasi_sol_cc.png"
     },
     {
         "id": 27,
@@ -780,7 +780,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cbelt_art.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cbelt_art.png"
     },
     {
         "id": 28,
@@ -809,7 +809,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cbirg_mou.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cbirg_mou.png"
     },
     {
         "id": 29,
@@ -838,7 +838,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cblan_cc.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cblan_cc.png"
     },
     {
         "id": 30,
@@ -867,7 +867,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Ccada_gua_cc.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Ccada_gua_cc.png"
     },
     {
         "id": 31,
@@ -896,7 +896,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Ccada_gua_cc2.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Ccada_gua_cc2.png"
     },
     {
         "id": 32,
@@ -925,7 +925,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Ccano_lord02.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Ccano_lord02.png"
     },
     {
         "id": 33,
@@ -954,7 +954,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Ccano_lord_cc.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Ccano_lord_cc.png"
     },
     {
         "id": 34,
@@ -983,7 +983,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Ccarl_strb.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Ccarl_strb.png"
     },
     {
         "id": 35,
@@ -1012,7 +1012,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Ccell_dgn.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Ccell_dgn.png"
     },
     {
         "id": 36,
@@ -1041,7 +1041,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cchal_sni.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cchal_sni.png"
     },
     {
         "id": 37,
@@ -1070,7 +1070,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cchih_odo.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cchih_odo.png"
     },
     {
         "id": 38,
@@ -1099,7 +1099,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Ccloe_gua.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Ccloe_gua.png"
     },
     {
         "id": 39,
@@ -1128,7 +1128,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cdais_spe.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cdais_spe.png"
     },
     {
         "id": 40,
@@ -1157,7 +1157,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cdene_sen.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cdene_sen.png"
     },
     {
         "id": 41,
@@ -1186,7 +1186,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cdilg_gua.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cdilg_gua.png"
     },
     {
         "id": 42,
@@ -1215,7 +1215,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cdios_baa.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cdios_baa.png"
     },
     {
         "id": 43,
@@ -1244,7 +1244,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cdoro_nec.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cdoro_nec.png"
     },
     {
         "id": 44,
@@ -1273,7 +1273,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cedga_dri2.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cedga_dri2.png"
     },
     {
         "id": 45,
@@ -1302,7 +1302,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Celiz_doc.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Celiz_doc.png"
     },
     {
         "id": 46,
@@ -1331,7 +1331,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cema_wea.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cema_wea.png"
     },
     {
         "id": 47,
@@ -1360,7 +1360,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Ceve_wed.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Ceve_wed.png"
     },
     {
         "id": 48,
@@ -1389,7 +1389,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cflam_kem.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cflam_kem.png"
     },
     {
         "id": 49,
@@ -1418,7 +1418,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cfrai_wed.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cfrai_wed.png"
     },
     {
         "id": 50,
@@ -1447,7 +1447,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cfree_dgn.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cfree_dgn.png"
     },
     {
         "id": 51,
@@ -1476,7 +1476,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cfung_dai.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cfung_dai.png"
     },
     {
         "id": 52,
@@ -1505,7 +1505,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cfury01_cc.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cfury01_cc.png"
     },
     {
         "id": 53,
@@ -1534,7 +1534,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cgera_gunl.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cgera_gunl.png"
     },
     {
         "id": 54,
@@ -1563,7 +1563,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cglan_nin.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cglan_nin.png"
     },
     {
         "id": 55,
@@ -1592,7 +1592,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cgl_cin_cc.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cgl_cin_cc.png"
     },
     {
         "id": 56,
@@ -1621,7 +1621,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cgl_ktn2.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cgl_ktn2.png"
     },
     {
         "id": 57,
@@ -1650,7 +1650,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cgl_lor2.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cgl_lor2.png"
     },
     {
         "id": 58,
@@ -1679,7 +1679,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cgl_sbr2.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cgl_sbr2.png"
     },
     {
         "id": 59,
@@ -1708,7 +1708,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cgl_van2.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cgl_van2.png"
     },
     {
         "id": 60,
@@ -1737,7 +1737,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cgl_wsm2.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cgl_wsm2.png"
     },
     {
         "id": 61,
@@ -1766,7 +1766,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cgorm_kai.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cgorm_kai.png"
     },
     {
         "id": 62,
@@ -1795,7 +1795,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cguil_tem.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cguil_tem.png"
     },
     {
         "id": 63,
@@ -1824,7 +1824,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Chaya_onm.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Chaya_onm.png"
     },
     {
         "id": 64,
@@ -1853,7 +1853,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Chaze_lnc.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Chaze_lnc.png"
     },
     {
         "id": 65,
@@ -1882,7 +1882,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Chish_huu.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Chish_huu.png"
     },
     {
         "id": 66,
@@ -1911,7 +1911,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cines_kam01.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cines_kam01.png"
     },
     {
         "id": 67,
@@ -1940,7 +1940,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cishu_kil.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cishu_kil.png"
     },
     {
         "id": 68,
@@ -1969,7 +1969,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Citsu_onm.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Citsu_onm.png"
     },
     {
         "id": 69,
@@ -1998,7 +1998,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cizay_mfen.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cizay_mfen.png"
     },
     {
         "id": 70,
@@ -2027,7 +2027,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Ckagu_dai2.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Ckagu_dai2.png"
     },
     {
         "id": 71,
@@ -2056,7 +2056,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Ckamu01_cc.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Ckamu01_cc.png"
     },
     {
         "id": 72,
@@ -2085,7 +2085,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Ckevi_psi.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Ckevi_psi.png"
     },
     {
         "id": 73,
@@ -2114,7 +2114,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Ckudh_lan2.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Ckudh_lan2.png"
     },
     {
         "id": 74,
@@ -2143,7 +2143,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Ckudh_lan2_cc.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Ckudh_lan2_cc.png"
     },
     {
         "id": 75,
@@ -2172,7 +2172,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Ckura_lnc.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Ckura_lnc.png"
     },
     {
         "id": 76,
@@ -2201,7 +2201,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Ckyar_shn.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Ckyar_shn.png"
     },
     {
         "id": 77,
@@ -2230,7 +2230,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Clami_dgn.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Clami_dgn.png"
     },
     {
         "id": 78,
@@ -2259,7 +2259,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Clavi_maj.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Clavi_maj.png"
     },
     {
         "id": 79,
@@ -2288,7 +2288,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cleafa_henc.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cleafa_henc.png"
     },
     {
         "id": 80,
@@ -2317,7 +2317,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cleav_baa.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cleav_baa.png"
     },
     {
         "id": 81,
@@ -2346,7 +2346,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cleon_spe.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cleon_spe.png"
     },
     {
         "id": 82,
@@ -2375,7 +2375,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cleyd_mah.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cleyd_mah.png"
     },
     {
         "id": 83,
@@ -2404,7 +2404,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Clies2cc.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Clies2cc.png"
     },
     {
         "id": 84,
@@ -2433,7 +2433,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Clogi_gua.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Clogi_gua.png"
     },
     {
         "id": 85,
@@ -2462,7 +2462,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cluca_str.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cluca_str.png"
     },
     {
         "id": 86,
@@ -2491,7 +2491,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cluci_mad.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cluci_mad.png"
     },
     {
         "id": 87,
@@ -2520,7 +2520,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Clucr_wed.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Clucr_wed.png"
     },
     {
         "id": 88,
@@ -2549,7 +2549,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cmasa_sam.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cmasa_sam.png"
     },
     {
         "id": 89,
@@ -2578,7 +2578,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cmegi_lnc.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cmegi_lnc.png"
     },
     {
         "id": 90,
@@ -2607,7 +2607,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cmerd_mou.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cmerd_mou.png"
     },
     {
         "id": 91,
@@ -2636,7 +2636,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cmich_doc.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cmich_doc.png"
     },
     {
         "id": 92,
@@ -2665,7 +2665,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cmiel_pri.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cmiel_pri.png"
     },
     {
         "id": 93,
@@ -2694,7 +2694,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cmiun_kaj_cc.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cmiun_kaj_cc.png"
     },
     {
         "id": 94,
@@ -2723,7 +2723,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cmonz_wor2.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cmonz_wor2.png"
     },
     {
         "id": 95,
@@ -2752,7 +2752,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cmonz_wor2_cc.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cmonz_wor2_cc.png"
     },
     {
         "id": 96,
@@ -2781,7 +2781,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cmore_strb.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cmore_strb.png"
     },
     {
         "id": 97,
@@ -2810,7 +2810,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cnata_doc.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cnata_doc.png"
     },
     {
         "id": 98,
@@ -2839,7 +2839,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cnefe_dai.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cnefe_dai.png"
     },
     {
         "id": 99,
@@ -2868,7 +2868,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cneic_hwiz.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cneic_hwiz.png"
     },
     {
         "id": 100,
@@ -2897,7 +2897,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cnigu_kil.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cnigu_kil.png"
     },
     {
         "id": 101,
@@ -2926,7 +2926,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cnoah_hwiz.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cnoah_hwiz.png"
     },
     {
         "id": 102,
@@ -2955,7 +2955,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Corion01_cc.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Corion01_cc.png"
     },
     {
         "id": 103,
@@ -2984,7 +2984,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cothi_wiz_cc.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cothi_wiz_cc.png"
     },
     {
         "id": 104,
@@ -3013,7 +3013,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cothi_wiz_cc02.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cothi_wiz_cc02.png"
     },
     {
         "id": 105,
@@ -3042,7 +3042,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cpok_tyrh01_gua.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cpok_tyrh01_gua.png"
     },
     {
         "id": 106,
@@ -3071,7 +3071,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cpoll_bar.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cpoll_bar.png"
     },
     {
         "id": 107,
@@ -3100,7 +3100,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cpris_spe.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cpris_spe.png"
     },
     {
         "id": 108,
@@ -3129,7 +3129,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Crahu_gen.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Crahu_gen.png"
     },
     {
         "id": 109,
@@ -3158,7 +3158,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Craki01_cc.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Craki01_cc.png"
     },
     {
         "id": 110,
@@ -3187,7 +3187,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Crame_cc.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Crame_cc.png"
     },
     {
         "id": 111,
@@ -3216,7 +3216,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Creim_mfen.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Creim_mfen.png"
     },
     {
         "id": 112,
@@ -3245,7 +3245,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Crofi_gen.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Crofi_gen.png"
     },
     {
         "id": 113,
@@ -3274,7 +3274,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Crosa_baa.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Crosa_baa.png"
     },
     {
         "id": 114,
@@ -3303,7 +3303,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cryle_ran.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cryle_ran.png"
     },
     {
         "id": 115,
@@ -3332,7 +3332,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Csaha_baa.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Csaha_baa.png"
     },
     {
         "id": 116,
@@ -3361,7 +3361,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cseda_ran2.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cseda_ran2.png"
     },
     {
         "id": 117,
@@ -3390,7 +3390,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cseda_ran2_cc.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cseda_ran2_cc.png"
     },
     {
         "id": 118,
@@ -3419,7 +3419,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Csele2_cc.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Csele2_cc.png"
     },
     {
         "id": 119,
@@ -3448,7 +3448,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Csets_mfen.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Csets_mfen.png"
     },
     {
         "id": 120,
@@ -3477,7 +3477,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cshay_str01.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cshay_str01.png"
     },
     {
         "id": 121,
@@ -3506,7 +3506,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cshen_kai.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cshen_kai.png"
     },
     {
         "id": 122,
@@ -3535,7 +3535,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Csoph_sen.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Csoph_sen.png"
     },
     {
         "id": 123,
@@ -3564,7 +3564,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cspic_wor.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cspic_wor.png"
     },
     {
         "id": 124,
@@ -3593,7 +3593,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Csuto_kil.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Csuto_kil.png"
     },
     {
         "id": 125,
@@ -3622,7 +3622,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Csuzu_sam.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Csuzu_sam.png"
     },
     {
         "id": 126,
@@ -3651,7 +3651,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Ctama_mik.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Ctama_mik.png"
     },
     {
         "id": 127,
@@ -3680,7 +3680,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cteti_bla.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cteti_bla.png"
     },
     {
         "id": 128,
@@ -3709,7 +3709,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cthol01_cc.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cthol01_cc.png"
     },
     {
         "id": 129,
@@ -3738,7 +3738,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Ctina01_cc.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Ctina01_cc.png"
     },
     {
         "id": 130,
@@ -3767,7 +3767,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Ctori_tem.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Ctori_tem.png"
     },
     {
         "id": 131,
@@ -3796,7 +3796,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cuzum_psi.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cuzum_psi.png"
     },
     {
         "id": 132,
@@ -3825,7 +3825,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cvane_dai.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cvane_dai.png"
     },
     {
         "id": 133,
@@ -3854,7 +3854,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cvarg2_cc.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cvarg2_cc.png"
     },
     {
         "id": 134,
@@ -3883,7 +3883,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cvett_gua.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cvett_gua.png"
     },
     {
         "id": 135,
@@ -3912,7 +3912,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cvier01_cc.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cvier01_cc.png"
     },
     {
         "id": 136,
@@ -3941,7 +3941,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cyaul01_cc.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cyaul01_cc.png"
     },
     {
         "id": 137,
@@ -3970,7 +3970,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cyaul_sol2.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cyaul_sol2.png"
     },
     {
         "id": 138,
@@ -3999,7 +3999,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cyuan_nin.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cyuan_nin.png"
     },
     {
         "id": 139,
@@ -4028,7 +4028,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Cyudi01_cc.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Cyudi01_cc.png"
     },
     {
         "id": 140,
@@ -4057,7 +4057,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Czayi_lord_cc.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Czayi_lord_cc.png"
     },
     {
         "id": 141,
@@ -4086,7 +4086,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Czayi_lord_cc02.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Czayi_lord_cc02.png"
     },
     {
         "id": 142,
@@ -4115,7 +4115,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Czenn01_cc.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Czenn01_cc.png"
     },
     {
         "id": 143,
@@ -4144,7 +4144,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Czin_onm.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Czin_onm.png"
     },
     {
         "id": 144,
@@ -4173,7 +4173,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Czoph_nec.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Czoph_nec.png"
     },
     {
         "id": 145,
@@ -4202,7 +4202,7 @@
         "Type": "Symbol1",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol1\\Game_2CJobIconM_2Czyva01_cc.png"
+        "Path": "Symbol/Symbol1/Game_2CJobIconM_2Czyva01_cc.png"
     },
     {
         "id": 146,
@@ -4231,7 +4231,7 @@
         "Type": "Symbol2",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol2\\IMG_20240108_184243.png"
+        "Path": "Symbol/Symbol2/IMG_20240108_184243.png"
     },
     {
         "id": 147,
@@ -4260,7 +4260,7 @@
         "Type": "Symbol2",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol2\\IMG_20240108_184312.png"
+        "Path": "Symbol/Symbol2/IMG_20240108_184312.png"
     },
     {
         "id": 148,
@@ -4289,7 +4289,7 @@
         "Type": "Symbol2",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol2\\IMG_20240108_184336.png"
+        "Path": "Symbol/Symbol2/IMG_20240108_184336.png"
     },
     {
         "id": 149,
@@ -4318,7 +4318,7 @@
         "Type": "Symbol2",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol2\\IMG_20240108_184358.png"
+        "Path": "Symbol/Symbol2/IMG_20240108_184358.png"
     },
     {
         "id": 150,
@@ -4347,7 +4347,7 @@
         "Type": "Symbol2",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol2\\IMG_20240108_184418.png"
+        "Path": "Symbol/Symbol2/IMG_20240108_184418.png"
     },
     {
         "id": 151,
@@ -4376,7 +4376,7 @@
         "Type": "Symbol2",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol2\\IMG_20240108_184447.png"
+        "Path": "Symbol/Symbol2/IMG_20240108_184447.png"
     },
     {
         "id": 152,
@@ -4405,7 +4405,7 @@
         "Type": "Symbol2",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol2\\IMG_20240108_184513.png"
+        "Path": "Symbol/Symbol2/IMG_20240108_184513.png"
     },
     {
         "id": 153,
@@ -4434,7 +4434,7 @@
         "Type": "Symbol2",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol2\\IMG_20240108_184535.png"
+        "Path": "Symbol/Symbol2/IMG_20240108_184535.png"
     },
     {
         "id": 154,
@@ -4463,7 +4463,7 @@
         "Type": "Symbol2",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol2\\IMG_20240108_184555.png"
+        "Path": "Symbol/Symbol2/IMG_20240108_184555.png"
     },
     {
         "id": 155,
@@ -4492,7 +4492,7 @@
         "Type": "Symbol2",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol2\\IMG_20240108_184615.png"
+        "Path": "Symbol/Symbol2/IMG_20240108_184615.png"
     },
     {
         "id": 156,
@@ -4521,7 +4521,7 @@
         "Type": "Symbol2",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol2\\IMG_20240108_184641.png"
+        "Path": "Symbol/Symbol2/IMG_20240108_184641.png"
     },
     {
         "id": 157,
@@ -4550,7 +4550,7 @@
         "Type": "Symbol2",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol2\\IMG_20240108_184706.png"
+        "Path": "Symbol/Symbol2/IMG_20240108_184706.png"
     },
     {
         "id": 158,
@@ -4579,7 +4579,7 @@
         "Type": "Symbol2",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol2\\IMG_20240108_184723.png"
+        "Path": "Symbol/Symbol2/IMG_20240108_184723.png"
     },
     {
         "id": 159,
@@ -4608,7 +4608,7 @@
         "Type": "Symbol2",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol2\\IMG_20240108_184742.png"
+        "Path": "Symbol/Symbol2/IMG_20240108_184742.png"
     },
     {
         "id": 160,
@@ -4637,7 +4637,7 @@
         "Type": "Symbol2",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol2\\IMG_20240108_184802.png"
+        "Path": "Symbol/Symbol2/IMG_20240108_184802.png"
     },
     {
         "id": 161,
@@ -4666,7 +4666,7 @@
         "Type": "Symbol2",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol2\\IMG_20240108_184821.png"
+        "Path": "Symbol/Symbol2/IMG_20240108_184821.png"
     },
     {
         "id": 162,
@@ -4695,7 +4695,7 @@
         "Type": "Symbol2",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol2\\IMG_20240108_184840.png"
+        "Path": "Symbol/Symbol2/IMG_20240108_184840.png"
     },
     {
         "id": 163,
@@ -4724,7 +4724,7 @@
         "Type": "Symbol2",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol2\\IMG_20240108_184902.png"
+        "Path": "Symbol/Symbol2/IMG_20240108_184902.png"
     },
     {
         "id": 164,
@@ -4753,7 +4753,7 @@
         "Type": "Symbol2",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol2\\IMG_20240108_184919.png"
+        "Path": "Symbol/Symbol2/IMG_20240108_184919.png"
     },
     {
         "id": 165,
@@ -4782,7 +4782,7 @@
         "Type": "Symbol2",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol2\\IMG_20240108_184941.png"
+        "Path": "Symbol/Symbol2/IMG_20240108_184941.png"
     },
     {
         "id": 166,
@@ -4811,7 +4811,7 @@
         "Type": "Symbol2",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol2\\IMG_20240108_184958.png"
+        "Path": "Symbol/Symbol2/IMG_20240108_184958.png"
     },
     {
         "id": 167,
@@ -4840,7 +4840,7 @@
         "Type": "Symbol2",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol2\\IMG_20240108_185014.png"
+        "Path": "Symbol/Symbol2/IMG_20240108_185014.png"
     },
     {
         "id": 168,
@@ -4869,7 +4869,7 @@
         "Type": "Symbol2",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol2\\IMG_20240108_185032.png"
+        "Path": "Symbol/Symbol2/IMG_20240108_185032.png"
     },
     {
         "id": 169,
@@ -4898,7 +4898,7 @@
         "Type": "Symbol2",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol2\\IMG_20240108_185049.png"
+        "Path": "Symbol/Symbol2/IMG_20240108_185049.png"
     },
     {
         "id": 170,
@@ -4927,7 +4927,7 @@
         "Type": "Symbol2",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol2\\IMG_20240108_185114.png"
+        "Path": "Symbol/Symbol2/IMG_20240108_185114.png"
     },
     {
         "id": 171,
@@ -4956,7 +4956,7 @@
         "Type": "Symbol2",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol2\\IMG_20240108_185131.png"
+        "Path": "Symbol/Symbol2/IMG_20240108_185131.png"
     },
     {
         "id": 172,
@@ -4985,7 +4985,7 @@
         "Type": "Symbol2",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol2\\IMG_20240108_185146.png"
+        "Path": "Symbol/Symbol2/IMG_20240108_185146.png"
     },
     {
         "id": 173,
@@ -5014,7 +5014,7 @@
         "Type": "Symbol2",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol2\\Justiciar_Symbol2.png"
+        "Path": "Symbol/Symbol2/Justiciar_Symbol2.png"
     },
     {
         "id": 174,
@@ -5043,7 +5043,7 @@
         "Type": "Symbol3",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol3\\Abyss_Symbol2.png"
+        "Path": "Symbol/Symbol3/Abyss_Symbol2.png"
     },
     {
         "id": 175,
@@ -5072,7 +5072,7 @@
         "Type": "Symbol3",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol3\\Black_Emperor_Symbol2.png"
+        "Path": "Symbol/Symbol3/Black_Emperor_Symbol2.png"
     },
     {
         "id": 176,
@@ -5101,7 +5101,7 @@
         "Type": "Symbol3",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol3\\Chained_Symbol2.png"
+        "Path": "Symbol/Symbol3/Chained_Symbol2.png"
     },
     {
         "id": 177,
@@ -5130,7 +5130,7 @@
         "Type": "Symbol3",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol3\\Darkness_Symbol2.png"
+        "Path": "Symbol/Symbol3/Darkness_Symbol2.png"
     },
     {
         "id": 178,
@@ -5159,7 +5159,7 @@
         "Type": "Symbol3",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol3\\Death_Symbol2.png"
+        "Path": "Symbol/Symbol3/Death_Symbol2.png"
     },
     {
         "id": 179,
@@ -5188,7 +5188,7 @@
         "Type": "Symbol3",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol3\\Demoness_Symbol2.png"
+        "Path": "Symbol/Symbol3/Demoness_Symbol2.png"
     },
     {
         "id": 180,
@@ -5217,7 +5217,7 @@
         "Type": "Symbol3",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol3\\Door_Symbol2.png"
+        "Path": "Symbol/Symbol3/Door_Symbol2.png"
     },
     {
         "id": 181,
@@ -5246,7 +5246,7 @@
         "Type": "Symbol3",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol3\\Error_Symbol2.png"
+        "Path": "Symbol/Symbol3/Error_Symbol2.png"
     },
     {
         "id": 182,
@@ -5275,7 +5275,7 @@
         "Type": "Symbol3",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol3\\Fool_Symbol2.png"
+        "Path": "Symbol/Symbol3/Fool_Symbol2.png"
     },
     {
         "id": 183,
@@ -5304,7 +5304,7 @@
         "Type": "Symbol3",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol3\\Hanged_Man_Symbol2.png"
+        "Path": "Symbol/Symbol3/Hanged_Man_Symbol2.png"
     },
     {
         "id": 184,
@@ -5333,7 +5333,7 @@
         "Type": "Symbol3",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol3\\Hermit_Symbol2.png"
+        "Path": "Symbol/Symbol3/Hermit_Symbol2.png"
     },
     {
         "id": 185,
@@ -5362,7 +5362,7 @@
         "Type": "Symbol3",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol3\\Moon_Symbol2.png"
+        "Path": "Symbol/Symbol3/Moon_Symbol2.png"
     },
     {
         "id": 186,
@@ -5391,7 +5391,7 @@
         "Type": "Symbol3",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol3\\Mother_Symbol2.png"
+        "Path": "Symbol/Symbol3/Mother_Symbol2.png"
     },
     {
         "id": 187,
@@ -5420,7 +5420,7 @@
         "Type": "Symbol3",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol3\\Paragon_Symbol2.png"
+        "Path": "Symbol/Symbol3/Paragon_Symbol2.png"
     },
     {
         "id": 188,
@@ -5449,7 +5449,7 @@
         "Type": "Symbol3",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol3\\Red_Priest_Symbol2.png"
+        "Path": "Symbol/Symbol3/Red_Priest_Symbol2.png"
     },
     {
         "id": 189,
@@ -5478,7 +5478,7 @@
         "Type": "Symbol3",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol3\\Sun_Symbol2.png"
+        "Path": "Symbol/Symbol3/Sun_Symbol2.png"
     },
     {
         "id": 190,
@@ -5507,7 +5507,7 @@
         "Type": "Symbol3",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol3\\Twilight_Giant_Symbol2.png"
+        "Path": "Symbol/Symbol3/Twilight_Giant_Symbol2.png"
     },
     {
         "id": 191,
@@ -5536,7 +5536,7 @@
         "Type": "Symbol3",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol3\\Tyrant_Symbol2.png"
+        "Path": "Symbol/Symbol3/Tyrant_Symbol2.png"
     },
     {
         "id": 192,
@@ -5565,7 +5565,7 @@
         "Type": "Symbol3",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol3\\Visionary_Symbol2.png"
+        "Path": "Symbol/Symbol3/Visionary_Symbol2.png"
     },
     {
         "id": 193,
@@ -5594,7 +5594,7 @@
         "Type": "Symbol3",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol3\\Wheel_of_Fortune_Symbol2.png"
+        "Path": "Symbol/Symbol3/Wheel_of_Fortune_Symbol2.png"
     },
     {
         "id": 194,
@@ -5623,6 +5623,6 @@
         "Type": "Symbol3",
         "Price": 10000000,
         "PriceUnit": "Ancient_Rune_Crystal_Dark",
-        "Path": "Symbol\\Symbol3\\White_Tower_Symbol2.png"
+        "Path": "Symbol/Symbol3/White_Tower_Symbol2.png"
     }
 ]

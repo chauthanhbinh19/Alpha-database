@@ -43,6 +43,7 @@ def create_cards_database():
                     if file_name.endswith(".jpg") or file_name.endswith("png"):
                         name, extension=os.path.splitext(file_name)
                         path=os.path.join(current_dir,file_name)
+                        path=path.replace("\\","/")
                         card = {
                             "id":id,
                             "CardName":name,
@@ -94,6 +95,7 @@ def create_cards_database():
                         rare="SSR"
                         price=500000
                         path=os.path.join(current_dir,file_name)
+                        path=path.replace("\\","/")
                         card = {
                             "id":id,
                             "CardName":name,
@@ -145,6 +147,7 @@ def create_cards_database():
                         rare="UR"
                         price=1000000
                         path=os.path.join(current_dir,file_name)
+                        path=path.replace("\\","/")
                         card = {
                             "id":id,
                             "CardName":name,
@@ -196,6 +199,7 @@ def create_cards_database():
                         rare="LG"
                         price=5000000
                         path=os.path.join(current_dir,file_name)
+                        path=path.replace("\\","/")
                         card = {
                             "id":id,
                             "CardName":name,
@@ -267,6 +271,7 @@ def create_books_database():
                 if file_name.endswith(".jpg") or file_name.endswith("png"):
                     name, extension=os.path.splitext(file_name)
                     path=os.path.join(current_dir,file_name)
+                    path=path.replace("\\","/")
                     card = {
                         "id":id,
                         "CardBook":name,
@@ -338,6 +343,7 @@ def create_skills_database():
                 if file_name.endswith(".jpg") or file_name.endswith("png"):
                     name, extension=os.path.splitext(file_name)
                     path=os.path.join(current_dir,file_name)
+                    path=path.replace("\\","/")
                     card = {
                         "id":id,
                         "SkillName":name,
@@ -409,6 +415,7 @@ def create_bosses_database():
                 if file_name.endswith(".jpg") or file_name.endswith("png"):
                     name, extension=os.path.splitext(file_name)
                     path=os.path.join(current_dir,file_name)
+                    path=path.replace("\\","/")
                     card = {
                         "id":id,
                         "SkillName":name,
@@ -469,7 +476,7 @@ def create_pets_database():
     mana=100
     rare="LG"
     price=10000000
-    price_unit="Chasmic_Grey_Crystalyte"
+    price_unit="Ancient_Rune_Crystal_Fire"
     path=""
     for root, dirs, files in os.walk(cards_dir):
         current_dir=os.path.basename(root)
@@ -480,6 +487,7 @@ def create_pets_database():
                 if file_name.endswith(".jpg") or file_name.endswith("png"):
                     name, extension=os.path.splitext(file_name)
                     path=os.path.join(current_dir,file_name)
+                    path=path.replace("\\","/")
                     card = {
                         "id":id,
                         "PetName":name,
@@ -551,6 +559,7 @@ def create_symbols_database():
                 if file_name.endswith(".jpg") or file_name.endswith("png"):
                     name, extension=os.path.splitext(file_name)
                     path=os.path.join(current_dir,file_name)
+                    path=path.replace("\\","/")
                     card = {
                         "id":id,
                         "SymbolName":name,
@@ -617,6 +626,7 @@ def create_achievements_database():
             if file_name.endswith(".jpg") or file_name.endswith("png"):
                 name, extension=os.path.splitext(file_name)
                 path=os.path.join(current_dir,file_name)
+                path=path.replace("\\","/")
                 card = {
                     "id":id,
                     "AchievementName":name,
@@ -660,6 +670,7 @@ def create_currencies_database():
             if file_name.endswith(".jpg") or file_name.endswith("png"):
                 name, extension=os.path.splitext(file_name)
                 path=os.path.join(current_dir,file_name)
+                path=path.replace("\\","/")
                 card = {
                     "id":id,
                     "CurrencyName":name,
@@ -678,7 +689,7 @@ def create_items_database():
     id=1
     card_name=""
     price=10000000
-    price_unit="Chasmic_Grey_Crystalyte"
+    price_unit="Ancient_Rune_Crystal_Light"
     path=""
     for root, dirs, files in os.walk(cards_dir):
         current_dir=os.path.basename(root)
@@ -689,6 +700,7 @@ def create_items_database():
                 if file_name.endswith(".jpg") or file_name.endswith("png"):
                     name, extension=os.path.splitext(file_name)
                     path=os.path.join(current_dir,file_name)
+                    path=path.replace("\\","/")
                     card = {
                         "id":id,
                         "ItemName":name,
@@ -774,7 +786,7 @@ def create_equipments_database():
     with open("equipments_database.json", "w") as json_file:
         json.dump(card_list, json_file)
 
-# create_cards_database()
+create_cards_database()
 # create_books_database()
 # create_skills_database()
 # create_bosses_database()

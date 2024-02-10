@@ -1,310 +1,310 @@
 [
     {
         "id": 1,
-        "CurrencyName": "Ancient_Rune_Crystal_Dark_icon",
-        "CurrencyNameImage": "Ancient_Rune_Crystal_Dark_icon.png",
+        "CurrencyName": "Ancient_Rune_Crystal_Dark",
+        "CurrencyNameImage": "Ancient_Rune_Crystal_Dark.png",
         "Type": "Currency",
-        "Path": "Currency\\Ancient_Rune_Crystal_Dark_icon.png"
+        "Path": "Currency/Ancient_Rune_Crystal_Dark.png"
     },
     {
         "id": 2,
-        "CurrencyName": "Ancient_Rune_Crystal_Fire_icon",
-        "CurrencyNameImage": "Ancient_Rune_Crystal_Fire_icon.png",
+        "CurrencyName": "Ancient_Rune_Crystal_Fire",
+        "CurrencyNameImage": "Ancient_Rune_Crystal_Fire.png",
         "Type": "Currency",
-        "Path": "Currency\\Ancient_Rune_Crystal_Fire_icon.png"
+        "Path": "Currency/Ancient_Rune_Crystal_Fire.png"
     },
     {
         "id": 3,
-        "CurrencyName": "Ancient_Rune_Crystal_Light_icon",
-        "CurrencyNameImage": "Ancient_Rune_Crystal_Light_icon.png",
+        "CurrencyName": "Ancient_Rune_Crystal_Light",
+        "CurrencyNameImage": "Ancient_Rune_Crystal_Light.png",
         "Type": "Currency",
-        "Path": "Currency\\Ancient_Rune_Crystal_Light_icon.png"
+        "Path": "Currency/Ancient_Rune_Crystal_Light.png"
     },
     {
         "id": 4,
-        "CurrencyName": "Ancient_Rune_Crystal_Water_icon",
-        "CurrencyNameImage": "Ancient_Rune_Crystal_Water_icon.png",
+        "CurrencyName": "Ancient_Rune_Crystal_Water",
+        "CurrencyNameImage": "Ancient_Rune_Crystal_Water.png",
         "Type": "Currency",
-        "Path": "Currency\\Ancient_Rune_Crystal_Water_icon.png"
+        "Path": "Currency/Ancient_Rune_Crystal_Water.png"
     },
     {
         "id": 5,
-        "CurrencyName": "Ancient_Rune_Crystal_Wind_icon",
-        "CurrencyNameImage": "Ancient_Rune_Crystal_Wind_icon.png",
+        "CurrencyName": "Ancient_Rune_Crystal_Wind",
+        "CurrencyNameImage": "Ancient_Rune_Crystal_Wind.png",
         "Type": "Currency",
-        "Path": "Currency\\Ancient_Rune_Crystal_Wind_icon.png"
+        "Path": "Currency/Ancient_Rune_Crystal_Wind.png"
     },
     {
         "id": 6,
-        "CurrencyName": "Chasmic_Blue_Crystalyte_(Icon)",
-        "CurrencyNameImage": "Chasmic_Blue_Crystalyte_(Icon).png",
+        "CurrencyName": "Chasmic_Blue_Crystalyte",
+        "CurrencyNameImage": "Chasmic_Blue_Crystalyte.png",
         "Type": "Currency",
-        "Path": "Currency\\Chasmic_Blue_Crystalyte_(Icon).png"
+        "Path": "Currency/Chasmic_Blue_Crystalyte.png"
     },
     {
         "id": 7,
-        "CurrencyName": "Chasmic_Grey_Crystalyte_(Icon)",
-        "CurrencyNameImage": "Chasmic_Grey_Crystalyte_(Icon).png",
+        "CurrencyName": "Chasmic_Grey_Crystalyte",
+        "CurrencyNameImage": "Chasmic_Grey_Crystalyte.png",
         "Type": "Currency",
-        "Path": "Currency\\Chasmic_Grey_Crystalyte_(Icon).png"
+        "Path": "Currency/Chasmic_Grey_Crystalyte.png"
     },
     {
         "id": 8,
-        "CurrencyName": "Chasmic_Purple_Crystalyte_(Icon)",
-        "CurrencyNameImage": "Chasmic_Purple_Crystalyte_(Icon).png",
+        "CurrencyName": "Chasmic_Purple_Crystalyte",
+        "CurrencyNameImage": "Chasmic_Purple_Crystalyte.png",
         "Type": "Currency",
-        "Path": "Currency\\Chasmic_Purple_Crystalyte_(Icon).png"
+        "Path": "Currency/Chasmic_Purple_Crystalyte.png"
     },
     {
         "id": 9,
-        "CurrencyName": "Chasmic_Red_Crystalyte_(Icon)",
-        "CurrencyNameImage": "Chasmic_Red_Crystalyte_(Icon).png",
+        "CurrencyName": "Chasmic_Red_Crystalyte",
+        "CurrencyNameImage": "Chasmic_Red_Crystalyte.png",
         "Type": "Currency",
-        "Path": "Currency\\Chasmic_Red_Crystalyte_(Icon).png"
+        "Path": "Currency/Chasmic_Red_Crystalyte.png"
     },
     {
         "id": 10,
         "CurrencyName": "Herrscher_of_Reason_Rank-up_Stamp_(Icon)",
         "CurrencyNameImage": "Herrscher_of_Reason_Rank-up_Stamp_(Icon).png",
         "Type": "Currency",
-        "Path": "Currency\\Herrscher_of_Reason_Rank-up_Stamp_(Icon).png"
+        "Path": "Currency/Herrscher_of_Reason_Rank-up_Stamp_(Icon).png"
     },
     {
         "id": 11,
         "CurrencyName": "Herrscher_of_Thunder_Rank-up_Stamp_(Icon)",
         "CurrencyNameImage": "Herrscher_of_Thunder_Rank-up_Stamp_(Icon).png",
         "Type": "Currency",
-        "Path": "Currency\\Herrscher_of_Thunder_Rank-up_Stamp_(Icon).png"
+        "Path": "Currency/Herrscher_of_Thunder_Rank-up_Stamp_(Icon).png"
     },
     {
         "id": 12,
         "CurrencyName": "Item-Aero_Emerald_Render",
         "CurrencyNameImage": "Item-Aero_Emerald_Render.png",
         "Type": "Currency",
-        "Path": "Currency\\Item-Aero_Emerald_Render.png"
+        "Path": "Currency/Item-Aero_Emerald_Render.png"
     },
     {
         "id": 13,
         "CurrencyName": "Item-Amethyst_of_Void_Render",
         "CurrencyNameImage": "Item-Amethyst_of_Void_Render.png",
         "Type": "Currency",
-        "Path": "Currency\\Item-Amethyst_of_Void_Render.png"
+        "Path": "Currency/Item-Amethyst_of_Void_Render.png"
     },
     {
         "id": 14,
         "CurrencyName": "Item-Aqua_Medal_Render",
         "CurrencyNameImage": "Item-Aqua_Medal_Render.png",
         "Type": "Currency",
-        "Path": "Currency\\Item-Aqua_Medal_Render.png"
+        "Path": "Currency/Item-Aqua_Medal_Render.png"
     },
     {
         "id": 15,
         "CurrencyName": "Item-Cypher_Medal_Render",
         "CurrencyNameImage": "Item-Cypher_Medal_Render.png",
         "Type": "Currency",
-        "Path": "Currency\\Item-Cypher_Medal_Render.png"
+        "Path": "Currency/Item-Cypher_Medal_Render.png"
     },
     {
         "id": 16,
         "CurrencyName": "Item-Dark_Medal_Render",
         "CurrencyNameImage": "Item-Dark_Medal_Render.png",
         "Type": "Currency",
-        "Path": "Currency\\Item-Dark_Medal_Render.png"
+        "Path": "Currency/Item-Dark_Medal_Render.png"
     },
     {
         "id": 17,
         "CurrencyName": "Item-Fire_Medal_Render",
         "CurrencyNameImage": "Item-Fire_Medal_Render.png",
         "Type": "Currency",
-        "Path": "Currency\\Item-Fire_Medal_Render.png"
+        "Path": "Currency/Item-Fire_Medal_Render.png"
     },
     {
         "id": 18,
         "CurrencyName": "Item-Gem_Render",
         "CurrencyNameImage": "Item-Gem_Render.png",
         "Type": "Currency",
-        "Path": "Currency\\Item-Gem_Render.png"
+        "Path": "Currency/Item-Gem_Render.png"
     },
     {
         "id": 19,
         "CurrencyName": "Item-Grand_Medal_Render",
         "CurrencyNameImage": "Item-Grand_Medal_Render.png",
         "Type": "Currency",
-        "Path": "Currency\\Item-Grand_Medal_Render.png"
+        "Path": "Currency/Item-Grand_Medal_Render.png"
     },
     {
         "id": 20,
         "CurrencyName": "Item-Legend_Medal_Render",
         "CurrencyNameImage": "Item-Legend_Medal_Render.png",
         "Type": "Currency",
-        "Path": "Currency\\Item-Legend_Medal_Render.png"
+        "Path": "Currency/Item-Legend_Medal_Render.png"
     },
     {
         "id": 21,
         "CurrencyName": "Item-Light_Medal_Render",
         "CurrencyNameImage": "Item-Light_Medal_Render.png",
         "Type": "Currency",
-        "Path": "Currency\\Item-Light_Medal_Render.png"
+        "Path": "Currency/Item-Light_Medal_Render.png"
     },
     {
         "id": 22,
         "CurrencyName": "Item-Limimin_Medal_001_Render",
         "CurrencyNameImage": "Item-Limimin_Medal_001_Render.png",
         "Type": "Currency",
-        "Path": "Currency\\Item-Limimin_Medal_001_Render.png"
+        "Path": "Currency/Item-Limimin_Medal_001_Render.png"
     },
     {
         "id": 23,
         "CurrencyName": "Item-Limimin_Medal_002_Render",
         "CurrencyNameImage": "Item-Limimin_Medal_002_Render.png",
         "Type": "Currency",
-        "Path": "Currency\\Item-Limimin_Medal_002_Render.png"
+        "Path": "Currency/Item-Limimin_Medal_002_Render.png"
     },
     {
         "id": 24,
         "CurrencyName": "Item-Limimin_Medal_003_Render",
         "CurrencyNameImage": "Item-Limimin_Medal_003_Render.png",
         "Type": "Currency",
-        "Path": "Currency\\Item-Limimin_Medal_003_Render.png"
+        "Path": "Currency/Item-Limimin_Medal_003_Render.png"
     },
     {
         "id": 25,
         "CurrencyName": "Item-Limimin_Medal_004_Render",
         "CurrencyNameImage": "Item-Limimin_Medal_004_Render.png",
         "Type": "Currency",
-        "Path": "Currency\\Item-Limimin_Medal_004_Render.png"
+        "Path": "Currency/Item-Limimin_Medal_004_Render.png"
     },
     {
         "id": 26,
         "CurrencyName": "Item-Limimin_Medal_005_Render",
         "CurrencyNameImage": "Item-Limimin_Medal_005_Render.png",
         "Type": "Currency",
-        "Path": "Currency\\Item-Limimin_Medal_005_Render.png"
+        "Path": "Currency/Item-Limimin_Medal_005_Render.png"
     },
     {
         "id": 27,
         "CurrencyName": "Item-Limimin_Medal_006_Render",
         "CurrencyNameImage": "Item-Limimin_Medal_006_Render.png",
         "Type": "Currency",
-        "Path": "Currency\\Item-Limimin_Medal_006_Render.png"
+        "Path": "Currency/Item-Limimin_Medal_006_Render.png"
     },
     {
         "id": 28,
         "CurrencyName": "Item-Limimin_Medal_007_Render",
         "CurrencyNameImage": "Item-Limimin_Medal_007_Render.png",
         "Type": "Currency",
-        "Path": "Currency\\Item-Limimin_Medal_007_Render.png"
+        "Path": "Currency/Item-Limimin_Medal_007_Render.png"
     },
     {
         "id": 29,
         "CurrencyName": "Item-Limimin_Medal_008_Render",
         "CurrencyNameImage": "Item-Limimin_Medal_008_Render.png",
         "Type": "Currency",
-        "Path": "Currency\\Item-Limimin_Medal_008_Render.png"
+        "Path": "Currency/Item-Limimin_Medal_008_Render.png"
     },
     {
         "id": 30,
         "CurrencyName": "Item-Marine_Sapphire_Render",
         "CurrencyNameImage": "Item-Marine_Sapphire_Render.png",
         "Type": "Currency",
-        "Path": "Currency\\Item-Marine_Sapphire_Render.png"
+        "Path": "Currency/Item-Marine_Sapphire_Render.png"
     },
     {
         "id": 31,
         "CurrencyName": "Item-Pyro_Spinel_Render",
         "CurrencyNameImage": "Item-Pyro_Spinel_Render.png",
         "Type": "Currency",
-        "Path": "Currency\\Item-Pyro_Spinel_Render.png"
+        "Path": "Currency/Item-Pyro_Spinel_Render.png"
     },
     {
         "id": 32,
         "CurrencyName": "Item-Stellar_Medal_Render",
         "CurrencyNameImage": "Item-Stellar_Medal_Render.png",
         "Type": "Currency",
-        "Path": "Currency\\Item-Stellar_Medal_Render.png"
+        "Path": "Currency/Item-Stellar_Medal_Render.png"
     },
     {
         "id": 33,
         "CurrencyName": "Item-Summoning_Scroll_001_Render",
         "CurrencyNameImage": "Item-Summoning_Scroll_001_Render.png",
         "Type": "Currency",
-        "Path": "Currency\\Item-Summoning_Scroll_001_Render.png"
+        "Path": "Currency/Item-Summoning_Scroll_001_Render.png"
     },
     {
         "id": 34,
         "CurrencyName": "Item-Summoning_Scroll_003_Render",
         "CurrencyNameImage": "Item-Summoning_Scroll_003_Render.png",
         "Type": "Currency",
-        "Path": "Currency\\Item-Summoning_Scroll_003_Render.png"
+        "Path": "Currency/Item-Summoning_Scroll_003_Render.png"
     },
     {
         "id": 35,
         "CurrencyName": "Item-Summoning_Scroll_005_Render",
         "CurrencyNameImage": "Item-Summoning_Scroll_005_Render.png",
         "Type": "Currency",
-        "Path": "Currency\\Item-Summoning_Scroll_005_Render.png"
+        "Path": "Currency/Item-Summoning_Scroll_005_Render.png"
     },
     {
         "id": 36,
         "CurrencyName": "Item-Wind_Medal_Render",
         "CurrencyNameImage": "Item-Wind_Medal_Render.png",
         "Type": "Currency",
-        "Path": "Currency\\Item-Wind_Medal_Render.png"
+        "Path": "Currency/Item-Wind_Medal_Render.png"
     },
     {
         "id": 37,
         "CurrencyName": "Item-Wing_Medal_001_Render",
         "CurrencyNameImage": "Item-Wing_Medal_001_Render.png",
         "Type": "Currency",
-        "Path": "Currency\\Item-Wing_Medal_001_Render.png"
+        "Path": "Currency/Item-Wing_Medal_001_Render.png"
     },
     {
         "id": 38,
         "CurrencyName": "Item-Wing_Medal_002_Render",
         "CurrencyNameImage": "Item-Wing_Medal_002_Render.png",
         "Type": "Currency",
-        "Path": "Currency\\Item-Wing_Medal_002_Render.png"
+        "Path": "Currency/Item-Wing_Medal_002_Render.png"
     },
     {
         "id": 39,
         "CurrencyName": "Item-Wing_Medal_003_Render",
         "CurrencyNameImage": "Item-Wing_Medal_003_Render.png",
         "Type": "Currency",
-        "Path": "Currency\\Item-Wing_Medal_003_Render.png"
+        "Path": "Currency/Item-Wing_Medal_003_Render.png"
     },
     {
         "id": 40,
         "CurrencyName": "Item-Yellow_Diamond_Render",
         "CurrencyNameImage": "Item-Yellow_Diamond_Render.png",
         "Type": "Currency",
-        "Path": "Currency\\Item-Yellow_Diamond_Render.png"
+        "Path": "Currency/Item-Yellow_Diamond_Render.png"
     },
     {
         "id": 41,
         "CurrencyName": "LOze0bC",
         "CurrencyNameImage": "LOze0bC.png",
         "Type": "Currency",
-        "Path": "Currency\\LOze0bC.png"
+        "Path": "Currency/LOze0bC.png"
     },
     {
         "id": 42,
         "CurrencyName": "lzrJPAp",
         "CurrencyNameImage": "lzrJPAp.png",
         "Type": "Currency",
-        "Path": "Currency\\lzrJPAp.png"
+        "Path": "Currency/lzrJPAp.png"
     },
     {
         "id": 43,
         "CurrencyName": "MNZQ2ff",
         "CurrencyNameImage": "MNZQ2ff.png",
         "Type": "Currency",
-        "Path": "Currency\\MNZQ2ff.png"
+        "Path": "Currency/MNZQ2ff.png"
     },
     {
         "id": 44,
         "CurrencyName": "owYe4EI",
         "CurrencyNameImage": "owYe4EI.png",
         "Type": "Currency",
-        "Path": "Currency\\owYe4EI.png"
+        "Path": "Currency/owYe4EI.png"
     }
 ]
