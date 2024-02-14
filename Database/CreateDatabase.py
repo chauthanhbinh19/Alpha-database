@@ -786,7 +786,7 @@ def create_equipments_database():
     with open("equipments_database.json", "w") as json_file:
         json.dump(card_list, json_file)
 
-create_cards_database()
+# create_cards_database()
 # create_books_database()
 # create_skills_database()
 # create_bosses_database()
