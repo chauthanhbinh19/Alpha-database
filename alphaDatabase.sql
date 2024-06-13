@@ -4,155 +4,165 @@ use alpha;
 
 create table cards(
 	id int primary key,
-    cardName varchar(100),
-    cardImage varchar(100),
+    cardName varchar(255),
+    cardImage varchar(255),
     rare varchar(100),
     type varchar(100),
     star int,
+    power double,
     health double,
-    physicalAttack double,
-    physicalDefense double,
-    magicalAttack double,
-    magicalDefense double,
-    chemicalAttack double,
-    chemicalDefense double,
-    atomicAttack double,
-    atomicDefense double,
-    mentalAttack double,
-    mentalDefense double,
+    physical_attack double,
+    physical_defense double,
+    magical_attack double,
+    magical_defense double,
+    chemical_attack double,
+    chemical_defense double,
+    atomic_attack double,
+    atomic_defense double,
+    mental_attack double,
+    mental_defense double,
     speed double,
-    criticalDamage double,
-    criticalRate double,
-    armorPenetration double,
+    critical_damage double,
+    critical_rate double,
+    armor_penetration double,
     avoid double,
-    absorbsDamage double,
-    regenerateVitality double,
+    absorbs_damage double,
+    regenerate_vitality double,
     mana float,
     description varchar(255)
 );
 
 create table books(
 	id int primary key,
-    bookName varchar(100),
-    bookImage varchar(100),
+    bookName varchar(255),
+    bookImage varchar(255),
     rare varchar(100),
     type varchar(100),
     star int,
+    power double,
     health double,
-    physicalAttack double,
-    physicalDefense double,
-    magicalAttack double,
-    magicalDefense double,
-    chemicalAttack double,
-    chemicalDefense double,
-    atomicAttack double,
-    atomicDefense double,
-    mentalAttack double,
-    mentalDefense double,
+    physical_attack double,
+    physical_defense double,
+    magical_attack double,
+    magical_defense double,
+    chemical_attack double,
+    chemical_defense double,
+    atomic_attack double,
+    atomic_defense double,
+    mental_attack double,
+    mental_defense double,
     speed double,
-    criticalDamage double,
-    criticalRate double,
-    armorPenetration double,
+    critical_damage double,
+    critical_rate double,
+    armor_penetration double,
     avoid double,
-    absorbsDamage double,
-    regenerateVitality double,
+    absorbs_damage double,
+    regenerate_vitality double,
+    mana float,
     description varchar(255)
 );
 
 create table army(
 	id int primary key,
-    armyName varchar(100),
-    armyImage varchar(100),
+    armyName varchar(255),
+    armyImage varchar(255),
     rare varchar(100),
     type varchar(100),
     star int,
+    power double,
     health double,
-    physicalAttack double,
-    physicalDefense double,
-    magicalAttack double,
-    magicalDefense double,
-    chemicalAttack double,
-    chemicalDefense double,
-    atomicAttack double,
-    atomicDefense double,
-    mentalAttack double,
-    mentalDefense double,
+    physical_attack double,
+    physical_defense double,
+    magical_attack double,
+    magical_defense double,
+    chemical_attack double,
+    chemical_defense double,
+    atomic_attack double,
+    atomic_defense double,
+    mental_attack double,
+    mental_defense double,
     speed double,
-    criticalDamage double,
-    criticalRate double,
-    armorPenetration double,
+    critical_damage double,
+    critical_rate double,
+    armor_penetration double,
     avoid double,
-    absorbsDamage double,
-    regenerateVitality double,
+    absorbs_damage double,
+    regenerate_vitality double,
+    mana float,
     description varchar(255)
 );
 
 create table collaboration_equipments(
 	id int primary key,
-    collaborationEquipmentName varchar(100),
-    collaborationEquipmentImage varchar(100),
+    collaborationEquipmentName varchar(255),
+    collaborationEquipmentImage varchar(255),
     rare varchar(100),
     type varchar(100),
     star int,
+    power double,
     health double,
-    physicalAttack double,
-    physicalDefense double,
-    magicalAttack double,
-    magicalDefense double,
-    chemicalAttack double,
-    chemicalDefense double,
-    atomicAttack double,
-    atomicDefense double,
-    mentalAttack double,
-    mentalDefense double,
+    physical_attack double,
+    physical_defense double,
+    magical_attack double,
+    magical_defense double,
+    chemical_attack double,
+    chemical_defense double,
+    atomic_attack double,
+    atomic_defense double,
+    mental_attack double,
+    mental_defense double,
     speed double,
-    criticalDamage double,
-    criticalRate double,
-    armorPenetration double,
+    critical_damage double,
+    critical_rate double,
+    armor_penetration double,
     avoid double,
-    absorbsDamage double,
-    regenerateVitality double,
+    absorbs_damage double,
+    regenerate_vitality double,
+    mana float,
     description varchar(255)
 );
 
 create table currency(
 	id int primary key,
-    currencyName varchar(100),
-    currencyImage varchar(100)
+    currencyName varchar(255),
+    currencyImage varchar(255)
 );
 
 create table equipments(
 	id int primary key,
-    equipmentName varchar(100),
-    equipmentImage varchar(100),
+    equipmentName varchar(255),
+    equipmentImage varchar(255),
     rare varchar(100),
     type varchar(100),
+    equipmentSet varchar(100),
     star int,
+    power double,
     health double,
-    physicalAttack double,
-    physicalDefense double,
-    magicalAttack double,
-    magicalDefense double,
-    chemicalAttack double,
-    chemicalDefense double,
-    atomicAttack double,
-    atomicDefense double,
-    mentalAttack double,
-    mentalDefense double,
+    physical_attack double,
+    physical_defense double,
+    magical_attack double,
+    magical_defense double,
+    chemical_attack double,
+    chemical_defense double,
+    atomic_attack double,
+    atomic_defense double,
+    mental_attack double,
+    mental_defense double,
     speed double,
-    criticalDamage double,
-    criticalRate double,
-    armorPenetration double,
+    critical_damage double,
+    critical_rate double,
+    armor_penetration double,
     avoid double,
-    absorbsDamage double,
-    regenerateVitality double,
+    absorbs_damage double,
+    regenerate_vitality double,
+    mana float,
     description varchar(255)
 );
 
 create table items(
 	id int primary key,
-    itemName varchar(100),
-    itemImage varchar(100),
+    itemName varchar(255),
+    itemImage varchar(255),
     type varchar(100),
     price double,
     description varchar(255)
@@ -160,161 +170,265 @@ create table items(
 
 create table achievements(
 	id int primary key,
-    achievementName varchar(100),
-    achievementImage varchar(100),
+    achievementName varchar(255),
+    achievementImage varchar(255),
+    power double,
     health double,
-    physicalAttack double,
-    physicalDefense double,
-    magicalAttack double,
-    magicalDefense double,
-    chemicalAttack double,
-    chemicalDefense double,
-    atomicAttack double,
-    atomicDefense double,
-    mentalAttack double,
-    mentalDefense double,
+    physical_attack double,
+    physical_defense double,
+    magical_attack double,
+    magical_defense double,
+    chemical_attack double,
+    chemical_defense double,
+    atomic_attack double,
+    atomic_defense double,
+    mental_attack double,
+    mental_defense double,
     speed double,
-    criticalDamage double,
-    criticalRate double,
-    armorPenetration double,
+    critical_damage double,
+    critical_rate double,
+    armor_penetration double,
     avoid double,
-    absorbsDamage double,
-    regenerateVitality double,
+    absorbs_damage double,
+    regenerate_vitality double,
+    mana float,
+    
+    percent_all_health double,
+    percent_all_physical_attack double,
+    percent_all_physical_defense double,
+    percent_all_magical_attack double,
+    percent_all_magical_defense double,
+    percent_all_chemical_attack double,
+    percent_all_chemical_defense double,
+    percent_all_atomic_attack double,
+    percent_all_atomic_defense double,
+    percent_all_mental_attack double,
+    percent_all_mental_defense double,
+    
     description varchar(255)
 );
 
 create table medals(
 	id int primary key,
-    medalName varchar(100),
-    medalImage varchar(100),
+    medalName varchar(255),
+    medalImage varchar(255),
+    power double,
     health double,
-    physicalAttack double,
-    physicalDefense double,
-    magicalAttack double,
-    magicalDefense double,
-    chemicalAttack double,
-    chemicalDefense double,
-    atomicAttack double,
-    atomicDefense double,
-    mentalAttack double,
-    mentalDefense double,
+    physical_attack double,
+    physical_defense double,
+    magical_attack double,
+    magical_defense double,
+    chemical_attack double,
+    chemical_defense double,
+    atomic_attack double,
+    atomic_defense double,
+    mental_attack double,
+    mental_defense double,
     speed double,
-    criticalDamage double,
-    criticalRate double,
-    armorPenetration double,
+    critical_damage double,
+    critical_rate double,
+    armor_penetration double,
     avoid double,
-    absorbsDamage double,
-    regenerateVitality double,
+    absorbs_damage double,
+    regenerate_vitality double,
+    mana float,
+    
+    percent_all_health double,
+    percent_all_physical_attack double,
+    percent_all_physical_defense double,
+    percent_all_magical_attack double,
+    percent_all_magical_defense double,
+    percent_all_chemical_attack double,
+    percent_all_chemical_defense double,
+    percent_all_atomic_attack double,
+    percent_all_atomic_defense double,
+    percent_all_mental_attack double,
+    percent_all_mental_defense double,
+    
     description varchar(255)
 );
 
 create table pets(
 	id int primary key,
-    petName varchar(100),
-    petImage varchar(100),
+    petName varchar(255),
+    petImage varchar(255),
     rare varchar(100),
     type varchar(100),
     star int,
+    power double,
     health double,
-    physicalAttack double,
-    physicalDefense double,
-    magicalAttack double,
-    magicalDefense double,
-    chemicalAttack double,
-    chemicalDefense double,
-    atomicAttack double,
-    atomicDefense double,
-    mentalAttack double,
-    mentalDefense double,
+    physical_attack double,
+    physical_defense double,
+    magical_attack double,
+    magical_defense double,
+    chemical_attack double,
+    chemical_defense double,
+    atomic_attack double,
+    atomic_defense double,
+    mental_attack double,
+    mental_defense double,
     speed double,
-    criticalDamage double,
-    criticalRate double,
-    armorPenetration double,
+    critical_damage double,
+    critical_rate double,
+    armor_penetration double,
     avoid double,
-    absorbsDamage double,
-    regenerateVitality double,
+    absorbs_damage double,
+    regenerate_vitality double,
+    mana float,
     description varchar(255)
 );
 
 create table skills(
 	id int primary key,
-    skillName varchar(100),
-    skillImage varchar(100),
+    skillName varchar(255),
+    skillImage varchar(255),
     rare varchar(100),
     type varchar(100),
+    power double,
     health double,
-    physicalAttack double,
-    physicalDefense double,
-    magicalAttack double,
-    magicalDefense double,
-    chemicalAttack double,
-    chemicalDefense double,
-    atomicAttack double,
-    atomicDefense double,
-    mentalAttack double,
-    mentalDefense double,
+    physical_attack double,
+    physical_defense double,
+    magical_attack double,
+    magical_defense double,
+    chemical_attack double,
+    chemical_defense double,
+    atomic_attack double,
+    atomic_defense double,
+    mental_attack double,
+    mental_defense double,
     speed double,
-    criticalDamage double,
-    criticalRate double,
-    armorPenetration double,
+    critical_damage double,
+    critical_rate double,
+    armor_penetration double,
     avoid double,
-    absorbsDamage double,
-    regenerateVitality double,
+    absorbs_damage double,
+    regenerate_vitality double,
+    mana float,
     description varchar(255)
 );
 
 create table symbols(
 	id int primary key,
-    symbolName varchar(100),
-    symbolImage varchar(100),
-    rare varchar(100),
+    symbolName varchar(255),
+    symbolImage varchar(255),
     type varchar(100),
+    power double,
     health double,
-    physicalAttack double,
-    physicalDefense double,
-    magicalAttack double,
-    magicalDefense double,
-    chemicalAttack double,
-    chemicalDefense double,
-    atomicAttack double,
-    atomicDefense double,
-    mentalAttack double,
-    mentalDefense double,
+    physical_attack double,
+    physical_defense double,
+    magical_attack double,
+    magical_defense double,
+    chemical_attack double,
+    chemical_defense double,
+    atomic_attack double,
+    atomic_defense double,
+    mental_attack double,
+    mental_defense double,
     speed double,
-    criticalDamage double,
-    criticalRate double,
-    armorPenetration double,
+    critical_damage double,
+    critical_rate double,
+    armor_penetration double,
     avoid double,
-    absorbsDamage double,
-    regenerateVitality double,
+    absorbs_damage double,
+    regenerate_vitality double,
+    mana float,
+    
+    percent_all_health double,
+    percent_all_physical_attack double,
+    percent_all_physical_defense double,
+    percent_all_magical_attack double,
+    percent_all_magical_defense double,
+    percent_all_chemical_attack double,
+    percent_all_chemical_defense double,
+    percent_all_atomic_attack double,
+    percent_all_atomic_defense double,
+    percent_all_mental_attack double,
+    percent_all_mental_defense double,
+    
     description varchar(255)
 );
 
 create table titles(
 	id int primary key,
-    titleName varchar(100),
-    titleImage varchar(100),
+    titleName varchar(255),
+    titleImage varchar(255),
+    power double,
     health double,
-    physicalAttack double,
-    physicalDefense double,
-    magicalAttack double,
-    magicalDefense double,
-    chemicalAttack double,
-    chemicalDefense double,
-    atomicAttack double,
-    atomicDefense double,
-    mentalAttack double,
-    mentalDefense double,
+    physical_attack double,
+    physical_defense double,
+    magical_attack double,
+    magical_defense double,
+    chemical_attack double,
+    chemical_defense double,
+    atomic_attack double,
+    atomic_defense double,
+    mental_attack double,
+    mental_defense double,
     speed double,
-    criticalDamage double,
-    criticalRate double,
-    armorPenetration double,
+    critical_damage double,
+    critical_rate double,
+    armor_penetration double,
     avoid double,
-    absorbsDamage double,
-    regenerateVitality double
+    absorbs_damage double,
+    regenerate_vitality double,
+    mana float,
+    
+    percent_all_health double,
+    percent_all_physical_attack double,
+    percent_all_physical_defense double,
+    percent_all_magical_attack double,
+    percent_all_magical_defense double,
+    percent_all_chemical_attack double,
+    percent_all_chemical_defense double,
+    percent_all_atomic_attack double,
+    percent_all_atomic_defense double,
+    percent_all_mental_attack double,
+    percent_all_mental_defense double,
+    
+    description varchar(255)
 );
 
-create table user(
+create table borders(
+	id int primary key,
+    borderName varchar(255),
+    borderImage varchar(255),
+    power double,
+    health double,
+    physical_attack double,
+    physical_defense double,
+    magical_attack double,
+    magical_defense double,
+    chemical_attack double,
+    chemical_defense double,
+    atomic_attack double,
+    atomic_defense double,
+    mental_attack double,
+    mental_defense double,
+    speed double,
+    critical_damage double,
+    critical_rate double,
+    armor_penetration double,
+    avoid double,
+    absorbs_damage double,
+    regenerate_vitality double,
+    mana float,
+    
+    percent_all_health double,
+    percent_all_physical_attack double,
+    percent_all_physical_defense double,
+    percent_all_magical_attack double,
+    percent_all_magical_defense double,
+    percent_all_chemical_attack double,
+    percent_all_chemical_defense double,
+    percent_all_atomic_attack double,
+    percent_all_atomic_defense double,
+    percent_all_mental_attack double,
+    percent_all_mental_defense double,
+    
+    description varchar(255)
+);
+
+create table users(
 	id int primary key,
     username varchar(100),
     password varchar(100),
@@ -431,1645 +545,989 @@ create table potential(
 
 create table user_cards(
 	id int primary key,
-    userId int,
-    cardId int,
+    user_id int,
+    card_id int,
     level int,
     experiment int,
     star int,
-    limitBreakId int,
-    awakenId int,
-    reincarnationId int,
-    potentialId int,
     
     block boolean,
+    quantity int,
     
     health double,
-    physicalAttack double,
-    physicalDefense double,
-    magicalAttack double,
-    magicalDefense double,
-    chemicalAttack double,
-    chemicalDefense double,
-    atomicAttack double,
-    atomicDefense double,
-    mentalAttack double,
-    mentalDefense double,
+    physical_attack double,
+    physical_defense double,
+    magical_attack double,
+    magical_defense double,
+    chemical_attack double,
+    chemical_defense double,
+    atomic_attack double,
+    atomic_defense double,
+    mental_attack double,
+    mental_defense double,
     speed double,
-    criticalDamage double,
-    criticalRate double,
-    armorPenetration double,
+    critical_damage double,
+    critical_rate double,
+    armor_penetration double,
     avoid double,
-    absorbsDamage double,
-    regenerateVitality double,
-    mana float
+    absorbs_damage double,
+    regenerate_vitality double,
+    mana float,
+    
+    FOREIGN KEY (card_id) REFERENCES cards(id),
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);
+
+create table user_cards_rank(
+	id int primary key,
+    user_card_id int,
+    
+    all_health double,
+    all_physical_attack double,
+    all_physical_defense double,
+    all_magical_attack double,
+    all_magical_defense double,
+    all_chemical_attack double,
+    all_chemical_defense double,
+    all_atomic_attack double,
+    all_atomic_defense double,
+    all_mental_attack double,
+    all_mental_defense double,
+    all_speed double,
+    all_critical_damage double,
+    all_critical_rate double,
+    all_armor_penetration double,
+    all_avoid double,
+    all_absorbs_damage double,
+    all_regenerate_vitality double,
+    all_mana float,
+    
+    limit_break_id int,
+    awaken_id int,
+    reincarnation_id int,
+    potential_id int,
+    
+    FOREIGN KEY (user_card_id) REFERENCES user_cards(id),
+    FOREIGN KEY (limit_break_id) REFERENCES limit_break(id),
+    FOREIGN KEY (awaken_id) REFERENCES awaken(id),
+    FOREIGN KEY (reincarnation_id) REFERENCES reincarnation(id),
+    FOREIGN KEY (potential_id) REFERENCES potential(id)
 );
 
 create table user_books(
 	id int primary key,
-    userId int,
-    bookId int,
+    user_id int,
+    book_id int,
     level int,
     experiment int,
     star int,
-    limitBreakId int,
-    awakenId int,
-    reincarnationId int,
-    potentialId int,
     
     block boolean,
+    quantity int,
     
     health double,
-    physicalAttack double,
-    physicalDefense double,
-    magicalAttack double,
-    magicalDefense double,
-    chemicalAttack double,
-    chemicalDefense double,
-    atomicAttack double,
-    atomicDefense double,
-    mentalAttack double,
-    mentalDefense double,
+    physical_attack double,
+    physical_defense double,
+    magical_attack double,
+    magical_defense double,
+    chemical_attack double,
+    chemical_defense double,
+    atomic_attack double,
+    atomic_defense double,
+    mental_attack double,
+    mental_defense double,
     speed double,
-    criticalDamage double,
-    criticalRate double,
-    armorPenetration double,
+    critical_damage double,
+    critical_rate double,
+    armor_penetration double,
     avoid double,
-    absorbsDamage double,
-    regenerateVitality double,
-    mana float
+    absorbs_damage double,
+    regenerate_vitality double,
+    mana float,
+    
+    FOREIGN KEY (book_id) REFERENCES books(id),
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);
+
+create table user_books_rank(
+	id int primary key,
+    user_book_id int,
+    
+    all_health double,
+    all_physical_attack double,
+    all_physical_defense double,
+    all_magical_attack double,
+    all_magical_defense double,
+    all_chemical_attack double,
+    all_chemical_defense double,
+    all_atomic_attack double,
+    all_atomic_defense double,
+    all_mental_attack double,
+    all_mental_defense double,
+    all_speed double,
+    all_critical_damage double,
+    all_critical_rate double,
+    all_armor_penetration double,
+    all_avoid double,
+    all_absorbs_damage double,
+    all_regenerate_vitality double,
+    all_mana float,
+    
+    limit_break_id int,
+    awaken_id int,
+    reincarnation_id int,
+    potential_id int,
+    
+    FOREIGN KEY (user_book_id) REFERENCES user_books(id),
+    FOREIGN KEY (limit_break_id) REFERENCES limit_break(id),
+    FOREIGN KEY (awaken_id) REFERENCES awaken(id),
+    FOREIGN KEY (reincarnation_id) REFERENCES reincarnation(id),
+    FOREIGN KEY (potential_id) REFERENCES potential(id)
 );
 
 create table user_army(
 	id int primary key,
-    userId int,
-    armyId int,
+    user_id int,
+    army_id int,
     level int,
     experiment int,
     star int,
-    limitBreakId int,
-    awakenId int,
-    reincarnationId int,
-    potentialId int,
     
     block boolean,
+    quantity int,
     
     health double,
-    physicalAttack double,
-    physicalDefense double,
-    magicalAttack double,
-    magicalDefense double,
-    chemicalAttack double,
-    chemicalDefense double,
-    atomicAttack double,
-    atomicDefense double,
-    mentalAttack double,
-    mentalDefense double,
+    physical_attack double,
+    physical_defense double,
+    magical_attack double,
+    magical_defense double,
+    chemical_attack double,
+    chemical_defense double,
+    atomic_attack double,
+    atomic_defense double,
+    mental_attack double,
+    mental_defense double,
     speed double,
-    criticalDamage double,
-    criticalRate double,
-    armorPenetration double,
+    critical_damage double,
+    critical_rate double,
+    armor_penetration double,
     avoid double,
-    absorbsDamage double,
-    regenerateVitality double,
-    mana float
+    absorbs_damage double,
+    regenerate_vitality double,
+    mana float,
+    
+    FOREIGN KEY (army_id) REFERENCES army(id),
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);
+
+create table user_army_rank(
+	id int primary key,
+    user_army_id int,
+    
+    all_health double,
+    all_physical_attack double,
+    all_physical_defense double,
+    all_magical_attack double,
+    all_magical_defense double,
+    all_chemical_attack double,
+    all_chemical_defense double,
+    all_atomic_attack double,
+    all_atomic_defense double,
+    all_mental_attack double,
+    all_mental_defense double,
+    all_speed double,
+    all_critical_damage double,
+    all_critical_rate double,
+    all_armor_penetration double,
+    all_avoid double,
+    all_absorbs_damage double,
+    all_regenerate_vitality double,
+    all_mana float,
+    
+    limit_break_id int,
+    awaken_id int,
+    reincarnation_id int,
+    potential_id int,
+    
+    FOREIGN KEY (user_army_id) REFERENCES user_army(id),
+    FOREIGN KEY (limit_break_id) REFERENCES limit_break(id),
+    FOREIGN KEY (awaken_id) REFERENCES awaken(id),
+    FOREIGN KEY (reincarnation_id) REFERENCES reincarnation(id),
+    FOREIGN KEY (potential_id) REFERENCES potential(id)
 );
 
 create table user_collaboration_equipments(
 	id int primary key,
-    userId int,
-    collaborationEquipmentId int,
+    user_id int,
+    collaboration_equipment_id int,
     level int,
     experiment int,
     star int,
-    limitBreakId int,
-    awakenId int,
-    reincarnationId int,
-    potentialId int,
     
     block boolean,
     
     health double,
-    physicalAttack double,
-    physicalDefense double,
-    magicalAttack double,
-    magicalDefense double,
-    chemicalAttack double,
-    chemicalDefense double,
-    atomicAttack double,
-    atomicDefense double,
-    mentalAttack double,
-    mentalDefense double,
+    physical_attack double,
+    physical_defense double,
+    magical_attack double,
+    magical_defense double,
+    chemical_attack double,
+    chemical_defense double,
+    atomic_attack double,
+    atomic_defense double,
+    mental_attack double,
+    mental_defense double,
     speed double,
-    criticalDamage double,
-    criticalRate double,
-    armorPenetration double,
+    critical_damage double,
+    critical_rate double,
+    armor_penetration double,
     avoid double,
-    absorbsDamage double,
-    regenerateVitality double,
-    mana float
+    absorbs_damage double,
+    regenerate_vitality double,
+    mana float,
+    
+    FOREIGN KEY (collaboration_equipment_id) REFERENCES collaboration_equipments(id),
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);
+
+create table user_collaboration_equipments_rank(
+	id int primary key,
+    user_collaboration_equipment_id int,
+    
+    all_health double,
+    all_physical_attack double,
+    all_physical_defense double,
+    all_magical_attack double,
+    all_magical_defense double,
+    all_chemical_attack double,
+    all_chemical_defense double,
+    all_atomic_attack double,
+    all_atomic_defense double,
+    all_mental_attack double,
+    all_mental_defense double,
+    all_speed double,
+    all_critical_damage double,
+    all_critical_rate double,
+    all_armor_penetration double,
+    all_avoid double,
+    all_absorbs_damage double,
+    all_regenerate_vitality double,
+    all_mana float,
+    
+    limit_break_id int,
+    awaken_id int,
+    reincarnation_id int,
+    potential_id int,
+    
+    FOREIGN KEY (user_collaboration_equipment_id) REFERENCES user_collaboration_equipments(id),
+    FOREIGN KEY (limit_break_id) REFERENCES limit_break(id),
+    FOREIGN KEY (awaken_id) REFERENCES awaken(id),
+    FOREIGN KEY (reincarnation_id) REFERENCES reincarnation(id),
+    FOREIGN KEY (potential_id) REFERENCES potential(id)
 );
 
 create table user_equipments(
 	id int primary key,
-    userId int,
-    equipmentId int,
+    user_id int,
+    equipment_id int,
     level int,
     experiment int,
     star int,
-    limitBreakId int,
-    awakenId int,
-    reincarnationId int,
-    potentialId int,
     
     block boolean,
     
     health double,
-    physicalAttack double,
-    physicalDefense double,
-    magicalAttack double,
-    magicalDefense double,
-    chemicalAttack double,
-    chemicalDefense double,
-    atomicAttack double,
-    atomicDefense double,
-    mentalAttack double,
-    mentalDefense double,
+    physical_attack double,
+    physical_defense double,
+    magical_attack double,
+    magical_defense double,
+    chemical_attack double,
+    chemical_defense double,
+    atomic_attack double,
+    atomic_defense double,
+    mental_attack double,
+    mental_defense double,
     speed double,
-    criticalDamage double,
-    criticalRate double,
-    armorPenetration double,
+    critical_damage double,
+    critical_rate double,
+    armor_penetration double,
     avoid double,
-    absorbsDamage double,
-    regenerateVitality double,
-    mana float
+    absorbs_damage double,
+    regenerate_vitality double,
+    mana float,
+    
+    full_equipment_id int,
+    
+    FOREIGN KEY (equipment_id) REFERENCES equipments(id),
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);
+
+create table user_equipments_rank(
+	id int primary key,
+    user_equipment_id int,
+    
+    all_health double,
+    all_physical_attack double,
+    all_physical_defense double,
+    all_magical_attack double,
+    all_magical_defense double,
+    all_chemical_attack double,
+    all_chemical_defense double,
+    all_atomic_attack double,
+    all_atomic_defense double,
+    all_mental_attack double,
+    all_mental_defense double,
+    all_speed double,
+    all_critical_damage double,
+    all_critical_rate double,
+    all_armor_penetration double,
+    all_avoid double,
+    all_absorbs_damage double,
+    all_regenerate_vitality double,
+    all_mana float,
+    
+    limit_break_id int,
+    awaken_id int,
+    reincarnation_id int,
+    potential_id int,
+    
+    FOREIGN KEY (user_equipment_id) REFERENCES user_equipments(id),
+    FOREIGN KEY (limit_break_id) REFERENCES limit_break(id),
+    FOREIGN KEY (awaken_id) REFERENCES awaken(id),
+    FOREIGN KEY (reincarnation_id) REFERENCES reincarnation(id),
+    FOREIGN KEY (potential_id) REFERENCES potential(id)
 );
 
 create table user_pets(
 	id int primary key,
-    userId int,
-    petId int,
+    user_id int,
+    pet_id int,
     level int,
     experiment int,
     star int,
-    limitBreakId int,
-    awakenId int,
-    reincarnationId int,
-    potentialId int,
     
     block boolean,
     
     health double,
-    physicalAttack double,
-    physicalDefense double,
-    magicalAttack double,
-    magicalDefense double,
-    chemicalAttack double,
-    chemicalDefense double,
-    atomicAttack double,
-    atomicDefense double,
-    mentalAttack double,
-    mentalDefense double,
+    physical_attack double,
+    physical_defense double,
+    magical_attack double,
+    magical_defense double,
+    chemical_attack double,
+    chemical_defense double,
+    atomic_attack double,
+    atomic_defense double,
+    mental_attack double,
+    mental_defense double,
     speed double,
-    criticalDamage double,
-    criticalRate double,
-    armorPenetration double,
+    critical_damage double,
+    critical_rate double,
+    armor_penetration double,
     avoid double,
-    absorbsDamage double,
-    regenerateVitality double,
-    mana float
+    absorbs_damage double,
+    regenerate_vitality double,
+    mana float,
+    
+    FOREIGN KEY (pet_id) REFERENCES pets(id),
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);
+
+create table user_pets_rank(
+	id int primary key,
+    user_pet_id int,
+    
+    all_health double,
+    all_physical_attack double,
+    all_physical_defense double,
+    all_magical_attack double,
+    all_magical_defense double,
+    all_chemical_attack double,
+    all_chemical_defense double,
+    all_atomic_attack double,
+    all_atomic_defense double,
+    all_mental_attack double,
+    all_mental_defense double,
+    all_speed double,
+    all_critical_damage double,
+    all_critical_rate double,
+    all_armor_penetration double,
+    all_avoid double,
+    all_absorbs_damage double,
+    all_regenerate_vitality double,
+    all_mana float,
+    
+    limit_break_id int,
+    awaken_id int,
+    reincarnation_id int,
+    potential_id int,
+    
+    FOREIGN KEY (user_pet_id) REFERENCES user_pets(id),
+    FOREIGN KEY (limit_break_id) REFERENCES limit_break(id),
+    FOREIGN KEY (awaken_id) REFERENCES awaken(id),
+    FOREIGN KEY (reincarnation_id) REFERENCES reincarnation(id),
+    FOREIGN KEY (potential_id) REFERENCES potential(id)
 );
 
 create table user_skill(
 	id int primary key,
-    userId int,
-    skillId int,
+    user_id int,
+    skill_id int,
     level int,
     star int,
+    
     health double,
-    physicalAttack double,
-    physicalDefense double,
-    magicalAttack double,
-    magicalDefense double,
-    chemicalAttack double,
-    chemicalDefense double,
-    atomicAttack double,
-    atomicDefense double,
-    mentalAttack double,
-    mentalDefense double,
+    physical_attack double,
+    physical_defense double,
+    magical_attack double,
+    magical_defense double,
+    chemical_attack double,
+    chemical_defense double,
+    atomic_attack double,
+    atomic_defense double,
+    mental_attack double,
+    mental_defense double,
     speed double,
-    criticalDamage double,
-    criticalRate double,
-    armorPenetration double,
+    critical_damage double,
+    critical_rate double,
+    armor_penetration double,
     avoid double,
-    absorbsDamage double,
-    regenerateVitality double,
-    mana float
+    absorbs_damage double,
+    regenerate_vitality double,
+    mana float,
+    
+    FOREIGN KEY (skill_id) REFERENCES skills(id),
+    FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
 create table user_items(
 	id int primary key,
-    itemId int,
-    quantity int
+    user_id int,
+    item_id int,
+    quantity int,
+    
+    FOREIGN KEY (user_id) REFERENCES users(id),
+    FOREIGN KEY (item_id) REFERENCES items(id)
 );
 
 create table user_achievements(
 	id int primary key,
-    achievementId int,
-    userId int,
-    health double,
-    physicalAttack double,
-    physicalDefense double,
-    magicalAttack double,
-    magicalDefense double,
-    chemicalAttack double,
-    chemicalDefense double,
-    atomicAttack double,
-    atomicDefense double,
-    mentalAttack double,
-    mentalDefense double,
-    speed double,
-    criticalDamage double,
-    criticalRate double,
-    armorPenetration double,
-    avoid double,
-    absorbsDamage double,
-    regenerateVitality double
+    achievement_id int,
+    user_id int,
+    
+    FOREIGN KEY (achievement_id) REFERENCES achievements(id),
+    FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
 create table user_medals(
 	id int primary key,
-    medalId int,
-    userId int,
-    health double,
-    physicalAttack double,
-    physicalDefense double,
-    magicalAttack double,
-    magicalDefense double,
-    chemicalAttack double,
-    chemicalDefense double,
-    atomicAttack double,
-    atomicDefense double,
-    mentalAttack double,
-    mentalDefense double,
-    speed double,
-    criticalDamage double,
-    criticalRate double,
-    armorPenetration double,
-    avoid double,
-    absorbsDamage double,
-    regenerateVitality double
+    medal_id int,
+    user_id int,
+    
+    FOREIGN KEY (medal_id) REFERENCES medals(id),
+    FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
 create table user_symbols(
 	id int primary key,
-    symbolId int,
-    userId int,
-    rare varchar(100),
-    type varchar(100),
-    health double,
-    physicalAttack double,
-    physicalDefense double,
-    magicalAttack double,
-    magicalDefense double,
-    chemicalAttack double,
-    chemicalDefense double,
-    atomicAttack double,
-    atomicDefense double,
-    mentalAttack double,
-    mentalDefense double,
-    speed double,
-    criticalDamage double,
-    criticalRate double,
-    armorPenetration double,
-    avoid double,
-    absorbsDamage double,
-    regenerateVitality double
+    symbol_id int,
+    user_id int,
+    
+    FOREIGN KEY (symbol_id) REFERENCES symbols(id),
+    FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
 create table user_titles(
 	id int primary key,
-    titleId int,
-    userId int,
-    health double,
-    physicalAttack double,
-    physicalDefense double,
-    magicalAttack double,
-    magicalDefense double,
-    chemicalAttack double,
-    chemicalDefense double,
-    atomicAttack double,
-    atomicDefense double,
-    mentalAttack double,
-    mentalDefense double,
-    speed double,
-    criticalDamage double,
-    criticalRate double,
-    armorPenetration double,
-    avoid double,
-    absorbsDamage double,
-    regenerateVitality double
+    title_id int,
+    user_id int,
+    
+    FOREIGN KEY (title_id) REFERENCES titles(id),
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);
+
+create table user_borders(
+	id int primary key,
+    border_id int,
+    user_id int,
+    
+    FOREIGN KEY (border_id) REFERENCES borders(id),
+    FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
 create table user_cards_gallery(
 	id int primary key,
-    userId int,
-    cardId int,
+    user_id int,
+    card_id int,
+    
     available boolean,
     star int,
     health double,
-    physicalAttack double,
-    physicalDefense double,
-    magicalAttack double,
-    magicalDefense double,
-    chemicalAttack double,
-    chemicalDefense double,
-    atomicAttack double,
-    atomicDefense double,
-    mentalAttack double,
-    mentalDefense double,
+    physical_attack double,
+    physical_defense double,
+    magical_attack double,
+    magical_defense double,
+    chemical_attack double,
+    chemical_defense double,
+    atomic_attack double,
+    atomic_defense double,
+    mental_attack double,
+    mental_defense double,
     speed double,
-    criticalDamage double,
-    criticalRate double,
-    armorPenetration double,
+    critical_damage double,
+    critical_rate double,
+    armor_penetration double,
     avoid double,
-    absorbsDamage double,
-    regenerateVitality double,
+    absorbs_damage double,
+    regenerate_vitality double,
     mana float,
-    allCardsId int
+    
+    percent_all_health double,
+    percent_all_physical_attack double,
+    percent_all_physical_defense double,
+    percent_all_magical_attack double,
+    percent_all_magical_defense double,
+    percent_all_chemical_attack double,
+    percent_all_chemical_defense double,
+    percent_all_atomic_attack double,
+    percent_all_atomic_defense double,
+    percent_all_mental_attack double,
+    percent_all_mental_defense double,
+    
+    FOREIGN KEY (user_id) REFERENCES users(id),
+    FOREIGN KEY (card_id) REFERENCES cards(id)
 );
 
 create table user_books_gallery(
 	id int primary key,
-    userId int,
-    bookId int,
+    user_id int,
+    book_id int,
+    
     available boolean,
     star int,
     health double,
-    physicalAttack double,
-    physicalDefense double,
-    magicalAttack double,
-    magicalDefense double,
-    chemicalAttack double,
-    chemicalDefense double,
-    atomicAttack double,
-    atomicDefense double,
-    mentalAttack double,
-    mentalDefense double,
+    physical_attack double,
+    physical_defense double,
+    magical_attack double,
+    magical_defense double,
+    chemical_attack double,
+    chemical_defense double,
+    atomic_attack double,
+    atomic_defense double,
+    mental_attack double,
+    mental_defense double,
     speed double,
-    criticalDamage double,
-    criticalRate double,
-    armorPenetration double,
+    critical_damage double,
+    critical_rate double,
+    armor_penetration double,
     avoid double,
-    absorbsDamage double,
-    regenerateVitality double,
+    absorbs_damage double,
+    regenerate_vitality double,
     mana float,
-    allBooksId int
+    
+    percent_all_health double,
+    percent_all_physical_attack double,
+    percent_all_physical_defense double,
+    percent_all_magical_attack double,
+    percent_all_magical_defense double,
+    percent_all_chemical_attack double,
+    percent_all_chemical_defense double,
+    percent_all_atomic_attack double,
+    percent_all_atomic_defense double,
+    percent_all_mental_attack double,
+    percent_all_mental_defense double,
+    
+    FOREIGN KEY (user_id) REFERENCES users(id),
+    FOREIGN KEY (book_id) REFERENCES books(id)
 );
 
 create table user_army_gallery(
 	id int primary key,
-    userId int,
-    armyId int,
+    user_id int,
+    army_id int,
+    
     available boolean,
     star int,
     health double,
-    physicalAttack double,
-    physicalDefense double,
-    magicalAttack double,
-    magicalDefense double,
-    chemicalAttack double,
-    chemicalDefense double,
-    atomicAttack double,
-    atomicDefense double,
-    mentalAttack double,
-    mentalDefense double,
+    physical_attack double,
+    physical_defense double,
+    magical_attack double,
+    magical_defense double,
+    chemical_attack double,
+    chemical_defense double,
+    atomic_attack double,
+    atomic_defense double,
+    mental_attack double,
+    mental_defense double,
     speed double,
-    criticalDamage double,
-    criticalRate double,
-    armorPenetration double,
+    critical_damage double,
+    critical_rate double,
+    armor_penetration double,
     avoid double,
-    absorbsDamage double,
-    regenerateVitality double,
+    absorbs_damage double,
+    regenerate_vitality double,
     mana float,
-    allArmyId int
+    
+    percent_all_health double,
+    percent_all_physical_attack double,
+    percent_all_physical_defense double,
+    percent_all_magical_attack double,
+    percent_all_magical_defense double,
+    percent_all_chemical_attack double,
+    percent_all_chemical_defense double,
+    percent_all_atomic_attack double,
+    percent_all_atomic_defense double,
+    percent_all_mental_attack double,
+    percent_all_mental_defense double,
+    
+    FOREIGN KEY (user_id) REFERENCES users(id),
+    FOREIGN KEY (army_id) REFERENCES army(id)
 );
 
 create table user_collaboration_equipments_gallery(
 	id int primary key,
-    userId int,
-    collaborationEquipmentId int,
+    user_id int,
+    collaboration_equipment_id int,
+    
     available boolean,
     star int,
     health double,
-    physicalAttack double,
-    physicalDefense double,
-    magicalAttack double,
-    magicalDefense double,
-    chemicalAttack double,
-    chemicalDefense double,
-    atomicAttack double,
-    atomicDefense double,
-    mentalAttack double,
-    mentalDefense double,
+    physical_attack double,
+    physical_defense double,
+    magical_attack double,
+    magical_defense double,
+    chemical_attack double,
+    chemical_defense double,
+    atomic_attack double,
+    atomic_defense double,
+    mental_attack double,
+    mental_defense double,
     speed double,
-    criticalDamage double,
-    criticalRate double,
-    armorPenetration double,
+    critical_damage double,
+    critical_rate double,
+    armor_penetration double,
     avoid double,
-    absorbsDamage double,
-    regenerateVitality double,
+    absorbs_damage double,
+    regenerate_vitality double,
     mana float,
-    allCollaborationEquipmentsId int
+    
+    percent_all_health double,
+    percent_all_physical_attack double,
+    percent_all_physical_defense double,
+    percent_all_magical_attack double,
+    percent_all_magical_defense double,
+    percent_all_chemical_attack double,
+    percent_all_chemical_defense double,
+    percent_all_atomic_attack double,
+    percent_all_atomic_defense double,
+    percent_all_mental_attack double,
+    percent_all_mental_defense double,
+    
+    FOREIGN KEY (user_id) REFERENCES users(id),
+    FOREIGN KEY (collaboration_equipment_id) REFERENCES collaboration_equipments(id)
 );
 
 create table user_equipments_gallery(
 	id int primary key,
-    userId int,
-    equipmentId int,
+    user_id int,
+    equipment_id int,
+    
 	available boolean,
     star int,
     health double,
-    physicalAttack double,
-    physicalDefense double,
-    magicalAttack double,
-    magicalDefense double,
-    chemicalAttack double,
-    chemicalDefense double,
-    atomicAttack double,
-    atomicDefense double,
-    mentalAttack double,
-    mentalDefense double,
+    physical_attack double,
+    physical_defense double,
+    magical_attack double,
+    magical_defense double,
+    chemical_attack double,
+    chemical_defense double,
+    atomic_attack double,
+    atomic_defense double,
+    mental_attack double,
+    mental_defense double,
     speed double,
-    criticalDamage double,
-    criticalRate double,
-    armorPenetration double,
+    critical_damage double,
+    critical_rate double,
+    armor_penetration double,
     avoid double,
-    absorbsDamage double,
-    regenerateVitality double,
+    absorbs_damage double,
+    regenerate_vitality double,
     mana float,
-    allEquipmentId int
+    
+    percent_all_health double,
+    percent_all_physical_attack double,
+    percent_all_physical_defense double,
+    percent_all_magical_attack double,
+    percent_all_magical_defense double,
+    percent_all_chemical_attack double,
+    percent_all_chemical_defense double,
+    percent_all_atomic_attack double,
+    percent_all_atomic_defense double,
+    percent_all_mental_attack double,
+    percent_all_mental_defense double,
+    
+    FOREIGN KEY (user_id) REFERENCES users(id),
+    FOREIGN KEY (equipment_id) REFERENCES equipments(id)
 );
 
 create table user_pets_gallery(
 	id int primary key,
-    userId int,
-    petId int,
+    user_id int,
+    pet_id int,
+    
     available boolean,
     star int,
     health double,
-    physicalAttack double,
-    physicalDefense double,
-    magicalAttack double,
-    magicalDefense double,
-    chemicalAttack double,
-    chemicalDefense double,
-    atomicAttack double,
-    atomicDefense double,
-    mentalAttack double,
-    mentalDefense double,
+    physical_attack double,
+    physical_defense double,
+    magical_attack double,
+    magical_defense double,
+    chemical_attack double,
+    chemical_defense double,
+    atomic_attack double,
+    atomic_defense double,
+    mental_attack double,
+    mental_defense double,
     speed double,
-    criticalDamage double,
-    criticalRate double,
-    armorPenetration double,
+    critical_damage double,
+    critical_rate double,
+    armor_penetration double,
     avoid double,
-    absorbsDamage double,
-    regenerateVitality double,
+    absorbs_damage double,
+    regenerate_vitality double,
     mana float,
-    allPetsId int
-);
-
-create table equipment_gem(
-	id int primary key,
-    userId int,
-    equipmentId1 int,
-    gemId1 int,
-    gemId2 int,
-    gemId3 int,
-    gemId4 int,
-    gemId5 int,
-    gemId6 int,
-    gemId7 int,
-    gemId8 int
-);
-
-create table equipment_amnitus(
-	id int primary key,
-    userId int,
-    equipmentGemId1 int,
-    equipmentGemId2 int,
-    equipmentGemId3 int,
-    equipmentGemId4 int,
-    equipmentGemId5 int,
-    equipmentGemId6 int,
-    equipmentGemId7 int,
-    equipmentGemId8 int
-);
-
-create table equipment_angelis_all(
-	id int primary key,
-    userId int,
     
-	allHealth double,
-    allPhysicalAttack double,
-    allPhysicalDefense double,
-    allMagicalAttack double,
-    allMagicalDefense double,
-    allChemicalAttack double,
-    allChemicalDefense double,
-    allAtomicAttack double,
-    allAtomicDefense double,
-    allMentalAttack double,
-    allMentalDefense double,
-    allSpeed double,
-    allCriticalDamage double,
-    allCriticalRate double,
-    allArmorPenetration double,
-    allAvoid double,
-    allAbsorbsDamage double,
-    allRegenerateVitality double,
-    allMana float
-);
-
-create table equipment_angelis(
-	id int primary key,
-    userId int,
-    equipmentGemId1 int,
-    equipmentAngelisAllId int
-);
-
-create table equipment_bellion(
-	id int primary key,
-    userId int,
-    equipmentGemId1 int,
-    equipmentGemId2 int,
-    equipmentGemId3 int,
-    equipmentGemId4 int
-);
-
-create table equipment_benzamin_set1(
-	id int primary key,
-    userId int,
-    equipmentId1 int,
-    equipmentId2 int,
-    equipmentId3 int,
-    equipmentId4 int
-);
-
-create table equipment_benzamin_set2(
-	id int primary key,
-    userId int,
-    equipmentId1 int,
-    equipmentId2 int,
-    equipmentId3 int,
-    equipmentId4 int
-);
-
-create table equipment_benzamin_set3(
-	id int primary key,
-    userId int,
-    equipmentId1 int,
-    equipmentId2 int,
-    equipmentId3 int,
-    equipmentId4 int
-);
-
-create table equipment_ceverus_set1(
-	id int primary key,
-    userId int,
-    equipmentId1 int,
-    equipmentId2 int,
-    equipmentId3 int,
-    equipmentId4 int
-);
-
-create table equipment_ceverus_set2(
-	id int primary key,
-    userId int,
-    equipmentId1 int,
-    equipmentId2 int,
-    equipmentId3 int,
-    equipmentId4 int
-);
-
-create table equipment_ceverus_set3(
-	id int primary key,
-    userId int,
-    equipmentId1 int,
-    equipmentId2 int,
-    equipmentId3 int,
-    equipmentId4 int
-);
-
-create table equipment_ceverus_set4(
-	id int primary key,
-    userId int,
-    equipmentId1 int,
-    equipmentId2 int,
-    equipmentId3 int,
-    equipmentId4 int
-);
-
-create table equipment_crystal_all(
-	id int primary key,
-    userId int,
+    percent_all_health double,
+    percent_all_physical_attack double,
+    percent_all_physical_defense double,
+    percent_all_magical_attack double,
+    percent_all_magical_defense double,
+    percent_all_chemical_attack double,
+    percent_all_chemical_defense double,
+    percent_all_atomic_attack double,
+    percent_all_atomic_defense double,
+    percent_all_mental_attack double,
+    percent_all_mental_defense double,
     
-	allHealth double,
-    allPhysicalAttack double,
-    allPhysicalDefense double,
-    allMagicalAttack double,
-    allMagicalDefense double,
-    allChemicalAttack double,
-    allChemicalDefense double,
-    allAtomicAttack double,
-    allAtomicDefense double,
-    allMentalAttack double,
-    allMentalDefense double,
-    allSpeed double,
-    allCriticalDamage double,
-    allCriticalRate double,
-    allArmorPenetration double,
-    allAvoid double,
-    allAbsorbsDamage double,
-    allRegenerateVitality double,
-    allMana float
+    FOREIGN KEY (user_id) REFERENCES users(id),
+    FOREIGN KEY (pet_id) REFERENCES pets(id)
 );
 
-create table equipment_crystal(
+create table user_currency(
 	id int primary key,
-    userId int,
-    equipmentId1 int,
-    equipmentCrystalAll int
-);
-
-create table equipment_domitius(
-	id int primary key,
-    userId int,
-    equipmentGemId1 int,
-    equipmentGemId2 int,
-    equipmentGemId3 int,
-    equipmentGemId4 int,
-    equipmentGemId5 int,
-    equipmentGemId6 int
-);
-
-create table equipment_ellis(
-	id int primary key,
-    userId int,
-    equipmentId1 int,
-    equipmentId2 int,
-    equipmentId3 int,
-    equipmentId4 int,
-    equipmentId5 int,
-    equipmentId6 int,
-    equipmentId7 int,
-    equipmentId8 int
-);
-
-create table equipment_extra_set1(
-	id int primary key,
-    userId int,
-    equipmentGemId1 int,
-    equipmentGemId2 int,
-    equipmentGemId3 int,
-    equipmentGemId4 int
-);
-
-create table equipment_extra_set2(
-	id int primary key,
-    userId int,
-    equipmentGemId1 int,
-    equipmentGemId2 int,
-    equipmentGemId3 int,
-    equipmentGemId4 int
-);
-
-create table equipment_extra_set3(
-	id int primary key,
-    userId int,
-    equipmentGemId1 int,
-    equipmentGemId2 int,
-    equipmentGemId3 int,
-    equipmentGemId4 int
-);
-
-create table equipment_extra_set4(
-	id int primary key,
-    userId int,
-    equipmentGemId1 int,
-    equipmentGemId2 int,
-    equipmentGemId3 int,
-    equipmentGemId4 int
-);
-
-create table equipment_extra_set5(
-	id int primary key,
-    userId int,
-    equipmentGemId1 int,
-    equipmentGemId2 int,
-    equipmentGemId3 int,
-    equipmentGemId4 int
-);
-
-create table equipment_faltus_all(
-	id int primary key,
-    userId int,
+    user_id int,
+    currency_id int,
+    quantity double,
     
-	allHealth double,
-    allPhysicalAttack double,
-    allPhysicalDefense double,
-    allMagicalAttack double,
-    allMagicalDefense double,
-    allChemicalAttack double,
-    allChemicalDefense double,
-    allAtomicAttack double,
-    allAtomicDefense double,
-    allMentalAttack double,
-    allMentalDefense double,
-    allSpeed double,
-    allCriticalDamage double,
-    allCriticalRate double,
-    allArmorPenetration double,
-    allAvoid double,
-    allAbsorbsDamage double,
-    allRegenerateVitality double,
-    allMana float
+    FOREIGN KEY (user_id) REFERENCES users(id),
+    FOREIGN KEY (currency_id) REFERENCES currency(id)
 );
 
-create table equipment_faltus(
+create table mail(
 	id int primary key,
-    userId int,
-    equipmentId1 int,
-    equipmentFaltusAll int
-);
-
-create table equipment_everlyn_set1(
-	id int primary key,
-    userId int,
-    equipmentId1 int,
-    equipmentId2 int,
-    equipmentId3 int,
-    equipmentId4 int
-);
-
-create table equipment_everlyn_set2(
-	id int primary key,
-    userId int,
-    equipmentId1 int,
-    equipmentId2 int,
-    equipmentId3 int,
-    equipmentId4 int
-);
-
-create table equipment_hagoro_set1(
-	id int primary key,
-    userId int,
-    equipmentId1 int,
-    equipmentId2 int,
-    equipmentId3 int,
-    equipmentId4 int,
-    equipmentId5 int,
-    equipmentId6 int,
-    equipmentId7 int,
-    equipmentId8 int,
-    equipmentId9 int,
-    equipmentId10 int,
-    equipmentId11 int,
-    equipmentId12 int,
-    equipmentId13 int,
-    equipmentId14 int,
-    equipmentId15 int,
-    equipmentId16 int,
-    equipmentId17 int,
-    equipmentId18 int,
-    equipmentId19 int,
-    equipmentId20 int
-);
-
-create table equipment_hagoro_set2(
-	id int primary key,
-    userId int,
-    equipmentId1 int,
-    equipmentId2 int,
-    equipmentId3 int,
-    equipmentId4 int,
-    equipmentId5 int,
-    equipmentId6 int,
-    equipmentId7 int,
-    equipmentId8 int
-);
-
-create table equipment_karis_all(
-	id int primary key,
-    userId int,
+    user_id int,
+    item_id int,
+    type varchar(100),
     
-	allHealth double,
-    allPhysicalAttack double,
-    allPhysicalDefense double,
-    allMagicalAttack double,
-    allMagicalDefense double,
-    allChemicalAttack double,
-    allChemicalDefense double,
-    allAtomicAttack double,
-    allAtomicDefense double,
-    allMentalAttack double,
-    allMentalDefense double,
-    allSpeed double,
-    allCriticalDamage double,
-    allCriticalRate double,
-    allArmorPenetration double,
-    allAvoid double,
-    allAbsorbsDamage double,
-    allRegenerateVitality double,
-    allMana float
+    FOREIGN KEY (user_id) REFERENCES users(id),
+    FOREIGN KEY (item_id) REFERENCES items(id)
 );
 
-create table equipment_karis(
+create table full_equipment(
 	id int primary key,
     userId int,
-    equipmentId1 int,
-    equipmentKarisAllId int
-);
-
-create table equipment_marcus(
-	id int primary key,
-    userId int,
-    equipmentId1 int,
-    equipmentId2 int,
-    equipmentId3 int,
-    equipmentId4 int
-);
-
-create table equipment_hakalite(
-	id int primary key,
-    userId int,
-    equipmentId1 int,
-    equipmentId2 int,
-    equipmentId3 int,
-    equipmentId4 int
-);
-
-create table equipment_heatherus_all(
-	id int primary key,
-    userId int,
+    equipmentId int,
+    extra_equipment_id int,
     
-	allHealth double,
-    allPhysicalAttack double,
-    allPhysicalDefense double,
-    allMagicalAttack double,
-    allMagicalDefense double,
-    allChemicalAttack double,
-    allChemicalDefense double,
-    allAtomicAttack double,
-    allAtomicDefense double,
-    allMentalAttack double,
-    allMentalDefense double,
-    allSpeed double,
-    allCriticalDamage double,
-    allCriticalRate double,
-    allArmorPenetration double,
-    allAvoid double,
-    allAbsorbsDamage double,
-    allRegenerateVitality double,
-    allMana float
-);
-
-create table equipment_heatherus(
-	id int primary key,
-    userId int,
-    equipmentId1 int,
-    equipmentHeatherusAllId int
-);
-
-create table equipment_ignis_set1(
-	id int primary key,
-    userId int,
-    equipmentGemId1 int,
-    equipmentGemId2 int,
-    equipmentGemId3 int,
-    equipmentGemId4 int
-);
-
-create table equipment_ignis_set2(
-	id int primary key,
-    userId int,
-    equipmentGemId1 int,
-    equipmentGemId2 int,
-    equipmentGemId3 int,
-    equipmentGemId4 int
-);
-
-create table equipment_ignis_set3(
-	id int primary key,
-    userId int,
-    equipmentGemId1 int,
-    equipmentGemId2 int,
-    equipmentGemId3 int,
-    equipmentGemId4 int
-);
-
-create table equipment_ignis_set4(
-	id int primary key,
-    userId int,
-	equipmentGemId1 int,
-    equipmentGemId2 int,
-    equipmentGemId3 int,
-    equipmentGemId4 int
-);
-
-create table equipment_ivitus(
-	id int primary key,
-    userId int,
-     equipmentGemId1 int,
-    equipmentGemId2 int,
-    equipmentGemId3 int,
-    equipmentGemId4 int,
-    equipmentGemId5 int,
-    equipmentGemId6 int
-);
-
-create table equipment_karmus(
-	id int primary key,
-    userId int,
-	equipmentGemId1 int,
-    equipmentGemId2 int,
-    equipmentGemId3 int,
-    equipmentGemId4 int,
-    equipmentGemId5 int,
-    equipmentGemId6 int
-);
-
-create table equipment_luminius_all(
-	id int primary key,
-    userId int,
+    fact_army_id int,
+    fact_book_id int,
+    fact_pet_id int,
+    fact_card_id int,
     
-	allHealth double,
-    allPhysicalAttack double,
-    allPhysicalDefense double,
-    allMagicalAttack double,
-    allMagicalDefense double,
-    allChemicalAttack double,
-    allChemicalDefense double,
-    allAtomicAttack double,
-    allAtomicDefense double,
-    allMentalAttack double,
-    allMentalDefense double,
-    allSpeed double,
-    allCriticalDamage double,
-    allCriticalRate double,
-    allArmorPenetration double,
-    allAvoid double,
-    allAbsorbsDamage double,
-    allRegenerateVitality double,
-    allMana float
-);
-
-create table equipment_luminius(
-	id int primary key,
-    userId int,
-    equipmentId1 int,
-    equipmentLuminiusAll int
-);
-
-create table equipment_morganis_all(
-	id int primary key,
-    userId int,
-    
-	allHealth double,
-    allPhysicalAttack double,
-    allPhysicalDefense double,
-    allMagicalAttack double,
-    allMagicalDefense double,
-    allChemicalAttack double,
-    allChemicalDefense double,
-    allAtomicAttack double,
-    allAtomicDefense double,
-    allMentalAttack double,
-    allMentalDefense double,
-    allSpeed double,
-    allCriticalDamage double,
-    allCriticalRate double,
-    allArmorPenetration double,
-    allAvoid double,
-    allAbsorbsDamage double,
-    allRegenerateVitality double,
-    allMana float
-);
-create table equipment_morganis(
-	id int primary key,
-    userId int,
-    equipmentId1 int,
-    equipmentMorganisAllId int
-);
-
-create table equipment_nimigazin_all(
-	id int primary key,
-    userId int,
-    
-	allHealth double,
-    allPhysicalAttack double,
-    allPhysicalDefense double,
-    allMagicalAttack double,
-    allMagicalDefense double,
-    allChemicalAttack double,
-    allChemicalDefense double,
-    allAtomicAttack double,
-    allAtomicDefense double,
-    allMentalAttack double,
-    allMentalDefense double,
-    allSpeed double,
-    allCriticalDamage double,
-    allCriticalRate double,
-    allArmorPenetration double,
-    allAvoid double,
-    allAbsorbsDamage double,
-    allRegenerateVitality double,
-    allMana float
-);
-
-create table equipment_nimigazin(
-	id int primary key,
-    userId int,
-    equipmentId1 int,
-    equipmentNimigazinAll int
-);
-
-create table equipment_omonitus_set1(
-	id int primary key,
-    userId int,
-    equipmentGemId1 int,
-    equipmentGemId2 int,
-    equipmentGemId3 int,
-    equipmentGemId4 int
-);
-
-create table equipment_omonitus_set2(
-	id int primary key,
-    userId int,
-    equipmentGemId1 int,
-    equipmentGemId2 int,
-    equipmentGemId3 int,
-    equipmentGemId4 int,
-    equipmentGemId5 int,
-    equipmentGemId6 int
-);
-
-create table equipment_omonitus_set3(
-	id int primary key,
-    userId int,
-    equipmentGemId1 int,
-    equipmentGemId2 int,
-    equipmentGemId3 int,
-    equipmentGemId4 int
-);
-
-create table equipment_omonitus_set4(
-	id int primary key,
-    userId int,
-    equipmentGemId1 int,
-    equipmentGemId2 int,
-    equipmentGemId3 int,
-    equipmentGemId4 int,
-    equipmentGemId5 int,
-    equipmentGemId6 int,
-    equipmentGemId7 int,
-    equipmentGemId8 int
-);
-
-create table equipment_omonitus_set5(
-	id int primary key,
-    userId int,
-    equipmentGemId1 int,
-    equipmentGemId2 int,
-    equipmentGemId3 int,
-    equipmentGemId4 int,
-    equipmentGemId5 int,
-    equipmentGemId6 int
-);
-
-create table equipment_omonitus_set6_all(
-	id int primary key,
-    userId int,
-    
-	allHealth double,
-    allPhysicalAttack double,
-    allPhysicalDefense double,
-    allMagicalAttack double,
-    allMagicalDefense double,
-    allChemicalAttack double,
-    allChemicalDefense double,
-    allAtomicAttack double,
-    allAtomicDefense double,
-    allMentalAttack double,
-    allMentalDefense double,
-    allSpeed double,
-    allCriticalDamage double,
-    allCriticalRate double,
-    allArmorPenetration double,
-    allAvoid double,
-    allAbsorbsDamage double,
-    allRegenerateVitality double,
-    allMana float
-);
-
-create table equipment_omonitus_set6(
-	id int primary key,
-    userId int,
-    equipmentId1 int,
-    equipmentOmonitusSet6All int
-);
-
-create table equipment_omonitus_set7(
-	id int primary key,
-    userId int,
-    equipmentGemId1 int,
-    equipmentGemId2 int,
-    equipmentGemId3 int,
-    equipmentGemId4 int,
-    equipmentGemId5 int
-);
-
-create table equipment_pet(
-	id int primary key,
-    petId int,
-    equipmentGemId1 int,
-    equipmentGemId2 int,
-    equipmentGemId3 int
-);
-
-create table equipment_qiyantus_all(
-	id int primary key,
-    userId int,
-    
-	allHealth double,
-    allPhysicalAttack double,
-    allPhysicalDefense double,
-    allMagicalAttack double,
-    allMagicalDefense double,
-    allChemicalAttack double,
-    allChemicalDefense double,
-    allAtomicAttack double,
-    allAtomicDefense double,
-    allMentalAttack double,
-    allMentalDefense double,
-    allSpeed double,
-    allCriticalDamage double,
-    allCriticalRate double,
-    allArmorPenetration double,
-    allAvoid double,
-    allAbsorbsDamage double,
-    allRegenerateVitality double,
-    allMana float
-);
-create table equipment_qiyantus(
-	id int primary key,
-    userId int,
-    equipmentId1 int,
-    equipmentQiyantusAllId int
-);
-
-create table equipment_rainbow(
-	id int primary key,
-    userId int,
-    equipmentGemId1 int,
-    equipmentGemId2 int,
-    equipmentGemId3 int,
-    equipmentGemId4 int
-);
-
-create table equipment_retanic(
-	id int primary key,
-    userId int,
-    equipmentGemId1 int,
-    equipmentGemId2 int,
-    equipmentGemId3 int,
-    equipmentGemId4 int
-);
-
-create table equipment_synrocharon_set1(
-	id int primary key,
-    userId int,
-    equipmentGemId1 int,
-    equipmentGemId2 int,
-    equipmentGemId3 int,
-    equipmentGemId4 int,
-    equipmentGemId5 int,
-    equipmentGemId6 int,
-    equipmentGemId7 int,
-    equipmentGemId8 int
-);
-
-create table equipment_synrocharon_set2(
-	id int primary key,
-    userId int,
-    equipmentGemId1 int,
-    equipmentGemId2 int,
-    equipmentGemId3 int,
-    equipmentGemId4 int,
-    equipmentGemId5 int,
-    equipmentGemId6 int,
-    equipmentGemId7 int,
-    equipmentGemId8 int
-);
-
-create table equipment_synrocharon_set3(
-	id int primary key,
-    userId int,
-    equipmentGemId1 int,
-    equipmentGemId2 int,
-    equipmentGemId3 int,
-    equipmentGemId4 int,
-    equipmentGemId5 int,
-    equipmentGemId6 int,
-    equipmentGemId7 int,
-    equipmentGemId8 int
-);
-
-create table equipment_uni_all(
-	id int primary key,
-    userId int,
-    
-	allHealth double,
-    allPhysicalAttack double,
-    allPhysicalDefense double,
-    allMagicalAttack double,
-    allMagicalDefense double,
-    allChemicalAttack double,
-    allChemicalDefense double,
-    allAtomicAttack double,
-    allAtomicDefense double,
-    allMentalAttack double,
-    allMentalDefense double,
-    allSpeed double,
-    allCriticalDamage double,
-    allCriticalRate double,
-    allArmorPenetration double,
-    allAvoid double,
-    allAbsorbsDamage double,
-    allRegenerateVitality double,
-    allMana float
-);
-create table equipment_uni(
-	id int primary key,
-    userId int,
-    equipmentGemId1 int,
-    equipmentUni int
-);
-
-create table equipment_zpower(
-	id int primary key,
-    userId int,
-    equipmentId1 int,
-    equipmentId2 int,
-    equipmentId3 int,
-    equipmentId4 int,
-    equipmentId5 int,
-    equipmentId6 int,
-    equipmentId7 int,
-    equipmentId8 int
-);
-
-create table all_army(
-	id int primary key,
-    userId int,
-    allHealth double,
-    allPhysicalAttack double,
-    allPhysicalDefense double,
-    allMagicalAttack double,
-    allMagicalDefense double,
-    allChemicalAttack double,
-    allChemicalDefense double,
-    allAtomicAttack double,
-    allAtomicDefense double,
-    allMentalAttack double,
-    allMentalDefense double,
-    allSpeed double,
-    allCriticalDamage double,
-    allCriticalRate double,
-    allArmorPenetration double,
-    allAvoid double,
-    allAbsorbsDamage double,
-    allRegenerateVitality double,
-    allMana float
-);
-
-create table all_books(
-	id int primary key,
-    userId int,
-    allHealth double,
-    allPhysicalAttack double,
-    allPhysicalDefense double,
-    allMagicalAttack double,
-    allMagicalDefense double,
-    allChemicalAttack double,
-    allChemicalDefense double,
-    allAtomicAttack double,
-    allAtomicDefense double,
-    allMentalAttack double,
-    allMentalDefense double,
-    allSpeed double,
-    allCriticalDamage double,
-    allCriticalRate double,
-    allArmorPenetration double,
-    allAvoid double,
-    allAbsorbsDamage double,
-    allRegenerateVitality double,
-    allMana float
-);
-
-create table all_cards(
-	id int primary key,
-    userId int,
-    allHealth double,
-    allPhysicalAttack double,
-    allPhysicalDefense double,
-    allMagicalAttack double,
-    allMagicalDefense double,
-    allChemicalAttack double,
-    allChemicalDefense double,
-    allAtomicAttack double,
-    allAtomicDefense double,
-    allMentalAttack double,
-    allMentalDefense double,
-    allSpeed double,
-    allCriticalDamage double,
-    allCriticalRate double,
-    allArmorPenetration double,
-    allAvoid double,
-    allAbsorbsDamage double,
-    allRegenerateVitality double,
-    allMana float
-);
-
-create table all_collaboration_equipments(
-	id int primary key,
-    userId int,
-    allHealth double,
-    allPhysicalAttack double,
-    allPhysicalDefense double,
-    allMagicalAttack double,
-    allMagicalDefense double,
-    allChemicalAttack double,
-    allChemicalDefense double,
-    allAtomicAttack double,
-    allAtomicDefense double,
-    allMentalAttack double,
-    allMentalDefense double,
-    allSpeed double,
-    allCriticalDamage double,
-    allCriticalRate double,
-    allArmorPenetration double,
-    allAvoid double,
-    allAbsorbsDamage double,
-    allRegenerateVitality double,
-    allMana float
-);
-
-create table all_equipments(
-	id int primary key,
-    userId int,
-    allHealth double,
-    allPhysicalAttack double,
-    allPhysicalDefense double,
-    allMagicalAttack double,
-    allMagicalDefense double,
-    allChemicalAttack double,
-    allChemicalDefense double,
-    allAtomicAttack double,
-    allAtomicDefense double,
-    allMentalAttack double,
-    allMentalDefense double,
-    allSpeed double,
-    allCriticalDamage double,
-    allCriticalRate double,
-    allArmorPenetration double,
-    allAvoid double,
-    allAbsorbsDamage double,
-    allRegenerateVitality double,
-    allMana float
-);
-
-create table all_pets(
-	id int primary key,
-    userId int,
-    allHealth double,
-    allPhysicalAttack double,
-    allPhysicalDefense double,
-    allMagicalAttack double,
-    allMagicalDefense double,
-    allChemicalAttack double,
-    allChemicalDefense double,
-    allAtomicAttack double,
-    allAtomicDefense double,
-    allMentalAttack double,
-    allMentalDefense double,
-    allSpeed double,
-    allCriticalDamage double,
-    allCriticalRate double,
-    allArmorPenetration double,
-    allAvoid double,
-    allAbsorbsDamage double,
-    allRegenerateVitality double,
-    allMana float
-);
-
-create table equipment_wearing(
-	id int primary key,
-    userId int,
-    userCardId int,
-	equipmentAmnitusId int,
-    equipmentBellion int,
-    equipmentBenzaminSet1Id int,
-    equipmentBenzaminSet2Id int,
-    equipmentBenzaminSet3Id int,
-    equipmentCeverusSet1Id int,
-    equipmentCeverusSet2Id int,
-    equipmentCeverusSet3Id int,
-    equipmentCeverusSet4Id int,
-    equipmentDomitiusId int,
-    equipmentEllisId int,
-    equipmentExtraSet1Id int,
-    equipmentExtraSet2Id int,
-    equipmentExtraSet3Id int,
-    equipmentExtraSet4Id int,
-    equipmentExtraSet5Id int,
-    equipmentEverlynSet1Id int,
-    equipmentEverlynSet2Id int,
-    equipmentMarcusId int,
-    equipmentHakalite int,
-    equipmentHagoroSet1Id int,
-    equipmentHagoroSet2Id int,
-    equipmentIgnisSet1Id int,
-    equipmentIgnisSet2Id int,
-    equipmentIgnisSet3Id int,
-    equipmentIgnisSet4Id int,
-    equipmentIvitusId int,
-    equipmentKarmusId int,
-    equipmentOmonitusSet1Id int,
-    equipmentOmonitusSet2Id int,
-    equipmentOmonitusSet3Id int,
-    equipmentOmonitusSet4Id int,
-    equipmentOmonitusSet5Id int,
-    equipmentOmonitusSet6Id int,
-    equipmentOmonitusSet7Id int,
-    equipmentRainbowId int,
-    equipmentRetanicId int,
-    equipmentSynrocharonSet1Id int,
-    equipmentSynrocharonSet2Id int,
-    equipmentSynrocharonSet3Id int,
-    equipmentZpowerId int,
-    
-    equipmentAngelisAllId int,
-    equipmentCrystalAllId int,
-    equipmentFaltusAllId int,
-    equipmentKarisAllId int,
-    equipmentHeatherusAllId int,
-    equipmentLuminiusAllId int,
-    equipmentMorganisAllId int,
-    equipmentNimigazinAllId int,
-    equipmentOmonitusSet6AllId int,
-    equipmentQiyantusAllId int,
-    equipmentUniAllId int,
-    
-    allHealth double,
-    allPhysicalAttack double,
-    allPhysicalDefense double,
-    allMagicalAttack double,
-    allMagicalDefense double,
-    allChemicalAttack double,
-    allChemicalDefense double,
-    allAtomicAttack double,
-    allAtomicDefense double,
-    allMentalAttack double,
-    allMentalDefense double,
-    allSpeed double,
-    allCriticalDamage double,
-    allCriticalRate double,
-    allArmorPenetration double,
-    allAvoid double,
-    allAbsorbsDamage double,
-    allRegenerateVitality double,
-    allMana float
+    FOREIGN KEY (equipmentId) REFERENCES user_equipments(id),
+    FOREIGN KEY (extra_equipment_id) REFERENCES user_equipments(id)
 );
 
 create table fact_army(
 	id int primary key,
-    userId int,
-    userArmyId int,
+    user_id int,
+    user_army_id int,
     
-	equipmentWearingId int,
     power double,
     
-    allHealth double,
-    allPhysicalAttack double,
-    allPhysicalDefense double,
-    allMagicalAttack double,
-    allMagicalDefense double,
-    allChemicalAttack double,
-    allChemicalDefense double,
-    allAtomicAttack double,
-    allAtomicDefense double,
-    allMentalAttack double,
-    allMentalDefense double,
-    allSpeed double,
-    allCriticalDamage double,
-    allCriticalRate double,
-    allArmorPenetration double,
-    allAvoid double,
-    allAbsorbsDamage double,
-    allRegenerateVitality double,
-    allMana float
+    all_health double,
+    all_physical_attack double,
+    all_physical_defense double,
+    all_magical_attack double,
+    all_magical_defense double,
+    all_chemical_attack double,
+    all_chemical_defense double,
+    all_atomic_attack double,
+    all_atomic_defense double,
+    all_mental_attack double,
+    all_mental_defense double,
+    all_speed double,
+    all_critical_damage double,
+    all_critical_rate double,
+    all_armor_penetration double,
+    all_avoid double,
+    all_absorbs_damage double,
+    all_regenerate_vitality double,
+    all_mana float,
+    
+    FOREIGN KEY (user_army_id) REFERENCES user_army(id),
+    FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
 create table fact_books(
 	id int primary key,
-    userId int,
-    userBookId int,
+    user_id int,
+    user_book_id int,
     
-	equipmentWearingId int,
     power double,
     
-    allHealth double,
-    allPhysicalAttack double,
-    allPhysicalDefense double,
-    allMagicalAttack double,
-    allMagicalDefense double,
-    allChemicalAttack double,
-    allChemicalDefense double,
-    allAtomicAttack double,
-    allAtomicDefense double,
-    allMentalAttack double,
-    allMentalDefense double,
-    allSpeed double,
-    allCriticalDamage double,
-    allCriticalRate double,
-    allArmorPenetration double,
-    allAvoid double,
-    allAbsorbsDamage double,
-    allRegenerateVitality double,
-    allMana float
+    all_health double,
+    all_physical_attack double,
+    all_physical_defense double,
+    all_magical_attack double,
+    all_magical_defense double,
+    all_chemical_attack double,
+    all_chemical_defense double,
+    all_atomic_attack double,
+    all_atomic_defense double,
+    all_mental_attack double,
+    all_mental_defense double,
+    all_speed double,
+    all_critical_damage double,
+    all_critical_rate double,
+    all_armor_penetration double,
+    all_avoid double,
+    all_absorbs_damage double,
+    all_regenerate_vitality double,
+    all_mana float,
+    
+     FOREIGN KEY (user_book_id) REFERENCES user_books(id),
+     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
 create table fact_pets(
 	id int primary key,
-    userId int,
-    userCardId int,
+    user_id int,
+    user_pet_id int,
     
-    equipmentWearingId int,
-	equipmentPetId int,
     power double,
     
-    allHealth double,
-    allPhysicalAttack double,
-    allPhysicalDefense double,
-    allMagicalAttack double,
-    allMagicalDefense double,
-    allChemicalAttack double,
-    allChemicalDefense double,
-    allAtomicAttack double,
-    allAtomicDefense double,
-    allMentalAttack double,
-    allMentalDefense double,
-    allSpeed double,
-    allCriticalDamage double,
-    allCriticalRate double,
-    allArmorPenetration double,
-    allAvoid double,
-    allAbsorbsDamage double,
-    allRegenerateVitality double,
-    allMana float
+    all_health double,
+    all_physical_attack double,
+    all_physical_defense double,
+    all_magical_attack double,
+    all_magical_defense double,
+    all_chemical_attack double,
+    all_chemical_defense double,
+    all_atomic_attack double,
+    all_atomic_defense double,
+    all_mental_attack double,
+    all_mental_defense double,
+    all_speed double,
+    all_critical_damage double,
+    all_critical_rate double,
+    all_armor_penetration double,
+    all_avoid double,
+    all_absorbs_damage double,
+    all_regenerate_vitality double,
+    all_mana float,
+    
+    FOREIGN KEY (user_pet_id) REFERENCES user_pets(id),
+    FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
 create table fact_cards(
 	id int primary key,
-    userId int,
-    userCardId int,
+    user_id int,
+    user_card_id int,
     
-    allArmyId int,
-    allBooksId int,
-    allCardsId int,
-    allCollaborationEquipmentsId int,
-    allEquipmentsId int,
-    allPets int,
-	equipmentWearingId int,
     power double,
     
-    allHealth double,
-    allPhysicalAttack double,
-    allPhysicalDefense double,
-    allMagicalAttack double,
-    allMagicalDefense double,
-    allChemicalAttack double,
-    allChemicalDefense double,
-    allAtomicAttack double,
-    allAtomicDefense double,
-    allMentalAttack double,
-    allMentalDefense double,
-    allSpeed double,
-    allCriticalDamage double,
-    allCriticalRate double,
-    allArmorPenetration double,
-    allAvoid double,
-    allAbsorbsDamage double,
-    allRegenerateVitality double,
-    allMana float
+    all_health double,
+    all_physical_attack double,
+    all_physical_defense double,
+    all_magical_attack double,
+    all_magical_defense double,
+    all_chemical_attack double,
+    all_chemical_defense double,
+    all_atomic_attack double,
+    all_atomic_defense double,
+    all_mental_attack double,
+    all_mental_defense double,
+    all_speed double,
+    all_critical_damage double,
+    all_critical_rate double,
+    all_armor_penetration double,
+    all_avoid double,
+    all_absorbs_damage double,
+    all_regenerate_vitality double,
+    all_mana float,
+    
+    FOREIGN KEY (user_card_id) REFERENCES user_cards(id),
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);
+
+ALTER TABLE full_equipment
+ADD CONSTRAINT fk_fact_army FOREIGN KEY (fact_army_id) REFERENCES fact_army(id),
+ADD CONSTRAINT fk_fact_book FOREIGN KEY (fact_book_id) REFERENCES fact_books(id),
+ADD CONSTRAINT fk_fact_pet FOREIGN KEY (fact_pet_id) REFERENCES fact_pets(id),
+ADD CONSTRAINT fk_fact_card FOREIGN KEY (fact_card_id) REFERENCES fact_cards(id);
+
+create table cards_skills(
+	id int primary key,
+    fact_card_id int,
+    skill_id int,
+    level int,
+    
+    health double,
+    physical_attack double,
+    physical_defense double,
+    magical_attack double,
+    magical_defense double,
+    chemical_attack double,
+    chemical_defense double,
+    atomic_attack double,
+    atomic_defense double,
+    mental_attack double,
+    mental_defense double,
+    speed double,
+    critical_damage double,
+    critical_rate double,
+    armor_penetration double,
+    avoid double,
+    absorbs_damage double,
+    regenerate_vitality double,
+    mana float,
+    
+    FOREIGN KEY (fact_card_id) REFERENCES fact_cards(id),
+    FOREIGN KEY (skill_id) REFERENCES skills(id)
+);
+
+create table teams(
+	id int primary key,
+    user_id int,
+    
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);
+
+create table positions(
+	id int primary key,
+    team_id int,
+    
+    FOREIGN KEY (team_id) REFERENCES teams(id)
+    
+);
+
+create table slots(
+	id int primary key,
+    fact_card_id int,
+    position_id int,
+    
+    FOREIGN KEY (fact_card_id) REFERENCES fact_cards(id),
+    FOREIGN KEY (position_id) REFERENCES positions(id)
+    
 );

@@ -528,7 +528,7 @@ def create_skills_database():
                     # card_list.append(card)
                     power=calculate_power(health,physical_attack,physical_defense,magical_attack,magical_defense,chemical_attack,chemical_defense,atomic_attack,atomic_defense,mental_attack,mental_defense,
                                               speed,critical_rate,critical_damage,armor_penetration,avoid,absorbs_damage,regenerate_vitality)
-                    print("insert into skills values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + dir_name + "'," + str(0) + "," + str(power) + "," + str(health) + "," 
+                    print("insert into skills values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + dir_name + "',"  + str(power) + "," + str(health) + "," 
                               + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense) 
                               + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
                               + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'');")
@@ -1015,6 +1015,17 @@ def create_symbols_database():
     atomic_defense=3500000
     mental_attack=3500000
     mental_defense=3500000
+    per_health=10
+    per_physical_attack=10
+    per_physical_defense=10
+    per_magical_attack=10
+    per_magical_defense=10
+    per_chemical_attack=10
+    per_chemical_defense=10
+    per_atomic_attack=10
+    per_atomic_defense=10
+    per_mental_attack=10
+    per_mental_defense=10
     speed=1
     critical_rate=0
     critical_damage=0
@@ -1032,47 +1043,21 @@ def create_symbols_database():
         current_name=current_dir
         for dir_name in dirs:
             current_dir =os.path.join(root,dir_name)
+            dir_name = os.path.basename(current_dir)
             for file_name in os.listdir(current_dir):
                 if file_name.endswith(".jpg") or file_name.endswith("png"):
                     name, extension=os.path.splitext(file_name)
+            
                     path=os.path.join(current_dir,file_name)
                     path=path.replace("\\","/")
-                    card = {
-                        "id":id,
-                        "SymbolName":name,
-                        "SymbolNameImage": file_name,
-                        "Health": health,
-                        "PhysicalAttack": physical_attack,
-                        "PhysicalDefense": physical_defense,
-                        "MagicalAttack": magical_attack,
-                        "MagicalDefense": magical_defense,
-                        "ChemicalAttack": chemical_attack,
-                        "ChemicalDefense": chemical_defense,
-                        "AtomicAttack": atomic_attack,
-                        "AtomicDefense": atomic_defense,
-                        "MentalAttack": mental_attack,
-                        "MentalDefense": mental_defense,
-                        "Speed": speed,
-                        "CriticalRate": critical_rate,
-                        "CriticalDamage": critical_damage,
-                        "ArmorPenetration": armor_penetration,
-                        "Avoid": avoid,
-                        "AbsorbsDamage": absorbs_damage,
-                        "RegenerateVitality": regenerate_vitality,
-                        "Mana": mana,
-                        "Rare": rare,
-                        "Type": dir_name,
-                        "Price": price,
-                        "PriceUnit":price_unit,
-                        "Path":path
-                    }
-                    # card_list.append(card)
+                    
                     power=calculate_power(health,physical_attack,physical_defense,magical_attack,magical_defense,chemical_attack,chemical_defense,atomic_attack,atomic_defense,mental_attack,mental_defense,
                                               speed,critical_rate,critical_damage,armor_penetration,avoid,absorbs_damage,regenerate_vitality)
-                    print("insert into symbols values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + dir_name + "'," + str(power) + "," + str(health) + "," 
+                    print("insert into symbols values (" + str(id) + ",'" + name + "','" + path + "','"+dir_name+"'," + str(power) + "," + str(health) + "," 
                               + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense) 
                               + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
-                              + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'');")
+                              + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ","+ str(per_health)+","+str(per_physical_attack) +","+ str(per_physical_defense)
+                              + ","+str(per_magical_attack) +","+ str(per_magical_defense) + ","+str(per_chemical_attack) +","+ str(per_chemical_defense) + ","+str(per_atomic_attack) +","+ str(per_atomic_defense) + ","+str(per_mental_attack) +","+ str(per_mental_defense)+",'');")
 
                     id=id+1
 
@@ -1092,6 +1077,17 @@ def create_medals_database():
     atomic_defense=3500000
     mental_attack=3500000
     mental_defense=3500000
+    per_health=10
+    per_physical_attack=10
+    per_physical_defense=10
+    per_magical_attack=10
+    per_magical_defense=10
+    per_chemical_attack=10
+    per_chemical_defense=10
+    per_atomic_attack=10
+    per_atomic_defense=10
+    per_mental_attack=10
+    per_mental_defense=10
     speed=1
     critical_rate=0
     critical_damage=0
@@ -1109,44 +1105,17 @@ def create_medals_database():
                 name, extension=os.path.splitext(file_name)
                 path=os.path.join(current_dir,file_name)
                 path=path.replace("\\","/")
-                card = {
-                    "id":id,
-                    "AchievementName":name,
-                    "AchievementNameImage": file_name,
-                    "Health": health,
-                    "PhysicalAttack": physical_attack,
-                    "PhysicalDefense": physical_defense,
-                    "MagicalAttack": magical_attack,
-                    "MagicalDefense": magical_defense,
-                    "ChemicalAttack": chemical_attack,
-                    "ChemicalDefense": chemical_defense,
-                    "AtomicAttack": atomic_attack,
-                    "AtomicDefense": atomic_defense,
-                    "MentalAttack": mental_attack,
-                    "MentalDefense": mental_defense,
-                    "Speed": speed,
-                    "CriticalRate": critical_rate,
-                    "CriticalDamage": critical_damage,
-                    "ArmorPenetration": armor_penetration,
-                    "Avoid": avoid,
-                    "AbsorbsDamage": absorbs_damage,
-                    "RegenerateVitality": regenerate_vitality,
-                    "Mana": mana,
-                    "Rare": rare,
-                    "Type": "Achievement",
-                    "Path":path
-                }
-                # card_list.append(card)
+                
                 power=calculate_power(health,physical_attack,physical_defense,magical_attack,magical_defense,chemical_attack,chemical_defense,atomic_attack,atomic_defense,mental_attack,mental_defense,
                                               speed,critical_rate,critical_damage,armor_penetration,avoid,absorbs_damage,regenerate_vitality)
                 print("insert into medals values (" + str(id) + ",'" + name + "','" + path + "'," + str(power) + "," + str(health) + "," 
                               + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense) 
                               + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
-                              + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'');")
+                              + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ","+ str(per_health)+","+str(per_physical_attack) +","+ str(per_physical_defense)
+                              + ","+str(per_magical_attack) +","+ str(per_magical_defense) + ","+str(per_chemical_attack) +","+ str(per_chemical_defense) + ","+str(per_atomic_attack) +","+ str(per_atomic_defense) + ","+str(per_mental_attack) +","+ str(per_mental_defense)+",'');")
 
                 id=id+1
     
-
 def create_achievements_database():
     cards_dir="Achievement"
     card_list = []
@@ -1163,6 +1132,17 @@ def create_achievements_database():
     atomic_defense=2000000
     mental_attack=2000000
     mental_defense=2000000
+    per_health=10
+    per_physical_attack=10
+    per_physical_defense=10
+    per_magical_attack=10
+    per_magical_defense=10
+    per_chemical_attack=10
+    per_chemical_defense=10
+    per_atomic_attack=10
+    per_atomic_defense=10
+    per_mental_attack=10
+    per_mental_defense=10
     speed=1
     critical_rate=0
     critical_damage=0
@@ -1180,40 +1160,14 @@ def create_achievements_database():
                 name, extension=os.path.splitext(file_name)
                 path=os.path.join(current_dir,file_name)
                 path=path.replace("\\","/")
-                card = {
-                    "id":id,
-                    "AchievementName":name,
-                    "AchievementNameImage": file_name,
-                    "Health": health,
-                    "PhysicalAttack": physical_attack,
-                    "PhysicalDefense": physical_defense,
-                    "MagicalAttack": magical_attack,
-                    "MagicalDefense": magical_defense,
-                    "ChemicalAttack": chemical_attack,
-                    "ChemicalDefense": chemical_defense,
-                    "AtomicAttack": atomic_attack,
-                    "AtomicDefense": atomic_defense,
-                    "MentalAttack": mental_attack,
-                    "MentalDefense": mental_defense,
-                    "Speed": speed,
-                    "CriticalRate": critical_rate,
-                    "CriticalDamage": critical_damage,
-                    "ArmorPenetration": armor_penetration,
-                    "Avoid": avoid,
-                    "AbsorbsDamage": absorbs_damage,
-                    "RegenerateVitality": regenerate_vitality,
-                    "Mana": mana,
-                    "Rare": rare,
-                    "Type": "Achievement",
-                    "Path":path
-                }
-                # card_list.append(card)
+                
                 power=calculate_power(health,physical_attack,physical_defense,magical_attack,magical_defense,chemical_attack,chemical_defense,atomic_attack,atomic_defense,mental_attack,mental_defense,
                                               speed,critical_rate,critical_damage,armor_penetration,avoid,absorbs_damage,regenerate_vitality)
                 print("insert into achievements values (" + str(id) + ",'" + name + "','" + path + "'," + str(power) + "," + str(health) + "," 
                               + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense) 
                               + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
-                              + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'');")
+                              + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ","+ str(per_health)+","+str(per_physical_attack) +","+ str(per_physical_defense)
+                              + ","+str(per_magical_attack) +","+ str(per_magical_defense) + ","+str(per_chemical_attack) +","+ str(per_chemical_defense) + ","+str(per_atomic_attack) +","+ str(per_atomic_defense) + ","+str(per_mental_attack) +","+ str(per_mental_defense)+",'');")
                 id=id+1
     
 def create_titles_database():
@@ -1232,6 +1186,17 @@ def create_titles_database():
     atomic_defense=2000000
     mental_attack=2000000
     mental_defense=2000000
+    per_health=10
+    per_physical_attack=10
+    per_physical_defense=10
+    per_magical_attack=10
+    per_magical_defense=10
+    per_chemical_attack=10
+    per_chemical_defense=10
+    per_atomic_attack=10
+    per_atomic_defense=10
+    per_mental_attack=10
+    per_mental_defense=10
     speed=1
     critical_rate=0
     critical_damage=0
@@ -1249,40 +1214,68 @@ def create_titles_database():
                 name, extension=os.path.splitext(file_name)
                 path=os.path.join(current_dir,file_name)
                 path=path.replace("\\","/")
-                card = {
-                    "id":id,
-                    "AchievementName":name,
-                    "AchievementNameImage": file_name,
-                    "Health": health,
-                    "PhysicalAttack": physical_attack,
-                    "PhysicalDefense": physical_defense,
-                    "MagicalAttack": magical_attack,
-                    "MagicalDefense": magical_defense,
-                    "ChemicalAttack": chemical_attack,
-                    "ChemicalDefense": chemical_defense,
-                    "AtomicAttack": atomic_attack,
-                    "AtomicDefense": atomic_defense,
-                    "MentalAttack": mental_attack,
-                    "MentalDefense": mental_defense,
-                    "Speed": speed,
-                    "CriticalRate": critical_rate,
-                    "CriticalDamage": critical_damage,
-                    "ArmorPenetration": armor_penetration,
-                    "Avoid": avoid,
-                    "AbsorbsDamage": absorbs_damage,
-                    "RegenerateVitality": regenerate_vitality,
-                    "Mana": mana,
-                    "Rare": rare,
-                    "Type": "Achievement",
-                    "Path":path
-                }
-                # card_list.append(card)
+
                 power=calculate_power(health,physical_attack,physical_defense,magical_attack,magical_defense,chemical_attack,chemical_defense,atomic_attack,atomic_defense,mental_attack,mental_defense,
                                               speed,critical_rate,critical_damage,armor_penetration,avoid,absorbs_damage,regenerate_vitality)
                 print("insert into titles values (" + str(id) + ",'" + name + "','" + path + "'," + str(power) + "," + str(health) + "," 
                               + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense) 
                               + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
-                              + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'');")
+                              + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ","+ str(per_health)+","+str(per_physical_attack) +","+ str(per_physical_defense)
+                              + ","+str(per_magical_attack) +","+ str(per_magical_defense) + ","+str(per_chemical_attack) +","+ str(per_chemical_defense) + ","+str(per_atomic_attack) +","+ str(per_atomic_defense) + ","+str(per_mental_attack) +","+ str(per_mental_defense)+",'');")
+                id=id+1
+
+def create_borders_database():
+    cards_dir="Border"
+    card_list = []
+    id=1
+    card_name=""
+    health=10000000
+    physical_attack=2000000
+    physical_defense=2000000
+    magical_attack=2000000
+    magical_defense=2000000
+    chemical_attack=2000000
+    chemical_defense=2000000
+    atomic_attack=2000000
+    atomic_defense=2000000
+    mental_attack=2000000
+    mental_defense=2000000
+    per_health=10
+    per_physical_attack=10
+    per_physical_defense=10
+    per_magical_attack=10
+    per_magical_defense=10
+    per_chemical_attack=10
+    per_chemical_defense=10
+    per_atomic_attack=10
+    per_atomic_defense=10
+    per_mental_attack=10
+    per_mental_defense=10
+    speed=1
+    critical_rate=0
+    critical_damage=0
+    armor_penetration=0
+    avoid=0
+    absorbs_damage=0
+    regenerate_vitality=0
+    mana=100
+    rare="LG"
+    path=""
+    for root, dirs, files in os.walk(cards_dir):
+        current_dir=os.path.basename(root)
+        for file_name in os.listdir(current_dir):
+            if file_name.endswith(".jpg") or file_name.endswith("png"):
+                name, extension=os.path.splitext(file_name)
+                path=os.path.join(current_dir,file_name)
+                path=path.replace("\\","/")
+            
+                power=calculate_power(health,physical_attack,physical_defense,magical_attack,magical_defense,chemical_attack,chemical_defense,atomic_attack,atomic_defense,mental_attack,mental_defense,
+                                              speed,critical_rate,critical_damage,armor_penetration,avoid,absorbs_damage,regenerate_vitality)
+                print("insert into borders values (" + str(id) + ",'" + name + "','" + path + "'," + str(power) + "," + str(health) + "," 
+                              + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense) 
+                              + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
+                              + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ","+ str(per_health)+","+str(per_physical_attack) +","+ str(per_physical_defense)
+                              + ","+str(per_magical_attack) +","+ str(per_magical_defense) + ","+str(per_chemical_attack) +","+ str(per_chemical_defense) + ","+str(per_atomic_attack) +","+ str(per_atomic_defense) + ","+str(per_mental_attack) +","+ str(per_mental_defense)+",'');")
                 id=id+1
 
 def create_currencies_database():
@@ -1370,49 +1363,26 @@ def create_equipments_database():
     price_unit=""
     path=""
     for root, dirs, files in os.walk(cards_dir):
-        current_dir=os.path.basename(root)
-        current_name=current_dir
+        current_dir = os.path.basename(root)
+        current_name = current_dir
         for dir_name in dirs:
-            current_dir =os.path.join(root,dir_name)
-            if current_name =="Amnitus_Equipment":
-                for file_name in os.listdir(current_dir):
-                    if file_name.endswith(".jpg") or file_name.endswith("png"):
-                        name, extension=os.path.splitext(file_name)
-                        card = {
-                            "id":id,
-                            "SkillName":name,
-                            "SkillNameImage": file_name,
-                            "Health": health,
-                            "PhysicalAttack": physical_attack,
-                            "PhysicalDefense": physical_defense,
-                            "MagicalAttack": magical_attack,
-                            "MagicalDefense": magical_defense,
-                            "ChemicalAttack": chemical_attack,
-                            "ChemicalDefense": chemical_defense,
-                            "AtomicAttack": atomic_attack,
-                            "AtomicDefense": atomic_defense,
-                            "MentalAttack": mental_attack,
-                            "MentalDefense": mental_defense,
-                            "Speed": speed,
-                            "CriticalRate": critical_rate,
-                            "CriticalDamage": critical_damage,
-                            "ArmorPenetration": armor_penetration,
-                            "Avoid": avoid,
-                            "AbsorbsDamage": absorbs_damage,
-                            "RegenerateVitality": regenerate_vitality,
-                            "Mana": mana,
-                            "Rare": rare,
-                            "Type": current_name,
-                            "Price": price,
-                            "PriceUnit":price_unit,
-                            "Path":path
-                        }
-                        # card_list.append(card)
-                        id=id+1
+            current_dir = os.path.join(root, dir_name)
+            for file_name in os.listdir(current_dir):
+                    if file_name.endswith(".jpg") or file_name.endswith(".png"):
+                        name, extension = os.path.splitext(file_name)
+                        set1_folder_name = os.path.basename(os.path.dirname(current_dir))
+                        power = calculate_power(health, physical_attack, physical_defense, magical_attack, magical_defense, chemical_attack, chemical_defense, atomic_attack, atomic_defense, mental_attack, mental_defense,
+                                                speed, critical_rate, critical_damage, armor_penetration, avoid, absorbs_damage, regenerate_vitality)
+                        print("insert into equipments values (" + str(id) + ",'" + name + "','" + path + "','" + current_dir + "','" + dir_name + "','"+set1_folder_name +"'," + str(0) + "," + str(power) + "," + str(health) +
+                              "," + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense)
+                              + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration)
+                              + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'');")
+                        id += 1
+                
 
 # create_cards_database()
-create_books_database()
-# create_skills_database()
+# create_books_database()
+create_skills_database()
 # create_army_database()
 # create_collaboration_equipments_database()
 # create_bosses_database()
@@ -1424,3 +1394,4 @@ create_books_database()
 # create_pets_database()
 # create_symbols_database()
 # create_medals_database()
+# create_borders_database()
