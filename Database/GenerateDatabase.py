@@ -496,36 +496,7 @@ def create_skills_database():
                     name, extension=os.path.splitext(file_name)
                     path=os.path.join(current_dir,file_name)
                     path=path.replace("\\","/")
-                    card = {
-                        "id":id,
-                        "SkillName":name,
-                        "SkillNameImage": file_name,
-                        "Health": health,
-                        "PhysicalAttack": physical_attack,
-                        "PhysicalDefense": physical_defense,
-                        "MagicalAttack": magical_attack,
-                        "MagicalDefense": magical_defense,
-                        "ChemicalAttack": chemical_attack,
-                        "ChemicalDefense": chemical_defense,
-                        "AtomicAttack": atomic_attack,
-                        "AtomicDefense": atomic_defense,
-                        "MentalAttack": mental_attack,
-                        "MentalDefense": mental_defense,
-                        "Speed": speed,
-                        "CriticalRate": critical_rate,
-                        "CriticalDamage": critical_damage,
-                        "ArmorPenetration": armor_penetration,
-                        "Avoid": avoid,
-                        "AbsorbsDamage": absorbs_damage,
-                        "RegenerateVitality": regenerate_vitality,
-                        "Mana": mana,
-                        "Rare": rare,
-                        "Type": dir_name,
-                        "Price": price,
-                        "PriceUnit":price_unit,
-                        "Path":path
-                    }
-                    # card_list.append(card)
+                    
                     power=calculate_power(health,physical_attack,physical_defense,magical_attack,magical_defense,chemical_attack,chemical_defense,atomic_attack,atomic_defense,mental_attack,mental_defense,
                                               speed,critical_rate,critical_damage,armor_penetration,avoid,absorbs_damage,regenerate_vitality)
                     print("insert into skills values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + dir_name + "',"  + str(power) + "," + str(health) + "," 
@@ -1341,16 +1312,16 @@ def create_equipments_database():
     card_name=""
     health=10000000000
     physical_attack=200000000
-    physical_defense=200000000
+    physical_defense=150000000
     magical_attack=200000000
-    magical_defense=200000000
+    magical_defense=150000000
     chemical_attack=200000000
-    chemical_defense=200000000
+    chemical_defense=150000000
     atomic_attack=200000000
-    atomic_defense=200000000
+    atomic_defense=150000000
     mental_attack=200000000
-    mental_defense=200000000
-    speed=1
+    mental_defense=150000000
+    speed=1000000
     critical_rate=0
     critical_damage=0
     armor_penetration=0
@@ -1364,29 +1335,203 @@ def create_equipments_database():
     path=""
     for root, dirs, files in os.walk(cards_dir):
         current_dir = os.path.basename(root)
-        current_name = current_dir
+        current_name=""
+        current_name = os.path.basename(os.path.dirname(root))
         for dir_name in dirs:
             current_dir = os.path.join(root, dir_name)
             for file_name in os.listdir(current_dir):
                     if file_name.endswith(".jpg") or file_name.endswith(".png"):
                         name, extension = os.path.splitext(file_name)
                         set1_folder_name = os.path.basename(os.path.dirname(current_dir))
-                        power = calculate_power(health, physical_attack, physical_defense, magical_attack, magical_defense, chemical_attack, chemical_defense, atomic_attack, atomic_defense, mental_attack, mental_defense,
-                                                speed, critical_rate, critical_damage, armor_penetration, avoid, absorbs_damage, regenerate_vitality)
-                        print("insert into equipments values (" + str(id) + ",'" + name + "','" + path + "','" + current_dir + "','" + dir_name + "','"+set1_folder_name +"'," + str(0) + "," + str(power) + "," + str(health) +
-                              "," + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense)
-                              + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration)
-                              + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'');")
-                        id += 1
+                        if "SR" in dir_name:
+                            health=20000000
+                            physical_attack=100000
+                            physical_defense=500000
+                            magical_attack=100000
+                            magical_defense=500000
+                            chemical_attack=100000
+                            chemical_defense=500000
+                            atomic_attack=100000
+                            atomic_defense=500000
+                            mental_attack=100000
+                            mental_defense=500000
+                            power = calculate_power(health, physical_attack, physical_defense, magical_attack, magical_defense, chemical_attack, chemical_defense, atomic_attack, atomic_defense, mental_attack, mental_defense,
+                                                    speed, critical_rate, critical_damage, armor_penetration, avoid, absorbs_damage, regenerate_vitality)
+                            print("insert into equipments values (" + str(id) + ",'" + name + "','" + current_dir + "','" + current_name + "','" + dir_name + "','"+set1_folder_name +"'," + str(0) + "," + str(power) + "," + str(health) +
+                                "," + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense)
+                                + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration)
+                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'');")
+                            id += 1
+                        elif "SSR" in dir_name:
+                            health=50000000
+                            physical_attack=2500000
+                            physical_defense=1000000
+                            magical_attack=2500000
+                            magical_defense=1000000
+                            chemical_attack=2500000
+                            chemical_defense=1000000
+                            atomic_attack=2500000
+                            atomic_defense=1000000
+                            mental_attack=2500000
+                            mental_defense=1000000
+                            power = calculate_power(health, physical_attack, physical_defense, magical_attack, magical_defense, chemical_attack, chemical_defense, atomic_attack, atomic_defense, mental_attack, mental_defense,
+                                                    speed, critical_rate, critical_damage, armor_penetration, avoid, absorbs_damage, regenerate_vitality)
+                            print("insert into equipments values (" + str(id) + ",'" + name + "','" + current_dir + "','" + current_name + "','" + dir_name + "','"+set1_folder_name +"'," + str(0) + "," + str(power) + "," + str(health) +
+                                "," + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense)
+                                + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration)
+                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'');")
+                            id += 1
+                        elif "UR" in dir_name:
+                            health=100000000
+                            physical_attack=5000000
+                            physical_defense=2500000
+                            magical_attack=5000000
+                            magical_defense=2500000
+                            chemical_attack=5000000
+                            chemical_defense=2500000
+                            atomic_attack=5000000
+                            atomic_defense=2500000
+                            mental_attack=5000000
+                            mental_defense=2500000
+                            power = calculate_power(health, physical_attack, physical_defense, magical_attack, magical_defense, chemical_attack, chemical_defense, atomic_attack, atomic_defense, mental_attack, mental_defense,
+                                                    speed, critical_rate, critical_damage, armor_penetration, avoid, absorbs_damage, regenerate_vitality)
+                            print("insert into equipments values (" + str(id) + ",'" + name + "','" + current_dir + "','" + current_name + "','" + dir_name + "','"+set1_folder_name +"'," + str(0) + "," + str(power) + "," + str(health) +
+                                "," + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense)
+                                + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration)
+                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'');")
+                            id += 1
+                        elif "LG" in dir_name:
+                            health=500000000
+                            physical_attack=10000000
+                            physical_defense=5000000
+                            magical_attack=10000000
+                            magical_defense=5000000
+                            chemical_attack=10000000
+                            chemical_defense=5000000
+                            atomic_attack=10000000
+                            atomic_defense=5000000
+                            mental_attack=10000000
+                            mental_defense=5000000
+                            if "Souls_Equipment" in current_name or "Gem_Equipment" in current_name:
+                                if "lv1" in name:
+                                    health=50000000
+                                    physical_attack=1000000
+                                    physical_defense=500000
+                                    magical_attack=1000000
+                                    magical_defense=500000
+                                    chemical_attack=1000000
+                                    chemical_defense=500000
+                                    atomic_attack=1000000
+                                    atomic_defense=500000
+                                    mental_attack=1000000
+                                    mental_defense=500000
+                                elif "lv2" in name:
+                                    health=80000000
+                                    physical_attack=3000000
+                                    physical_defense=1500000
+                                    magical_attack=3000000
+                                    magical_defense=1500000
+                                    chemical_attack=3000000
+                                    chemical_defense=1500000
+                                    atomic_attack=3000000
+                                    atomic_defense=1500000
+                                    mental_attack=3000000
+                                    mental_defense=1500000
+                                elif "lv3" in name:
+                                    health=150000000
+                                    physical_attack=5000000
+                                    physical_defense=2500000
+                                    magical_attack=5000000
+                                    magical_defense=2500000
+                                    chemical_attack=5000000
+                                    chemical_defense=2500000
+                                    atomic_attack=5000000
+                                    atomic_defense=2500000
+                                    mental_attack=5000000
+                                    mental_defense=2500000
+                                elif "lv4" in name:
+                                    health=350000000
+                                    physical_attack=8000000
+                                    physical_defense=5000000
+                                    magical_attack=8000000
+                                    magical_defense=5000000
+                                    chemical_attack=8000000
+                                    chemical_defense=5000000
+                                    atomic_attack=8000000
+                                    atomic_defense=5000000
+                                    mental_attack=8000000
+                                    mental_defense=5000000
+                                elif "lv5" in name:
+                                    health=600000000
+                                    physical_attack=10000000
+                                    physical_defense=5000000
+                                    magical_attack=10000000
+                                    magical_defense=5000000
+                                    chemical_attack=10000000
+                                    chemical_defense=5000000
+                                    atomic_attack=10000000
+                                    atomic_defense=5000000
+                                    mental_attack=10000000
+                                    mental_defense=5000000
+                                elif "lv6" in name:
+                                    health=1000000000
+                                    physical_attack=40000000
+                                    physical_defense=25000000
+                                    magical_attack=40000000
+                                    magical_defense=25000000
+                                    chemical_attack=40000000
+                                    chemical_defense=25000000
+                                    atomic_attack=40000000
+                                    atomic_defense=25000000
+                                    mental_attack=40000000
+                                    mental_defense=25000000
+                                elif "lv7" in name:
+                                    health=5000000000
+                                    physical_attack=90000000
+                                    physical_defense=50000000
+                                    magical_attack=90000000
+                                    magical_defense=50000000
+                                    chemical_attack=90000000
+                                    chemical_defense=50000000
+                                    atomic_attack=90000000
+                                    atomic_defense=50000000
+                                    mental_attack=90000000
+                                    mental_defense=50000000
+                            power = calculate_power(health, physical_attack, physical_defense, magical_attack, magical_defense, chemical_attack, chemical_defense, atomic_attack, atomic_defense, mental_attack, mental_defense,
+                                                    speed, critical_rate, critical_damage, armor_penetration, avoid, absorbs_damage, regenerate_vitality)
+                            print("insert into equipments values (" + str(id) + ",'" + name + "','" + current_dir + "','" + current_name + "','" + dir_name + "','"+set1_folder_name +"'," + str(0) + "," + str(power) + "," + str(health) +
+                                "," + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense)
+                                + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration)
+                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'');")
+                            id += 1
+                        elif "MR" in dir_name:
+                            health=1000000000
+                            physical_attack=20000000
+                            physical_defense=15000000
+                            magical_attack=20000000
+                            magical_defense=15000000
+                            chemical_attack=20000000
+                            chemical_defense=15000000
+                            atomic_attack=20000000
+                            atomic_defense=15000000
+                            mental_attack=20000000
+                            mental_defense=15000000
+                            power = calculate_power(health, physical_attack, physical_defense, magical_attack, magical_defense, chemical_attack, chemical_defense, atomic_attack, atomic_defense, mental_attack, mental_defense,
+                                                    speed, critical_rate, critical_damage, armor_penetration, avoid, absorbs_damage, regenerate_vitality)
+                            print("insert into equipments values (" + str(id) + ",'" + name + "','" + current_dir + "','" + current_name + "','" + dir_name + "','"+set1_folder_name +"'," + str(0) + "," + str(power) + "," + str(health) +
+                                "," + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense)
+                                + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration)
+                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'');")
+                            id += 1
                 
 
 # create_cards_database()
 # create_books_database()
-create_skills_database()
+# create_skills_database()
 # create_army_database()
 # create_collaboration_equipments_database()
 # create_bosses_database()
-# create_equipments_database()
+create_equipments_database()
 # create_items_database()
 # create_achievements_database()
 # create_titles_database()
