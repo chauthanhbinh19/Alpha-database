@@ -441,6 +441,7 @@ create table users(
 
 create table limit_break(
 	id int primary key,
+    user_id int,
     limitBreakName varchar(100),
     level int,
     step int,
@@ -462,11 +463,24 @@ create table limit_break(
     avoid double,
     absorbsDamage double,
     regenerateVitality double,
-    mana float
+    mana float,
+    
+    percent_all_health double,
+    percent_all_physical_attack double,
+    percent_all_physical_defense double,
+    percent_all_magical_attack double,
+    percent_all_magical_defense double,
+    percent_all_chemical_attack double,
+    percent_all_chemical_defense double,
+    percent_all_atomic_attack double,
+    percent_all_atomic_defense double,
+    percent_all_mental_attack double,
+    percent_all_mental_defense double
 );
 
 create table awaken(
 	id int primary key,
+    user_id int,
     awakenName varchar(100),
     level int,
     step int,
@@ -488,11 +502,24 @@ create table awaken(
     avoid double,
     absorbsDamage double,
     regenerateVitality double,
-    mana float
+    mana float,
+    
+    percent_all_health double,
+    percent_all_physical_attack double,
+    percent_all_physical_defense double,
+    percent_all_magical_attack double,
+    percent_all_magical_defense double,
+    percent_all_chemical_attack double,
+    percent_all_chemical_defense double,
+    percent_all_atomic_attack double,
+    percent_all_atomic_defense double,
+    percent_all_mental_attack double,
+    percent_all_mental_defense double
 );
 
 create table reincarnation(
 	id int primary key,
+    user_id int,
     reincarnationName varchar(100),
     level int,
     step int,
@@ -514,11 +541,24 @@ create table reincarnation(
     avoid double,
     absorbsDamage double,
     regenerateVitality double,
-    mana float
+    mana float,
+    
+    percent_all_health double,
+    percent_all_physical_attack double,
+    percent_all_physical_defense double,
+    percent_all_magical_attack double,
+    percent_all_magical_defense double,
+    percent_all_chemical_attack double,
+    percent_all_chemical_defense double,
+    percent_all_atomic_attack double,
+    percent_all_atomic_defense double,
+    percent_all_mental_attack double,
+    percent_all_mental_defense double
 );
 
 create table potential(
 	id int primary key,
+    user_id int,
     potentialName varchar(100),
     level int,
     step int,
@@ -540,7 +580,19 @@ create table potential(
     avoid double,
     absorbsDamage double,
     regenerateVitality double,
-    mana float
+    mana float,
+    
+    percent_all_health double,
+    percent_all_physical_attack double,
+    percent_all_physical_defense double,
+    percent_all_magical_attack double,
+    percent_all_magical_defense double,
+    percent_all_chemical_attack double,
+    percent_all_chemical_defense double,
+    percent_all_atomic_attack double,
+    percent_all_atomic_defense double,
+    percent_all_mental_attack double,
+    percent_all_mental_defense double
 );
 
 create table user_cards(
@@ -1517,9 +1569,9 @@ create table teams(
 create table positions(
 	id int primary key,
     team_id int,
+    type varchar(255),
     
     FOREIGN KEY (team_id) REFERENCES teams(id)
-    
 );
 
 create table slots(
@@ -1529,5 +1581,33 @@ create table slots(
     
     FOREIGN KEY (fact_card_id) REFERENCES fact_cards(id),
     FOREIGN KEY (position_id) REFERENCES positions(id)
+);
+
+create table user_transaction(
+	id int primary key,
+    object_type varchar(255),
+    army_id int,
+    book_id int,
+    card_id int,
+    collaboration_equipment_id int,
+    equipment_id int,
+    skill_id int,
+    item_id int,
+    medal_id int,
+    pet_id int,
+    symbol_id int,
+    title_id int,
+    currency_id int,
     
+    FOREIGN KEY (army_id) REFERENCES army(id),
+    FOREIGN KEY (book_id) REFERENCES books(id),
+    FOREIGN KEY (card_id) REFERENCES cards(id),
+    FOREIGN KEY (collaboration_equipment_id) REFERENCES collaboration_equipments(id),
+    FOREIGN KEY (equipment_id) REFERENCES equipments(id),
+    FOREIGN KEY (item_id) REFERENCES items(id),
+    FOREIGN KEY (medal_id) REFERENCES medals(id),
+    FOREIGN KEY (pet_id) REFERENCES pets(id),
+    FOREIGN KEY (symbol_id) REFERENCES symbols(id),
+    FOREIGN KEY (title_id) REFERENCES titles(id),
+    FOREIGN KEY (currency_id) REFERENCES currency(id)
 );
