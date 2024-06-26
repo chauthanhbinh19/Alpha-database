@@ -87,36 +87,8 @@ def create_cards_database():
                         name, extension=os.path.splitext(file_name)
                         path=os.path.join(current_dir,file_name)
                         path=path.replace("\\","/")
-                        card = {
-                            "id":id,
-                            "CardName":name,
-                            "CardNameImage": file_name,
-                            "Health": health,
-                            "PhysicalAttack": physical_attack,
-                            "PhysicalDefense": physical_defense,
-                            "MagicalAttack": magical_attack,
-                            "MagicalDefense": magical_defense,
-                            "ChemicalAttack": chemical_attack,
-                            "ChemicalDefense": chemical_defense,
-                            "AtomicAttack": atomic_attack,
-                            "AtomicDefense": atomic_defense,
-                            "MentalAttack": mental_attack,
-                            "MentalDefense": mental_defense,
-                            "Speed": speed,
-                            "CriticalRate": critical_rate,
-                            "CriticalDamage": critical_damage,
-                            "ArmorPenetration": armor_penetration,
-                            "Avoid": avoid,
-                            "AbsorbsDamage": absorbs_damage,
-                            "RegenerateVitality": regenerate_vitality,
-                            "Mana": mana,
-                            "Rare": rare,
-                            "Clan": current_name,
-                            "Price": price,
-                            "PriceUnit":price_unit,
-                            "Path":path
-                        }
-                        card_list.append(card)
+                        name=name.replace("_"," ")
+                        
                         power=calculate_power(health,physical_attack,physical_defense,magical_attack,magical_defense,chemical_attack,chemical_defense,atomic_attack,atomic_defense,mental_attack,mental_defense,
                                               speed,critical_rate,critical_damage,armor_penetration,avoid,absorbs_damage,regenerate_vitality)
                         print("insert into cards values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + current_name + "'," + str(0) + "," + str(power) + "," + str(health) + "," 
@@ -146,36 +118,7 @@ def create_cards_database():
                         price=500000
                         path=os.path.join(current_dir,file_name)
                         path=path.replace("\\","/")
-                        card = {
-                            "id":id,
-                            "CardName":name,
-                            "CardNameImage": file_name,
-                            "Health": health,
-                            "PhysicalAttack": physical_attack,
-                            "PhysicalDefense": physical_defense,
-                            "MagicalAttack": magical_attack,
-                            "MagicalDefense": magical_defense,
-                            "ChemicalAttack": chemical_attack,
-                            "ChemicalDefense": chemical_defense,
-                            "AtomicAttack": atomic_attack,
-                            "AtomicDefense": atomic_defense,
-                            "MentalAttack": mental_attack,
-                            "MentalDefense": mental_defense,
-                            "Speed": speed,
-                            "CriticalRate": critical_rate,
-                            "CriticalDamage": critical_damage,
-                            "ArmorPenetration": armor_penetration,
-                            "Avoid": avoid,
-                            "AbsorbsDamage": absorbs_damage,
-                            "RegenerateVitality": regenerate_vitality,
-                            "Mana": mana,
-                            "Rare": rare,
-                            "Clan": current_name,
-                            "Price": price,
-                            "PriceUnit":price_unit,
-                            "Path":path
-                        }
-                        # card_list.append(card)
+                        name=name.replace("_"," ")
                         power=calculate_power(health,physical_attack,physical_defense,magical_attack,magical_defense,chemical_attack,chemical_defense,atomic_attack,atomic_defense,mental_attack,mental_defense,
                                               speed,critical_rate,critical_damage,armor_penetration,avoid,absorbs_damage,regenerate_vitality)
                         print("insert into cards values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + current_name + "'," + str(0) + "," + str(power) + "," + str(health) + "," 
@@ -204,36 +147,7 @@ def create_cards_database():
                         price=1000000
                         path=os.path.join(current_dir,file_name)
                         path=path.replace("\\","/")
-                        card = {
-                            "id":id,
-                            "CardName":name,
-                            "CardNameImage": file_name,
-                            "Health": health,
-                            "PhysicalAttack": physical_attack,
-                            "PhysicalDefense": physical_defense,
-                            "MagicalAttack": magical_attack,
-                            "MagicalDefense": magical_defense,
-                            "ChemicalAttack": chemical_attack,
-                            "ChemicalDefense": chemical_defense,
-                            "AtomicAttack": atomic_attack,
-                            "AtomicDefense": atomic_defense,
-                            "MentalAttack": mental_attack,
-                            "MentalDefense": mental_defense,
-                            "Speed": speed,
-                            "CriticalRate": critical_rate,
-                            "CriticalDamage": critical_damage,
-                            "ArmorPenetration": armor_penetration,
-                            "Avoid": avoid,
-                            "AbsorbsDamage": absorbs_damage,
-                            "RegenerateVitality": regenerate_vitality,
-                            "Mana": mana,
-                            "Rare": rare,
-                            "Clan": current_name,
-                            "Price": price,
-                            "PriceUnit":price_unit,
-                            "Path":path
-                        }
-                        # card_list.append(card)
+                        name=name.replace("_"," ")
                         power=calculate_power(health,physical_attack,physical_defense,magical_attack,magical_defense,chemical_attack,chemical_defense,atomic_attack,atomic_defense,mental_attack,mental_defense,
                                               speed,critical_rate,critical_damage,armor_penetration,avoid,absorbs_damage,regenerate_vitality)
                         print("insert into cards values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + current_name + "'," + str(0) + "," + str(power) + "," + str(health) + "," 
@@ -262,36 +176,7 @@ def create_cards_database():
                         price=5000000
                         path=os.path.join(current_dir,file_name)
                         path=path.replace("\\","/")
-                        card = {
-                            "id":id,
-                            "CardName":name,
-                            "CardNameImage": file_name,
-                            "Health": health,
-                            "PhysicalAttack": physical_attack,
-                            "PhysicalDefense": physical_defense,
-                            "MagicalAttack": magical_attack,
-                            "MagicalDefense": magical_defense,
-                            "ChemicalAttack": chemical_attack,
-                            "ChemicalDefense": chemical_defense,
-                            "AtomicAttack": atomic_attack,
-                            "AtomicDefense": atomic_defense,
-                            "MentalAttack": mental_attack,
-                            "MentalDefense": mental_defense,
-                            "Speed": speed,
-                            "CriticalRate": critical_rate,
-                            "CriticalDamage": critical_damage,
-                            "ArmorPenetration": armor_penetration,
-                            "Avoid": avoid,
-                            "AbsorbsDamage": absorbs_damage,
-                            "RegenerateVitality": regenerate_vitality,
-                            "Mana": mana,
-                            "Rare": rare,
-                            "Clan": current_name,
-                            "Price": price,
-                            "PriceUnit":price_unit,
-                            "Path":path
-                        }
-                        # card_list.append(card)
+                        name=name.replace("_"," ")
                         power=calculate_power(health,physical_attack,physical_defense,magical_attack,magical_defense,chemical_attack,chemical_defense,atomic_attack,atomic_defense,mental_attack,mental_defense,
                                               speed,critical_rate,critical_damage,armor_penetration,avoid,absorbs_damage,regenerate_vitality)
                         print("insert into cards values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + current_name + "'," + str(0) + "," + str(power) + "," + str(health) + "," 
@@ -340,6 +225,7 @@ def create_books_database():
                     name, extension=os.path.splitext(file_name)
                     path=os.path.join(current_dir,file_name)
                     path=path.replace("\\","/")
+                    name=name.replace("_"," ")
                     card = {
                         "id":id,
                         "CardBook":name,
@@ -418,6 +304,7 @@ def create_army_database():
                     name, extension=os.path.splitext(file_name)
                     path=os.path.join(current_dir,file_name)
                     path=path.replace("\\","/")
+                    name=name.replace("_"," ")
                     card = {
                         "id":id,
                         "CardBook":name,
@@ -496,6 +383,7 @@ def create_skills_database():
                     name, extension=os.path.splitext(file_name)
                     path=os.path.join(current_dir,file_name)
                     path=path.replace("\\","/")
+                    name=name.replace("_"," ")
                     
                     power=calculate_power(health,physical_attack,physical_defense,magical_attack,magical_defense,chemical_attack,chemical_defense,atomic_attack,atomic_defense,mental_attack,mental_defense,
                                               speed,critical_rate,critical_damage,armor_penetration,avoid,absorbs_damage,regenerate_vitality)
@@ -548,36 +436,8 @@ def create_collaboration_equipments_database():
                         name, extension=os.path.splitext(file_name)
                         path=os.path.join(current_dir,file_name)
                         path=path.replace("\\","/")
-                        card = {
-                            "id":id,
-                            "CardName":name,
-                            "CardNameImage": file_name,
-                            "Health": health,
-                            "PhysicalAttack": physical_attack,
-                            "PhysicalDefense": physical_defense,
-                            "MagicalAttack": magical_attack,
-                            "MagicalDefense": magical_defense,
-                            "ChemicalAttack": chemical_attack,
-                            "ChemicalDefense": chemical_defense,
-                            "AtomicAttack": atomic_attack,
-                            "AtomicDefense": atomic_defense,
-                            "MentalAttack": mental_attack,
-                            "MentalDefense": mental_defense,
-                            "Speed": speed,
-                            "CriticalRate": critical_rate,
-                            "CriticalDamage": critical_damage,
-                            "ArmorPenetration": armor_penetration,
-                            "Avoid": avoid,
-                            "AbsorbsDamage": absorbs_damage,
-                            "RegenerateVitality": regenerate_vitality,
-                            "Mana": mana,
-                            "Rare": rare,
-                            "Clan": current_name,
-                            "Price": price,
-                            "PriceUnit":price_unit,
-                            "Path":path
-                        }
-                        card_list.append(card)
+                        name=name.replace("_"," ")
+                        
                         power=calculate_power(health,physical_attack,physical_defense,magical_attack,magical_defense,chemical_attack,chemical_defense,atomic_attack,atomic_defense,mental_attack,mental_defense,
                                               speed,critical_rate,critical_damage,armor_penetration,avoid,absorbs_damage,regenerate_vitality)
                         print("insert into collaboration_equipments values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + current_name + "'," + str(0) + "," + str(power) + "," + str(health) + "," 
@@ -607,36 +467,7 @@ def create_collaboration_equipments_database():
                         price=500000
                         path=os.path.join(current_dir,file_name)
                         path=path.replace("\\","/")
-                        card = {
-                            "id":id,
-                            "CardName":name,
-                            "CardNameImage": file_name,
-                            "Health": health,
-                            "PhysicalAttack": physical_attack,
-                            "PhysicalDefense": physical_defense,
-                            "MagicalAttack": magical_attack,
-                            "MagicalDefense": magical_defense,
-                            "ChemicalAttack": chemical_attack,
-                            "ChemicalDefense": chemical_defense,
-                            "AtomicAttack": atomic_attack,
-                            "AtomicDefense": atomic_defense,
-                            "MentalAttack": mental_attack,
-                            "MentalDefense": mental_defense,
-                            "Speed": speed,
-                            "CriticalRate": critical_rate,
-                            "CriticalDamage": critical_damage,
-                            "ArmorPenetration": armor_penetration,
-                            "Avoid": avoid,
-                            "AbsorbsDamage": absorbs_damage,
-                            "RegenerateVitality": regenerate_vitality,
-                            "Mana": mana,
-                            "Rare": rare,
-                            "Clan": current_name,
-                            "Price": price,
-                            "PriceUnit":price_unit,
-                            "Path":path
-                        }
-                        # card_list.append(card)
+                        name=name.replace("_"," ")
                         power=calculate_power(health,physical_attack,physical_defense,magical_attack,magical_defense,chemical_attack,chemical_defense,atomic_attack,atomic_defense,mental_attack,mental_defense,
                                               speed,critical_rate,critical_damage,armor_penetration,avoid,absorbs_damage,regenerate_vitality)
                         print("insert into collaboration_equipments values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + current_name + "'," + str(0) + "," + str(power) + "," + str(health) + "," 
@@ -665,36 +496,7 @@ def create_collaboration_equipments_database():
                         price=1000000
                         path=os.path.join(current_dir,file_name)
                         path=path.replace("\\","/")
-                        card = {
-                            "id":id,
-                            "CardName":name,
-                            "CardNameImage": file_name,
-                            "Health": health,
-                            "PhysicalAttack": physical_attack,
-                            "PhysicalDefense": physical_defense,
-                            "MagicalAttack": magical_attack,
-                            "MagicalDefense": magical_defense,
-                            "ChemicalAttack": chemical_attack,
-                            "ChemicalDefense": chemical_defense,
-                            "AtomicAttack": atomic_attack,
-                            "AtomicDefense": atomic_defense,
-                            "MentalAttack": mental_attack,
-                            "MentalDefense": mental_defense,
-                            "Speed": speed,
-                            "CriticalRate": critical_rate,
-                            "CriticalDamage": critical_damage,
-                            "ArmorPenetration": armor_penetration,
-                            "Avoid": avoid,
-                            "AbsorbsDamage": absorbs_damage,
-                            "RegenerateVitality": regenerate_vitality,
-                            "Mana": mana,
-                            "Rare": rare,
-                            "Clan": current_name,
-                            "Price": price,
-                            "PriceUnit":price_unit,
-                            "Path":path
-                        }
-                        # card_list.append(card)
+                        name=name.replace("_"," ")
                         power=calculate_power(health,physical_attack,physical_defense,magical_attack,magical_defense,chemical_attack,chemical_defense,atomic_attack,atomic_defense,mental_attack,mental_defense,
                                               speed,critical_rate,critical_damage,armor_penetration,avoid,absorbs_damage,regenerate_vitality)
                         print("insert into collaboration_equipments values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + current_name + "'," + str(0) + "," + str(power) + "," + str(health) + "," 
@@ -723,36 +525,7 @@ def create_collaboration_equipments_database():
                         price=5000000
                         path=os.path.join(current_dir,file_name)
                         path=path.replace("\\","/")
-                        card = {
-                            "id":id,
-                            "CardName":name,
-                            "CardNameImage": file_name,
-                            "Health": health,
-                            "PhysicalAttack": physical_attack,
-                            "PhysicalDefense": physical_defense,
-                            "MagicalAttack": magical_attack,
-                            "MagicalDefense": magical_defense,
-                            "ChemicalAttack": chemical_attack,
-                            "ChemicalDefense": chemical_defense,
-                            "AtomicAttack": atomic_attack,
-                            "AtomicDefense": atomic_defense,
-                            "MentalAttack": mental_attack,
-                            "MentalDefense": mental_defense,
-                            "Speed": speed,
-                            "CriticalRate": critical_rate,
-                            "CriticalDamage": critical_damage,
-                            "ArmorPenetration": armor_penetration,
-                            "Avoid": avoid,
-                            "AbsorbsDamage": absorbs_damage,
-                            "RegenerateVitality": regenerate_vitality,
-                            "Mana": mana,
-                            "Rare": rare,
-                            "Clan": current_name,
-                            "Price": price,
-                            "PriceUnit":price_unit,
-                            "Path":path
-                        }
-                        # card_list.append(card)
+                        name=name.replace("_"," ")
                         power=calculate_power(health,physical_attack,physical_defense,magical_attack,magical_defense,chemical_attack,chemical_defense,atomic_attack,atomic_defense,mental_attack,mental_defense,
                                               speed,critical_rate,critical_damage,armor_penetration,avoid,absorbs_damage,regenerate_vitality)
                         print("insert into collaboration_equipments values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + current_name + "'," + str(0) + "," + str(power) + "," + str(health) + "," 
@@ -781,36 +554,7 @@ def create_collaboration_equipments_database():
                         price=5000000
                         path=os.path.join(current_dir,file_name)
                         path=path.replace("\\","/")
-                        card = {
-                            "id":id,
-                            "CardName":name,
-                            "CardNameImage": file_name,
-                            "Health": health,
-                            "PhysicalAttack": physical_attack,
-                            "PhysicalDefense": physical_defense,
-                            "MagicalAttack": magical_attack,
-                            "MagicalDefense": magical_defense,
-                            "ChemicalAttack": chemical_attack,
-                            "ChemicalDefense": chemical_defense,
-                            "AtomicAttack": atomic_attack,
-                            "AtomicDefense": atomic_defense,
-                            "MentalAttack": mental_attack,
-                            "MentalDefense": mental_defense,
-                            "Speed": speed,
-                            "CriticalRate": critical_rate,
-                            "CriticalDamage": critical_damage,
-                            "ArmorPenetration": armor_penetration,
-                            "Avoid": avoid,
-                            "AbsorbsDamage": absorbs_damage,
-                            "RegenerateVitality": regenerate_vitality,
-                            "Mana": mana,
-                            "Rare": rare,
-                            "Clan": current_name,
-                            "Price": price,
-                            "PriceUnit":price_unit,
-                            "Path":path
-                        }
-                        # card_list.append(card)
+                        name=name.replace("_"," ")
                         power=calculate_power(health,physical_attack,physical_defense,magical_attack,magical_defense,chemical_attack,chemical_defense,atomic_attack,atomic_defense,mental_attack,mental_defense,
                                               speed,critical_rate,critical_damage,armor_penetration,avoid,absorbs_damage,regenerate_vitality)
                         print("insert into collaboration_equipments values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + current_name + "'," + str(0) + "," + str(power) + "," + str(health) + "," 
@@ -857,6 +601,7 @@ def create_bosses_database():
                     name, extension=os.path.splitext(file_name)
                     path=os.path.join(current_dir,file_name)
                     path=path.replace("\\","/")
+                    name=name.replace("_"," ")
                     card = {
                         "id":id,
                         "SkillName":name,
@@ -929,36 +674,8 @@ def create_pets_database():
                     name, extension=os.path.splitext(file_name)
                     path=os.path.join(current_dir,file_name)
                     path=path.replace("\\","/")
-                    card = {
-                        "id":id,
-                        "PetName":name,
-                        "PetNameImage": file_name,
-                        "Health": health,
-                        "PhysicalAttack": physical_attack,
-                        "PhysicalDefense": physical_defense,
-                        "MagicalAttack": magical_attack,
-                        "MagicalDefense": magical_defense,
-                        "ChemicalAttack": chemical_attack,
-                        "ChemicalDefense": chemical_defense,
-                        "AtomicAttack": atomic_attack,
-                        "AtomicDefense": atomic_defense,
-                        "MentalAttack": mental_attack,
-                        "MentalDefense": mental_defense,
-                        "Speed": speed,
-                        "CriticalRate": critical_rate,
-                        "CriticalDamage": critical_damage,
-                        "ArmorPenetration": armor_penetration,
-                        "Avoid": avoid,
-                        "AbsorbsDamage": absorbs_damage,
-                        "RegenerateVitality": regenerate_vitality,
-                        "Mana": mana,
-                        "Rare": rare,
-                        "Type": dir_name,
-                        "Price": price,
-                        "PriceUnit":price_unit,
-                        "Path":path
-                    }
-                    # card_list.append(card)
+                    name=name.replace("_"," ")
+                    
                     power=calculate_power(health,physical_attack,physical_defense,magical_attack,magical_defense,chemical_attack,chemical_defense,atomic_attack,atomic_defense,mental_attack,mental_defense,
                                               speed,critical_rate,critical_damage,armor_penetration,avoid,absorbs_damage,regenerate_vitality)
                     print("insert into pets values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + dir_name + "'," + str(0) + "," + str(power) + "," + str(health) + "," 
@@ -1021,6 +738,7 @@ def create_symbols_database():
             
                     path=os.path.join(current_dir,file_name)
                     path=path.replace("\\","/")
+                    name=name.replace("_"," ")
                     
                     power=calculate_power(health,physical_attack,physical_defense,magical_attack,magical_defense,chemical_attack,chemical_defense,atomic_attack,atomic_defense,mental_attack,mental_defense,
                                               speed,critical_rate,critical_damage,armor_penetration,avoid,absorbs_damage,regenerate_vitality)
@@ -1076,6 +794,7 @@ def create_medals_database():
                 name, extension=os.path.splitext(file_name)
                 path=os.path.join(current_dir,file_name)
                 path=path.replace("\\","/")
+                name=name.replace("_"," ")
                 
                 power=calculate_power(health,physical_attack,physical_defense,magical_attack,magical_defense,chemical_attack,chemical_defense,atomic_attack,atomic_defense,mental_attack,mental_defense,
                                               speed,critical_rate,critical_damage,armor_penetration,avoid,absorbs_damage,regenerate_vitality)
@@ -1131,6 +850,7 @@ def create_achievements_database():
                 name, extension=os.path.splitext(file_name)
                 path=os.path.join(current_dir,file_name)
                 path=path.replace("\\","/")
+                name=name.replace("_"," ")
                 
                 power=calculate_power(health,physical_attack,physical_defense,magical_attack,magical_defense,chemical_attack,chemical_defense,atomic_attack,atomic_defense,mental_attack,mental_defense,
                                               speed,critical_rate,critical_damage,armor_penetration,avoid,absorbs_damage,regenerate_vitality)
@@ -1185,6 +905,7 @@ def create_titles_database():
                 name, extension=os.path.splitext(file_name)
                 path=os.path.join(current_dir,file_name)
                 path=path.replace("\\","/")
+                name=name.replace("_"," ")
 
                 power=calculate_power(health,physical_attack,physical_defense,magical_attack,magical_defense,chemical_attack,chemical_defense,atomic_attack,atomic_defense,mental_attack,mental_defense,
                                               speed,critical_rate,critical_damage,armor_penetration,avoid,absorbs_damage,regenerate_vitality)
@@ -1239,6 +960,7 @@ def create_borders_database():
                 name, extension=os.path.splitext(file_name)
                 path=os.path.join(current_dir,file_name)
                 path=path.replace("\\","/")
+                name=name.replace("_"," ")
             
                 power=calculate_power(health,physical_attack,physical_defense,magical_attack,magical_defense,chemical_attack,chemical_defense,atomic_attack,atomic_defense,mental_attack,mental_defense,
                                               speed,critical_rate,critical_damage,armor_penetration,avoid,absorbs_damage,regenerate_vitality)
@@ -1261,14 +983,7 @@ def create_currencies_database():
                 name, extension=os.path.splitext(file_name)
                 path=os.path.join(current_dir,file_name)
                 path=path.replace("\\","/")
-                card = {
-                    "id":id,
-                    "CurrencyName":name,
-                    "CurrencyNameImage": file_name,
-                    "Type": "Currency",
-                    "Path":path
-                }
-                # card_list.append(card)
+                name=name.replace("_"," ")
                 print("insert into currency values (" + str(id) + ",'" + name + "','" + path + "');")
                 id=id+1
 
@@ -1291,16 +1006,7 @@ def create_items_database():
                     name, extension=os.path.splitext(file_name)
                     path=os.path.join(current_dir,file_name)
                     path=path.replace("\\","/")
-                    card = {
-                        "id":id,
-                        "ItemName":name,
-                        "ItemNameImage": file_name,
-                        "Type": dir_name,
-                        "Price": price,
-                        "PriceUnit":price_unit,
-                        "Path":path
-                    }
-                    # card_list.append(card)
+                    name=name.replace("_"," ")
                     print("insert into items values (" + str(id) + ",'" + name + "','" + path + "','" + dir_name + "'," + str(1000) + ",'');")
                     id=id+1
 
@@ -1343,6 +1049,7 @@ def create_equipments_database():
                     if file_name.endswith(".jpg") or file_name.endswith(".png"):
                         name, extension = os.path.splitext(file_name)
                         set1_folder_name = os.path.basename(os.path.dirname(current_dir))
+                        name=name.replace("_"," ")
                         if "SR" in dir_name:
                             health=20000000
                             physical_attack=100000
@@ -1523,7 +1230,61 @@ def create_equipments_database():
                                 + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration)
                                 + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'');")
                             id += 1
-                
+
+def create_collaboration_database():
+    cards_dir="Collaboration"
+    card_list = []
+    id=1
+    card_name=""
+    health=10000000
+    physical_attack=2000000
+    physical_defense=2000000
+    magical_attack=2000000
+    magical_defense=2000000
+    chemical_attack=2000000
+    chemical_defense=2000000
+    atomic_attack=2000000
+    atomic_defense=2000000
+    mental_attack=2000000
+    mental_defense=2000000
+    per_health=40
+    per_physical_attack=40
+    per_physical_defense=40
+    per_magical_attack=40
+    per_magical_defense=40
+    per_chemical_attack=40
+    per_chemical_defense=40
+    per_atomic_attack=40
+    per_atomic_defense=40
+    per_mental_attack=40
+    per_mental_defense=40
+    speed=1
+    critical_rate=0
+    critical_damage=0
+    armor_penetration=0
+    avoid=0
+    absorbs_damage=0
+    regenerate_vitality=0
+    mana=100
+    rare="LG"
+    path=""
+    for root, dirs, files in os.walk(cards_dir):
+        current_dir=os.path.basename(root)
+        for file_name in os.listdir(current_dir):
+            if file_name.endswith(".jpg") or file_name.endswith("png"):
+                name, extension=os.path.splitext(file_name)
+                path=os.path.join(current_dir,file_name)
+                path=path.replace("\\","/")
+                name=name.replace("_"," ")
+            
+                power=calculate_power(health,physical_attack,physical_defense,magical_attack,magical_defense,chemical_attack,chemical_defense,atomic_attack,atomic_defense,mental_attack,mental_defense,
+                                              speed,critical_rate,critical_damage,armor_penetration,avoid,absorbs_damage,regenerate_vitality)
+                print("insert into collaborations values (" + str(id) + ",'" + name + "','" + path + "'," + str(power) + "," + str(health) + "," 
+                              + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense) 
+                              + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
+                              + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ","+ str(per_health)+","+str(per_physical_attack) +","+ str(per_physical_defense)
+                              + ","+str(per_magical_attack) +","+ str(per_magical_defense) + ","+str(per_chemical_attack) +","+ str(per_chemical_defense) + ","+str(per_atomic_attack) +","+ str(per_atomic_defense) + ","+str(per_mental_attack) +","+ str(per_mental_defense)+",'');")
+                id=id+1      
 
 # create_cards_database()
 # create_books_database()
@@ -1531,7 +1292,7 @@ def create_equipments_database():
 # create_army_database()
 # create_collaboration_equipments_database()
 # create_bosses_database()
-create_equipments_database()
+# create_equipments_database()
 # create_items_database()
 # create_achievements_database()
 # create_titles_database()
@@ -1540,3 +1301,4 @@ create_equipments_database()
 # create_symbols_database()
 # create_medals_database()
 # create_borders_database()
+create_collaboration_database()
