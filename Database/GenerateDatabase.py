@@ -1287,7 +1287,7 @@ def create_collaboration_database():
                 id=id+1      
 
 # create_cards_database()
-# create_books_database()
+create_books_database()
 # create_skills_database()
 # create_army_database()
 # create_collaboration_equipments_database()
@@ -1301,4 +1301,4 @@ def create_collaboration_database():
 # create_symbols_database()
 # create_medals_database()
 # create_borders_database()
-create_collaboration_database()
+# create_collaboration_database()
