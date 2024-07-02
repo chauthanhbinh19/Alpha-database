@@ -184,8 +184,6 @@ def create_cards_database():
                               + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
                               + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'');")
                         id=id+1
-    # with open("cards_database.json", "w") as json_file:
-    #     json.dump(card_list, json_file)
 
 def create_books_database():
     cards_dir="Book"
@@ -226,36 +224,7 @@ def create_books_database():
                     path=os.path.join(current_dir,file_name)
                     path=path.replace("\\","/")
                     name=name.replace("_"," ")
-                    card = {
-                        "id":id,
-                        "CardBook":name,
-                        "BookNameImage": file_name,
-                        "Health": health,
-                        "PhysicalAttack": physical_attack,
-                        "PhysicalDefense": physical_defense,
-                        "MagicalAttack": magical_attack,
-                        "MagicalDefense": magical_defense,
-                        "ChemicalAttack": chemical_attack,
-                        "ChemicalDefense": chemical_defense,
-                        "AtomicAttack": atomic_attack,
-                        "AtomicDefense": atomic_defense,
-                        "MentalAttack": mental_attack,
-                        "MentalDefense": mental_defense,
-                        "Speed": speed,
-                        "CriticalRate": critical_rate,
-                        "CriticalDamage": critical_damage,
-                        "ArmorPenetration": armor_penetration,
-                        "Avoid": avoid,
-                        "AbsorbsDamage": absorbs_damage,
-                        "RegenerateVitality": regenerate_vitality,
-                        "Mana": mana,
-                        "Rare": rare,
-                        "Type": dir_name,
-                        "Price": price,
-                        "PriceUnit":price_unit,
-                        "Path":path
-                    }
-                    # card_list.append(card)
+                
                     power=calculate_power(health,physical_attack,physical_defense,magical_attack,magical_defense,chemical_attack,chemical_defense,atomic_attack,atomic_defense,mental_attack,mental_defense,
                                               speed,critical_rate,critical_damage,armor_penetration,avoid,absorbs_damage,regenerate_vitality)
                     print("insert into books values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + current_name + "'," + str(0) + "," + str(power) + "," + str(health) + "," 
@@ -263,8 +232,7 @@ def create_books_database():
                               + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
                               + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'');")
                     id=id+1
-    # with open("books_database.json", "w") as json_file:
-    #     json.dump(card_list, json_file)
+
 
 def create_army_database():
     cards_dir="Army"
@@ -305,36 +273,7 @@ def create_army_database():
                     path=os.path.join(current_dir,file_name)
                     path=path.replace("\\","/")
                     name=name.replace("_"," ")
-                    card = {
-                        "id":id,
-                        "CardBook":name,
-                        "BookNameImage": file_name,
-                        "Health": health,
-                        "PhysicalAttack": physical_attack,
-                        "PhysicalDefense": physical_defense,
-                        "MagicalAttack": magical_attack,
-                        "MagicalDefense": magical_defense,
-                        "ChemicalAttack": chemical_attack,
-                        "ChemicalDefense": chemical_defense,
-                        "AtomicAttack": atomic_attack,
-                        "AtomicDefense": atomic_defense,
-                        "MentalAttack": mental_attack,
-                        "MentalDefense": mental_defense,
-                        "Speed": speed,
-                        "CriticalRate": critical_rate,
-                        "CriticalDamage": critical_damage,
-                        "ArmorPenetration": armor_penetration,
-                        "Avoid": avoid,
-                        "AbsorbsDamage": absorbs_damage,
-                        "RegenerateVitality": regenerate_vitality,
-                        "Mana": mana,
-                        "Rare": rare,
-                        "Type": dir_name,
-                        "Price": price,
-                        "PriceUnit":price_unit,
-                        "Path":path
-                    }
-                    # card_list.append(card)
+                    
                     power=calculate_power(health,physical_attack,physical_defense,magical_attack,magical_defense,chemical_attack,chemical_defense,atomic_attack,atomic_defense,mental_attack,mental_defense,
                                               speed,critical_rate,critical_damage,armor_penetration,avoid,absorbs_damage,regenerate_vitality)
                     print("insert into army values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + dir_name + "'," + str(0) + "," + str(power) + "," + str(health) + "," 
@@ -342,8 +281,7 @@ def create_army_database():
                               + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
                               + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'');")
                     id=id+1
-    # with open("books_database.json", "w") as json_file:
-    #     json.dump(card_list, json_file)
+
 
 def create_skills_database():
     cards_dir="Skill"
@@ -684,8 +622,6 @@ def create_pets_database():
                               + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'');")
 
                     id=id+1
-    # with open("pets_database.json", "w") as json_file:
-    #     json.dump(card_list, json_file)
 
 def create_symbols_database():
     cards_dir="Symbol"
@@ -1010,7 +946,6 @@ def create_items_database():
                     print("insert into items values (" + str(id) + ",'" + name + "','" + path + "','" + dir_name + "'," + str(1000) + ",'');")
                     id=id+1
 
-
 def create_equipments_database():
     cards_dir="Equipment"
     card_list = []
@@ -1286,8 +1221,437 @@ def create_collaboration_database():
                               + ","+str(per_magical_attack) +","+ str(per_magical_defense) + ","+str(per_chemical_attack) +","+ str(per_chemical_defense) + ","+str(per_atomic_attack) +","+ str(per_atomic_defense) + ","+str(per_mental_attack) +","+ str(per_mental_defense)+",'');")
                 id=id+1      
 
+def create_cards_trade():
+    cards_dir="Cards"
+    id=1
+    
+    for root, dirs, files in os.walk(cards_dir):
+        current_dir=os.path.basename(root)
+        current_name=""
+        if current_dir not in ["LG", "UR", "SSR", "SR"]:
+            current_name=current_dir
+            # print(current_name)
+        for dir_name in dirs:
+            if "SR" in dir_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    if file_name.endswith(".jpg") or file_name.endswith("png"):
+                        name, extension=os.path.splitext(file_name)
+                        path=os.path.join(current_dir,file_name)
+                        path=path.replace("\\","/")
+                        name=name.replace("_"," ")
+                        
+                        
+                        print("insert into card_trade values (" + str(id) + "," + str(7) + "," + str(200) + ");")
+
+                        id=id+1
+            if "SSR" in dir_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    if file_name.endswith(".jpg") or file_name.endswith("png"):
+                        name, extension=os.path.splitext(file_name)
+                        
+                        print("insert into card_trade values (" + str(id) + "," + str(7) + "," + str(500) + ");")
+                        id=id+1
+            if "UR" in dir_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    if file_name.endswith(".jpg") or file_name.endswith("png"):
+                        name,extension=os.path.splitext(file_name)
+                        
+                        print("insert into card_trade values (" + str(id) + "," + str(7) + "," + str(1000) + ");")
+                        id=id+1
+            if "LG" in dir_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    if file_name.endswith(".jpg") or file_name.endswith("png"):
+                        name, extension=os.path.splitext(file_name)
+                        
+                        print("insert into card_trade values (" + str(id) + "," + str(7) + "," + str(2000) + ");")
+                        id=id+1
+
+def create_book_trade():
+    cards_dir="Book"
+    id=1
+    
+    for root, dirs, files in os.walk(cards_dir):
+        current_dir=os.path.basename(root)
+        current_name=current_dir
+        for dir_name in dirs:
+            current_dir =os.path.join(root,dir_name)
+            for file_name in os.listdir(current_dir):
+                if file_name.endswith(".jpg") or file_name.endswith("png"):
+                    name, extension=os.path.splitext(file_name)
+                    path=os.path.join(current_dir,file_name)
+                    path=path.replace("\\","/")
+                    name=name.replace("_"," ")
+                
+                    print("insert into book_trade values (" + str(id) + "," + str(37) + "," + str(2000) + ");")
+                    id=id+1
+
+def create_army_trade():
+    cards_dir="Army"
+    card_list = []
+    id=1
+    
+    for root, dirs, files in os.walk(cards_dir):
+        current_dir=os.path.basename(root)
+        current_name=current_dir
+        for dir_name in dirs:
+            current_dir =os.path.join(root,dir_name)
+            for file_name in os.listdir(current_dir):
+                if file_name.endswith(".jpg") or file_name.endswith("png"):
+                    name, extension=os.path.splitext(file_name)
+                    path=os.path.join(current_dir,file_name)
+                    path=path.replace("\\","/")
+                    name=name.replace("_"," ")
+                    
+                    print("insert into army_trade values (" + str(id) + "," + str(48) + "," + str(2000) + ");")
+                    id=id+1
+
+def create_skills_trade():
+    cards_dir="Skill"
+    card_list = []
+    id=1
+    
+    for root, dirs, files in os.walk(cards_dir):
+        current_dir=os.path.basename(root)
+        current_name=current_dir
+        for dir_name in dirs:
+            current_dir =os.path.join(root,dir_name)
+            for file_name in os.listdir(current_dir):
+                if file_name.endswith(".jpg") or file_name.endswith("png"):
+                    name, extension=os.path.splitext(file_name)
+                    path=os.path.join(current_dir,file_name)
+                    path=path.replace("\\","/")
+                    name=name.replace("_"," ")
+                    
+                    print("insert into skill_trade values (" + str(id) + "," + str(8) + "," + str(2000) + ");")
+                    id=id+1
+
+def create_collaboration_equipments_trade():
+    cards_dir="CollborationEquipment"
+    card_list = []
+    id=1
+    
+    for root, dirs, files in os.walk(cards_dir):
+        current_dir=os.path.basename(root)
+        current_name=""
+        if current_dir not in ["MR","LG", "UR", "SSR", "SR"]:
+            current_name=current_dir
+            # print(current_name)
+        for dir_name in dirs:
+            if "SR" in dir_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    if file_name.endswith(".jpg") or file_name.endswith("png"):
+                        name, extension=os.path.splitext(file_name)
+                        path=os.path.join(current_dir,file_name)
+                        path=path.replace("\\","/")
+                        name=name.replace("_"," ")
+                        
+                        print("insert into collaboration_equipment_trade values (" + str(id) + "," + str(36) + "," + str(200) + ");")
+
+                        id=id+1
+            if "SSR" in dir_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    if file_name.endswith(".jpg") or file_name.endswith("png"):
+                        name, extension=os.path.splitext(file_name)
+                        
+                        print("insert into collaboration_equipment_trade values (" + str(id) + "," + str(36) + "," + str(500) + ");")
+                        id=id+1
+            if "UR" in dir_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    if file_name.endswith(".jpg") or file_name.endswith("png"):
+                        name,extension=os.path.splitext(file_name)
+                        print("insert into collaboration_equipment_trade values (" + str(id) + "," + str(36) + "," + str(1000) + ");")
+                        id=id+1
+            if "LG" in dir_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    if file_name.endswith(".jpg") or file_name.endswith("png"):
+                        name, extension=os.path.splitext(file_name)
+                        print("insert into collaboration_equipment_trade values (" + str(id) + "," + str(36) + "," + str(2000) + ");")
+                        id=id+1
+            if "MR" in dir_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    if file_name.endswith(".jpg") or file_name.endswith("png"):
+                        name, extension=os.path.splitext(file_name)
+                        print("insert into collaboration_equipment_trade values (" + str(id) + "," + str(36) + "," + str(5000) + ");")
+                        id=id+1
+
+def create_pets_trade():
+    cards_dir="Pet"
+    card_list = []
+    id=1
+    for root, dirs, files in os.walk(cards_dir):
+        current_dir=os.path.basename(root)
+        current_name=current_dir
+        for dir_name in dirs:
+            current_dir =os.path.join(root,dir_name)
+            for file_name in os.listdir(current_dir):
+                if file_name.endswith(".jpg") or file_name.endswith("png"):
+                    name, extension=os.path.splitext(file_name)
+                    path=os.path.join(current_dir,file_name)
+                    path=path.replace("\\","/")
+                    name=name.replace("_"," ")
+                    
+                    print("insert into pet_trade values (" + str(id) + "," + str(51) + "," + str(5000) + ");")
+
+                    id=id+1
+
+def create_symbols_trade():
+    cards_dir="Symbol"
+    card_list = []
+    id=1
+    for root, dirs, files in os.walk(cards_dir):
+        current_dir=os.path.basename(root)
+        current_name=current_dir
+        for dir_name in dirs:
+            current_dir =os.path.join(root,dir_name)
+            dir_name = os.path.basename(current_dir)
+            for file_name in os.listdir(current_dir):
+                if file_name.endswith(".jpg") or file_name.endswith("png"):
+                    name, extension=os.path.splitext(file_name)
+            
+                    path=os.path.join(current_dir,file_name)
+                    path=path.replace("\\","/")
+                    name=name.replace("_"," ")
+                    
+                    print("insert into symbol_trade values (" + str(id) + "," + str(52) + "," + str(2000) + ");")
+
+                    id=id+1
+
+def create_medals_trade():
+    cards_dir="Medal"
+    card_list = []
+    id=1
+    for root, dirs, files in os.walk(cards_dir):
+        current_dir=os.path.basename(root)
+        for file_name in os.listdir(current_dir):
+            if file_name.endswith(".jpg") or file_name.endswith("png"):
+                name, extension=os.path.splitext(file_name)
+                path=os.path.join(current_dir,file_name)
+                path=path.replace("\\","/")
+                name=name.replace("_"," ")
+                
+                print("insert into medal_trade values (" + str(id) + "," + str(36) + "," + str(2000) + ");")
+
+                id=id+1
+
+def create_achievements_trade():
+    cards_dir="Achievement"
+    card_list = []
+    id=1
+    for root, dirs, files in os.walk(cards_dir):
+        current_dir=os.path.basename(root)
+        for file_name in os.listdir(current_dir):
+            if file_name.endswith(".jpg") or file_name.endswith("png"):
+                name, extension=os.path.splitext(file_name)
+                path=os.path.join(current_dir,file_name)
+                path=path.replace("\\","/")
+                name=name.replace("_"," ")
+                
+                print("insert into achievement_trade values (" + str(id) + "," + str(33) + "," + str(2000) + ");")
+                id=id+1
+
+def create_titles_trade():
+    cards_dir="Title"
+    card_list = []
+    id=1
+    for root, dirs, files in os.walk(cards_dir):
+        current_dir=os.path.basename(root)
+        for file_name in os.listdir(current_dir):
+            if file_name.endswith(".jpg") or file_name.endswith("png"):
+                name, extension=os.path.splitext(file_name)
+                path=os.path.join(current_dir,file_name)
+                path=path.replace("\\","/")
+                name=name.replace("_"," ")
+
+                print("insert into title_trade values (" + str(id) + "," + str(6) + "," + str(2000) + ");")
+                id=id+1
+
+def create_borders_trade():
+    cards_dir="Border"
+    card_list = []
+    id=1
+    for root, dirs, files in os.walk(cards_dir):
+        current_dir=os.path.basename(root)
+        for file_name in os.listdir(current_dir):
+            if file_name.endswith(".jpg") or file_name.endswith("png"):
+                name, extension=os.path.splitext(file_name)
+                path=os.path.join(current_dir,file_name)
+                path=path.replace("\\","/")
+                name=name.replace("_"," ")
+            
+                print("insert into border_trade values (" + str(id) + "," + str(35) + "," + str(2000) + ");")
+                id=id+1
+
+def create_items_trade():
+    cards_dir="Item"
+    card_list = []
+    id=1
+    for root, dirs, files in os.walk(cards_dir):
+        current_dir=os.path.basename(root)
+        current_name=current_dir
+        for dir_name in dirs:
+            current_dir =os.path.join(root,dir_name)
+            for file_name in os.listdir(current_dir):
+                if file_name.endswith(".jpg") or file_name.endswith("png"):
+                    name, extension=os.path.splitext(file_name)
+                    path=os.path.join(current_dir,file_name)
+                    path=path.replace("\\","/")
+                    name=name.replace("_"," ")
+                    print("insert into item_trade values (" + str(id) + "," + str(35) + "," + str(10) + ");")
+                    id=id+1
+
+def create_equipments_trade():
+    cards_dir="Equipment"
+    card_list = []
+    id=1
+    for root, dirs, files in os.walk(cards_dir):
+        current_dir = os.path.basename(root)
+        current_name=""
+        current_name = os.path.basename(os.path.dirname(root))
+        for dir_name in dirs:
+            current_dir = os.path.join(root, dir_name)
+            for file_name in os.listdir(current_dir):
+                    if file_name.endswith(".jpg") or file_name.endswith(".png"):
+                        name, extension = os.path.splitext(file_name)
+                        set1_folder_name = os.path.basename(os.path.dirname(current_dir))
+                        name=name.replace("_"," ")
+                        if "SR" in dir_name:
+                            print("insert into equipment_trade values (" + str(id) + "," + str(47) + "," + str(200) + ");")
+                            id += 1
+                        elif "SSR" in dir_name:
+                            print("insert into equipment_trade values (" + str(id) + "," + str(47) + "," + str(500) + ");")
+                            id += 1
+                        elif "UR" in dir_name:
+                            print("insert into equipment_trade values (" + str(id) + "," + str(47) + "," + str(1000) + ");")
+                            id += 1
+                        elif "LG" in dir_name:
+                            health=500000000
+                            physical_attack=10000000
+                            physical_defense=5000000
+                            magical_attack=10000000
+                            magical_defense=5000000
+                            chemical_attack=10000000
+                            chemical_defense=5000000
+                            atomic_attack=10000000
+                            atomic_defense=5000000
+                            mental_attack=10000000
+                            mental_defense=5000000
+                            if "Souls_Equipment" in current_name or "Gem_Equipment" in current_name:
+                                if "lv1" in name:
+                                    health=50000000
+                                    physical_attack=1000000
+                                    physical_defense=500000
+                                    magical_attack=1000000
+                                    magical_defense=500000
+                                    chemical_attack=1000000
+                                    chemical_defense=500000
+                                    atomic_attack=1000000
+                                    atomic_defense=500000
+                                    mental_attack=1000000
+                                    mental_defense=500000
+                                elif "lv2" in name:
+                                    health=80000000
+                                    physical_attack=3000000
+                                    physical_defense=1500000
+                                    magical_attack=3000000
+                                    magical_defense=1500000
+                                    chemical_attack=3000000
+                                    chemical_defense=1500000
+                                    atomic_attack=3000000
+                                    atomic_defense=1500000
+                                    mental_attack=3000000
+                                    mental_defense=1500000
+                                elif "lv3" in name:
+                                    health=150000000
+                                    physical_attack=5000000
+                                    physical_defense=2500000
+                                    magical_attack=5000000
+                                    magical_defense=2500000
+                                    chemical_attack=5000000
+                                    chemical_defense=2500000
+                                    atomic_attack=5000000
+                                    atomic_defense=2500000
+                                    mental_attack=5000000
+                                    mental_defense=2500000
+                                elif "lv4" in name:
+                                    health=350000000
+                                    physical_attack=8000000
+                                    physical_defense=5000000
+                                    magical_attack=8000000
+                                    magical_defense=5000000
+                                    chemical_attack=8000000
+                                    chemical_defense=5000000
+                                    atomic_attack=8000000
+                                    atomic_defense=5000000
+                                    mental_attack=8000000
+                                    mental_defense=5000000
+                                elif "lv5" in name:
+                                    health=600000000
+                                    physical_attack=10000000
+                                    physical_defense=5000000
+                                    magical_attack=10000000
+                                    magical_defense=5000000
+                                    chemical_attack=10000000
+                                    chemical_defense=5000000
+                                    atomic_attack=10000000
+                                    atomic_defense=5000000
+                                    mental_attack=10000000
+                                    mental_defense=5000000
+                                elif "lv6" in name:
+                                    health=1000000000
+                                    physical_attack=40000000
+                                    physical_defense=25000000
+                                    magical_attack=40000000
+                                    magical_defense=25000000
+                                    chemical_attack=40000000
+                                    chemical_defense=25000000
+                                    atomic_attack=40000000
+                                    atomic_defense=25000000
+                                    mental_attack=40000000
+                                    mental_defense=25000000
+                                elif "lv7" in name:
+                                    health=5000000000
+                                    physical_attack=90000000
+                                    physical_defense=50000000
+                                    magical_attack=90000000
+                                    magical_defense=50000000
+                                    chemical_attack=90000000
+                                    chemical_defense=50000000
+                                    atomic_attack=90000000
+                                    atomic_defense=50000000
+                                    mental_attack=90000000
+                                    mental_defense=50000000
+                            print("insert into equipment_trade values (" + str(id) + "," + str(47) + "," + str(2000) + ");")
+                            id += 1
+                        elif "MR" in dir_name:
+                            print("insert into equipment_trade values (" + str(id) + "," + str(47) + "," + str(5000) + ");")
+                            id += 1
+
+def create_collaboration_trade():
+    cards_dir="Collaboration"
+    card_list = []
+    id=1
+    for root, dirs, files in os.walk(cards_dir):
+        current_dir=os.path.basename(root)
+        for file_name in os.listdir(current_dir):
+            if file_name.endswith(".jpg") or file_name.endswith("png"):
+                name, extension=os.path.splitext(file_name)
+                path=os.path.join(current_dir,file_name)
+                path=path.replace("\\","/")
+                name=name.replace("_"," ")
+            
+                print("insert into collaboration_trade values (" + str(id) + "," + str(46) + "," + str(5000) + ");")
+                id=id+1     
 # create_cards_database()
-create_books_database()
+# create_books_database()
 # create_skills_database()
 # create_army_database()
 # create_collaboration_equipments_database()
@@ -1302,3 +1666,18 @@ create_books_database()
 # create_medals_database()
 # create_borders_database()
 # create_collaboration_database()
+
+create_cards_trade()
+create_book_trade()
+create_army_trade()
+create_skills_trade()
+create_collaboration_equipments_trade()
+create_pets_trade()
+create_symbols_trade()
+create_medals_trade()
+create_achievements_trade()
+create_titles_trade()
+create_borders_trade()
+create_items_trade()
+create_equipments_trade()
+create_collaboration_trade()

@@ -1512,31 +1512,142 @@ create table slots(
     FOREIGN KEY (position_id) REFERENCES positions(id)
 );
 
-create table user_transaction(
-	id int primary key,
-    object_type varchar(255),
+create table army_trade(
     army_id int,
+    currency_id int,
+    price double,
+    
+    PRIMARY KEY(army_id, currency_id),
+    FOREIGN KEY (army_id) REFERENCES army(id),
+    FOREIGN KEY (currency_id) REFERENCES currency(id)
+);
+
+create table book_trade(
     book_id int,
+    currency_id int,
+    price double,
+    
+    PRIMARY KEY(book_id, currency_id),
+    FOREIGN KEY (book_id) REFERENCES books(id),
+    FOREIGN KEY (currency_id) REFERENCES currency(id)
+);
+
+create table border_trade(
+    border_id int,
+    currency_id int,
+    price double,
+    
+    PRIMARY KEY(border_id, currency_id),
+    FOREIGN KEY (border_id) REFERENCES borders(id),
+    FOREIGN KEY (currency_id) REFERENCES currency(id)
+);
+
+create table card_trade(
     card_id int,
+    currency_id int,
+    price double,
+    
+    PRIMARY KEY(card_id, currency_id),
+    FOREIGN KEY (card_id) REFERENCES cards(id),
+    FOREIGN KEY (currency_id) REFERENCES currency(id)
+);
+
+create table collaboration_trade(
+    collaboration_id int,
+    currency_id int,
+    price double,
+    
+    PRIMARY KEY(collaboration_id, currency_id),
+    FOREIGN KEY (collaboration_id) REFERENCES collaborations(id),
+    FOREIGN KEY (currency_id) REFERENCES currency(id)
+);
+
+create table collaboration_equipment_trade(
     collaboration_equipment_id int,
+    currency_id int,
+    price double,
+    
+    PRIMARY KEY(collaboration_equipment_id, currency_id),
+    FOREIGN KEY (collaboration_equipment_id) REFERENCES collaboration_equipments(id),
+    FOREIGN KEY (currency_id) REFERENCES currency(id)
+);
+
+create table equipment_trade(
     equipment_id int,
+    currency_id int,
+    price double,
+    
+    PRIMARY KEY(equipment_id, currency_id),
+    FOREIGN KEY (equipment_id) REFERENCES equipments(id),
+    FOREIGN KEY (currency_id) REFERENCES currency(id)
+);
+
+create table skill_trade(
     skill_id int,
+    currency_id int,
+	price double,
+    
+    PRIMARY KEY(skill_id, currency_id),
+    FOREIGN KEY (skill_id) REFERENCES skills(id),
+    FOREIGN KEY (currency_id) REFERENCES currency(id)
+);
+
+create table item_trade(
     item_id int,
+    currency_id int,
+    price double,
+    
+    PRIMARY KEY(item_id, currency_id),
+    FOREIGN KEY (item_id) REFERENCES items(id),
+    FOREIGN KEY (currency_id) REFERENCES currency(id)
+);
+
+create table medal_trade(
     medal_id int,
+    currency_id int,
+    price double,
+    
+    PRIMARY KEY(medal_id, currency_id),
+    FOREIGN KEY (medal_id) REFERENCES medals(id),
+    FOREIGN KEY (currency_id) REFERENCES currency(id)
+);
+
+create table pet_trade(
     pet_id int,
+    currency_id int,
+    price double,
+    
+    PRIMARY KEY(pet_id, currency_id),
+    FOREIGN KEY (pet_id) REFERENCES pets(id),
+    FOREIGN KEY (currency_id) REFERENCES currency(id)
+);
+
+create table symbol_trade(
     symbol_id int,
+    currency_id int,
+    price double,
+    
+    PRIMARY KEY(symbol_id, currency_id),
+    FOREIGN KEY (symbol_id) REFERENCES symbols(id),
+    FOREIGN KEY (currency_id) REFERENCES currency(id)
+);
+
+create table title_trade(
     title_id int,
     currency_id int,
+    price double,
     
-    FOREIGN KEY (army_id) REFERENCES army(id),
-    FOREIGN KEY (book_id) REFERENCES books(id),
-    FOREIGN KEY (card_id) REFERENCES cards(id),
-    FOREIGN KEY (collaboration_equipment_id) REFERENCES collaboration_equipments(id),
-    FOREIGN KEY (equipment_id) REFERENCES equipments(id),
-    FOREIGN KEY (item_id) REFERENCES items(id),
-    FOREIGN KEY (medal_id) REFERENCES medals(id),
-    FOREIGN KEY (pet_id) REFERENCES pets(id),
-    FOREIGN KEY (symbol_id) REFERENCES symbols(id),
+    PRIMARY KEY(title_id, currency_id),
     FOREIGN KEY (title_id) REFERENCES titles(id),
+    FOREIGN KEY (currency_id) REFERENCES currency(id)
+);
+
+create table achievement_trade(
+    achievement_id int,
+    currency_id int,
+    price double,
+    
+    PRIMARY KEY(achievement_id, currency_id),
+    FOREIGN KEY (achievement_id) REFERENCES achievements(id),
     FOREIGN KEY (currency_id) REFERENCES currency(id)
 );
