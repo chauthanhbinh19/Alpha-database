@@ -375,7 +375,7 @@ def create_collaboration_equipments_database():
                         path=os.path.join(current_dir,file_name)
                         path=path.replace("\\","/")
                         name=name.replace("_"," ")
-                        
+                        name=name.encode('latin1', 'ignore').decode('latin1')
                         power=calculate_power(health,physical_attack,physical_defense,magical_attack,magical_defense,chemical_attack,chemical_defense,atomic_attack,atomic_defense,mental_attack,mental_defense,
                                               speed,critical_rate,critical_damage,armor_penetration,avoid,absorbs_damage,regenerate_vitality)
                         print("insert into collaboration_equipments values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + current_name + "'," + str(0) + "," + str(power) + "," + str(health) + "," 
@@ -389,6 +389,9 @@ def create_collaboration_equipments_database():
                 for file_name in os.listdir(current_dir):
                     if file_name.endswith(".jpg") or file_name.endswith("png"):
                         name, extension=os.path.splitext(file_name)
+                        path=os.path.join(current_dir,file_name)
+                        path=path.replace("\\","/")
+                        name=name.encode('latin1', 'ignore').decode('latin1')
                         health=2000000
                         physical_attack=500000
                         physical_defense=200000
@@ -403,8 +406,6 @@ def create_collaboration_equipments_database():
                         mana=200
                         rare="SSR"
                         price=500000
-                        path=os.path.join(current_dir,file_name)
-                        path=path.replace("\\","/")
                         name=name.replace("_"," ")
                         power=calculate_power(health,physical_attack,physical_defense,magical_attack,magical_defense,chemical_attack,chemical_defense,atomic_attack,atomic_defense,mental_attack,mental_defense,
                                               speed,critical_rate,critical_damage,armor_penetration,avoid,absorbs_damage,regenerate_vitality)
@@ -418,6 +419,9 @@ def create_collaboration_equipments_database():
                 for file_name in os.listdir(current_dir):
                     if file_name.endswith(".jpg") or file_name.endswith("png"):
                         name,extension=os.path.splitext(file_name)
+                        path=os.path.join(current_dir,file_name)
+                        path=path.replace("\\","/")
+                        name=name.encode('latin1', 'ignore').decode('latin1')
                         health=5000000
                         physical_attack=1000000
                         physical_defense=500000
@@ -432,8 +436,6 @@ def create_collaboration_equipments_database():
                         mana=500
                         rare="UR"
                         price=1000000
-                        path=os.path.join(current_dir,file_name)
-                        path=path.replace("\\","/")
                         name=name.replace("_"," ")
                         power=calculate_power(health,physical_attack,physical_defense,magical_attack,magical_defense,chemical_attack,chemical_defense,atomic_attack,atomic_defense,mental_attack,mental_defense,
                                               speed,critical_rate,critical_damage,armor_penetration,avoid,absorbs_damage,regenerate_vitality)
@@ -447,6 +449,9 @@ def create_collaboration_equipments_database():
                 for file_name in os.listdir(current_dir):
                     if file_name.endswith(".jpg") or file_name.endswith("png"):
                         name, extension=os.path.splitext(file_name)
+                        path=os.path.join(current_dir,file_name)
+                        path=path.replace("\\","/")
+                        name=name.encode('latin1', 'ignore').decode('latin1')
                         health=10000000
                         physical_attack=2000000
                         physical_defense=1500000
@@ -461,8 +466,6 @@ def create_collaboration_equipments_database():
                         mana=1000
                         rare="LG"
                         price=5000000
-                        path=os.path.join(current_dir,file_name)
-                        path=path.replace("\\","/")
                         name=name.replace("_"," ")
                         power=calculate_power(health,physical_attack,physical_defense,magical_attack,magical_defense,chemical_attack,chemical_defense,atomic_attack,atomic_defense,mental_attack,mental_defense,
                                               speed,critical_rate,critical_damage,armor_penetration,avoid,absorbs_damage,regenerate_vitality)
@@ -475,7 +478,9 @@ def create_collaboration_equipments_database():
                 current_dir =os.path.join(root,dir_name)
                 for file_name in os.listdir(current_dir):
                     if file_name.endswith(".jpg") or file_name.endswith("png"):
-                        name, extension=os.path.splitext(file_name)
+                        path=os.path.join(current_dir,file_name)
+                        path=path.replace("\\","/")
+                        name=name.encode('latin1', 'ignore').decode('latin1')
                         health=20000000
                         physical_attack=3000000
                         physical_defense=2000000
@@ -490,8 +495,6 @@ def create_collaboration_equipments_database():
                         mana=1000
                         rare="LG"
                         price=5000000
-                        path=os.path.join(current_dir,file_name)
-                        path=path.replace("\\","/")
                         name=name.replace("_"," ")
                         power=calculate_power(health,physical_attack,physical_defense,magical_attack,magical_defense,chemical_attack,chemical_defense,atomic_attack,atomic_defense,mental_attack,mental_defense,
                                               speed,critical_rate,critical_damage,armor_penetration,avoid,absorbs_damage,regenerate_vitality)
@@ -852,6 +855,60 @@ def create_titles_database():
                               + ","+str(per_magical_attack) +","+ str(per_magical_defense) + ","+str(per_chemical_attack) +","+ str(per_chemical_defense) + ","+str(per_atomic_attack) +","+ str(per_atomic_defense) + ","+str(per_mental_attack) +","+ str(per_mental_defense)+",'');")
                 id=id+1
 
+def create_monster_database():
+    cards_dir="Monster"
+    card_list = []
+    id=1
+    card_name=""
+    health=100000000
+    physical_attack=30000000
+    physical_defense=20000000
+    magical_attack=30000000
+    magical_defense=20000000
+    chemical_attack=30000000
+    chemical_defense=20000000
+    atomic_attack=30000000
+    atomic_defense=20000000
+    mental_attack=30000000
+    mental_defense=20000000
+    per_health=10
+    per_physical_attack=10
+    per_physical_defense=10
+    per_magical_attack=10
+    per_magical_defense=10
+    per_chemical_attack=10
+    per_chemical_defense=10
+    per_atomic_attack=10
+    per_atomic_defense=10
+    per_mental_attack=10
+    per_mental_defense=10
+    speed=1
+    critical_rate=0
+    critical_damage=0
+    armor_penetration=0
+    avoid=0
+    absorbs_damage=0
+    regenerate_vitality=0
+    mana=100
+    rare="LG"
+    path=""
+    for root, dirs, files in os.walk(cards_dir):
+        current_dir=os.path.basename(root)
+        for file_name in os.listdir(current_dir):
+            if file_name.endswith(".jpg") or file_name.endswith("png"):
+                name, extension=os.path.splitext(file_name)
+                path=os.path.join(current_dir,file_name)
+                path=path.replace("\\","/")
+                name=name.replace("_"," ")
+
+                power=calculate_power(health,physical_attack,physical_defense,magical_attack,magical_defense,chemical_attack,chemical_defense,atomic_attack,atomic_defense,mental_attack,mental_defense,
+                                              speed,critical_rate,critical_damage,armor_penetration,avoid,absorbs_damage,regenerate_vitality)
+                print("insert into monsters values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + "none" + "'," + str(0) + "," + str(power) + "," + str(health) + "," 
+                              + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense) 
+                              + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
+                              + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'');")
+                id=id+1
+
 def create_borders_database():
     cards_dir="Border"
     card_list = []
@@ -983,8 +1040,11 @@ def create_equipments_database():
             for file_name in os.listdir(current_dir):
                     if file_name.endswith(".jpg") or file_name.endswith(".png"):
                         name, extension = os.path.splitext(file_name)
+                        path=os.path.join(current_dir,file_name)
+                        path=path.replace("\\","/")
                         set1_folder_name = os.path.basename(os.path.dirname(current_dir))
                         name=name.replace("_"," ")
+                        name=name.encode('latin1', 'ignore').decode('latin1')
                         if "SR" in dir_name:
                             health=20000000
                             physical_attack=100000
@@ -999,7 +1059,7 @@ def create_equipments_database():
                             mental_defense=500000
                             power = calculate_power(health, physical_attack, physical_defense, magical_attack, magical_defense, chemical_attack, chemical_defense, atomic_attack, atomic_defense, mental_attack, mental_defense,
                                                     speed, critical_rate, critical_damage, armor_penetration, avoid, absorbs_damage, regenerate_vitality)
-                            print("insert into equipments values (" + str(id) + ",'" + name + "','" + current_dir + "','" + current_name + "','" + dir_name + "','"+set1_folder_name +"'," + str(0) + "," + str(power) + "," + str(health) +
+                            print("insert into equipments values (" + str(id) + ",'" + name + "','" + path + "','" + current_name + "','" + dir_name + "','"+set1_folder_name +"'," + str(0) + "," + str(power) + "," + str(health) +
                                 "," + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense)
                                 + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration)
                                 + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'');")
@@ -1018,7 +1078,7 @@ def create_equipments_database():
                             mental_defense=1000000
                             power = calculate_power(health, physical_attack, physical_defense, magical_attack, magical_defense, chemical_attack, chemical_defense, atomic_attack, atomic_defense, mental_attack, mental_defense,
                                                     speed, critical_rate, critical_damage, armor_penetration, avoid, absorbs_damage, regenerate_vitality)
-                            print("insert into equipments values (" + str(id) + ",'" + name + "','" + current_dir + "','" + current_name + "','" + dir_name + "','"+set1_folder_name +"'," + str(0) + "," + str(power) + "," + str(health) +
+                            print("insert into equipments values (" + str(id) + ",'" + name + "','" + path + "','" + current_name + "','" + dir_name + "','"+set1_folder_name +"'," + str(0) + "," + str(power) + "," + str(health) +
                                 "," + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense)
                                 + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration)
                                 + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'');")
@@ -1037,7 +1097,7 @@ def create_equipments_database():
                             mental_defense=2500000
                             power = calculate_power(health, physical_attack, physical_defense, magical_attack, magical_defense, chemical_attack, chemical_defense, atomic_attack, atomic_defense, mental_attack, mental_defense,
                                                     speed, critical_rate, critical_damage, armor_penetration, avoid, absorbs_damage, regenerate_vitality)
-                            print("insert into equipments values (" + str(id) + ",'" + name + "','" + current_dir + "','" + current_name + "','" + dir_name + "','"+set1_folder_name +"'," + str(0) + "," + str(power) + "," + str(health) +
+                            print("insert into equipments values (" + str(id) + ",'" + name + "','" + path + "','" + current_name + "','" + dir_name + "','"+set1_folder_name +"'," + str(0) + "," + str(power) + "," + str(health) +
                                 "," + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense)
                                 + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration)
                                 + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'');")
@@ -1141,7 +1201,7 @@ def create_equipments_database():
                                     mental_defense=50000000
                             power = calculate_power(health, physical_attack, physical_defense, magical_attack, magical_defense, chemical_attack, chemical_defense, atomic_attack, atomic_defense, mental_attack, mental_defense,
                                                     speed, critical_rate, critical_damage, armor_penetration, avoid, absorbs_damage, regenerate_vitality)
-                            print("insert into equipments values (" + str(id) + ",'" + name + "','" + current_dir + "','" + current_name + "','" + dir_name + "','"+set1_folder_name +"'," + str(0) + "," + str(power) + "," + str(health) +
+                            print("insert into equipments values (" + str(id) + ",'" + name + "','" + path + "','" + current_name + "','" + dir_name + "','"+set1_folder_name +"'," + str(0) + "," + str(power) + "," + str(health) +
                                 "," + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense)
                                 + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration)
                                 + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'');")
@@ -1160,7 +1220,7 @@ def create_equipments_database():
                             mental_defense=15000000
                             power = calculate_power(health, physical_attack, physical_defense, magical_attack, magical_defense, chemical_attack, chemical_defense, atomic_attack, atomic_defense, mental_attack, mental_defense,
                                                     speed, critical_rate, critical_damage, armor_penetration, avoid, absorbs_damage, regenerate_vitality)
-                            print("insert into equipments values (" + str(id) + ",'" + name + "','" + current_dir + "','" + current_name + "','" + dir_name + "','"+set1_folder_name +"'," + str(0) + "," + str(power) + "," + str(health) +
+                            print("insert into equipments values (" + str(id) + ",'" + name + "','" + path + "','" + current_name + "','" + dir_name + "','"+set1_folder_name +"'," + str(0) + "," + str(power) + "," + str(health) +
                                 "," + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense)
                                 + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration)
                                 + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'');")
@@ -1650,34 +1710,52 @@ def create_collaboration_trade():
             
                 print("insert into collaboration_trade values (" + str(id) + "," + str(46) + "," + str(5000) + ");")
                 id=id+1     
-# create_cards_database()
-# create_books_database()
-# create_skills_database()
-# create_army_database()
-# create_collaboration_equipments_database()
-# create_bosses_database()
-# create_equipments_database()
-# create_items_database()
-# create_achievements_database()
-# create_titles_database()
-# create_currencies_database()
-# create_pets_database()
-# create_symbols_database()
-# create_medals_database()
-# create_borders_database()
-# create_collaboration_database()
 
-create_cards_trade()
-create_book_trade()
-create_army_trade()
-create_skills_trade()
-create_collaboration_equipments_trade()
-create_pets_trade()
-create_symbols_trade()
-create_medals_trade()
-create_achievements_trade()
-create_titles_trade()
-create_borders_trade()
-create_items_trade()
-create_equipments_trade()
-create_collaboration_trade()
+def create_monster_trade():
+    cards_dir="Monster"
+    card_list = []
+    id=1
+    for root, dirs, files in os.walk(cards_dir):
+        current_dir=os.path.basename(root)
+        for file_name in os.listdir(current_dir):
+            if file_name.endswith(".jpg") or file_name.endswith("png"):
+                name, extension=os.path.splitext(file_name)
+                path=os.path.join(current_dir,file_name)
+                path=path.replace("\\","/")
+                name=name.replace("_"," ")
+                
+                print("insert into monster_trade values (" + str(id) + "," + str(50) + "," + str(2000) + ");")
+
+                id=id+1
+create_cards_database()
+create_books_database()
+create_skills_database()
+create_army_database()
+create_collaboration_equipments_database()
+create_equipments_database()
+create_monster_database()
+create_items_database()
+create_achievements_database()
+create_titles_database()
+create_currencies_database()
+create_pets_database()
+create_symbols_database()
+create_medals_database()
+create_borders_database()
+create_collaboration_database()
+
+# create_cards_trade()
+# create_book_trade()
+# create_army_trade()
+# create_skills_trade()
+# create_collaboration_equipments_trade()
+# create_pets_trade()
+# create_symbols_trade()
+# create_medals_trade()
+# create_achievements_trade()
+# create_titles_trade()
+# create_borders_trade()
+# create_items_trade()
+# create_equipments_trade()
+# create_collaboration_trade()
+# create_monster_trade()
