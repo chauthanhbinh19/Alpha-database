@@ -1,5 +1,6 @@
 import json
 import os
+import random
 
 def calculate_power(health,physical_attack,physical_defense,magical_attack,magical_defense,chemical_attack,chemical_defense,atomic_attack,atomic_defense,mental_attack,mental_defense,
                     speed,critical_rate,critical_damage,armor_penetration,avoid,absorbs_damage,regenerate_vitality):
@@ -1031,6 +1032,18 @@ def create_equipments_database():
     price=100000
     price_unit=""
     path=""
+    special_health=10000000000
+    special_physical_attack=200000000
+    special_physical_defense=150000000
+    special_magical_attack=200000000
+    special_magical_defense=150000000
+    special_chemical_attack=200000000
+    special_chemical_defense=150000000
+    special_atomic_attack=200000000
+    special_atomic_defense=150000000
+    special_mental_attack=200000000
+    special_mental_defense=150000000
+    special_speed=1000000
     for root, dirs, files in os.walk(cards_dir):
         current_dir = os.path.basename(root)
         current_name=""
@@ -1047,22 +1060,42 @@ def create_equipments_database():
                         name=name.encode('latin1', 'ignore').decode('latin1')
                         if "SR" in dir_name:
                             health=20000000
-                            physical_attack=100000
+                            physical_attack=1000000
                             physical_defense=500000
-                            magical_attack=100000
+                            magical_attack=1000000
                             magical_defense=500000
-                            chemical_attack=100000
+                            chemical_attack=1000000
                             chemical_defense=500000
-                            atomic_attack=100000
+                            atomic_attack=1000000
                             atomic_defense=500000
-                            mental_attack=100000
+                            mental_attack=1000000
                             mental_defense=500000
+                            variables = {
+                                'special_health': 20000000,
+                                'special_physical_attack': 1000000,
+                                'special_physical_defense': 500000,
+                                'special_magical_attack': 1000000,
+                                'special_magical_defense': 500000,
+                                'special_chemical_attack': 1000000,
+                                'special_chemical_defense': 500000,
+                                'special_atomic_attack': 1000000,
+                                'special_atomic_defense': 500000,
+                                'special_mental_attack': 1000000,
+                                'special_mental_defense': 500000,
+                                'special_speed': 5000000
+                            }
+                            selected_variables = random.sample(list(variables.keys()), 2)
+                            for var in variables:
+                                if var not in selected_variables:
+                                    variables[var] = 0
                             power = calculate_power(health, physical_attack, physical_defense, magical_attack, magical_defense, chemical_attack, chemical_defense, atomic_attack, atomic_defense, mental_attack, mental_defense,
                                                     speed, critical_rate, critical_damage, armor_penetration, avoid, absorbs_damage, regenerate_vitality)
                             print("insert into equipments values (" + str(id) + ",'" + name + "','" + path + "','" + current_name + "','" + dir_name + "','"+set1_folder_name +"'," + str(0) + "," + str(power) + "," + str(health) +
                                 "," + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense)
                                 + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration)
-                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'');")
+                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + 
+                                "," + str(list(variables.values())[0]) + ","+ str(list(variables.values())[1]) + "," + str(list(variables.values())[2]) + "," + str(list(variables.values())[3]) + "," + str(list(variables.values())[4]) + "," + str(list(variables.values())[5]) + "," + str(list(variables.values())[6])
+                                + "," + str(list(variables.values())[7]) + "," + str(list(variables.values())[8]) + "," + str(list(variables.values())[9]) + "," + str(list(variables.values())[10]) + "," + str(list(variables.values())[11]) + ",'');")
                             id += 1
                         elif "SSR" in dir_name:
                             health=50000000
@@ -1076,12 +1109,32 @@ def create_equipments_database():
                             atomic_defense=1000000
                             mental_attack=2500000
                             mental_defense=1000000
+                            variables = {
+                                'special_health': 50000000,
+                                'special_physical_attack': 2500000,
+                                'special_physical_defense': 1000000,
+                                'special_magical_attack': 2500000,
+                                'special_magical_defense': 1000000,
+                                'special_chemical_attack': 2500000,
+                                'special_chemical_defense': 1000000,
+                                'special_atomic_attack': 2500000,
+                                'special_atomic_defense': 1000000,
+                                'special_mental_attack': 2500000,
+                                'special_mental_defense': 1000000,
+                                'special_speed': 10000000
+                            }
+                            selected_variables = random.sample(list(variables.keys()), 2)
+                            for var in variables:
+                                if var not in selected_variables:
+                                    variables[var] = 0
                             power = calculate_power(health, physical_attack, physical_defense, magical_attack, magical_defense, chemical_attack, chemical_defense, atomic_attack, atomic_defense, mental_attack, mental_defense,
                                                     speed, critical_rate, critical_damage, armor_penetration, avoid, absorbs_damage, regenerate_vitality)
                             print("insert into equipments values (" + str(id) + ",'" + name + "','" + path + "','" + current_name + "','" + dir_name + "','"+set1_folder_name +"'," + str(0) + "," + str(power) + "," + str(health) +
                                 "," + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense)
                                 + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration)
-                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'');")
+                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + 
+                                "," + str(list(variables.values())[0]) + ","+ str(list(variables.values())[1]) + "," + str(list(variables.values())[2]) + "," + str(list(variables.values())[3]) + "," + str(list(variables.values())[4]) + "," + str(list(variables.values())[5]) + "," + str(list(variables.values())[6])
+                                + "," + str(list(variables.values())[7]) + "," + str(list(variables.values())[8]) + "," + str(list(variables.values())[9]) + "," + str(list(variables.values())[10]) + "," + str(list(variables.values())[11]) + ",'');")
                             id += 1
                         elif "UR" in dir_name:
                             health=100000000
@@ -1095,12 +1148,32 @@ def create_equipments_database():
                             atomic_defense=2500000
                             mental_attack=5000000
                             mental_defense=2500000
+                            variables = {
+                                'special_health': 100000000,
+                                'special_physical_attack': 5000000,
+                                'special_physical_defense': 2500000,
+                                'special_magical_attack': 5000000,
+                                'special_magical_defense': 2500000,
+                                'special_chemical_attack': 5000000,
+                                'special_chemical_defense': 2500000,
+                                'special_atomic_attack': 5000000,
+                                'special_atomic_defense': 2500000,
+                                'special_mental_attack': 5000000,
+                                'special_mental_defense': 2500000,
+                                'special_speed': 50000000
+                            }
+                            selected_variables = random.sample(list(variables.keys()), 2)
+                            for var in variables:
+                                if var not in selected_variables:
+                                    variables[var] = 0
                             power = calculate_power(health, physical_attack, physical_defense, magical_attack, magical_defense, chemical_attack, chemical_defense, atomic_attack, atomic_defense, mental_attack, mental_defense,
                                                     speed, critical_rate, critical_damage, armor_penetration, avoid, absorbs_damage, regenerate_vitality)
                             print("insert into equipments values (" + str(id) + ",'" + name + "','" + path + "','" + current_name + "','" + dir_name + "','"+set1_folder_name +"'," + str(0) + "," + str(power) + "," + str(health) +
                                 "," + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense)
                                 + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration)
-                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'');")
+                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + 
+                                "," + str(list(variables.values())[0]) + ","+ str(list(variables.values())[1]) + "," + str(list(variables.values())[2]) + "," + str(list(variables.values())[3]) + "," + str(list(variables.values())[4]) + "," + str(list(variables.values())[5]) + "," + str(list(variables.values())[6])
+                                + "," + str(list(variables.values())[7]) + "," + str(list(variables.values())[8]) + "," + str(list(variables.values())[9]) + "," + str(list(variables.values())[10]) + "," + str(list(variables.values())[11]) + ",'');")
                             id += 1
                         elif "LG" in dir_name:
                             health=500000000
@@ -1114,6 +1187,24 @@ def create_equipments_database():
                             atomic_defense=5000000
                             mental_attack=10000000
                             mental_defense=5000000
+                            variables = {
+                                'special_health': 500000000,
+                                'special_physical_attack': 10000000,
+                                'special_physical_defense': 5000000,
+                                'special_magical_attack': 10000000,
+                                'special_magical_defense': 5000000,
+                                'special_chemical_attack': 10000000,
+                                'special_chemical_defense': 5000000,
+                                'special_atomic_attack': 10000000,
+                                'special_atomic_defense': 5000000,
+                                'special_mental_attack': 10000000,
+                                'special_mental_defense': 5000000,
+                                'special_speed': 100000000
+                            }
+                            selected_variables = random.sample(list(variables.keys()), 2)
+                            for var in variables:
+                                if var not in selected_variables:
+                                    variables[var] = 0
                             if "Souls_Equipment" in current_name or "Gem_Equipment" in current_name:
                                 if "lv1" in name:
                                     health=50000000
@@ -1204,7 +1295,9 @@ def create_equipments_database():
                             print("insert into equipments values (" + str(id) + ",'" + name + "','" + path + "','" + current_name + "','" + dir_name + "','"+set1_folder_name +"'," + str(0) + "," + str(power) + "," + str(health) +
                                 "," + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense)
                                 + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration)
-                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'');")
+                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + 
+                                "," + str(list(variables.values())[0]) + ","+ str(list(variables.values())[1]) + "," + str(list(variables.values())[2]) + "," + str(list(variables.values())[3]) + "," + str(list(variables.values())[4]) + "," + str(list(variables.values())[5]) + "," + str(list(variables.values())[6])
+                                + "," + str(list(variables.values())[7]) + "," + str(list(variables.values())[8]) + "," + str(list(variables.values())[9]) + "," + str(list(variables.values())[10]) + "," + str(list(variables.values())[11]) + ",'');")
                             id += 1
                         elif "MR" in dir_name:
                             health=1000000000
@@ -1218,12 +1311,32 @@ def create_equipments_database():
                             atomic_defense=15000000
                             mental_attack=20000000
                             mental_defense=15000000
+                            variables = {
+                                'special_health': 1000000000,
+                                'special_physical_attack': 20000000,
+                                'special_physical_defense': 15000000,
+                                'special_magical_attack': 20000000,
+                                'special_magical_defense': 15000000,
+                                'special_chemical_attack': 20000000,
+                                'special_chemical_defense': 15000000,
+                                'special_atomic_attack': 20000000,
+                                'special_atomic_defense': 15000000,
+                                'special_mental_attack': 20000000,
+                                'special_mental_defense': 15000000,
+                                'special_speed': 200000000
+                            }
+                            selected_variables = random.sample(list(variables.keys()), 2)
+                            for var in variables:
+                                if var not in selected_variables:
+                                    variables[var] = 0
                             power = calculate_power(health, physical_attack, physical_defense, magical_attack, magical_defense, chemical_attack, chemical_defense, atomic_attack, atomic_defense, mental_attack, mental_defense,
                                                     speed, critical_rate, critical_damage, armor_penetration, avoid, absorbs_damage, regenerate_vitality)
                             print("insert into equipments values (" + str(id) + ",'" + name + "','" + path + "','" + current_name + "','" + dir_name + "','"+set1_folder_name +"'," + str(0) + "," + str(power) + "," + str(health) +
                                 "," + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense)
                                 + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration)
-                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'');")
+                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + 
+                                "," + str(list(variables.values())[0]) + ","+ str(list(variables.values())[1]) + "," + str(list(variables.values())[2]) + "," + str(list(variables.values())[3]) + "," + str(list(variables.values())[4]) + "," + str(list(variables.values())[5]) + "," + str(list(variables.values())[6])
+                                + "," + str(list(variables.values())[7]) + "," + str(list(variables.values())[8]) + "," + str(list(variables.values())[9]) + "," + str(list(variables.values())[10]) + "," + str(list(variables.values())[11]) + ",'');")
                             id += 1
 
 def create_collaboration_database():
@@ -1727,35 +1840,35 @@ def create_monster_trade():
                 print("insert into monster_trade values (" + str(id) + "," + str(50) + "," + str(2000) + ");")
 
                 id=id+1
-create_cards_database()
-create_books_database()
-create_skills_database()
-create_army_database()
-create_collaboration_equipments_database()
-create_equipments_database()
-create_monster_database()
-create_items_database()
-create_achievements_database()
-create_titles_database()
-create_currencies_database()
-create_pets_database()
-create_symbols_database()
-create_medals_database()
-create_borders_database()
-create_collaboration_database()
+# create_cards_database()
+# create_books_database()
+# create_skills_database()
+# create_army_database()
+# create_collaboration_equipments_database()
+# create_equipments_database()
+# create_monster_database()
+# create_items_database()
+# create_achievements_database()
+# create_titles_database()
+# create_currencies_database()
+# create_pets_database()
+# create_symbols_database()
+# create_medals_database()
+# create_borders_database()
+# create_collaboration_database()
 
-# create_cards_trade()
-# create_book_trade()
-# create_army_trade()
-# create_skills_trade()
-# create_collaboration_equipments_trade()
-# create_pets_trade()
-# create_symbols_trade()
-# create_medals_trade()
-# create_achievements_trade()
-# create_titles_trade()
-# create_borders_trade()
-# create_items_trade()
-# create_equipments_trade()
-# create_collaboration_trade()
-# create_monster_trade()
+create_cards_trade()
+create_book_trade()
+create_army_trade()
+create_skills_trade()
+create_collaboration_equipments_trade()
+create_pets_trade()
+create_symbols_trade()
+create_medals_trade()
+create_achievements_trade()
+create_titles_trade()
+create_borders_trade()
+create_items_trade()
+create_equipments_trade()
+create_collaboration_trade()
+create_monster_trade()

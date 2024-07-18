@@ -122,6 +122,36 @@ create table collaboration_equipments(
     description varchar(255)
 );
 
+create table monsters(
+	id int primary key,
+    monsterName varchar(255),
+    monsterImage varchar(255),
+    rare varchar(100),
+    type varchar(100),
+    star int,
+    power double,
+    health double,
+    physical_attack double,
+    physical_defense double,
+    magical_attack double,
+    magical_defense double,
+    chemical_attack double,
+    chemical_defense double,
+    atomic_attack double,
+    atomic_defense double,
+    mental_attack double,
+    mental_defense double,
+    speed double,
+    critical_damage double,
+    critical_rate double,
+    armor_penetration double,
+    avoid double,
+    absorbs_damage double,
+    regenerate_vitality double,
+    mana float,
+    description varchar(255)
+);
+
 create table currency(
 	id int primary key,
     currencyName varchar(255),
@@ -156,6 +186,20 @@ create table equipments(
     absorbs_damage double,
     regenerate_vitality double,
     mana float,
+
+    special_health double,
+    special_physical_attack double,
+    special_physical_defense double,
+    special_magical_attack double,
+    special_magical_defense double,
+    special_chemical_attack double,
+    special_chemical_defense double,
+    special_atomic_attack double,
+    special_atomic_defense double,
+    special_mental_attack double,
+    special_mental_defense double,
+    special_speed double,
+
     description varchar(255)
 );
 
@@ -633,6 +677,83 @@ create table user_books_rank(
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
+create table user_monsters(
+	id int primary key,
+    user_id int,
+    monster_id int,
+    level int,
+    experiment int,
+    star int,
+    
+    block boolean,
+    quantity int,
+    
+    health double,
+    physical_attack double,
+    physical_defense double,
+    magical_attack double,
+    magical_defense double,
+    chemical_attack double,
+    chemical_defense double,
+    atomic_attack double,
+    atomic_defense double,
+    mental_attack double,
+    mental_defense double,
+    speed double,
+    critical_damage double,
+    critical_rate double,
+    armor_penetration double,
+    avoid double,
+    absorbs_damage double,
+    regenerate_vitality double,
+    mana float,
+    
+    FOREIGN KEY (monster_id) REFERENCES monsters(id),
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);
+
+create table user_monsters_rank(
+	id int primary key,
+    user_id int,
+    user_monster_id int,
+    rank_type varchar(255),
+    
+	health double,
+    physical_attack double,
+    physical_defense double,
+    magical_attack double,
+    magical_defense double,
+    chemical_attack double,
+    chemical_defense double,
+    atomic_attack double,
+    atomic_defense double,
+    mental_attack double,
+    mental_defense double,
+    speed double,
+    critical_damage double,
+    critical_rate double,
+    armor_penetration double,
+    avoid double,
+    absorbs_damage double,
+    regenerate_vitality double,
+    mana float,
+
+	percent_all_health double,
+    percent_all_physical_attack double,
+    percent_all_physical_defense double,
+    percent_all_magical_attack double,
+    percent_all_magical_defense double,
+    percent_all_chemical_attack double,
+    percent_all_chemical_defense double,
+    percent_all_atomic_attack double,
+    percent_all_atomic_defense double,
+    percent_all_mental_attack double,
+    percent_all_mental_defense double,
+    
+    FOREIGN KEY (user_monster_id) REFERENCES user_monsters(id),
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);
+
 create table user_army(
 	id int primary key,
     user_id int,
@@ -1035,7 +1156,7 @@ create table user_collaborations(
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
-create table user_cards_gallery(
+create table cards_gallery(
 	id int primary key,
     user_id int,
     card_id int,
@@ -1078,7 +1199,7 @@ create table user_cards_gallery(
     FOREIGN KEY (card_id) REFERENCES cards(id)
 );
 
-create table user_books_gallery(
+create table books_gallery(
 	id int primary key,
     user_id int,
     book_id int,
@@ -1121,7 +1242,49 @@ create table user_books_gallery(
     FOREIGN KEY (book_id) REFERENCES books(id)
 );
 
-create table user_army_gallery(
+create table monsters_gallery(
+	id int primary key,
+    user_id int,
+    monster_id int,
+    
+    available boolean,
+    star int,
+    health double,
+    physical_attack double,
+    physical_defense double,
+    magical_attack double,
+    magical_defense double,
+    chemical_attack double,
+    chemical_defense double,
+    atomic_attack double,
+    atomic_defense double,
+    mental_attack double,
+    mental_defense double,
+    speed double,
+    critical_damage double,
+    critical_rate double,
+    armor_penetration double,
+    avoid double,
+    absorbs_damage double,
+    regenerate_vitality double,
+    mana float,
+    
+    percent_all_health double,
+    percent_all_physical_attack double,
+    percent_all_physical_defense double,
+    percent_all_magical_attack double,
+    percent_all_magical_defense double,
+    percent_all_chemical_attack double,
+    percent_all_chemical_defense double,
+    percent_all_atomic_attack double,
+    percent_all_atomic_defense double,
+    percent_all_mental_attack double,
+    percent_all_mental_defense double,
+    
+    FOREIGN KEY (user_id) REFERENCES users(id),
+    FOREIGN KEY (monster_id) REFERENCES monsters(id)
+);
+create table army_gallery(
 	id int primary key,
     user_id int,
     army_id int,
@@ -1164,7 +1327,7 @@ create table user_army_gallery(
     FOREIGN KEY (army_id) REFERENCES army(id)
 );
 
-create table user_collaboration_equipments_gallery(
+create table collaboration_equipments_gallery(
 	id int primary key,
     user_id int,
     collaboration_equipment_id int,
@@ -1207,7 +1370,7 @@ create table user_collaboration_equipments_gallery(
     FOREIGN KEY (collaboration_equipment_id) REFERENCES collaboration_equipments(id)
 );
 
-create table user_equipments_gallery(
+create table equipments_gallery(
 	id int primary key,
     user_id int,
     equipment_id int,
@@ -1250,7 +1413,7 @@ create table user_equipments_gallery(
     FOREIGN KEY (equipment_id) REFERENCES equipments(id)
 );
 
-create table user_pets_gallery(
+create table pets_gallery(
 	id int primary key,
     user_id int,
     pet_id int,
@@ -1323,6 +1486,7 @@ create table full_equipment(
     fact_book_id int,
     fact_pet_id int,
     fact_card_id int,
+    fact_monster_id int,
     
     FOREIGN KEY (equipmentId) REFERENCES user_equipments(id),
     FOREIGN KEY (extra_equipment_id) REFERENCES user_equipments(id)
@@ -1387,6 +1551,37 @@ create table fact_books(
     all_mana float,
     
      FOREIGN KEY (user_book_id) REFERENCES user_books(id),
+     FOREIGN KEY (user_id) REFERENCES users(id)
+);
+
+create table fact_monsters(
+	id int primary key,
+    user_id int,
+    user_monster_id int,
+    
+    power double,
+    
+    all_health double,
+    all_physical_attack double,
+    all_physical_defense double,
+    all_magical_attack double,
+    all_magical_defense double,
+    all_chemical_attack double,
+    all_chemical_defense double,
+    all_atomic_attack double,
+    all_atomic_defense double,
+    all_mental_attack double,
+    all_mental_defense double,
+    all_speed double,
+    all_critical_damage double,
+    all_critical_rate double,
+    all_armor_penetration double,
+    all_avoid double,
+    all_absorbs_damage double,
+    all_regenerate_vitality double,
+    all_mana float,
+    
+     FOREIGN KEY (user_monster_id) REFERENCES user_monsters(id),
      FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
@@ -1457,6 +1652,7 @@ ADD CONSTRAINT fk_fact_army FOREIGN KEY (fact_army_id) REFERENCES fact_army(id),
 ADD CONSTRAINT fk_fact_book FOREIGN KEY (fact_book_id) REFERENCES fact_books(id),
 ADD CONSTRAINT fk_fact_pet FOREIGN KEY (fact_pet_id) REFERENCES fact_pets(id),
 ADD CONSTRAINT fk_fact_card FOREIGN KEY (fact_card_id) REFERENCES fact_cards(id);
+ADD CONSTRAINT fk_fact_monster FOREIGN KEY (fact_monster_id) REFERENCES fact_monsters(id);
 
 create table cards_skills(
 	id int primary key,
@@ -1639,6 +1835,16 @@ create table title_trade(
     
     PRIMARY KEY(title_id, currency_id),
     FOREIGN KEY (title_id) REFERENCES titles(id),
+    FOREIGN KEY (currency_id) REFERENCES currency(id)
+);
+
+create table monster_trade(
+    monster_id int,
+    currency_id int,
+    price double,
+    
+    PRIMARY KEY(monster_id, currency_id),
+    FOREIGN KEY (monster_id) REFERENCES monsters(id),
     FOREIGN KEY (currency_id) REFERENCES currency(id)
 );
 
