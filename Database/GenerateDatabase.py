@@ -1840,6 +1840,1122 @@ def create_monster_trade():
                 print("insert into monster_trade values (" + str(id) + "," + str(50) + "," + str(2000) + ");")
 
                 id=id+1
+
+def create_chest_equipment():
+    cards_dir="Equipment"
+    card_list = []
+    id=1
+    for root, dirs, files in os.walk(cards_dir):
+        current_dir = os.path.basename(root)
+        current_name=""
+        current_name = os.path.basename(os.path.dirname(root))
+        for dir_name in dirs:
+            current_dir = os.path.join(root, dir_name)
+            for file_name in os.listdir(current_dir):
+                    if file_name.endswith(".jpg") or file_name.endswith(".png"):
+                        name, extension = os.path.splitext(file_name)
+                        set1_folder_name = os.path.basename(os.path.dirname(current_dir))
+                        name=name.replace("_"," ")
+                        if "Amnitus_Equipment" in current_name:
+                            print("insert into chest_equipment values (" + str(115) + "," + str(id) + "," + str(1) + ");")
+                            id += 1
+                        elif "Angelis_Equipment" in current_name:
+                            print("insert into chest_equipment values (" + str(116) + "," + str(id) + "," + str(1) + ");")
+                            id += 1
+                        elif "Bellion_Equipment" in current_name:
+                            print("insert into chest_equipment values (" + str(117) + "," + str(id) + "," + str(1) + ");")
+                            id += 1
+                        elif "Benzamin_Equipment" in current_name:
+                            print("insert into chest_equipment values (" + str(118) + "," + str(id) + "," + str(1) + ");")
+                            id += 1
+                        elif "Celestial_Equipment" in current_name:
+                            print("insert into chest_equipment values (" + str(119) + "," + str(id) + "," + str(1) + ");")
+                            id += 1
+                        elif "Ceverus_Equipment" in current_name:
+                            print("insert into chest_equipment values (" + str(120) + "," + str(id) + "," + str(1) + ");")
+                            id += 1
+                        elif "Delius_Equipment" in current_name:
+                            print("insert into chest_equipment values (" + str(122) + "," + str(id) + "," + str(1) + ");")
+                            id += 1
+                        elif "Domitius_Equipment" in current_name:
+                            print("insert into chest_equipment values (" + str(123) + "," + str(id) + "," + str(1) + ");")
+                            id += 1
+                        elif "Etherium_Equipment" in current_name:
+                            print("insert into chest_equipment values (" + str(124) + "," + str(id) + "," + str(1) + ");")
+                            id += 1
+                        elif "Everlyn_Equipment" in current_name:
+                            print("insert into chest_equipment values (" + str(125) + "," + str(id) + "," + str(1) + ");")
+                            id += 1
+                        elif "EvilFruit_Equipment" in current_name:
+                            print("insert into chest_equipment values (" + str(126) + "," + str(id) + "," + str(1) + ");")
+                            id += 1
+                        elif "Extra_Equipment" in current_name:
+                            print("insert into chest_equipment values (" + str(127) + "," + str(id) + "," + str(1) + ");")
+                            id += 1
+                        elif "Faltus_Equipment" in current_name:
+                            print("insert into chest_equipment values (" + str(128) + "," + str(id) + "," + str(1) + ");")
+                            id += 1
+                        elif "Fealan_Equipment" in current_name:
+                            print("insert into chest_equipment values (" + str(129) + "," + str(id) + "," + str(1) + ");")
+                            id += 1
+                        elif "Gamma_Equipment" in current_name:
+                            print("insert into chest_equipment values (" + str(130) + "," + str(id) + "," + str(1) + ");")
+                            id += 1
+                        elif "Gem_Equipment" in current_name:
+                            print("insert into chest_equipment values (" + str(132) + "," + str(id) + "," + str(1) + ");")
+                            id += 1
+                        elif "Hagoro_Equipment" in current_name:
+                            print("insert into chest_equipment values (" + str(133) + "," + str(id) + "," + str(1) + ");")
+                            id += 1
+                        elif "Hakalite_Equipment" in current_name:
+                            print("insert into chest_equipment values (" + str(134) + "," + str(id) + "," + str(1) + ");")
+                            id += 1
+                        elif "Heatherus_Equipment" in current_name:
+                            print("insert into chest_equipment values (" + str(135) + "," + str(id) + "," + str(1) + ");")
+                            id += 1
+                        elif "Ignis_Equipment" in current_name:
+                            print("insert into chest_equipment values (" + str(136) + "," + str(id) + "," + str(1) + ");")
+                            id += 1
+                        elif "Ivitus_Equipment" in current_name:
+                            print("insert into chest_equipment values (" + str(137) + "," + str(id) + "," + str(1) + ");")
+                            id += 1
+                        elif "Karis_Equipment" in current_name:
+                            print("insert into chest_equipment values (" + str(138) + "," + str(id) + "," + str(1) + ");")
+                            id += 1
+                        elif "Karmus_Equipment" in current_name:
+                            print("insert into chest_equipment values (" + str(139) + "," + str(id) + "," + str(1) + ");")
+                            id += 1
+                        elif "Lotus_Equipment" in current_name:
+                            print("insert into chest_equipment values (" + str(140) + "," + str(id) + "," + str(1) + ");")
+                            id += 1
+                        elif "Luminius_Equipment" in current_name:
+                            print("insert into chest_equipment values (" + str(141) + "," + str(id) + "," + str(1) + ");")
+                            id += 1
+                        elif "Macus_Equipment" in current_name:
+                            print("insert into chest_equipment values (" + str(143) + "," + str(id) + "," + str(1) + ");")
+                            id += 1
+                        elif "Morganis_Equipment" in current_name:
+                            print("insert into chest_equipment values (" + str(144) + "," + str(id) + "," + str(1) + ");")
+                            id += 1
+                        elif "Nimigazin_Equipment" in current_name:
+                            print("insert into chest_equipment values (" + str(145) + "," + str(id) + "," + str(1) + ");")
+                            id += 1
+                        elif "Omonitus_Equipment" in current_name:
+                            print("insert into chest_equipment values (" + str(146) + "," + str(id) + "," + str(1) + ");")
+                            id += 1
+                        elif "Pet_Equipment" in current_name:
+                            print("insert into chest_equipment values (" + str(147) + "," + str(id) + "," + str(1) + ");")
+                            id += 1
+                        elif "Qiyantus_Equipment" in current_name:
+                            print("insert into chest_equipment values (" + str(148) + "," + str(id) + "," + str(1) + ");")
+                            id += 1
+                        elif "Rainbow_Equipment" in current_name:
+                            print("insert into chest_equipment values (" + str(149) + "," + str(id) + "," + str(1) + ");")
+                            id += 1
+                        elif "Redvenger_Equipment" in current_name:
+                            print("insert into chest_equipment values (" + str(150) + "," + str(id) + "," + str(1) + ");")
+                            id += 1
+                        elif "Retanic_Equipment" in current_name:
+                            print("insert into chest_equipment values (" + str(151) + "," + str(id) + "," + str(1) + ");")
+                            id += 1
+                        elif "Souls_Equipment" in current_name:
+                            print("insert into chest_equipment values (" + str(152) + "," + str(id) + "," + str(1) + ");")
+                            id += 1
+                        elif "Support_Equipment" in current_name:
+                            print("insert into chest_equipment values (" + str(154) + "," + str(id) + "," + str(1) + ");")
+                            id += 1
+                        elif "Syncroharon_Equipment" in current_name:
+                            print("insert into chest_equipment values (" + str(155) + "," + str(id) + "," + str(1) + ");")
+                            id += 1
+                        elif "Uni_Equipment" in current_name:
+                            print("insert into chest_equipment values (" + str(156) + "," + str(id) + "," + str(1) + ");")
+                            id += 1
+                        elif "Zodiac_Equipment" in current_name:
+                            print("insert into chest_equipment values (" + str(157) + "," + str(id) + "," + str(1) + ");")
+                            id += 1
+                        elif "Zpower_Equipment" in current_name:
+                            print("insert into chest_equipment values (" + str(158) + "," + str(id) + "," + str(1) + ");")
+                            id += 1
+                        
+def create_chest_card():
+    cards_dir="Cards"
+    card_list = []
+    id=1
+    card_name=""
+    path=""
+    for root, dirs, files in os.walk(cards_dir):
+        current_dir=os.path.basename(root)
+        current_name=""
+        if current_dir not in ["LG", "UR", "SSR", "SR"]:
+            current_name=current_dir
+            # print(current_name)
+        for dir_name in dirs:
+            if "SR" in dir_name:
+                if "Adamas" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(159) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Avian" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(160) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Barbarian" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(161) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Cyttorak" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(162) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Dreizen" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(163) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Etrigon" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(164) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Firimir" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(166) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Gennesis" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(167) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Hecarus" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(168) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Illonima" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(169) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Jaguar" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(170) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Kryptonian" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(171) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Lamania" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(172) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Marverick" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(173) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Nemesis" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(174) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Onyx" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(176) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Palladian" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(177) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Quasar" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(178) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Riverven" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(179) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Starroian" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(180) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Terac" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(181) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Urius" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(182) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Vril" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(183) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Wyvern" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(184) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Xenomorph" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(185) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Yutogen" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(187) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Zerath" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(188) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                        
+            if "SSR" in dir_name:
+                if "Adamas" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(159) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Avian" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(160) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Barbarian" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(161) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Cyttorak" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(162) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Dreizen" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(163) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Etrigon" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(164) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Firimir" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(166) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Gennesis" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(167) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Hecarus" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(168) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Illonima" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(169) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Jaguar" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(170) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Kryptonian" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(171) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Lamania" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(172) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Marverick" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(173) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Nemesis" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(174) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Onyx" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(176) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Palladian" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(177) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Quasar" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(178) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Riverven" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(179) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Starroian" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(180) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Terac" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(181) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Urius" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(182) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Vril" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(183) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Wyvern" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(184) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Xenomorph" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(185) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Yutogen" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(187) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Zerath" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(188) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                        
+            if "UR" in dir_name:
+                if "Adamas" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(159) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Avian" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(160) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Barbarian" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(161) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Cyttorak" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(162) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Dreizen" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(163) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Etrigon" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(164) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Firimir" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(166) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Gennesis" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(167) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Hecarus" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(168) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Illonima" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(169) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Jaguar" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(170) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Kryptonian" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(171) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Lamania" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(172) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Marverick" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(173) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Nemesis" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(174) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Onyx" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(176) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Palladian" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(177) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Quasar" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(178) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Riverven" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(179) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Starroian" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(180) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Terac" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(181) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Urius" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(182) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Vril" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(183) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Wyvern" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(184) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Xenomorph" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(185) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Yutogen" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(187) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Zerath" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(188) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                        
+            if "LG" in dir_name:
+                if "Adamas" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(159) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Avian" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(160) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Barbarian" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(161) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Cyttorak" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(162) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Dreizen" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(163) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Etrigon" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(164) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Firimir" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(166) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Gennesis" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(167) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Hecarus" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(168) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Illonima" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(169) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Jaguar" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(170) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Kryptonian" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(171) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Lamania" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(172) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Marverick" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(173) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Nemesis" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(174) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Onyx" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(176) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Palladian" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(177) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Quasar" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(178) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Riverven" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(179) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Starroian" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(180) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Terac" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(181) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Urius" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(182) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Vril" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(183) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Wyvern" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(184) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Xenomorph" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(185) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Yutogen" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(187) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                elif "Zerath" in current_name:
+                    current_dir =os.path.join(root,dir_name)
+                    for file_name in os.listdir(current_dir):
+                        print("insert into chest_card values (" + str(188) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+                                  
+def create_chest_book():
+    cards_dir="Book"
+    card_list = []
+    id=1
+    card_name=""
+    path=""
+    for root, dirs, files in os.walk(cards_dir):
+        current_dir=os.path.basename(root)
+        current_name=current_dir
+        
+        # print(current_name)
+        for dir_name in dirs:
+            # print(current_name)  
+            current_name = os.path.join(root, dir_name)          
+            if "ArtKnight_Book" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_book values (" + str(189) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            elif "ETC_Book" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_book values (" + str(190) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            elif "Gemini_Book" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_book values (" + str(191) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            elif "Genshin_Book" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_book values (" + str(192) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            elif "Iterious_Book" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_book values (" + str(193) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            elif "Manhatan_Book" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_book values (" + str(194) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            elif "Monster_Book" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_book values (" + str(195) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            elif "NA_Book" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_book values (" + str(196) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            elif "OP_Book" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_book values (" + str(198) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            elif "Othellonia_Book" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_book values (" + str(199) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            elif "SAO_book" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_book values (" + str(200) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            elif "Tanhagan_Book" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_book values (" + str(201) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            elif "Tensei_shitara_Slime_Datta_Ken_Book" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_book values (" + str(202) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            elif "Touhou_Book" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_book values (" + str(203) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            elif "Xenoraphine_Book" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_book values (" + str(204) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+
+def create_chest_army():
+    cards_dir="Army"
+    card_list = []
+    id=1
+    card_name=""
+    path=""
+    for root, dirs, files in os.walk(cards_dir):
+        current_dir=os.path.basename(root)
+        current_name=current_dir
+        
+        # print(current_name)
+        for dir_name in dirs:
+            # print(current_name)  
+            current_name = os.path.join(root, dir_name)          
+            if "Dark_Army" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_army values (" + str(205) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            elif "Light_Army" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_army values (" + str(206) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            elif "Void_Monster_Army" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_army values (" + str(207) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            elif "Void_Spell_Army" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_army values (" + str(209) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+
+def create_chest_border():
+    cards_dir="Border"
+    card_list = []
+    id=1
+    card_name=""
+    path=""
+    for root, dirs, files in os.walk(cards_dir):
+        current_dir=os.path.basename(root)
+        for file_name in os.listdir(current_dir):
+            if file_name.endswith(".jpg") or file_name.endswith("png"):
+                name, extension=os.path.splitext(file_name)
+                path=os.path.join(current_dir,file_name)
+                path=path.replace("\\","/")
+                name=name.replace("_"," ")
+            
+                print("insert into chest_border values (" + str(210) + "," + str(id) + "," + str(1) + ");")
+                id=id+1
+
+def create_chest_collaboration():
+    cards_dir="Collaboration"
+    card_list = []
+    id=1
+    card_name=""
+    path=""
+    for root, dirs, files in os.walk(cards_dir):
+        current_dir=os.path.basename(root)
+        for file_name in os.listdir(current_dir):
+            if file_name.endswith(".jpg") or file_name.endswith("png"):
+                name, extension=os.path.splitext(file_name)
+                path=os.path.join(current_dir,file_name)
+                path=path.replace("\\","/")
+                name=name.replace("_"," ")
+            
+                print("insert into chest_collaboration values (" + str(211) + "," + str(id) + "," + str(1) + ");")
+                id=id+1
+
+def create_chest_currency():
+    cards_dir="Currency"
+    card_list = []
+    id=1
+    card_name=""
+    path=""
+    for root, dirs, files in os.walk(cards_dir):
+        current_dir=os.path.basename(root)
+        for file_name in os.listdir(current_dir):
+            if file_name.endswith(".jpg") or file_name.endswith("png"):
+                name, extension=os.path.splitext(file_name)
+                path=os.path.join(current_dir,file_name)
+                path=path.replace("\\","/")
+                name=name.replace("_"," ")
+            
+                print("insert into chest_currency values (" + str(212) + "," + str(id) + "," + str(1) + ");")
+                id=id+1
+
+def create_chest_medal():
+    cards_dir="Medal"
+    card_list = []
+    id=1
+    card_name=""
+    path=""
+    for root, dirs, files in os.walk(cards_dir):
+        current_dir=os.path.basename(root)
+        for file_name in os.listdir(current_dir):
+            if file_name.endswith(".jpg") or file_name.endswith("png"):
+                name, extension=os.path.splitext(file_name)
+                path=os.path.join(current_dir,file_name)
+                path=path.replace("\\","/")
+                name=name.replace("_"," ")
+            
+                print("insert into chest_medal values (" + str(213) + "," + str(id) + "," + str(1) + ");")
+                id=id+1
+
+def create_chest_monster():
+    cards_dir="Monster"
+    card_list = []
+    id=1
+    card_name=""
+    path=""
+    for root, dirs, files in os.walk(cards_dir):
+        current_dir=os.path.basename(root)
+        for file_name in os.listdir(current_dir):
+            if file_name.endswith(".jpg") or file_name.endswith("png"):
+                name, extension=os.path.splitext(file_name)
+                path=os.path.join(current_dir,file_name)
+                path=path.replace("\\","/")
+                name=name.replace("_"," ")
+            
+                print("insert into chest_monster values (" + str(213) + "," + str(id) + "," + str(1) + ");")
+                id=id+1
+
+def create_chest_pet():
+    cards_dir="Pet"
+    card_list = []
+    id=1
+    card_name=""
+    path=""
+    for root, dirs, files in os.walk(cards_dir):
+        current_dir=os.path.basename(root)
+        current_name=current_dir
+        
+        # print(current_name)
+        for dir_name in dirs:
+            # print(current_name)  
+            current_name = os.path.join(root, dir_name)          
+            if "Legendary_Dragon" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_pet values (" + str(214) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            elif "Mysthic_Monster" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_pet values (" + str(215) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            elif "Naruto_Bijuu" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_pet values (" + str(216) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            elif "Naruto_Susanoo" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_pet values (" + str(217) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            elif "One_Piece_Ship" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_pet values (" + str(218) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            elif "Prime_Monster" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_pet values (" + str(220) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            elif "Ultimate_Monster" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_pet values (" + str(221) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            elif "Xeras_Monster" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_pet values (" + str(222) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+
+def create_chest_symbol():
+    cards_dir="Symbol"
+    card_list = []
+    id=1
+    card_name=""
+    path=""
+    for root, dirs, files in os.walk(cards_dir):
+        current_dir=os.path.basename(root)
+        current_name=current_dir
+        for dir_name in dirs:
+            # print(current_name)  
+            current_name = os.path.join(root, dir_name)          
+            if "Symbol_1" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_symbol values (" + str(223) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            elif "Symbol_2" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_symbol values (" + str(224) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            elif "Symbol_3" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_symbol values (" + str(225) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            elif "Symbol_4" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_symbol values (" + str(226) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            elif "Symbol_5" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_symbol values (" + str(227) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            
+def create_chest_title():
+    cards_dir="Title"
+    card_list = []
+    id=1
+    card_name=""
+    path=""
+    for root, dirs, files in os.walk(cards_dir):
+        current_dir=os.path.basename(root)
+        for file_name in os.listdir(current_dir):
+            if file_name.endswith(".jpg") or file_name.endswith("png"):
+                name, extension=os.path.splitext(file_name)
+                path=os.path.join(current_dir,file_name)
+                path=path.replace("\\","/")
+                name=name.replace("_"," ")
+            
+                print("insert into chest_title values (" + str(228) + "," + str(id) + "," + str(1) + ");")
+                id=id+1
+
+def create_chest_collaboration_equipment():
+    cards_dir="CollborationEquipment"
+    card_list = []
+    id=1
+    card_name=""
+    path=""
+    for root, dirs, files in os.walk(cards_dir):
+        current_dir=os.path.basename(root)
+        current_name=current_dir
+        for dir_name in dirs:
+            # print(current_name)  
+            current_name = os.path.join(root, dir_name)          
+            if "Berus_Character" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_collaboration_equipment values (" + str(229) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            elif "Chibi_Character" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_collaboration_equipment values (" + str(230) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            elif "DragonBall_Character" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_collaboration_equipment values (" + str(232) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            elif "Drasma_Character" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_collaboration_equipment values (" + str(233) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            elif "ETC_Character" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_collaboration_equipment values (" + str(234) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            elif "Hirai_Character" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_collaboration_equipment values (" + str(235) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            elif "Ikarus_Character" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_collaboration_equipment values (" + str(236) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            elif "Kaisen_Character" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_collaboration_equipment values (" + str(237) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            elif "Light_Character" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_collaboration_equipment values (" + str(238) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            elif "Naruto_Character" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_collaboration_equipment values (" + str(240) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            elif "Neko_Character" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_collaboration_equipment values (" + str(242) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            elif "OnePiece_Character" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_collaboration_equipment values (" + str(243) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            elif "Rainbow_Character" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_collaboration_equipment values (" + str(244) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            elif "Spirit_Character" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_collaboration_equipment values (" + str(245) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            elif "Void_Character" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_collaboration_equipment values (" + str(246) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
+            elif "Xeras_Character" in current_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    print("insert into chest_collaboration_equipment values (" + str(247) + "," + str(id) + "," + str(1) + ");")
+                    id=id+1
 # create_cards_database()
 # create_books_database()
 # create_skills_database()
@@ -1857,18 +2973,32 @@ def create_monster_trade():
 # create_borders_database()
 # create_collaboration_database()
 
-create_cards_trade()
-create_book_trade()
-create_army_trade()
-create_skills_trade()
-create_collaboration_equipments_trade()
-create_pets_trade()
-create_symbols_trade()
-create_medals_trade()
-create_achievements_trade()
-create_titles_trade()
-create_borders_trade()
-create_items_trade()
-create_equipments_trade()
-create_collaboration_trade()
-create_monster_trade()
+# create_cards_trade()
+# create_book_trade()
+# create_army_trade()
+# create_skills_trade()
+# create_collaboration_equipments_trade()
+# create_pets_trade()
+# create_symbols_trade()
+# create_medals_trade()
+# create_achievements_trade()
+# create_titles_trade()
+# create_borders_trade()
+# create_items_trade()
+# create_equipments_trade()
+# create_collaboration_trade()
+# create_monster_trade()
+
+# create_chest_equipment()
+# create_chest_card()
+# create_chest_book()
+# create_chest_army()
+# create_chest_border()
+# create_chest_collaboration()
+# create_chest_currency()
+# create_chest_medal()
+# create_chest_monster()
+# create_chest_pet()
+# create_chest_symbol()
+# create_chest_title()
+create_chest_collaboration_equipment()
