@@ -1476,21 +1476,6 @@ create table mail(
     FOREIGN KEY (item_id) REFERENCES items(id)
 );
 
-create table full_equipment(
-	id int primary key,
-    userId int,
-    equipmentId int,
-    extra_equipment_id int,
-    
-    fact_army_id int,
-    fact_book_id int,
-    fact_pet_id int,
-    fact_card_id int,
-    fact_monster_id int,
-    
-    FOREIGN KEY (equipmentId) REFERENCES user_equipments(id),
-    FOREIGN KEY (extra_equipment_id) REFERENCES user_equipments(id)
-);
 
 create table fact_army(
 	id int primary key,
@@ -1647,12 +1632,115 @@ create table fact_cards(
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
-ALTER TABLE full_equipment
-ADD CONSTRAINT fk_fact_army FOREIGN KEY (fact_army_id) REFERENCES fact_army(id),
-ADD CONSTRAINT fk_fact_book FOREIGN KEY (fact_book_id) REFERENCES fact_books(id),
-ADD CONSTRAINT fk_fact_pet FOREIGN KEY (fact_pet_id) REFERENCES fact_pets(id),
-ADD CONSTRAINT fk_fact_card FOREIGN KEY (fact_card_id) REFERENCES fact_cards(id);
-ADD CONSTRAINT fk_fact_monster FOREIGN KEY (fact_monster_id) REFERENCES fact_monsters(id);
+create table card_equipment(
+    id int primary key,
+    user_id int,
+    fact_card_id int,
+
+    FOREIGN KEY (user_id) REFERENCES users(id),
+    FOREIGN KEY (fact_card_id) REFERENCES fact_cards(id)
+);
+
+create table army_equipment(
+    id int primary key,
+    user_id int,
+    fact_army_id int,
+
+    FOREIGN KEY (user_id) REFERENCES users(id),
+    FOREIGN KEY (fact_army_id) REFERENCES fact_army(id)
+);
+
+create table book_equipment(
+    id int primary key,
+    user_id int,
+    fact_book_id int,
+
+    FOREIGN KEY (user_id) REFERENCES users(id),
+    FOREIGN KEY (fact_book_id) REFERENCES fact_books(id)
+);
+
+create table pet_equipment(
+    id int primary key,
+    user_id int,
+    fact_pet_id int,
+
+    FOREIGN KEY (user_id) REFERENCES users(id),
+    FOREIGN KEY (fact_pet_id) REFERENCES fact_pets(id)
+);
+
+create table monster_equipment(
+    id int primary key,
+    user_id int,
+    fact_monster_id int,
+
+    FOREIGN KEY (user_id) REFERENCES users(id),
+    FOREIGN KEY (fact_monster_id) REFERENCES fact_monsters(id)
+);
+
+create table card_equipment_details(
+	id int primary key,
+    user_id int,
+    equipment_id int,
+    extra_equipment_id int,
+    card_equipment_id int,
+    
+    FOREIGN KEY (equipment_id) REFERENCES user_equipments(id),
+    FOREIGN KEY (extra_equipment_id) REFERENCES user_equipments(id),
+    FOREIGN KEY (user_id) REFERENCES users(id),
+    FOREIGN KEY (card_equipment_id) REFERENCES card_equipment(id)
+);
+
+create table army_equipment_details(
+	id int primary key,
+    user_id int,
+    equipment_id int,
+    extra_equipment_id int,
+    army_equipment_id int,
+    
+    FOREIGN KEY (equipment_id) REFERENCES user_equipments(id),
+    FOREIGN KEY (extra_equipment_id) REFERENCES user_equipments(id),
+    FOREIGN KEY (user_id) REFERENCES users(id),
+    FOREIGN KEY (army_equipment_id) REFERENCES army_equipment(id)
+);
+
+create table book_equipment_details(
+	id int primary key,
+    user_id int,
+    equipment_id int,
+    extra_equipment_id int,
+    book_equipment_id int,
+    
+    FOREIGN KEY (equipment_id) REFERENCES user_equipments(id),
+    FOREIGN KEY (extra_equipment_id) REFERENCES user_equipments(id),
+    FOREIGN KEY (user_id) REFERENCES users(id),
+    FOREIGN KEY (book_equipment_id) REFERENCES book_equipment(id)
+);
+
+create table pet_equipment_details(
+	id int primary key,
+    user_id int,
+    equipment_id int,
+    extra_equipment_id int,
+    pet_equipment_id int,
+    
+    FOREIGN KEY (equipment_id) REFERENCES user_equipments(id),
+    FOREIGN KEY (extra_equipment_id) REFERENCES user_equipments(id),
+    FOREIGN KEY (user_id) REFERENCES users(id),
+    FOREIGN KEY (pet_equipment_id) REFERENCES pet_equipment(id)
+);
+
+create table monster_equipment_details(
+	id int primary key,
+    user_id int,
+    equipment_id int,
+    extra_equipment_id int,
+    monster_equipment_id int,
+    
+    FOREIGN KEY (equipment_id) REFERENCES user_equipments(id),
+    FOREIGN KEY (extra_equipment_id) REFERENCES user_equipments(id),
+    FOREIGN KEY (user_id) REFERENCES users(id),
+    FOREIGN KEY (monster_equipment_id) REFERENCES monster_equipment(id)
+);
 
 create table cards_skills(
 	id int primary key,
@@ -1856,4 +1944,154 @@ create table achievement_trade(
     PRIMARY KEY(achievement_id, currency_id),
     FOREIGN KEY (achievement_id) REFERENCES achievements(id),
     FOREIGN KEY (currency_id) REFERENCES currency(id)
+);
+
+create table chest_equipment(
+    item_id int,
+    equipment_id int,
+    quantity int,
+    
+    PRIMARY KEY(equipment_id, item_id),
+    FOREIGN KEY (equipment_id) REFERENCES equipments(id),
+    FOREIGN KEY (item_id) REFERENCES items(id)
+);
+
+create table chest_card(
+    item_id int,
+    card_id int,
+    quantity int,
+    
+    PRIMARY KEY(card_id, item_id),
+    FOREIGN KEY (card_id) REFERENCES cards(id),
+    FOREIGN KEY (item_id) REFERENCES items(id)
+);
+
+create table chest_book(
+    item_id int,
+    book_id int,
+    quantity int,
+    
+    PRIMARY KEY(book_id, item_id),
+    FOREIGN KEY (book_id) REFERENCES books(id),
+    FOREIGN KEY (item_id) REFERENCES items(id)
+);
+
+create table chest_army(
+    item_id int,
+    army_id int,
+    quantity int,
+    
+    PRIMARY KEY(army_id, item_id),
+    FOREIGN KEY (army_id) REFERENCES army(id),
+    FOREIGN KEY (item_id) REFERENCES items(id)
+);
+
+create table chest_border(
+    item_id int,
+    border_id int,
+    quantity int,
+    
+    PRIMARY KEY(border_id, item_id),
+    FOREIGN KEY (border_id) REFERENCES borders(id),
+    FOREIGN KEY (item_id) REFERENCES items(id)
+);
+
+create table chest_collaboration(
+    item_id int,
+    collaboration_id int,
+    quantity int,
+    
+    PRIMARY KEY(collaboration_id, item_id),
+    FOREIGN KEY (collaboration_id) REFERENCES collaborations(id),
+    FOREIGN KEY (item_id) REFERENCES items(id)
+);
+
+create table chest_collaboration_equipment(
+    item_id int,
+    collaboration_equipment_id int,
+    quantity int,
+    
+    PRIMARY KEY(collaboration_equipment_id, item_id),
+    FOREIGN KEY (collaboration_equipment_id) REFERENCES collaboration_equipments(id),
+    FOREIGN KEY (item_id) REFERENCES items(id)
+);
+
+create table chest_currency(
+    item_id int,
+    currency_id int,
+    quantity int,
+    
+    PRIMARY KEY(currency_id, item_id),
+    FOREIGN KEY (currency_id) REFERENCES currency(id),
+    FOREIGN KEY (item_id) REFERENCES items(id)
+);
+
+create table chest_item(
+    item_id int,
+    material_id int,
+    quantity int,
+    
+    PRIMARY KEY(material_id, item_id),
+    FOREIGN KEY (material_id) REFERENCES items(id),
+    FOREIGN KEY (item_id) REFERENCES items(id)
+);
+
+create table chest_medal(
+    item_id int,
+    medal_id int,
+    quantity int,
+    
+    PRIMARY KEY(medal_id, item_id),
+    FOREIGN KEY (medal_id) REFERENCES medals(id),
+    FOREIGN KEY (item_id) REFERENCES items(id)
+);
+
+create table chest_monster(
+    item_id int,
+    monster_id int,
+    quantity int,
+    
+    PRIMARY KEY(monster_id, item_id),
+    FOREIGN KEY (monster_id) REFERENCES monsters(id),
+    FOREIGN KEY (item_id) REFERENCES items(id)
+);
+
+create table chest_pet(
+    item_id int,
+    pet_id int,
+    quantity int,
+    
+    PRIMARY KEY(pet_id, item_id),
+    FOREIGN KEY (pet_id) REFERENCES pets(id),
+    FOREIGN KEY (item_id) REFERENCES items(id)
+);
+
+create table chest_skill(
+    item_id int,
+    skill_id int,
+    quantity int,
+    
+    PRIMARY KEY(skill_id, item_id),
+    FOREIGN KEY (skill_id) REFERENCES skills(id),
+    FOREIGN KEY (item_id) REFERENCES items(id)
+);
+
+create table chest_symbol(
+    item_id int,
+    symbol_id int,
+    quantity int,
+    
+    PRIMARY KEY(symbol_id, item_id),
+    FOREIGN KEY (symbol_id) REFERENCES symbols(id),
+    FOREIGN KEY (item_id) REFERENCES items(id)
+);
+
+create table chest_title(
+    item_id int,
+    title_id int,
+    quantity int,
+    
+    PRIMARY KEY(title_id, item_id),
+    FOREIGN KEY (title_id) REFERENCES titles(id),
+    FOREIGN KEY (item_id) REFERENCES items(id)
 );
