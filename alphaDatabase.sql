@@ -598,7 +598,7 @@ create table user_cards_rank(
     
     PRIMARY KEY(user_id,user_card_id, rank_id),
     FOREIGN KEY (user_id) REFERENCES users(id),
-    FOREIGN KEY (user_card_id) REFERENCES user_cards(id)
+    FOREIGN KEY (user_card_id) REFERENCES user_cards(card_id)
 );
 
 create table user_books(
@@ -675,7 +675,7 @@ create table user_books_rank(
     percent_all_mental_defense double,
     
     PRIMARY KEY(user_id,user_book_id,rank_id),
-    FOREIGN KEY (user_book_id) REFERENCES user_books(id),
+    FOREIGN KEY (user_book_id) REFERENCES user_books(book_id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
@@ -753,7 +753,7 @@ create table user_monsters_rank(
     percent_all_mental_defense double,
     
     PRIMARY KEY(user_id,user_monster_id,rank_id),
-    FOREIGN KEY (user_monster_id) REFERENCES user_monsters(id),
+    FOREIGN KEY (user_monster_id) REFERENCES user_monsters(monster_id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
@@ -831,7 +831,7 @@ create table user_army_rank(
     percent_all_mental_defense double,
     
     PRIMARY KEY(user_id,user_army_id,rank_id),
-    FOREIGN KEY (user_army_id) REFERENCES user_army(id),
+    FOREIGN KEY (user_army_id) REFERENCES user_army(army_id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
@@ -908,7 +908,7 @@ create table user_collaboration_equipments_rank(
     percent_all_mental_defense double,
     
     PRIMARY KEY(user_id,user_collaboration_equipment_id, rank_id),
-    FOREIGN KEY (user_collaboration_equipment_id) REFERENCES user_collaboration_equipments(id),
+    FOREIGN KEY (user_collaboration_equipment_id) REFERENCES user_collaboration_equipments(collaboration_equipment_id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
@@ -985,7 +985,7 @@ create table user_equipments_rank(
     percent_all_mental_defense double,
     
     PRIMARY KEY(user_id,user_equipment_id, rank_id),
-    FOREIGN KEY (user_equipment_id) REFERENCES user_equipments(id),
+    FOREIGN KEY (user_equipment_id) REFERENCES user_equipments(equipment_id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
@@ -1062,7 +1062,7 @@ create table user_pets_rank(
     percent_all_mental_defense double,
     
     PRIMARY KEY(user_id,user_pet_id, rank_id),
-    FOREIGN KEY (user_pet_id) REFERENCES user_pets(id),
+    FOREIGN KEY (user_pet_id) REFERENCES user_pets(pet_id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
@@ -1715,7 +1715,7 @@ create table army_equipment_details(
     PRIMARY KEY(user_id,fact_army_id,equipment_id,extra_equipment_id),
     FOREIGN KEY (extra_equipment_id) REFERENCES user_equipments(equipment_id),
     FOREIGN KEY (user_id) REFERENCES users(id),
-    FOREIGN KEY (equipment_id) REFERENCES army_equipment(equipment_id).
+    FOREIGN KEY (equipment_id) REFERENCES army_equipment(equipment_id),
     FOREIGN KEY (fact_army_id) REFERENCES fact_army(user_army_id)
 );
 
@@ -1754,7 +1754,7 @@ create table monster_equipment_details(
     PRIMARY KEY(user_id,fact_monster_id,equipment_id,extra_equipment_id),
     FOREIGN KEY (extra_equipment_id) REFERENCES user_equipments(equipment_id),
     FOREIGN KEY (user_id) REFERENCES users(id),
-    FOREIGN KEY (equipment_id) REFERENCES monster_equipment(equipment_id)
+    FOREIGN KEY (equipment_id) REFERENCES monster_equipment(equipment_id),
     FOREIGN KEY (fact_monster_id) REFERENCES fact_monsters(user_monster_id)
 );
 
@@ -1785,7 +1785,7 @@ create table cards_skills(
     mana float,
     
     PRIMARY KEY(user_id,fact_card_id,skill_id),
-    FOREIGN KEY (fact_card_id) REFERENCES fact_cards(id),
+    FOREIGN KEY (fact_card_id) REFERENCES fact_cards(user_card_id),
     FOREIGN KEY (user_id) REFERENCES users(id),
     FOREIGN KEY (skill_id) REFERENCES skills(id)
 );
