@@ -524,7 +524,6 @@ create table users(
 );
 
 create table user_cards(
-	id int primary key,
     user_id int,
     card_id int,
     level int,
@@ -554,14 +553,15 @@ create table user_cards(
     regenerate_vitality double,
     mana float,
     
+    PRIMARY KEY(user_id,card_id),
     FOREIGN KEY (card_id) REFERENCES cards(id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
 create table user_cards_rank(
-	id int primary key,
     user_id int,
     user_card_id int,
+    rank_id int,
     rank_type varchar(255),
     
     health double,
@@ -596,12 +596,12 @@ create table user_cards_rank(
     percent_all_mental_attack double,
     percent_all_mental_defense double,
     
+    PRIMARY KEY(user_id,user_card_id, rank_id),
     FOREIGN KEY (user_id) REFERENCES users(id),
     FOREIGN KEY (user_card_id) REFERENCES user_cards(id)
 );
 
 create table user_books(
-	id int primary key,
     user_id int,
     book_id int,
     level int,
@@ -631,14 +631,15 @@ create table user_books(
     regenerate_vitality double,
     mana float,
     
+    PRIMARY KEY(user_id,book_id),
     FOREIGN KEY (book_id) REFERENCES books(id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
 create table user_books_rank(
-	id int primary key,
     user_id int,
     user_book_id int,
+    rank_id int,
     rank_type varchar(255),
     
 	health double,
@@ -673,12 +674,12 @@ create table user_books_rank(
     percent_all_mental_attack double,
     percent_all_mental_defense double,
     
+    PRIMARY KEY(user_id,user_book_id,rank_id),
     FOREIGN KEY (user_book_id) REFERENCES user_books(id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
 create table user_monsters(
-	id int primary key,
     user_id int,
     monster_id int,
     level int,
@@ -708,14 +709,15 @@ create table user_monsters(
     regenerate_vitality double,
     mana float,
     
+    PRIMARY KEY(user_id,monster_id),
     FOREIGN KEY (monster_id) REFERENCES monsters(id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
 create table user_monsters_rank(
-	id int primary key,
     user_id int,
     user_monster_id int,
+    rank_id int,
     rank_type varchar(255),
     
 	health double,
@@ -750,12 +752,12 @@ create table user_monsters_rank(
     percent_all_mental_attack double,
     percent_all_mental_defense double,
     
+    PRIMARY KEY(user_id,user_monster_id,rank_id),
     FOREIGN KEY (user_monster_id) REFERENCES user_monsters(id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
 create table user_army(
-	id int primary key,
     user_id int,
     army_id int,
     level int,
@@ -785,14 +787,15 @@ create table user_army(
     regenerate_vitality double,
     mana float,
     
+    PRIMARY KEY(user_id,army_id),
     FOREIGN KEY (army_id) REFERENCES army(id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
 create table user_army_rank(
-	id int primary key,
     user_id int,
     user_army_id int,
+    rank_id int,
     rank_type varchar(255),
     
 	health double,
@@ -827,12 +830,12 @@ create table user_army_rank(
     percent_all_mental_attack double,
     percent_all_mental_defense double,
     
+    PRIMARY KEY(user_id,user_army_id,rank_id),
     FOREIGN KEY (user_army_id) REFERENCES user_army(id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
 create table user_collaboration_equipments(
-	id int primary key,
     user_id int,
     collaboration_equipment_id int,
     level int,
@@ -861,14 +864,15 @@ create table user_collaboration_equipments(
     regenerate_vitality double,
     mana float,
     
+    PRIMARY KEY(user_id,collaboration_equipment_id),
     FOREIGN KEY (collaboration_equipment_id) REFERENCES collaboration_equipments(id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
 create table user_collaboration_equipments_rank(
-	id int primary key,
     user_id int,
     user_collaboration_equipment_id int,
+    rank_id int,
     rank_type varchar(255),
     
 	health double,
@@ -903,12 +907,12 @@ create table user_collaboration_equipments_rank(
     percent_all_mental_attack double,
     percent_all_mental_defense double,
     
+    PRIMARY KEY(user_id,user_collaboration_equipment_id, rank_id),
     FOREIGN KEY (user_collaboration_equipment_id) REFERENCES user_collaboration_equipments(id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
 create table user_equipments(
-	id int primary key,
     user_id int,
     equipment_id int,
     level int,
@@ -936,17 +940,16 @@ create table user_equipments(
     absorbs_damage double,
     regenerate_vitality double,
     mana float,
-    
-    full_equipment_id int,
-    
+        
+    PRIMARY KEY(user_id,equipment_id),
     FOREIGN KEY (equipment_id) REFERENCES equipments(id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
 create table user_equipments_rank(
-	id int primary key,
     user_id int,
     user_equipment_id int,
+    rank_id int,
     rank_type varchar(255),
     
 	health double,
@@ -981,12 +984,12 @@ create table user_equipments_rank(
     percent_all_mental_attack double,
     percent_all_mental_defense double,
     
+    PRIMARY KEY(user_id,user_equipment_id, rank_id),
     FOREIGN KEY (user_equipment_id) REFERENCES user_equipments(id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
 create table user_pets(
-	id int primary key,
     user_id int,
     pet_id int,
     level int,
@@ -1015,14 +1018,15 @@ create table user_pets(
     regenerate_vitality double,
     mana float,
     
+    PRIMARY KEY(user_id,pet_id),
     FOREIGN KEY (pet_id) REFERENCES pets(id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
 create table user_pets_rank(
-	id int primary key,
     user_id int,
     user_pet_id int,
+    rank_id int,
     rank_type varchar(255),
     
 	health double,
@@ -1057,12 +1061,12 @@ create table user_pets_rank(
     percent_all_mental_attack double,
     percent_all_mental_defense double,
     
+    PRIMARY KEY(user_id,user_pet_id, rank_id),
     FOREIGN KEY (user_pet_id) REFERENCES user_pets(id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
 create table user_skill(
-	id int primary key,
     user_id int,
     skill_id int,
     level int,
@@ -1088,76 +1092,76 @@ create table user_skill(
     regenerate_vitality double,
     mana float,
     
+    PRIMARY KEY(user_id,skill_id),
     FOREIGN KEY (skill_id) REFERENCES skills(id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
 create table user_items(
-	id int primary key,
     user_id int,
     item_id int,
     quantity int,
     
+    PRIMARY KEY(user_id,item_id),
     FOREIGN KEY (user_id) REFERENCES users(id),
     FOREIGN KEY (item_id) REFERENCES items(id)
 );
 
 create table user_achievements(
-	id int primary key,
-    achievement_id int,
     user_id int,
+    achievement_id int,
     
+    PRIMARY KEY(user_id,achievement_id),
     FOREIGN KEY (achievement_id) REFERENCES achievements(id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
 create table user_medals(
-	id int primary key,
-    medal_id int,
     user_id int,
+    medal_id int,
     
+    PRIMARY KEY(user_id,medal_id),
     FOREIGN KEY (medal_id) REFERENCES medals(id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
 create table user_symbols(
-	id int primary key,
-    symbol_id int,
     user_id int,
+    symbol_id int,
     
+    PRIMARY KEY(user_id,symbol_id),
     FOREIGN KEY (symbol_id) REFERENCES symbols(id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
 create table user_titles(
-	id int primary key,
-    title_id int,
     user_id int,
+    title_id int,
     
+    PRIMARY KEY(user_id,title_id),
     FOREIGN KEY (title_id) REFERENCES titles(id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
 create table user_borders(
-	id int primary key,
-    border_id int,
     user_id int,
+    border_id int,
     
+    PRIMARY KEY(user_id,border_id),
     FOREIGN KEY (border_id) REFERENCES borders(id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
 create table user_collaborations(
-	id int primary key,
-    collaboration_id int,
     user_id int,
+    collaboration_id int,
     
+    PRIMARY KEY(user_id,collaboration_id),
     FOREIGN KEY (collaboration_id) REFERENCES collaborations(id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
 create table cards_gallery(
-	id int primary key,
     user_id int,
     card_id int,
     
@@ -1195,12 +1199,12 @@ create table cards_gallery(
     percent_all_mental_attack double,
     percent_all_mental_defense double,
     
+    PRIMARY KEY(user_id,card_id),
     FOREIGN KEY (user_id) REFERENCES users(id),
     FOREIGN KEY (card_id) REFERENCES cards(id)
 );
 
 create table books_gallery(
-	id int primary key,
     user_id int,
     book_id int,
     
@@ -1238,12 +1242,12 @@ create table books_gallery(
     percent_all_mental_attack double,
     percent_all_mental_defense double,
     
+     PRIMARY KEY(user_id,book_id),
     FOREIGN KEY (user_id) REFERENCES users(id),
     FOREIGN KEY (book_id) REFERENCES books(id)
 );
 
 create table monsters_gallery(
-	id int primary key,
     user_id int,
     monster_id int,
     
@@ -1281,11 +1285,11 @@ create table monsters_gallery(
     percent_all_mental_attack double,
     percent_all_mental_defense double,
     
+    PRIMARY KEY(user_id,monster_id),
     FOREIGN KEY (user_id) REFERENCES users(id),
     FOREIGN KEY (monster_id) REFERENCES monsters(id)
 );
 create table army_gallery(
-	id int primary key,
     user_id int,
     army_id int,
     
@@ -1323,12 +1327,12 @@ create table army_gallery(
     percent_all_mental_attack double,
     percent_all_mental_defense double,
     
+    PRIMARY KEY(user_id,army_id),
     FOREIGN KEY (user_id) REFERENCES users(id),
     FOREIGN KEY (army_id) REFERENCES army(id)
 );
 
 create table collaboration_equipments_gallery(
-	id int primary key,
     user_id int,
     collaboration_equipment_id int,
     
@@ -1366,12 +1370,12 @@ create table collaboration_equipments_gallery(
     percent_all_mental_attack double,
     percent_all_mental_defense double,
     
+    PRIMARY KEY(user_id,collaboration_equipment_id),
     FOREIGN KEY (user_id) REFERENCES users(id),
     FOREIGN KEY (collaboration_equipment_id) REFERENCES collaboration_equipments(id)
 );
 
 create table equipments_gallery(
-	id int primary key,
     user_id int,
     equipment_id int,
     
@@ -1409,12 +1413,12 @@ create table equipments_gallery(
     percent_all_mental_attack double,
     percent_all_mental_defense double,
     
+    PRIMARY KEY(user_id,equipment_id),
     FOREIGN KEY (user_id) REFERENCES users(id),
     FOREIGN KEY (equipment_id) REFERENCES equipments(id)
 );
 
 create table pets_gallery(
-	id int primary key,
     user_id int,
     pet_id int,
     
@@ -1452,16 +1456,17 @@ create table pets_gallery(
     percent_all_mental_attack double,
     percent_all_mental_defense double,
     
+    PRIMARY KEY(user_id,pet_id),
     FOREIGN KEY (user_id) REFERENCES users(id),
     FOREIGN KEY (pet_id) REFERENCES pets(id)
 );
 
 create table user_currency(
-	id int primary key,
     user_id int,
     currency_id int,
     quantity double,
     
+    PRIMARY KEY(user_id,currency_id),
     FOREIGN KEY (user_id) REFERENCES users(id),
     FOREIGN KEY (currency_id) REFERENCES currency(id)
 );
@@ -1470,6 +1475,7 @@ create table mail(
 	id int primary key,
     user_id int,
     item_id int,
+    mail_date DATETIME,
     type varchar(100),
     
     FOREIGN KEY (user_id) REFERENCES users(id),
@@ -1478,7 +1484,6 @@ create table mail(
 
 
 create table fact_army(
-	id int primary key,
     user_id int,
     user_army_id int,
     
@@ -1504,12 +1509,12 @@ create table fact_army(
     all_regenerate_vitality double,
     all_mana float,
     
-    FOREIGN KEY (user_army_id) REFERENCES user_army(id),
+    PRIMARY KEY(user_id,user_army_id),
+    FOREIGN KEY (user_army_id) REFERENCES user_army(army_id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
 create table fact_books(
-	id int primary key,
     user_id int,
     user_book_id int,
     
@@ -1535,12 +1540,12 @@ create table fact_books(
     all_regenerate_vitality double,
     all_mana float,
     
-     FOREIGN KEY (user_book_id) REFERENCES user_books(id),
-     FOREIGN KEY (user_id) REFERENCES users(id)
+    PRIMARY KEY(user_id,user_book_id),
+    FOREIGN KEY (user_book_id) REFERENCES user_books(book_id),
+    FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
 create table fact_monsters(
-	id int primary key,
     user_id int,
     user_monster_id int,
     
@@ -1566,12 +1571,12 @@ create table fact_monsters(
     all_regenerate_vitality double,
     all_mana float,
     
-     FOREIGN KEY (user_monster_id) REFERENCES user_monsters(id),
-     FOREIGN KEY (user_id) REFERENCES users(id)
+    PRIMARY KEY(user_id,user_monster_id),
+    FOREIGN KEY (user_monster_id) REFERENCES user_monsters(monster_id),
+    FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
 create table fact_pets(
-	id int primary key,
     user_id int,
     user_pet_id int,
     
@@ -1597,12 +1602,12 @@ create table fact_pets(
     all_regenerate_vitality double,
     all_mana float,
     
-    FOREIGN KEY (user_pet_id) REFERENCES user_pets(id),
+    PRIMARY KEY(user_id,user_pet_id),
+    FOREIGN KEY (user_pet_id) REFERENCES user_pets(pet_id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
 create table fact_cards(
-	id int primary key,
     user_id int,
     user_card_id int,
     
@@ -1628,122 +1633,133 @@ create table fact_cards(
     all_regenerate_vitality double,
     all_mana float,
     
-    FOREIGN KEY (user_card_id) REFERENCES user_cards(id),
+    PRIMARY KEY(user_id,user_card_id),
+    FOREIGN KEY (user_card_id) REFERENCES user_cards(card_id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
 create table card_equipment(
-    id int primary key,
     user_id int,
     fact_card_id int,
+    equipment_id int,
 
+    PRIMARY KEY(user_id,fact_card_id,equipment_id),
+    FOREIGN KEY (equipment_id) REFERENCES user_equipments(equipment_id),
     FOREIGN KEY (user_id) REFERENCES users(id),
-    FOREIGN KEY (fact_card_id) REFERENCES fact_cards(id)
+    FOREIGN KEY (fact_card_id) REFERENCES fact_cards(user_card_id)
 );
 
 create table army_equipment(
-    id int primary key,
     user_id int,
     fact_army_id int,
+    equipment_id int,
 
+    PRIMARY KEY(user_id,fact_army_id, equipment_id),
+    FOREIGN KEY (equipment_id) REFERENCES user_equipments(equipment_id),
     FOREIGN KEY (user_id) REFERENCES users(id),
-    FOREIGN KEY (fact_army_id) REFERENCES fact_army(id)
+    FOREIGN KEY (fact_army_id) REFERENCES fact_army(user_army_id)
 );
 
 create table book_equipment(
-    id int primary key,
     user_id int,
     fact_book_id int,
+    equipment_id int,
 
+    PRIMARY KEY(user_id,fact_book_id,equipment_id),
+    FOREIGN KEY (equipment_id) REFERENCES user_equipments(equipment_id),
     FOREIGN KEY (user_id) REFERENCES users(id),
-    FOREIGN KEY (fact_book_id) REFERENCES fact_books(id)
+    FOREIGN KEY (fact_book_id) REFERENCES fact_books(user_book_id)
 );
 
 create table pet_equipment(
-    id int primary key,
     user_id int,
     fact_pet_id int,
+    equipment_id int,
 
+    PRIMARY KEY(user_id,fact_pet_id,equipment_id),
+    FOREIGN KEY (equipment_id) REFERENCES user_equipments(equipment_id),
     FOREIGN KEY (user_id) REFERENCES users(id),
-    FOREIGN KEY (fact_pet_id) REFERENCES fact_pets(id)
+    FOREIGN KEY (fact_pet_id) REFERENCES fact_pets(user_pet_id)
 );
 
 create table monster_equipment(
-    id int primary key,
     user_id int,
     fact_monster_id int,
+    equipment_id int,
 
+    PRIMARY KEY(user_id,fact_monster_id,equipment_id),
+    FOREIGN KEY (equipment_id) REFERENCES user_equipments(equipment_id),
     FOREIGN KEY (user_id) REFERENCES users(id),
-    FOREIGN KEY (fact_monster_id) REFERENCES fact_monsters(id)
+    FOREIGN KEY (fact_monster_id) REFERENCES fact_monsters(user_monster_id)
 );
 
 create table card_equipment_details(
-	id int primary key,
     user_id int,
+    fact_card_id int,
     equipment_id int,
     extra_equipment_id int,
-    card_equipment_id int,
     
-    FOREIGN KEY (equipment_id) REFERENCES user_equipments(id),
-    FOREIGN KEY (extra_equipment_id) REFERENCES user_equipments(id),
+    PRIMARY KEY(user_id,fact_card_id,equipment_id,extra_equipment_id),
+    FOREIGN KEY (extra_equipment_id) REFERENCES user_equipments(equipment_id),
     FOREIGN KEY (user_id) REFERENCES users(id),
-    FOREIGN KEY (card_equipment_id) REFERENCES card_equipment(id)
+    FOREIGN KEY (equipment_id) REFERENCES card_equipment(equipment_id),
+    FOREIGN KEY (fact_card_id) REFERENCES fact_cards(user_card_id)
 );
 
 create table army_equipment_details(
-	id int primary key,
     user_id int,
+    fact_army_id int,
     equipment_id int,
     extra_equipment_id int,
-    army_equipment_id int,
     
-    FOREIGN KEY (equipment_id) REFERENCES user_equipments(id),
-    FOREIGN KEY (extra_equipment_id) REFERENCES user_equipments(id),
+    PRIMARY KEY(user_id,fact_army_id,equipment_id,extra_equipment_id),
+    FOREIGN KEY (extra_equipment_id) REFERENCES user_equipments(equipment_id),
     FOREIGN KEY (user_id) REFERENCES users(id),
-    FOREIGN KEY (army_equipment_id) REFERENCES army_equipment(id)
+    FOREIGN KEY (equipment_id) REFERENCES army_equipment(equipment_id).
+    FOREIGN KEY (fact_army_id) REFERENCES fact_army(user_army_id)
 );
 
 create table book_equipment_details(
-	id int primary key,
     user_id int,
+    fact_book_id int,
     equipment_id int,
     extra_equipment_id int,
-    book_equipment_id int,
     
-    FOREIGN KEY (equipment_id) REFERENCES user_equipments(id),
-    FOREIGN KEY (extra_equipment_id) REFERENCES user_equipments(id),
+    PRIMARY KEY(user_id,fact_book_id,equipment_id,extra_equipment_id),
+    FOREIGN KEY (extra_equipment_id) REFERENCES user_equipments(equipment_id),
     FOREIGN KEY (user_id) REFERENCES users(id),
-    FOREIGN KEY (book_equipment_id) REFERENCES book_equipment(id)
+    FOREIGN KEY (equipment_id) REFERENCES book_equipment(equipment_id),
+    FOREIGN KEY (fact_book_id) REFERENCES fact_books(user_book_id)
 );
 
 create table pet_equipment_details(
-	id int primary key,
     user_id int,
+    fact_pet_id int,
     equipment_id int,
     extra_equipment_id int,
-    pet_equipment_id int,
     
-    FOREIGN KEY (equipment_id) REFERENCES user_equipments(id),
-    FOREIGN KEY (extra_equipment_id) REFERENCES user_equipments(id),
+    PRIMARY KEY(user_id,fact_pet_id,equipment_id,extra_equipment_id),
+    FOREIGN KEY (extra_equipment_id) REFERENCES user_equipments(equipment_id),
     FOREIGN KEY (user_id) REFERENCES users(id),
-    FOREIGN KEY (pet_equipment_id) REFERENCES pet_equipment(id)
+    FOREIGN KEY (equipment_id) REFERENCES pet_equipment(equipment_id),
+    FOREIGN KEY (fact_pet_id) REFERENCES fact_pets(user_pet_id)
 );
 
 create table monster_equipment_details(
-	id int primary key,
     user_id int,
+    fact_monster_id int,
     equipment_id int,
     extra_equipment_id int,
-    monster_equipment_id int,
     
-    FOREIGN KEY (equipment_id) REFERENCES user_equipments(id),
-    FOREIGN KEY (extra_equipment_id) REFERENCES user_equipments(id),
+    PRIMARY KEY(user_id,fact_monster_id,equipment_id,extra_equipment_id),
+    FOREIGN KEY (extra_equipment_id) REFERENCES user_equipments(equipment_id),
     FOREIGN KEY (user_id) REFERENCES users(id),
-    FOREIGN KEY (monster_equipment_id) REFERENCES monster_equipment(id)
+    FOREIGN KEY (equipment_id) REFERENCES monster_equipment(equipment_id)
+    FOREIGN KEY (fact_monster_id) REFERENCES fact_monsters(user_monster_id)
 );
 
 create table cards_skills(
-	id int primary key,
+    user_id int,
     fact_card_id int,
     skill_id int,
     level int,
@@ -1768,32 +1784,20 @@ create table cards_skills(
     regenerate_vitality double,
     mana float,
     
+    PRIMARY KEY(user_id,fact_card_id,skill_id),
     FOREIGN KEY (fact_card_id) REFERENCES fact_cards(id),
+    FOREIGN KEY (user_id) REFERENCES users(id),
     FOREIGN KEY (skill_id) REFERENCES skills(id)
 );
 
 create table teams(
-	id int primary key,
     user_id int,
-    
-    FOREIGN KEY (user_id) REFERENCES users(id)
-);
-
-create table positions(
-	id int primary key,
-    team_id int,
-    type varchar(255),
-    
-    FOREIGN KEY (team_id) REFERENCES teams(id)
-);
-
-create table slots(
-	id int primary key,
     fact_card_id int,
-    position_id int,
-    
-    FOREIGN KEY (fact_card_id) REFERENCES fact_cards(id),
-    FOREIGN KEY (position_id) REFERENCES positions(id)
+    position int,
+    role varchar(255),
+
+    FOREIGN KEY (fact_card_id) REFERENCES fact_cards(user_card_id),
+    FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
 create table army_trade(
