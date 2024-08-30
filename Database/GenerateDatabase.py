@@ -1857,201 +1857,281 @@ def create_chest_equipment():
                             print("insert into chest_equipment values (" + str(1) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(2) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(3) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(334) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(374) + "," + str(id) + "," + str(1) + ");")
                             id += 1
                         elif "Angelis_Equipment" in current_name:
                             print("insert into chest_equipment values (" + str(4) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(5) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(6) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(335) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(375) + "," + str(id) + "," + str(1) + ");")
                             id += 1
                         elif "Bellion_Equipment" in current_name:
                             print("insert into chest_equipment values (" + str(7) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(8) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(9) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(336) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(376) + "," + str(id) + "," + str(1) + ");")
                             id += 1
                         elif "Benzamin_Equipment" in current_name:
                             print("insert into chest_equipment values (" + str(10) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(11) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(12) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(337) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(377) + "," + str(id) + "," + str(1) + ");")
                             id += 1
                         elif "Celestial_Equipment" in current_name:
                             print("insert into chest_equipment values (" + str(13) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(14) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(15) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(338) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(378) + "," + str(id) + "," + str(1) + ");")
                             id += 1
                         elif "Ceverus_Equipment" in current_name:
                             print("insert into chest_equipment values (" + str(16) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(17) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(18) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(339) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(379) + "," + str(id) + "," + str(1) + ");")
                             id += 1
                         elif "Delius_Equipment" in current_name:
                             print("insert into chest_equipment values (" + str(19) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(20) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(21) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(340) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(380) + "," + str(id) + "," + str(1) + ");")
                             id += 1
                         elif "Domitius_Equipment" in current_name:
                             print("insert into chest_equipment values (" + str(22) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(23) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(24) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(341) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(381) + "," + str(id) + "," + str(1) + ");")
                             id += 1
                         elif "Etherium_Equipment" in current_name:
                             print("insert into chest_equipment values (" + str(25) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(26) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(27) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(342) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(382) + "," + str(id) + "," + str(1) + ");")
                             id += 1
                         elif "Everlyn_Equipment" in current_name:
                             print("insert into chest_equipment values (" + str(28) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(29) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(30) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(343) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(383) + "," + str(id) + "," + str(1) + ");")
                             id += 1
                         elif "EvilFruit_Equipment" in current_name:
                             print("insert into chest_equipment values (" + str(31) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(32) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(33) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(344) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(384) + "," + str(id) + "," + str(1) + ");")
                             id += 1
                         elif "Extra_Equipment" in current_name:
                             print("insert into chest_equipment values (" + str(34) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(35) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(36) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(345) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(385) + "," + str(id) + "," + str(1) + ");")
                             id += 1
                         elif "Faltus_Equipment" in current_name:
                             print("insert into chest_equipment values (" + str(37) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(38) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(39) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(346) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(386) + "," + str(id) + "," + str(1) + ");")
                             id += 1
                         elif "Fealan_Equipment" in current_name:
                             print("insert into chest_equipment values (" + str(40) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(41) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(42) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(347) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(387) + "," + str(id) + "," + str(1) + ");")
                             id += 1
                         elif "Gamma_Equipment" in current_name:
                             print("insert into chest_equipment values (" + str(43) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(44) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(45) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(348) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(388) + "," + str(id) + "," + str(1) + ");")
                             id += 1
                         elif "Gem_Equipment" in current_name:
                             print("insert into chest_equipment values (" + str(46) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(47) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(48) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(349) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(389) + "," + str(id) + "," + str(1) + ");")
                             id += 1
                         elif "Hagoro_Equipment" in current_name:
                             print("insert into chest_equipment values (" + str(49) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(50) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(51) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(350) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(390) + "," + str(id) + "," + str(1) + ");")
                             id += 1
                         elif "Hakalite_Equipment" in current_name:
                             print("insert into chest_equipment values (" + str(52) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(53) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(54) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(351) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(391) + "," + str(id) + "," + str(1) + ");")
                             id += 1
                         elif "Heatherus_Equipment" in current_name:
                             print("insert into chest_equipment values (" + str(55) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(56) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(57) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(352) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(392) + "," + str(id) + "," + str(1) + ");")
                             id += 1
                         elif "Ignis_Equipment" in current_name:
                             print("insert into chest_equipment values (" + str(58) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(59) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(60) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(353) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(393) + "," + str(id) + "," + str(1) + ");")
                             id += 1
                         elif "Ivitus_Equipment" in current_name:
                             print("insert into chest_equipment values (" + str(61) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(62) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(63) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(354) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(394) + "," + str(id) + "," + str(1) + ");")
                             id += 1
                         elif "Karis_Equipment" in current_name:
                             print("insert into chest_equipment values (" + str(64) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(65) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(66) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(355) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(395) + "," + str(id) + "," + str(1) + ");")
                             id += 1
                         elif "Karmus_Equipment" in current_name:
                             print("insert into chest_equipment values (" + str(67) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(68) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(69) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(356) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(396) + "," + str(id) + "," + str(1) + ");")
                             id += 1
                         elif "Lotus_Equipment" in current_name:
                             print("insert into chest_equipment values (" + str(70) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(71) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(72) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(357) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(397) + "," + str(id) + "," + str(1) + ");")
                             id += 1
                         elif "Luminius_Equipment" in current_name:
                             print("insert into chest_equipment values (" + str(73) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(74) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(75) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(358) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(398) + "," + str(id) + "," + str(1) + ");")
                             id += 1
                         elif "Macus_Equipment" in current_name:
                             print("insert into chest_equipment values (" + str(76) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(77) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(78) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(359) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(399) + "," + str(id) + "," + str(1) + ");")
                             id += 1
                         elif "Morganis_Equipment" in current_name:
                             print("insert into chest_equipment values (" + str(79) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(80) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(81) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(360) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(400) + "," + str(id) + "," + str(1) + ");")
                             id += 1
                         elif "Nimigazin_Equipment" in current_name:
                             print("insert into chest_equipment values (" + str(82) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(83) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(84) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(361) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(401) + "," + str(id) + "," + str(1) + ");")
                             id += 1
                         elif "Omonitus_Equipment" in current_name:
                             print("insert into chest_equipment values (" + str(85) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(86) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(87) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(362) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(402) + "," + str(id) + "," + str(1) + ");")
                             id += 1
                         elif "Pet_Equipment" in current_name:
                             print("insert into chest_equipment values (" + str(88) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(89) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(90) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(363) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(403) + "," + str(id) + "," + str(1) + ");")
                             id += 1
                         elif "Qiyantus_Equipment" in current_name:
                             print("insert into chest_equipment values (" + str(91) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(92) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(93) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(364) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(404) + "," + str(id) + "," + str(1) + ");")
                             id += 1
                         elif "Rainbow_Equipment" in current_name:
                             print("insert into chest_equipment values (" + str(94) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(95) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(96) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(365) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(405) + "," + str(id) + "," + str(1) + ");")
                             id += 1
                         elif "Redvenger_Equipment" in current_name:
                             print("insert into chest_equipment values (" + str(97) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(98) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(99) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(366) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(406) + "," + str(id) + "," + str(1) + ");")
                             id += 1
                         elif "Retanic_Equipment" in current_name:
                             print("insert into chest_equipment values (" + str(100) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(101) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(102) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(367) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(407) + "," + str(id) + "," + str(1) + ");")
                             id += 1
                         elif "Souls_Equipment" in current_name:
                             print("insert into chest_equipment values (" + str(103) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(104) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(105) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(368) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(408) + "," + str(id) + "," + str(1) + ");")
                             id += 1
                         elif "Support_Equipment" in current_name:
                             print("insert into chest_equipment values (" + str(106) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(107) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(108) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(369) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(409) + "," + str(id) + "," + str(1) + ");")
                             id += 1
                         elif "Syncroharon_Equipment" in current_name:
                             print("insert into chest_equipment values (" + str(109) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(110) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(111) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(370) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(410) + "," + str(id) + "," + str(1) + ");")
                             id += 1
                         elif "Uni_Equipment" in current_name:
                             print("insert into chest_equipment values (" + str(112) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(113) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(114) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(371) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(411) + "," + str(id) + "," + str(1) + ");")
                             id += 1
                         elif "Zodiac_Equipment" in current_name:
                             print("insert into chest_equipment values (" + str(115) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(116) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(117) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(372) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(412) + "," + str(id) + "," + str(1) + ");")
                             id += 1
                         elif "Zpower_Equipment" in current_name:
                             print("insert into chest_equipment values (" + str(118) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(119) + "," + str(id) + "," + str(1) + ");")
                             print("insert into chest_equipment values (" + str(120) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(373) + "," + str(id) + "," + str(1) + ");")
+                            print("insert into chest_equipment values (" + str(413) + "," + str(id) + "," + str(1) + ");")
                             id += 1
                         
 def create_chest_card():
@@ -3271,15 +3351,15 @@ def create_chest_collaboration_equipment():
 # create_monster_trade()
 
 create_chest_equipment()
-create_chest_card()
-create_chest_book()
-create_chest_army()
-create_chest_border()
-create_chest_collaboration()
-create_chest_currency()
-create_chest_medal()
-create_chest_monster()
-create_chest_pet()
-create_chest_symbol()
-create_chest_title()
-create_chest_collaboration_equipment()
+# create_chest_card()
+# create_chest_book()
+# create_chest_army()
+# create_chest_border()
+# create_chest_collaboration()
+# create_chest_currency()
+# create_chest_medal()
+# create_chest_monster()
+# create_chest_pet()
+# create_chest_symbol()
+# create_chest_title()
+# create_chest_collaboration_equipment()
