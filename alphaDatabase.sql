@@ -1951,8 +1951,8 @@ create table achievement_trade(
 );
 
 create table chest_equipment(
-    equipment_id int,
     item_id int,
+    equipment_id int,
     quantity int,
     
     PRIMARY KEY(equipment_id, item_id),
@@ -1961,8 +1961,8 @@ create table chest_equipment(
 );
 
 create table chest_card(
-    card_id int,
     item_id int,
+    card_id int,
     quantity int,
     
     PRIMARY KEY(card_id, item_id),
@@ -1971,8 +1971,8 @@ create table chest_card(
 );
 
 create table chest_book(
-    book_id int,
     item_id int,
+    book_id int,
     quantity int,
     
     PRIMARY KEY(book_id, item_id),
@@ -1981,8 +1981,8 @@ create table chest_book(
 );
 
 create table chest_army(
-    army_id int,
     item_id int,
+    army_id int,
     quantity int,
     
     PRIMARY KEY(army_id, item_id),
@@ -1991,8 +1991,8 @@ create table chest_army(
 );
 
 create table chest_border(
-    border_id int,
     item_id int,
+    border_id int,
     quantity int,
     
     PRIMARY KEY(border_id, item_id),
@@ -2001,8 +2001,8 @@ create table chest_border(
 );
 
 create table chest_collaboration(
-    collaboration_id int,
     item_id int,
+    collaboration_id int,
     quantity int,
     
     PRIMARY KEY(collaboration_id, item_id),
@@ -2011,8 +2011,8 @@ create table chest_collaboration(
 );
 
 create table chest_collaboration_equipment(
-    collaboration_equipment_id int,
     item_id int,
+    collaboration_equipment_id int,
     quantity int,
     
     PRIMARY KEY(collaboration_equipment_id, item_id),
@@ -2021,9 +2021,8 @@ create table chest_collaboration_equipment(
 );
 
 create table chest_currency(
-    
-    currency_id int,
     item_id int,
+    currency_id int,
     quantity int,
     
     PRIMARY KEY(currency_id, item_id),
@@ -2032,8 +2031,8 @@ create table chest_currency(
 );
 
 create table chest_item(
-    material_id int,
     item_id int,
+    material_id int,
     quantity int,
     
     PRIMARY KEY(material_id, item_id),
@@ -2042,8 +2041,8 @@ create table chest_item(
 );
 
 create table chest_medal(
-    medal_id int,
     item_id int,
+    medal_id int,
     quantity int,
     
     PRIMARY KEY(medal_id, item_id),
@@ -2052,8 +2051,8 @@ create table chest_medal(
 );
 
 create table chest_monster(
-    monster_id int,
     item_id int,
+    monster_id int,
     quantity int,
     
     PRIMARY KEY(monster_id, item_id),
@@ -2062,8 +2061,8 @@ create table chest_monster(
 );
 
 create table chest_pet(
-    pet_id int,
     item_id int,
+    pet_id int,
     quantity int,
     
     PRIMARY KEY(pet_id, item_id),
@@ -2072,8 +2071,8 @@ create table chest_pet(
 );
 
 create table chest_skill(
-    skill_id int,
     item_id int,
+    skill_id int,
     quantity int,
     
     PRIMARY KEY(skill_id, item_id),
@@ -2082,8 +2081,8 @@ create table chest_skill(
 );
 
 create table chest_symbol(
-    symbol_id int,
     item_id int,
+    symbol_id int,
     quantity int,
     
     PRIMARY KEY(symbol_id, item_id),
@@ -2092,8 +2091,8 @@ create table chest_symbol(
 );
 
 create table chest_title(
-    title_id int,
     item_id int,
+    title_id int,
     quantity int,
     
     PRIMARY KEY(title_id, item_id),
