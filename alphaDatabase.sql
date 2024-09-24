@@ -160,8 +160,8 @@ create table currency(
 
 create table equipments(
 	id int primary key,
-    equipmentName varchar(255),
-    equipmentImage varchar(255),
+    name varchar(255),
+    image varchar(255),
     rare varchar(100),
     type varchar(100),
     equipmentSet varchar(100),
@@ -838,6 +838,7 @@ create table user_army_rank(
 create table user_collaboration_equipments(
     user_id int,
     collaboration_equipment_id int,
+    sequence int,
     level int,
     experiment int,
     star int,
@@ -864,7 +865,7 @@ create table user_collaboration_equipments(
     regenerate_vitality double,
     mana float,
     
-    PRIMARY KEY(user_id,collaboration_equipment_id),
+    PRIMARY KEY(user_id,collaboration_equipment_id,sequence),
     FOREIGN KEY (collaboration_equipment_id) REFERENCES collaboration_equipments(id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
@@ -872,6 +873,7 @@ create table user_collaboration_equipments(
 create table user_collaboration_equipments_rank(
     user_id int,
     user_collaboration_equipment_id int,
+    sequence int,
     rank_id int,
     rank_type varchar(255),
     
@@ -907,7 +909,7 @@ create table user_collaboration_equipments_rank(
     percent_all_mental_attack double,
     percent_all_mental_defense double,
     
-    PRIMARY KEY(user_id,user_collaboration_equipment_id, rank_id),
+    PRIMARY KEY(user_id,user_collaboration_equipment_id,sequence, rank_id),
     FOREIGN KEY (user_collaboration_equipment_id) REFERENCES user_collaboration_equipments(collaboration_equipment_id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
@@ -915,6 +917,7 @@ create table user_collaboration_equipments_rank(
 create table user_equipments(
     user_id int,
     equipment_id int,
+    sequence int,
     level int,
     experiment int,
     star int,
@@ -941,7 +944,7 @@ create table user_equipments(
     regenerate_vitality double,
     mana float,
         
-    PRIMARY KEY(user_id,equipment_id),
+    PRIMARY KEY(user_id,equipment_id, sequence),
     FOREIGN KEY (equipment_id) REFERENCES equipments(id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
@@ -949,6 +952,7 @@ create table user_equipments(
 create table user_equipments_rank(
     user_id int,
     user_equipment_id int,
+    sequence int,
     rank_id int,
     rank_type varchar(255),
     
@@ -984,7 +988,7 @@ create table user_equipments_rank(
     percent_all_mental_attack double,
     percent_all_mental_defense double,
     
-    PRIMARY KEY(user_id,user_equipment_id, rank_id),
+    PRIMARY KEY(user_id,user_equipment_id, sequence, rank_id),
     FOREIGN KEY (user_equipment_id) REFERENCES user_equipments(equipment_id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
@@ -992,6 +996,7 @@ create table user_equipments_rank(
 create table user_pets(
     user_id int,
     pet_id int,
+    sequence int,
     level int,
     experiment int,
     star int,
@@ -1018,7 +1023,7 @@ create table user_pets(
     regenerate_vitality double,
     mana float,
     
-    PRIMARY KEY(user_id,pet_id),
+    PRIMARY KEY(user_id,pet_id,sequence),
     FOREIGN KEY (pet_id) REFERENCES pets(id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
@@ -1026,6 +1031,7 @@ create table user_pets(
 create table user_pets_rank(
     user_id int,
     user_pet_id int,
+    sequence int,
     rank_id int,
     rank_type varchar(255),
     
@@ -1061,7 +1067,7 @@ create table user_pets_rank(
     percent_all_mental_attack double,
     percent_all_mental_defense double,
     
-    PRIMARY KEY(user_id,user_pet_id, rank_id),
+    PRIMARY KEY(user_id,user_pet_id,sequence, rank_id),
     FOREIGN KEY (user_pet_id) REFERENCES user_pets(pet_id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
@@ -1642,8 +1648,9 @@ create table card_equipment(
     user_id int,
     fact_card_id int,
     equipment_id int,
+    sequence int,
 
-    PRIMARY KEY(user_id,fact_card_id,equipment_id),
+    PRIMARY KEY(user_id,fact_card_id,equipment_id,sequence),
     FOREIGN KEY (equipment_id) REFERENCES user_equipments(equipment_id),
     FOREIGN KEY (user_id) REFERENCES users(id),
     FOREIGN KEY (fact_card_id) REFERENCES fact_cards(user_card_id)
@@ -1653,6 +1660,7 @@ create table army_equipment(
     user_id int,
     fact_army_id int,
     equipment_id int,
+    sequence int,
 
     PRIMARY KEY(user_id,fact_army_id, equipment_id),
     FOREIGN KEY (equipment_id) REFERENCES user_equipments(equipment_id),
@@ -1664,6 +1672,7 @@ create table book_equipment(
     user_id int,
     fact_book_id int,
     equipment_id int,
+    sequence int,
 
     PRIMARY KEY(user_id,fact_book_id,equipment_id),
     FOREIGN KEY (equipment_id) REFERENCES user_equipments(equipment_id),
@@ -1675,6 +1684,7 @@ create table pet_equipment(
     user_id int,
     fact_pet_id int,
     equipment_id int,
+    sequence int,
 
     PRIMARY KEY(user_id,fact_pet_id,equipment_id),
     FOREIGN KEY (equipment_id) REFERENCES user_equipments(equipment_id),
@@ -1686,6 +1696,7 @@ create table monster_equipment(
     user_id int,
     fact_monster_id int,
     equipment_id int,
+    sequence int,
 
     PRIMARY KEY(user_id,fact_monster_id,equipment_id),
     FOREIGN KEY (equipment_id) REFERENCES user_equipments(equipment_id),
@@ -1697,7 +1708,9 @@ create table card_equipment_details(
     user_id int,
     fact_card_id int,
     equipment_id int,
+    sequence int,
     extra_equipment_id int,
+    extra_sequence int,
     
     PRIMARY KEY(user_id,fact_card_id,equipment_id,extra_equipment_id),
     FOREIGN KEY (extra_equipment_id) REFERENCES user_equipments(equipment_id),
@@ -1710,7 +1723,9 @@ create table army_equipment_details(
     user_id int,
     fact_army_id int,
     equipment_id int,
+    sequence int,
     extra_equipment_id int,
+    extra_sequence int,
     
     PRIMARY KEY(user_id,fact_army_id,equipment_id,extra_equipment_id),
     FOREIGN KEY (extra_equipment_id) REFERENCES user_equipments(equipment_id),
@@ -1723,7 +1738,9 @@ create table book_equipment_details(
     user_id int,
     fact_book_id int,
     equipment_id int,
+    sequence int,
     extra_equipment_id int,
+    extra_sequence int,
     
     PRIMARY KEY(user_id,fact_book_id,equipment_id,extra_equipment_id),
     FOREIGN KEY (extra_equipment_id) REFERENCES user_equipments(equipment_id),
@@ -1736,7 +1753,9 @@ create table pet_equipment_details(
     user_id int,
     fact_pet_id int,
     equipment_id int,
+    sequence int,
     extra_equipment_id int,
+    extra_sequence int,
     
     PRIMARY KEY(user_id,fact_pet_id,equipment_id,extra_equipment_id),
     FOREIGN KEY (extra_equipment_id) REFERENCES user_equipments(equipment_id),
@@ -1749,7 +1768,9 @@ create table monster_equipment_details(
     user_id int,
     fact_monster_id int,
     equipment_id int,
+    sequence int,
     extra_equipment_id int,
+    extra_sequence int,
     
     PRIMARY KEY(user_id,fact_monster_id,equipment_id,extra_equipment_id),
     FOREIGN KEY (extra_equipment_id) REFERENCES user_equipments(equipment_id),
