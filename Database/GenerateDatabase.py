@@ -1,6 +1,7 @@
 import json
 import os
 import random
+import math
 
 def calculate_power(health,physical_attack,physical_defense,magical_attack,magical_defense,chemical_attack,chemical_defense,atomic_attack,atomic_defense,mental_attack,mental_defense,
                     speed,critical_rate,critical_damage,armor_penetration,avoid,absorbs_damage,regenerate_vitality):
@@ -45,6 +46,7 @@ def calculate_power(health,physical_attack,physical_defense,magical_attack,magic
     )
     return power
 
+#Generate database
 def create_cards_database():
     cards_dir="Cards"
     card_list = []
@@ -1391,6 +1393,252 @@ def create_collaboration_database():
                               + ","+str(per_magical_attack) +","+ str(per_magical_defense) + ","+str(per_chemical_attack) +","+ str(per_chemical_defense) + ","+str(per_atomic_attack) +","+ str(per_atomic_defense) + ","+str(per_mental_attack) +","+ str(per_mental_defense)+",'');")
                 id=id+1      
 
+def create_military_database():
+    cards_dir="Military"
+    card_list = []
+    id=1
+    card_name=""
+    health=1000000
+    physical_attack=100000
+    physical_defense=100000
+    magical_attack=100000
+    magical_defense=100000
+    chemical_attack=100000
+    chemical_defense=100000
+    atomic_attack=100000
+    atomic_defense=100000
+    mental_attack=100000
+    mental_defense=100000
+    speed=10000
+    critical_rate=0
+    critical_damage=0
+    armor_penetration=0
+    avoid=0
+    absorbs_damage=0
+    regenerate_vitality=0
+    mana=100
+    rare="SR"
+    clan=""
+    price=100000
+    path=""
+    for root, dirs, files in os.walk(cards_dir):
+        current_dir=os.path.basename(root)
+        current_name=""
+        if current_dir not in ["LG", "UR", "SSR", "SR"]:
+            current_name=current_dir
+            # print(current_name)
+        for dir_name in dirs:
+            possible_values = [1.1, 1.2, 1.3, 1.4, 1.5]
+            NumberRandom=random.choice(possible_values)
+            if "SR" in dir_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    if file_name.endswith(".jpg") or file_name.endswith("png"):
+                        name, extension=os.path.splitext(file_name)
+                        path=os.path.join(current_dir,file_name)
+                        path=path.replace("\\","/")
+                        name=name.replace("_"," ")
+                        
+                        power=calculate_power(health,physical_attack,physical_defense,magical_attack,magical_defense,chemical_attack,chemical_defense,atomic_attack,atomic_defense,mental_attack,mental_defense,
+                                              speed,critical_rate,critical_damage,armor_penetration,avoid,absorbs_damage,regenerate_vitality)
+                        print("insert into military values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + current_name + "'," + str(0) + "," + str(power) + "," + str(health) + "," 
+                              + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense) 
+                              + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
+                              + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'');")
+
+                        id=id+1
+            if "SSR" in dir_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    if file_name.endswith(".jpg") or file_name.endswith("png"):
+                        name, extension=os.path.splitext(file_name)
+                        health=math.ceil(2000000*NumberRandom)
+                        physical_attack=math.ceil(200000*NumberRandom)
+                        physical_defense=math.ceil(200000*NumberRandom)
+                        magical_attack=math.ceil(200000*NumberRandom)
+                        magical_defense=math.ceil(200000*NumberRandom)
+                        chemical_attack=math.ceil(200000*NumberRandom)
+                        chemical_defense=math.ceil(200000*NumberRandom)
+                        atomic_attack=math.ceil(200000*NumberRandom)
+                        atomic_defense=math.ceil(200000*NumberRandom)
+                        mental_attack=math.ceil(200000*NumberRandom)
+                        mental_defense=math.ceil(200000*NumberRandom)
+                        mana=200
+                        rare="SSR"
+                        price=500000
+                        path=os.path.join(current_dir,file_name)
+                        path=path.replace("\\","/")
+                        name=name.replace("_"," ")
+                        power=calculate_power(health,physical_attack,physical_defense,magical_attack,magical_defense,chemical_attack,chemical_defense,atomic_attack,atomic_defense,mental_attack,mental_defense,
+                                              speed,critical_rate,critical_damage,armor_penetration,avoid,absorbs_damage,regenerate_vitality)
+                        print("insert into military values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + current_name + "'," + str(0) + "," + str(power) + "," + str(health) + "," 
+                              + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense) 
+                              + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
+                              + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'');")
+                        id=id+1
+            if "UR" in dir_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    if file_name.endswith(".jpg") or file_name.endswith("png"):
+                        name,extension=os.path.splitext(file_name)
+                        health=math.ceil(5000000*NumberRandom)
+                        physical_attack=math.ceil(500000*NumberRandom)
+                        physical_defense=math.ceil(500000*NumberRandom)
+                        magical_attack=math.ceil(500000*NumberRandom)
+                        magical_defense=math.ceil(500000*NumberRandom)
+                        chemical_attack=math.ceil(500000*NumberRandom)
+                        chemical_defense=math.ceil(500000*NumberRandom)
+                        atomic_attack=math.ceil(500000*NumberRandom)
+                        atomic_defense=math.ceil(500000*NumberRandom)
+                        mental_attack=math.ceil(500000*NumberRandom)
+                        mental_defense=math.ceil(500000*NumberRandom)
+                        mana=500
+                        rare="UR"
+                        price=1000000
+                        path=os.path.join(current_dir,file_name)
+                        path=path.replace("\\","/")
+                        name=name.replace("_"," ")
+                        power=calculate_power(health,physical_attack,physical_defense,magical_attack,magical_defense,chemical_attack,chemical_defense,atomic_attack,atomic_defense,mental_attack,mental_defense,
+                                              speed,critical_rate,critical_damage,armor_penetration,avoid,absorbs_damage,regenerate_vitality)
+                        print("insert into military values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + current_name + "'," + str(0) + "," + str(power) + "," + str(health) + "," 
+                              + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense) 
+                              + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
+                              + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'');")
+                        id=id+1
+            if "LG" in dir_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    if file_name.endswith(".jpg") or file_name.endswith("png"):
+                        name, extension=os.path.splitext(file_name)
+                        health=math.ceil(10000000*NumberRandom)
+                        physical_attack=math.ceil(1000000*NumberRandom)
+                        physical_defense=math.ceil(1000000*NumberRandom)
+                        magical_attack=math.ceil(1000000*NumberRandom)
+                        magical_defense=math.ceil(1000000*NumberRandom)
+                        chemical_attack=math.ceil(1000000*NumberRandom)
+                        chemical_defense=math.ceil(1000000*NumberRandom)
+                        atomic_attack=math.ceil(1000000*NumberRandom)
+                        atomic_defense=math.ceil(1000000*NumberRandom)
+                        mental_attack=math.ceil(1000000*NumberRandom)
+                        mental_defense=math.ceil(1000000*NumberRandom)
+                        mana=1000
+                        rare="LG"
+                        price=5000000
+                        path=os.path.join(current_dir,file_name)
+                        path=path.replace("\\","/")
+                        name=name.replace("_"," ")
+                        power=calculate_power(health,physical_attack,physical_defense,magical_attack,magical_defense,chemical_attack,chemical_defense,atomic_attack,atomic_defense,mental_attack,mental_defense,
+                                              speed,critical_rate,critical_damage,armor_penetration,avoid,absorbs_damage,regenerate_vitality)
+                        print("insert into military values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + current_name + "'," + str(0) + "," + str(power) + "," + str(health) + "," 
+                              + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense) 
+                              + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
+                              + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'');")
+                        id=id+1
+
+def create_spell_database():
+    cards_dir="Spell"
+    card_list = []
+    id=1
+    card_name=""
+    health=1000000
+    physical_attack=100000
+    physical_defense=100000
+    magical_attack=100000
+    magical_defense=100000
+    chemical_attack=100000
+    chemical_defense=100000
+    atomic_attack=100000
+    atomic_defense=100000
+    mental_attack=100000
+    mental_defense=100000
+    speed=10000
+    critical_rate=0
+    critical_damage=0
+    armor_penetration=0
+    avoid=0
+    absorbs_damage=0
+    regenerate_vitality=0
+    mana=100
+    rare="SR"
+    clan=""
+    price=100000
+    path=""
+    for root, dirs, files in os.walk(cards_dir):
+        current_dir=os.path.basename(root)
+        current_name=""
+        if current_dir not in ["LG", "UR", "SSR", "SR"]:
+            current_name=current_dir
+            # print(current_name)
+        for dir_name in dirs:
+            possible_values = [1.1, 1.2, 1.3, 1.4, 1.5]
+            NumberRandom=random.choice(possible_values)
+            if "SR" in dir_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    if file_name.endswith(".jpg") or file_name.endswith("png"):
+                        name, extension=os.path.splitext(file_name)
+                        path=os.path.join(current_dir,file_name)
+                        path=path.replace("\\","/")
+                        name=name.replace("_"," ")
+                        
+                        power=calculate_power(health,physical_attack,physical_defense,magical_attack,magical_defense,chemical_attack,chemical_defense,atomic_attack,atomic_defense,mental_attack,mental_defense,
+                                              speed,critical_rate,critical_damage,armor_penetration,avoid,absorbs_damage,regenerate_vitality)
+                        print("insert into spell values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + current_name + "'," + str(0) + "," + str(power) + "," + str(health) + "," 
+                              + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense) 
+                              + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
+                              + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'');")
+
+                        id=id+1
+            if "LG" in dir_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    if file_name.endswith(".jpg") or file_name.endswith("png"):
+                        name, extension=os.path.splitext(file_name)
+                        health=math.ceil(100*NumberRandom)
+                        physical_attack=math.ceil(100*NumberRandom)
+                        physical_defense=math.ceil(100*NumberRandom)
+                        magical_attack=math.ceil(100*NumberRandom)
+                        magical_defense=math.ceil(100*NumberRandom)
+                        chemical_attack=math.ceil(100*NumberRandom)
+                        chemical_defense=math.ceil(100*NumberRandom)
+                        atomic_attack=math.ceil(100*NumberRandom)
+                        atomic_defense=math.ceil(100*NumberRandom)
+                        mental_attack=math.ceil(100*NumberRandom)
+                        mental_defense=math.ceil(100*NumberRandom)
+                        mana=1000
+                        rare="LG"
+                        price=5000000
+                        path=os.path.join(current_dir,file_name)
+                        path=path.replace("\\","/")
+                        name=name.replace("_"," ")
+                        description=""
+                        if "Evironment" in current_name:
+                            health=5000
+                            physical_attack=5000
+                            physical_defense=5000
+                            magical_attack=5000
+                            magical_defense=5000
+                            chemical_attack=5000
+                            chemical_defense=5000
+                            atomic_attack=5000
+                            atomic_defense=5000
+                            mental_attack=5000
+                            mental_defense=5000
+                            description="'Increase 5000% for all military'"
+                        elif "Increase" in current_name:
+                            description="'Increase "+ str(health) +"% for all your military'"
+                        elif "Decrease" in current_name:
+                            description="'Decrease "+ str(health) +"% for all enemy military'"
+                        power=calculate_power(health,physical_attack,physical_defense,magical_attack,magical_defense,chemical_attack,chemical_defense,atomic_attack,atomic_defense,mental_attack,mental_defense,
+                                              speed,critical_rate,critical_damage,armor_penetration,avoid,absorbs_damage,regenerate_vitality)
+                        print("insert into spell values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + current_name + "'," + str(0) + "," + str(power) + "," + str(health) + "," 
+                              + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense) 
+                              + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
+                              + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ","+ description +");")
+                        id=id+1
+
+#Generate Trading
+
 def create_cards_trade():
     cards_dir="Cards"
     id=1
@@ -1837,6 +2085,112 @@ def create_monster_trade():
                 print("insert into monster_trade values (" + str(id) + "," + str(50) + "," + str(2000) + ");")
 
                 id=id+1
+
+def create_military_trade():
+    cards_dir="Military"
+    id=1
+    path=""
+    for root, dirs, files in os.walk(cards_dir):
+        current_dir=os.path.basename(root)
+        current_name=""
+        if current_dir not in ["LG", "UR", "SSR", "SR"]:
+            current_name=current_dir
+            # print(current_name)
+        for dir_name in dirs:
+            if "SR" in dir_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    if file_name.endswith(".jpg") or file_name.endswith("png"):
+                        name, extension=os.path.splitext(file_name)
+                        path=os.path.join(current_dir,file_name)
+                        path=path.replace("\\","/")
+                        name=name.replace("_"," ")
+                        print("insert into military_trade values (" + str(id) + "," + str(23) + "," + str(500000) + ");")
+                        id=id+1
+            if "SSR" in dir_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    if file_name.endswith(".jpg") or file_name.endswith("png"):
+                        name, extension=os.path.splitext(file_name)
+                        path=os.path.join(current_dir,file_name)
+                        path=path.replace("\\","/")
+                        name=name.replace("_"," ")
+                        print("insert into military_trade values (" + str(id) + "," + str(23) + "," + str(5000000) + ");")
+                        id=id+1
+            if "UR" in dir_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    if file_name.endswith(".jpg") or file_name.endswith("png"):
+                        name, extension=os.path.splitext(file_name)
+                        path=os.path.join(current_dir,file_name)
+                        path=path.replace("\\","/")
+                        name=name.replace("_"," ")
+                        print("insert into military_trade values (" + str(id) + "," + str(23) + "," + str(5000000) + ");")
+                        id=id+1
+            if "LG" in dir_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    if file_name.endswith(".jpg") or file_name.endswith("png"):
+                        name, extension=os.path.splitext(file_name)
+                        path=os.path.join(current_dir,file_name)
+                        path=path.replace("\\","/")
+                        name=name.replace("_"," ")
+                        print("insert into military_trade values (" + str(id) + "," + str(23) + "," + str(50000000) + ");")
+                        id=id+1
+
+def create_spell_trade():
+    cards_dir="Spell"
+    id=1
+    path=""
+    for root, dirs, files in os.walk(cards_dir):
+        current_dir=os.path.basename(root)
+        current_name=""
+        if current_dir not in ["LG", "UR", "SSR", "SR"]:
+            current_name=current_dir
+            # print(current_name)
+        for dir_name in dirs:
+            if "SR" in dir_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    if file_name.endswith(".jpg") or file_name.endswith("png"):
+                        name, extension=os.path.splitext(file_name)
+                        path=os.path.join(current_dir,file_name)
+                        path=path.replace("\\","/")
+                        name=name.replace("_"," ")
+                        print("insert into spell_trade values (" + str(id) + "," + str(24) + "," + str(500000) + ");")
+                        id=id+1
+            if "SSR" in dir_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    if file_name.endswith(".jpg") or file_name.endswith("png"):
+                        name, extension=os.path.splitext(file_name)
+                        path=os.path.join(current_dir,file_name)
+                        path=path.replace("\\","/")
+                        name=name.replace("_"," ")
+                        print("insert into spell_trade values (" + str(id) + "," + str(24) + "," + str(5000000) + ");")
+                        id=id+1
+            if "UR" in dir_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    if file_name.endswith(".jpg") or file_name.endswith("png"):
+                        name, extension=os.path.splitext(file_name)
+                        path=os.path.join(current_dir,file_name)
+                        path=path.replace("\\","/")
+                        name=name.replace("_"," ")
+                        print("insert into spell_trade values (" + str(id) + "," + str(24) + "," + str(5000000) + ");")
+                        id=id+1
+            if "LG" in dir_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    if file_name.endswith(".jpg") or file_name.endswith("png"):
+                        name, extension=os.path.splitext(file_name)
+                        path=os.path.join(current_dir,file_name)
+                        path=path.replace("\\","/")
+                        name=name.replace("_"," ")
+                        print("insert into spell_trade values (" + str(id) + "," + str(24) + "," + str(50000000) + ");")
+                        id=id+1
+
+#Generate chest
 
 def create_chest_equipment():
     cards_dir="Equipment"
@@ -3318,6 +3672,109 @@ def create_chest_collaboration_equipment():
                     print("insert into chest_collaboration_equipment values (" + str(282) + "," + str(id) + "," + str(1) + ");")
                     id=id+1
 
+def create_chest_military():
+    cards_dir="Military"
+    id=1
+    path=""
+    for root, dirs, files in os.walk(cards_dir):
+        current_dir=os.path.basename(root)
+        current_name=""
+        if current_dir not in ["LG", "UR", "SSR", "SR"]:
+            current_name=current_dir
+            # print(current_name)
+        for dir_name in dirs:
+            if "SR" in dir_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    if file_name.endswith(".jpg") or file_name.endswith("png"):
+                        name, extension=os.path.splitext(file_name)
+                        path=os.path.join(current_dir,file_name)
+                        path=path.replace("\\","/")
+                        name=name.replace("_"," ")
+                        print("insert into chest_military values (" + str(401) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+            if "SSR" in dir_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    if file_name.endswith(".jpg") or file_name.endswith("png"):
+                        name, extension=os.path.splitext(file_name)
+                        path=os.path.join(current_dir,file_name)
+                        path=path.replace("\\","/")
+                        name=name.replace("_"," ")
+                        print("insert into chest_military values (" + str(401) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+            if "UR" in dir_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    if file_name.endswith(".jpg") or file_name.endswith("png"):
+                        name, extension=os.path.splitext(file_name)
+                        path=os.path.join(current_dir,file_name)
+                        path=path.replace("\\","/")
+                        name=name.replace("_"," ")
+                        print("insert into chest_military values (" + str(401) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+            if "LG" in dir_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    if file_name.endswith(".jpg") or file_name.endswith("png"):
+                        name, extension=os.path.splitext(file_name)
+                        path=os.path.join(current_dir,file_name)
+                        path=path.replace("\\","/")
+                        name=name.replace("_"," ")
+                        print("insert into chest_military values (" + str(401) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+
+def create_chest_spell():
+    cards_dir="Spell"
+    id=1
+    path=""
+    for root, dirs, files in os.walk(cards_dir):
+        current_dir=os.path.basename(root)
+        current_name=""
+        if current_dir not in ["LG", "UR", "SSR", "SR"]:
+            current_name=current_dir
+            # print(current_name)
+        for dir_name in dirs:
+            if "SR" in dir_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    if file_name.endswith(".jpg") or file_name.endswith("png"):
+                        name, extension=os.path.splitext(file_name)
+                        path=os.path.join(current_dir,file_name)
+                        path=path.replace("\\","/")
+                        name=name.replace("_"," ")
+                        print("insert into chest_spell values (" + str(383) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+            if "SSR" in dir_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    if file_name.endswith(".jpg") or file_name.endswith("png"):
+                        name, extension=os.path.splitext(file_name)
+                        path=os.path.join(current_dir,file_name)
+                        path=path.replace("\\","/")
+                        name=name.replace("_"," ")
+                        print("insert into chest_spell values (" + str(383) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+            if "UR" in dir_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    if file_name.endswith(".jpg") or file_name.endswith("png"):
+                        name, extension=os.path.splitext(file_name)
+                        path=os.path.join(current_dir,file_name)
+                        path=path.replace("\\","/")
+                        name=name.replace("_"," ")
+                        print("insert into chest_spell values (" + str(383) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
+            if "LG" in dir_name:
+                current_dir =os.path.join(root,dir_name)
+                for file_name in os.listdir(current_dir):
+                    if file_name.endswith(".jpg") or file_name.endswith("png"):
+                        name, extension=os.path.splitext(file_name)
+                        path=os.path.join(current_dir,file_name)
+                        path=path.replace("\\","/")
+                        name=name.replace("_"," ")
+                        print("insert into chest_spell values (" + str(383) + "," + str(id) + "," + str(1) + ");")
+                        id=id+1
 
 # create_cards_database()
 # create_books_database()
@@ -3335,6 +3792,10 @@ def create_chest_collaboration_equipment():
 # create_medals_database()
 # create_borders_database()
 # create_collaboration_database()
+# create_military_database()
+create_spell_database()
+
+#Chest book error
 
 # create_cards_trade()
 # create_book_trade()
@@ -3351,17 +3812,21 @@ def create_chest_collaboration_equipment():
 # create_equipments_trade()
 # create_collaboration_trade()
 # create_monster_trade()
+# create_military_trade()
+# create_spell_trade()
 
-create_chest_equipment()
-create_chest_card()
-create_chest_book()
-create_chest_army()
-create_chest_border()
-create_chest_collaboration()
-create_chest_currency()
-create_chest_medal()
-create_chest_monster()
-create_chest_pet()
-create_chest_symbol()
-create_chest_title()
-create_chest_collaboration_equipment()
+# create_chest_equipment()
+# create_chest_card()
+# create_chest_book()
+# create_chest_army()
+# create_chest_border()
+# create_chest_collaboration()
+# create_chest_currency()
+# create_chest_medal()
+# create_chest_monster()
+# create_chest_pet()
+# create_chest_symbol()
+# create_chest_title()
+# create_chest_collaboration_equipment()
+# create_chest_military()
+# create_chest_spell()
