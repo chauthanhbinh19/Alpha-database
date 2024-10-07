@@ -579,6 +579,7 @@ create table users(
     username varchar(100),
     password varchar(100),
     name varchar(100),
+    image varchar(255),
     level int,
     experiment int,
     vip int,
