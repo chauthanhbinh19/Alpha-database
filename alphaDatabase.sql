@@ -29,7 +29,7 @@ create table cards(
     absorbs_damage double,
     regenerate_vitality double,
     mana float,
-    description varchar(255)
+    description varchar(2500)
 );
 
 create table books(
@@ -59,7 +59,7 @@ create table books(
     absorbs_damage double,
     regenerate_vitality double,
     mana float,
-    description varchar(255)
+    description varchar(2550)
 );
 
 create table army(
@@ -89,7 +89,7 @@ create table army(
     absorbs_damage double,
     regenerate_vitality double,
     mana float,
-    description varchar(255)
+    description varchar(2550)
 );
 
 create table collaboration_equipments(
@@ -119,7 +119,7 @@ create table collaboration_equipments(
     absorbs_damage double,
     regenerate_vitality double,
     mana float,
-    description varchar(255)
+    description varchar(2550)
 );
 
 create table monsters(
@@ -149,7 +149,7 @@ create table monsters(
     absorbs_damage double,
     regenerate_vitality double,
     mana float,
-    description varchar(255)
+    description varchar(2550)
 );
 
 create table currency(
@@ -200,7 +200,7 @@ create table equipments(
     special_mental_defense double,
     special_speed double,
 
-    description varchar(255)
+    description varchar(2550)
 );
 
 create table items(
@@ -209,7 +209,7 @@ create table items(
     image varchar(255),
     type varchar(100),
     price double,
-    description varchar(255)
+    description varchar(2550)
 );
 
 create table achievements(
@@ -249,7 +249,7 @@ create table achievements(
     percent_all_mental_attack double,
     percent_all_mental_defense double,
     
-    description varchar(255)
+    description varchar(2550)
 );
 
 create table medals(
@@ -289,7 +289,7 @@ create table medals(
     percent_all_mental_attack double,
     percent_all_mental_defense double,
     
-    description varchar(255)
+    description varchar(2550)
 );
 
 create table pets(
@@ -319,7 +319,7 @@ create table pets(
     absorbs_damage double,
     regenerate_vitality double,
     mana float,
-    description varchar(255)
+    description varchar(7550)
 );
 
 create table skills(
@@ -348,7 +348,7 @@ create table skills(
     absorbs_damage double,
     regenerate_vitality double,
     mana float,
-    description varchar(255)
+    description varchar(2550)
 );
 
 create table symbols(
@@ -389,7 +389,7 @@ create table symbols(
     percent_all_mental_attack double,
     percent_all_mental_defense double,
     
-    description varchar(255)
+    description varchar(2550)
 );
 
 create table titles(
@@ -429,7 +429,7 @@ create table titles(
     percent_all_mental_attack double,
     percent_all_mental_defense double,
     
-    description varchar(255)
+    description varchar(2550)
 );
 
 create table borders(
@@ -469,7 +469,7 @@ create table borders(
     percent_all_mental_attack double,
     percent_all_mental_defense double,
     
-    description varchar(255)
+    description varchar(2550)
 );
 
 create table collaborations (
@@ -509,7 +509,7 @@ create table collaborations (
     percent_all_mental_attack double,
     percent_all_mental_defense double,
     
-    description varchar(255)
+    description varchar(2550)
 );
 
 create table military(
@@ -539,7 +539,7 @@ create table military(
     absorbs_damage double,
     regenerate_vitality double,
     mana float,
-    description varchar(255)
+    description varchar(2550)
 );
 
 create table spell(
@@ -569,7 +569,7 @@ create table spell(
     percent_all_absorbs_damage double,
     percent_all_regenerate_vitality double,
     percent_all_mana float,
-    description varchar(255)
+    description varchar(2550)
 );
 
 /*--create user -------------------------------------------------------------------------------*/
