@@ -1528,8 +1528,8 @@ def create_books_database():
                                 + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'"+ story+"');\n")
                     id=id+1
 
-def create_army_database():
-    cards_dir="Army"
+def create_captain_database():
+    cards_dir="Captain"
     card_list = []
     id=1
     card_name=""
@@ -1572,7 +1572,7 @@ def create_army_database():
                     power=calculate_power(health,physical_attack,physical_defense,magical_attack,magical_defense,chemical_attack,chemical_defense,atomic_attack,atomic_defense,mental_attack,mental_defense,
                                               speed,critical_rate,critical_damage,armor_penetration,avoid,absorbs_damage,regenerate_vitality)
                     with open('test.txt', 'a') as file:
-                        file.write("insert into army values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + dir_name + "'," + str(0) + "," + str(power) + "," + str(health) + "," 
+                        file.write("insert into captains values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + dir_name + "'," + str(0) + "," + str(power) + "," + str(health) + "," 
                                 + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense) 
                                 + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
                                 + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'"+ story +"');\n")
@@ -3086,8 +3086,8 @@ def create_book_trade():
                         file.write("insert into book_trade values (" + str(id) + "," + str(37) + "," + str(2000) + ");\n")
                     id=id+1
 
-def create_army_trade():
-    cards_dir="Army"
+def create_captain_trade():
+    cards_dir="Captain"
     card_list = []
     id=1
     
@@ -3104,7 +3104,7 @@ def create_army_trade():
                     name=name.replace("_"," ")
                     
                     with open('test.txt', 'a') as file:
-                        file.write("insert into army_trade values (" + str(id) + "," + str(48) + "," + str(2000) + ");\n")
+                        file.write("insert into captain_trade values (" + str(id) + "," + str(48) + "," + str(2000) + ");\n")
                     id=id+1
 
 def create_skills_trade():
@@ -4737,8 +4737,8 @@ def create_chest_book():
                         file.write("insert into chest_book values (" + str(165) + "," + str(id) + "," + str(1) + ");\n")
                     id=id+1
 
-def create_chest_army():
-    cards_dir="Army"
+def create_chest_captain():
+    cards_dir="Captain"
     card_list = []
     id=1
     card_name=""
@@ -4755,33 +4755,33 @@ def create_chest_army():
                 current_dir =os.path.join(root,dir_name)
                 for file_name in os.listdir(current_dir):
                     with open('test.txt', 'a') as file:
-                        file.write("insert into chest_army values (" + str(166) + "," + str(id) + "," + str(1) + ");\n")
-                        file.write("insert into chest_army values (" + str(167) + "," + str(id) + "," + str(1) + ");\n")
-                        file.write("insert into chest_army values (" + str(168) + "," + str(id) + "," + str(1) + ");\n")
+                        file.write("insert into chest_captain values (" + str(166) + "," + str(id) + "," + str(1) + ");\n")
+                        file.write("insert into chest_captain values (" + str(167) + "," + str(id) + "," + str(1) + ");\n")
+                        file.write("insert into chest_captain values (" + str(168) + "," + str(id) + "," + str(1) + ");\n")
                     id=id+1
             elif "Light_Army" in current_name:
                 current_dir =os.path.join(root,dir_name)
                 for file_name in os.listdir(current_dir):
                     with open('test.txt', 'a') as file:
-                        file.write("insert into chest_army values (" + str(169) + "," + str(id) + "," + str(1) + ");\n")
-                        file.write("insert into chest_army values (" + str(170) + "," + str(id) + "," + str(1) + ");\n")
-                        file.write("insert into chest_army values (" + str(171) + "," + str(id) + "," + str(1) + ");\n")
+                        file.write("insert into chest_captain values (" + str(169) + "," + str(id) + "," + str(1) + ");\n")
+                        file.write("insert into chest_captain values (" + str(170) + "," + str(id) + "," + str(1) + ");\n")
+                        file.write("insert into chest_captain values (" + str(171) + "," + str(id) + "," + str(1) + ");\n")
                     id=id+1
             elif "Void_Monster_Army" in current_name:
                 current_dir =os.path.join(root,dir_name)
                 for file_name in os.listdir(current_dir):
                     with open('test.txt', 'a') as file:
-                        file.write("insert into chest_army values (" + str(172) + "," + str(id) + "," + str(1) + ");\n")
-                        file.write("insert into chest_army values (" + str(173) + "," + str(id) + "," + str(1) + ");\n")
-                        file.write("insert into chest_army values (" + str(174) + "," + str(id) + "," + str(1) + ");\n")
+                        file.write("insert into chest_captain values (" + str(172) + "," + str(id) + "," + str(1) + ");\n")
+                        file.write("insert into chest_captain values (" + str(173) + "," + str(id) + "," + str(1) + ");\n")
+                        file.write("insert into chest_captain values (" + str(174) + "," + str(id) + "," + str(1) + ");\n")
                     id=id+1
             elif "Void_Spell_Army" in current_name:
                 current_dir =os.path.join(root,dir_name)
                 for file_name in os.listdir(current_dir):
                     with open('test.txt', 'a') as file:
-                        file.write("insert into chest_army values (" + str(175) + "," + str(id) + "," + str(1) + ");\n")
-                        file.write("insert into chest_army values (" + str(176) + "," + str(id) + "," + str(1) + ");\n")
-                        file.write("insert into chest_army values (" + str(177) + "," + str(id) + "," + str(1) + ");\n")
+                        file.write("insert into chest_captain values (" + str(175) + "," + str(id) + "," + str(1) + ");\n")
+                        file.write("insert into chest_captain values (" + str(176) + "," + str(id) + "," + str(1) + ");\n")
+                        file.write("insert into chest_captain values (" + str(177) + "," + str(id) + "," + str(1) + ");\n")
                     id=id+1
 
 def create_chest_border():
@@ -5298,7 +5298,7 @@ def create_chest_spell():
 # create_cards_database()
 # create_books_database()
 # create_skills_database()
-# create_army_database()
+# create_captain_database()
 # create_collaboration_equipments_database()
 # create_equipments_database()
 # create_monster_database()
@@ -5318,7 +5318,7 @@ def create_chest_spell():
 
 # create_cards_trade()
 # create_book_trade()
-# create_army_trade()
+# create_captain_trade()
 # create_skills_trade()
 # create_collaboration_equipments_trade()
 # create_pets_trade()
@@ -5336,7 +5336,7 @@ def create_chest_spell():
 
 create_chest_equipment()
 create_chest_card()
-create_chest_army()
+create_chest_captain()
 create_chest_border()
 create_chest_collaboration()
 create_chest_currency()

@@ -62,7 +62,7 @@ create table books(
     description varchar(2550)
 );
 
-create table army(
+create table captains(
 	id int primary key,
     name varchar(255),
     image varchar(255),
@@ -820,9 +820,9 @@ create table user_monsters_rank(
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
-create table user_army(
+create table user_captains(
     user_id int,
-    army_id int,
+    captain_id int,
     level int,
     experiment int,
     star int,
@@ -850,14 +850,14 @@ create table user_army(
     regenerate_vitality double,
     mana float,
     
-    PRIMARY KEY(user_id,army_id),
-    FOREIGN KEY (army_id) REFERENCES army(id),
+    PRIMARY KEY(user_id,captain_id),
+    FOREIGN KEY (captain_id) REFERENCES captains(id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
-create table user_army_rank(
+create table user_captains_rank(
     user_id int,
-    user_army_id int,
+    user_captain_id int,
     rank_id int,
     rank_type varchar(255),
     
@@ -893,8 +893,8 @@ create table user_army_rank(
     percent_all_mental_attack double,
     percent_all_mental_defense double,
     
-    PRIMARY KEY(user_id,user_army_id,rank_id),
-    FOREIGN KEY (user_army_id) REFERENCES user_army(army_id),
+    PRIMARY KEY(user_id,user_captain_id,rank_id),
+    FOREIGN KEY (user_captain_id) REFERENCES user_captains(captain_id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
@@ -1394,7 +1394,7 @@ create table cards_gallery(
     user_id int,
     card_id int,
     
-    available boolean,
+    status varchar(100),
     star int,
     health double,
     physical_attack double,
@@ -1437,7 +1437,7 @@ create table books_gallery(
     user_id int,
     book_id int,
     
-    available boolean,
+    status varchar(100),
     star int,
     health double,
     physical_attack double,
@@ -1480,7 +1480,7 @@ create table monsters_gallery(
     user_id int,
     monster_id int,
     
-    available boolean,
+    status varchar(100),
     star int,
     health double,
     physical_attack double,
@@ -1519,11 +1519,11 @@ create table monsters_gallery(
     FOREIGN KEY (monster_id) REFERENCES monsters(id)
 );
 
-create table army_gallery(
+create table captains_gallery(
     user_id int,
-    army_id int,
+    captain_id int,
     
-    available boolean,
+    status varchar(100),
     star int,
     health double,
     physical_attack double,
@@ -1557,16 +1557,16 @@ create table army_gallery(
     percent_all_mental_attack double,
     percent_all_mental_defense double,
     
-    PRIMARY KEY(user_id,army_id),
+    PRIMARY KEY(user_id,captain_id),
     FOREIGN KEY (user_id) REFERENCES users(id),
-    FOREIGN KEY (army_id) REFERENCES army(id)
+    FOREIGN KEY (captain_id) REFERENCES captains(id)
 );
 
 create table collaboration_equipments_gallery(
     user_id int,
     collaboration_equipment_id int,
     
-    available boolean,
+    status varchar(100),
     star int,
     health double,
     physical_attack double,
@@ -1609,7 +1609,7 @@ create table equipments_gallery(
     user_id int,
     equipment_id int,
     
-	available boolean,
+	status varchar(100),
     star int,
     health double,
     physical_attack double,
@@ -1652,7 +1652,7 @@ create table pets_gallery(
     user_id int,
     pet_id int,
     
-    available boolean,
+    status varchar(100),
     star int,
     health double,
     physical_attack double,
@@ -1695,7 +1695,7 @@ create table military_gallery(
     user_id int,
     military_id int,
     
-    available boolean,
+    status varchar(100),
     star int,
     health double,
     physical_attack double,
@@ -1738,7 +1738,7 @@ create table spell_gallery(
     user_id int,
     spell_id int,
     
-    available boolean,
+    status varchar(100),
     star int,
     health double,
     physical_attack double,
@@ -1777,6 +1777,221 @@ create table spell_gallery(
     FOREIGN KEY (spell_id) REFERENCES spell(id)
 );
 
+create table skills_gallery(
+    user_id int,
+    skill_id int,
+    
+    status varchar(100),
+    star int,
+    health double,
+    physical_attack double,
+    physical_defense double,
+    magical_attack double,
+    magical_defense double,
+    chemical_attack double,
+    chemical_defense double,
+    atomic_attack double,
+    atomic_defense double,
+    mental_attack double,
+    mental_defense double,
+    speed double,
+    critical_damage double,
+    critical_rate double,
+    armor_penetration double,
+    avoid double,
+    absorbs_damage double,
+    regenerate_vitality double,
+    mana float,
+    
+    percent_all_health double,
+    percent_all_physical_attack double,
+    percent_all_physical_defense double,
+    percent_all_magical_attack double,
+    percent_all_magical_defense double,
+    percent_all_chemical_attack double,
+    percent_all_chemical_defense double,
+    percent_all_atomic_attack double,
+    percent_all_atomic_defense double,
+    percent_all_mental_attack double,
+    percent_all_mental_defense double,
+    
+    PRIMARY KEY(user_id,skill_id),
+    FOREIGN KEY (user_id) REFERENCES users(id),
+    FOREIGN KEY (skill_id) REFERENCES skills(id)
+);
+
+create table medals_gallery(
+    user_id int,
+    medal_id int,
+    
+    status varchar(100),
+    star int,
+    health double,
+    physical_attack double,
+    physical_defense double,
+    magical_attack double,
+    magical_defense double,
+    chemical_attack double,
+    chemical_defense double,
+    atomic_attack double,
+    atomic_defense double,
+    mental_attack double,
+    mental_defense double,
+    speed double,
+    critical_damage double,
+    critical_rate double,
+    armor_penetration double,
+    avoid double,
+    absorbs_damage double,
+    regenerate_vitality double,
+    mana float,
+    
+    percent_all_health double,
+    percent_all_physical_attack double,
+    percent_all_physical_defense double,
+    percent_all_magical_attack double,
+    percent_all_magical_defense double,
+    percent_all_chemical_attack double,
+    percent_all_chemical_defense double,
+    percent_all_atomic_attack double,
+    percent_all_atomic_defense double,
+    percent_all_mental_attack double,
+    percent_all_mental_defense double,
+    
+    PRIMARY KEY(user_id,medal_id),
+    FOREIGN KEY (user_id) REFERENCES users(id),
+    FOREIGN KEY (medal_id) REFERENCES medals(id)
+);
+
+create table titles_gallery(
+    user_id int,
+    title_id int,
+    
+    status varchar(100),
+    star int,
+    health double,
+    physical_attack double,
+    physical_defense double,
+    magical_attack double,
+    magical_defense double,
+    chemical_attack double,
+    chemical_defense double,
+    atomic_attack double,
+    atomic_defense double,
+    mental_attack double,
+    mental_defense double,
+    speed double,
+    critical_damage double,
+    critical_rate double,
+    armor_penetration double,
+    avoid double,
+    absorbs_damage double,
+    regenerate_vitality double,
+    mana float,
+    
+    percent_all_health double,
+    percent_all_physical_attack double,
+    percent_all_physical_defense double,
+    percent_all_magical_attack double,
+    percent_all_magical_defense double,
+    percent_all_chemical_attack double,
+    percent_all_chemical_defense double,
+    percent_all_atomic_attack double,
+    percent_all_atomic_defense double,
+    percent_all_mental_attack double,
+    percent_all_mental_defense double,
+    
+    PRIMARY KEY(user_id,title_id),
+    FOREIGN KEY (user_id) REFERENCES users(id),
+    FOREIGN KEY (title_id) REFERENCES titles(id)
+);
+
+create table symbols_gallery(
+    user_id int,
+    symbol_id int,
+    
+    status varchar(100),
+    star int,
+    health double,
+    physical_attack double,
+    physical_defense double,
+    magical_attack double,
+    magical_defense double,
+    chemical_attack double,
+    chemical_defense double,
+    atomic_attack double,
+    atomic_defense double,
+    mental_attack double,
+    mental_defense double,
+    speed double,
+    critical_damage double,
+    critical_rate double,
+    armor_penetration double,
+    avoid double,
+    absorbs_damage double,
+    regenerate_vitality double,
+    mana float,
+    
+    percent_all_health double,
+    percent_all_physical_attack double,
+    percent_all_physical_defense double,
+    percent_all_magical_attack double,
+    percent_all_magical_defense double,
+    percent_all_chemical_attack double,
+    percent_all_chemical_defense double,
+    percent_all_atomic_attack double,
+    percent_all_atomic_defense double,
+    percent_all_mental_attack double,
+    percent_all_mental_defense double,
+    
+    PRIMARY KEY(user_id,symbol_id),
+    FOREIGN KEY (user_id) REFERENCES users(id),
+    FOREIGN KEY (symbol_id) REFERENCES symbols(id)
+);
+
+create table collaborations_gallery(
+    user_id int,
+    collaboration_id int,
+    
+    status varchar(100),
+    star int,
+    health double,
+    physical_attack double,
+    physical_defense double,
+    magical_attack double,
+    magical_defense double,
+    chemical_attack double,
+    chemical_defense double,
+    atomic_attack double,
+    atomic_defense double,
+    mental_attack double,
+    mental_defense double,
+    speed double,
+    critical_damage double,
+    critical_rate double,
+    armor_penetration double,
+    avoid double,
+    absorbs_damage double,
+    regenerate_vitality double,
+    mana float,
+    
+    percent_all_health double,
+    percent_all_physical_attack double,
+    percent_all_physical_defense double,
+    percent_all_magical_attack double,
+    percent_all_magical_defense double,
+    percent_all_chemical_attack double,
+    percent_all_chemical_defense double,
+    percent_all_atomic_attack double,
+    percent_all_atomic_defense double,
+    percent_all_mental_attack double,
+    percent_all_mental_defense double,
+    
+    PRIMARY KEY(user_id,collaboration_id),
+    FOREIGN KEY (user_id) REFERENCES users(id),
+    FOREIGN KEY (collaboration_id) REFERENCES collaborations(id)
+);
+
 create table user_currency(
     user_id int,
     currency_id int,
@@ -1800,9 +2015,9 @@ create table mail(
 
 /*--Fact----------------------------------------------------------------------*/
 
-create table fact_army(
+create table fact_captains(
     user_id int,
-    user_army_id int,
+    user_captain_id int,
     
     power double,
     
@@ -1826,8 +2041,8 @@ create table fact_army(
     all_regenerate_vitality double,
     all_mana float,
     
-    PRIMARY KEY(user_id,user_army_id),
-    FOREIGN KEY (user_army_id) REFERENCES user_army(army_id),
+    PRIMARY KEY(user_id,user_captain_id),
+    FOREIGN KEY (user_captain_id) REFERENCES user_captains(captain_id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
@@ -2000,16 +2215,16 @@ create table card_equipment(
     FOREIGN KEY (fact_card_id) REFERENCES fact_cards(user_card_id)
 );
 
-create table army_equipment(
+create table captain_equipment(
     user_id int,
-    fact_army_id int,
+    fact_captain_id int,
     equipment_id int,
     sequence int,
 
-    PRIMARY KEY(user_id,fact_army_id, equipment_id),
+    PRIMARY KEY(user_id,fact_captain_id, equipment_id),
     FOREIGN KEY (equipment_id) REFERENCES user_equipments(equipment_id),
     FOREIGN KEY (user_id) REFERENCES users(id),
-    FOREIGN KEY (fact_army_id) REFERENCES fact_army(user_army_id)
+    FOREIGN KEY (fact_captain_id) REFERENCES fact_captains(user_captain_id)
 );
 
 create table book_equipment(
@@ -2075,19 +2290,19 @@ create table card_equipment_details(
     FOREIGN KEY (fact_card_id) REFERENCES fact_cards(user_card_id)
 );
 
-create table army_equipment_details(
+create table captain_equipment_details(
     user_id int,
-    fact_army_id int,
+    fact_captain_id int,
     equipment_id int,
     sequence int,
     extra_equipment_id int,
     extra_sequence int,
     
-    PRIMARY KEY(user_id,fact_army_id,equipment_id,extra_equipment_id),
+    PRIMARY KEY(user_id,fact_captain_id,equipment_id,extra_equipment_id),
     FOREIGN KEY (extra_equipment_id) REFERENCES user_equipments(equipment_id),
     FOREIGN KEY (user_id) REFERENCES users(id),
-    FOREIGN KEY (equipment_id) REFERENCES army_equipment(equipment_id),
-    FOREIGN KEY (fact_army_id) REFERENCES fact_army(user_army_id)
+    FOREIGN KEY (equipment_id) REFERENCES captain_equipment(equipment_id),
+    FOREIGN KEY (fact_captain_id) REFERENCES fact_captains(user_captain_id)
 );
 
 create table book_equipment_details(
@@ -2194,13 +2409,13 @@ create table teams(
 
 /*-- Trading -------------------------------------------------------------------------------*/
 
-create table army_trade(
-    army_id int,
+create table captain_trade(
+    captain_id int,
     currency_id int,
     price double,
     
-    PRIMARY KEY(army_id, currency_id),
-    FOREIGN KEY (army_id) REFERENCES army(id),
+    PRIMARY KEY(captain_id, currency_id),
+    FOREIGN KEY (captain_id) REFERENCES captains(id),
     FOREIGN KEY (currency_id) REFERENCES currency(id)
 );
 
@@ -2396,13 +2611,13 @@ create table chest_book(
     FOREIGN KEY (item_id) REFERENCES items(id)
 );
 
-create table chest_army(
+create table chest_captain(
     item_id int,
-    army_id int,
+    captain_id int,
     quantity int,
     
-    PRIMARY KEY(army_id, item_id),
-    FOREIGN KEY (army_id) REFERENCES army(id),
+    PRIMARY KEY(captain_id, item_id),
+    FOREIGN KEY (captain_id) REFERENCES captains(id),
     FOREIGN KEY (item_id) REFERENCES items(id)
 );
 
