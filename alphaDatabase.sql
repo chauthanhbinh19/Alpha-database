@@ -1138,7 +1138,6 @@ create table user_pets_rank(
 create table user_military(
     user_id int,
     military_id int,
-    sequence int,
     level int,
     experiment int,
     star int,
@@ -1166,7 +1165,7 @@ create table user_military(
     regenerate_vitality double,
     mana float,
     
-    PRIMARY KEY(user_id,military_id,sequence),
+    PRIMARY KEY(user_id,military_id),
     FOREIGN KEY (military_id) REFERENCES military(id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
@@ -1174,7 +1173,6 @@ create table user_military(
 create table user_military_rank(
     user_id int,
     user_military_id int,
-    sequence int,
     rank_id int,
     rank_type varchar(255),
     
@@ -1210,7 +1208,7 @@ create table user_military_rank(
     percent_all_mental_attack double,
     percent_all_mental_defense double,
     
-    PRIMARY KEY(user_id,user_military_id,sequence, rank_id),
+    PRIMARY KEY(user_id,user_military_id, rank_id),
     FOREIGN KEY (user_military_id) REFERENCES user_military(military_id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
@@ -1218,7 +1216,6 @@ create table user_military_rank(
 create table user_spell(
     user_id int,
     spell_id int,
-    sequence int,
     level int,
     experiment int,
     star int,
@@ -1246,7 +1243,7 @@ create table user_spell(
     regenerate_vitality double,
     mana float,
     
-    PRIMARY KEY(user_id,spell_id,sequence),
+    PRIMARY KEY(user_id,spell_id),
     FOREIGN KEY (spell_id) REFERENCES spell(id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
@@ -1254,7 +1251,6 @@ create table user_spell(
 create table user_spell_rank(
     user_id int,
     user_spell_id int,
-    sequence int,
     rank_id int,
     rank_type varchar(255),
     
@@ -1290,7 +1286,7 @@ create table user_spell_rank(
     percent_all_mental_attack double,
     percent_all_mental_defense double,
     
-    PRIMARY KEY(user_id,user_spell_id,sequence, rank_id),
+    PRIMARY KEY(user_id,user_spell_id, rank_id),
     FOREIGN KEY (user_spell_id) REFERENCES user_spell(spell_id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
@@ -1300,6 +1296,7 @@ create table user_skill(
     skill_id int,
     level int,
     star int,
+    quantity int,
     
     health double,
     physical_attack double,
