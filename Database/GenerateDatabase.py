@@ -1352,6 +1352,7 @@ def create_cards_database():
     avoid=0
     absorbs_damage=50000
     regenerate_vitality=3000
+    accuracy=0
     mana=100
     rare="SR"
     clan=""
@@ -1381,7 +1382,7 @@ def create_cards_database():
                             file.write("insert into cards values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + current_name + "'," + str(0) + "," + str(power) + "," + str(health) + "," 
                                 + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense) 
                                 + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
-                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'"+ story +"');\n")
+                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(accuracy) + "," + str(mana) + ",'"+ story +"');\n")
 
                         id=id+1
             if "SSR" in dir_name:
@@ -1413,7 +1414,7 @@ def create_cards_database():
                             file.write("insert into cards values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + current_name + "'," + str(0) + "," + str(power) + "," + str(health) + "," 
                                 + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense) 
                                 + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
-                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'"+ story +"');\n")
+                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(accuracy) + "," + str(mana) + ",'"+ story +"');\n")
                         id=id+1
             if "UR" in dir_name:
                 current_dir =os.path.join(root,dir_name)
@@ -1444,7 +1445,7 @@ def create_cards_database():
                             file.write("insert into cards values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + current_name + "'," + str(0) + "," + str(power) + "," + str(health) + "," 
                                 + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense) 
                                 + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
-                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'"+ story +"');\n")
+                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(accuracy) + "," + str(mana) + ",'"+ story +"');\n")
                         id=id+1
             if "LG" in dir_name:
                 current_dir =os.path.join(root,dir_name)
@@ -1475,7 +1476,7 @@ def create_cards_database():
                             file.write("insert into cards values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + current_name + "'," + str(0) + "," + str(power) + "," + str(health) + "," 
                                 + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense) 
                                 + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
-                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'"+ story +"');\n")
+                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(accuracy) + "," + str(mana) + ",'"+ story +"');\n")
                         id=id+1
 
 def create_books_database():
@@ -1501,6 +1502,7 @@ def create_books_database():
     avoid=0
     absorbs_damage=500000
     regenerate_vitality=500000
+    accuracy=0
     mana=100
     rare="LG"
     price=2000000
@@ -1525,7 +1527,7 @@ def create_books_database():
                         file.write("insert into books values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + dir_name + "'," + str(0) + "," + str(power) + "," + str(health) + "," 
                                 + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense) 
                                 + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
-                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'"+ story+"');\n")
+                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(accuracy) + "," + str(mana) + ",'"+ story+"');\n")
                     id=id+1
 
 def create_captain_database():
@@ -1551,6 +1553,7 @@ def create_captain_database():
     avoid=0
     absorbs_damage=500000
     regenerate_vitality=500000
+    accuracy=0
     mana=100
     rare="LG"
     price=2000000
@@ -1575,7 +1578,7 @@ def create_captain_database():
                         file.write("insert into captains values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + dir_name + "'," + str(0) + "," + str(power) + "," + str(health) + "," 
                                 + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense) 
                                 + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
-                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'"+ story +"');\n")
+                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(accuracy) + "," + str(mana) + ",'"+ story +"');\n")
                     id=id+1
 
 def create_skills_database():
@@ -1601,6 +1604,7 @@ def create_skills_database():
     avoid=0
     absorbs_damage=0
     regenerate_vitality=0
+    accuracy=0
     mana=100
     rare="LG"
     price=1000000
@@ -1624,7 +1628,7 @@ def create_skills_database():
                         file.write("insert into skills values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + dir_name + "',"  + str(power) + "," + str(health) + "," 
                                 + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense) 
                                 + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
-                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'');\n")
+                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(accuracy) + "," + str(mana) + ",'');\n")
                     id=id+1
 
 def create_collaboration_equipments_database():
@@ -1650,6 +1654,7 @@ def create_collaboration_equipments_database():
     avoid=0
     absorbs_damage=50000
     regenerate_vitality=3000
+    accuracy=0
     mana=100
     rare="SR"
     clan=""
@@ -1679,7 +1684,7 @@ def create_collaboration_equipments_database():
                             file.write("insert into collaboration_equipments values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + current_name + "'," + str(0) + "," + str(power) + "," + str(health) + "," 
                                 + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense) 
                                 + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
-                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'"+ str(story) +"');\n")
+                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + ","+ str(accuracy) + "," + str(mana) + ",'"+ str(story) +"');\n")
 
                         id=id+1
             if "SSR" in dir_name:
@@ -1712,7 +1717,7 @@ def create_collaboration_equipments_database():
                             file.write("insert into collaboration_equipments values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + current_name + "'," + str(0) + "," + str(power) + "," + str(health) + "," 
                                 + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense) 
                                 + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
-                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'"+ str(story) +"');\n")
+                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + ","+ str(accuracy) + "," + str(mana) + ",'"+ str(story) +"');\n")
                         id=id+1
             if "UR" in dir_name:
                 current_dir =os.path.join(root,dir_name)
@@ -1744,7 +1749,7 @@ def create_collaboration_equipments_database():
                             file.write("insert into collaboration_equipments values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + current_name + "'," + str(0) + "," + str(power) + "," + str(health) + "," 
                                 + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense) 
                                 + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
-                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'"+ str(story) +"');\n")
+                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + ","+ str(accuracy) + "," + str(mana) + ",'"+ str(story) +"');\n")
                         id=id+1
             if "LG" in dir_name:
                 current_dir =os.path.join(root,dir_name)
@@ -1776,7 +1781,7 @@ def create_collaboration_equipments_database():
                             file.write("insert into collaboration_equipments values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + current_name + "'," + str(0) + "," + str(power) + "," + str(health) + "," 
                                 + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense) 
                                 + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
-                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'"+ str(story) +"');\n")
+                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + ","+ str(accuracy) + "," + str(mana) + ",'"+ str(story) +"');\n")
                         id=id+1
             if "MR" in dir_name:
                 current_dir =os.path.join(root,dir_name)
@@ -1807,81 +1812,8 @@ def create_collaboration_equipments_database():
                             file.write("insert into collaboration_equipments values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + current_name + "'," + str(0) + "," + str(power) + "," + str(health) + "," 
                                 + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense) 
                                 + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
-                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'"+ str(story) +"');\n")
+                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + ","+ str(accuracy) + "," + str(mana) + ",'"+ str(story) +"');\n")
                         id=id+1
-
-def create_bosses_database():
-    cards_dir="Boss"
-    card_list = []
-    id=1
-    card_name=""
-    health=10000000000
-    physical_attack=200000000
-    physical_defense=200000000
-    magical_attack=200000000
-    magical_defense=200000000
-    chemical_attack=200000000
-    chemical_defense=200000000
-    atomic_attack=200000000
-    atomic_defense=200000000
-    mental_attack=200000000
-    mental_defense=200000000
-    speed=1
-    critical_rate=0
-    critical_damage=100
-    armor_penetration=0
-    avoid=0
-    absorbs_damage=0
-    regenerate_vitality=0
-    mana=100
-    rare="LG"
-    price=10000000
-    price_unit="Chasmic_Grey_Crystalyte"
-    path=""
-    for root, dirs, files in os.walk(cards_dir):
-        current_dir=os.path.basename(root)
-        current_name=current_dir
-        for dir_name in dirs:
-            current_dir =os.path.join(root,dir_name)
-            for file_name in os.listdir(current_dir):
-                if file_name.endswith(".jpg") or file_name.endswith("png"):
-                    name, extension=os.path.splitext(file_name)
-                    path=os.path.join(current_dir,file_name)
-                    path=path.replace("\\","/")
-                    name=name.replace("_"," ")
-                    card = {
-                        "id":id,
-                        "SkillName":name,
-                        "SkillNameImage": file_name,
-                        "Health": health,
-                        "PhysicalAttack": physical_attack,
-                        "PhysicalDefense": physical_defense,
-                        "MagicalAttack": magical_attack,
-                        "MagicalDefense": magical_defense,
-                        "ChemicalAttack": chemical_attack,
-                        "ChemicalDefense": chemical_defense,
-                        "AtomicAttack": atomic_attack,
-                        "AtomicDefense": atomic_defense,
-                        "MentalAttack": mental_attack,
-                        "MentalDefense": mental_defense,
-                        "Speed": speed,
-                        "CriticalRate": critical_rate,
-                        "CriticalDamage": critical_damage,
-                        "ArmorPenetration": armor_penetration,
-                        "Avoid": avoid,
-                        "AbsorbsDamage": absorbs_damage,
-                        "RegenerateVitality": regenerate_vitality,
-                        "Mana": mana,
-                        "Rare": rare,
-                        "Type": dir_name,
-                        "Price": price,
-                        "PriceUnit":price_unit,
-                        "Path":path
-                    }
-                    card_list.append(card)
-                    id=id+1
-    with open("bosses_database.json", "w") as json_file:
-        json.dump(card_list, json_file)
 
 def create_pets_database():
     cards_dir="Pet"
@@ -1906,6 +1838,7 @@ def create_pets_database():
     avoid=0
     absorbs_damage=0
     regenerate_vitality=0
+    accuracy=0
     mana=100
     rare="LG"
     price=10000000
@@ -1930,7 +1863,7 @@ def create_pets_database():
                         file.write("insert into pets values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + dir_name + "'," + str(0) + "," + str(power) + "," + str(health) + "," 
                                 + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense) 
                                 + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
-                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'"+ str(story) +"');\n")
+                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + ","+ str(accuracy) + "," + str(mana) + ",'"+ str(story) +"');\n")
 
                     id=id+1
 
@@ -1968,6 +1901,7 @@ def create_symbols_database():
     avoid=0
     absorbs_damage=0
     regenerate_vitality=0
+    accuracy=0
     mana=100
     rare="LG"
     price=10000000
@@ -1994,7 +1928,7 @@ def create_symbols_database():
                         file.write("insert into symbols values (" + str(id) + ",'" + name + "','" + path + "','"+dir_name+"'," + str(power) + "," + str(health) + "," 
                                 + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense) 
                                 + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
-                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ","+ str(per_health)+","+str(per_physical_attack) +","+ str(per_physical_defense)
+                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + ","+ str(accuracy) + "," + str(mana) + ","+ str(per_health)+","+str(per_physical_attack) +","+ str(per_physical_defense)
                                 + ","+str(per_magical_attack) +","+ str(per_magical_defense) + ","+str(per_chemical_attack) +","+ str(per_chemical_defense) + ","+str(per_atomic_attack) +","+ str(per_atomic_defense) + ","+str(per_mental_attack) +","+ str(per_mental_defense)+",'"+ str(story) +"');\n")
 
                     id=id+1
@@ -2033,6 +1967,7 @@ def create_medals_database():
     avoid=0
     absorbs_damage=0
     regenerate_vitality=0
+    accuracy=0
     mana=100
     rare="LG"
     path=""
@@ -2052,7 +1987,7 @@ def create_medals_database():
                     file.write("insert into medals values (" + str(id) + ",'" + name + "','" + path + "'," + str(power) + "," + str(health) + "," 
                                 + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense) 
                                 + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
-                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ","+ str(per_health)+","+str(per_physical_attack) +","+ str(per_physical_defense)
+                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + ","+ str(accuracy) + "," + str(mana) + ","+ str(per_health)+","+str(per_physical_attack) +","+ str(per_physical_defense)
                                 + ","+str(per_magical_attack) +","+ str(per_magical_defense) + ","+str(per_chemical_attack) +","+ str(per_chemical_defense) + ","+str(per_atomic_attack) +","+ str(per_atomic_defense) + ","+str(per_mental_attack) +","+ str(per_mental_defense)+",'"+ str(story) +"');\n")
 
                 id=id+1
@@ -2091,6 +2026,7 @@ def create_achievements_database():
     avoid=0
     absorbs_damage=0
     regenerate_vitality=0
+    accuracy=0
     mana=100
     rare="LG"
     path=""
@@ -2110,7 +2046,7 @@ def create_achievements_database():
                     file.write("insert into achievements values (" + str(id) + ",'" + name + "','" + path + "'," + str(power) + "," + str(health) + "," 
                                 + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense) 
                                 + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
-                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ","+ str(per_health)+","+str(per_physical_attack) +","+ str(per_physical_defense)
+                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + ","+ str(accuracy) + "," + str(mana) + ","+ str(per_health)+","+str(per_physical_attack) +","+ str(per_physical_defense)
                                 + ","+str(per_magical_attack) +","+ str(per_magical_defense) + ","+str(per_chemical_attack) +","+ str(per_chemical_defense) + ","+str(per_atomic_attack) +","+ str(per_atomic_defense) + ","+str(per_mental_attack) +","+ str(per_mental_defense)+",'"+str(story)+"');\n")
                 id=id+1
     
@@ -2148,6 +2084,7 @@ def create_titles_database():
     avoid=0
     absorbs_damage=0
     regenerate_vitality=0
+    accuracy=0
     mana=100
     rare="LG"
     path=""
@@ -2167,7 +2104,7 @@ def create_titles_database():
                     file.write("insert into titles values (" + str(id) + ",'" + name + "','" + path + "'," + str(power) + "," + str(health) + "," 
                                 + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense) 
                                 + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
-                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ","+ str(per_health)+","+str(per_physical_attack) +","+ str(per_physical_defense)
+                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + ","+ str(accuracy) + "," + str(mana) + ","+ str(per_health)+","+str(per_physical_attack) +","+ str(per_physical_defense)
                                 + ","+str(per_magical_attack) +","+ str(per_magical_defense) + ","+str(per_chemical_attack) +","+ str(per_chemical_defense) + ","+str(per_atomic_attack) +","+ str(per_atomic_defense) + ","+str(per_mental_attack) +","+ str(per_mental_defense)+",'"+str(story)+"');\n")
                 id=id+1
 
@@ -2205,6 +2142,7 @@ def create_monster_database():
     avoid=0
     absorbs_damage=0
     regenerate_vitality=0
+    accuracy=0
     mana=100
     rare="LG"
     path=""
@@ -2224,7 +2162,7 @@ def create_monster_database():
                     file.write("insert into monsters values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + "none" + "'," + str(0) + "," + str(power) + "," + str(health) + "," 
                                 + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense) 
                                 + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
-                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'"+ str(story) +"');\n")
+                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + ","+ str(accuracy) + "," + str(mana) + ",'"+ str(story) +"');\n")
                 id=id+1
 
 def create_borders_database():
@@ -2261,6 +2199,7 @@ def create_borders_database():
     avoid=0
     absorbs_damage=0
     regenerate_vitality=0
+    accuracy=0
     mana=100
     rare="LG"
     path=""
@@ -2280,7 +2219,7 @@ def create_borders_database():
                     file.write("insert into borders values (" + str(id) + ",'" + name + "','" + path + "'," + str(power) + "," + str(health) + "," 
                                 + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense) 
                                 + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
-                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ","+ str(per_health)+","+str(per_physical_attack) +","+ str(per_physical_defense)
+                                + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + ","+ str(accuracy) + "," + str(mana) + ","+ str(per_health)+","+str(per_physical_attack) +","+ str(per_physical_defense)
                                 + ","+str(per_magical_attack) +","+ str(per_magical_defense) + ","+str(per_chemical_attack) +","+ str(per_chemical_defense) + ","+str(per_atomic_attack) +","+ str(per_atomic_defense) + ","+str(per_mental_attack) +","+ str(per_mental_defense)+",'"+str(story)+"');\n")
                 id=id+1
 
@@ -2347,6 +2286,7 @@ def create_equipments_database():
     avoid=0
     absorbs_damage=0
     regenerate_vitality=0
+    accuracy=0
     mana=100
     rare="LG"
     price=100000
@@ -2415,7 +2355,7 @@ def create_equipments_database():
                                 file.write("insert into equipments values (" + str(id) + ",'" + name + "','" + path + "','" + dir_name + "','" + current_name + "','"+set1_folder_name +"'," + str(0) + "," + str(power) + "," + str(health) +
                                     "," + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense)
                                     + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration)
-                                    + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + 
+                                    + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + ","+ str(accuracy) + "," + str(mana) + 
                                     "," + str(list(variables.values())[0]) + ","+ str(list(variables.values())[1]) + "," + str(list(variables.values())[2]) + "," + str(list(variables.values())[3]) + "," + str(list(variables.values())[4]) + "," + str(list(variables.values())[5]) + "," + str(list(variables.values())[6])
                                     + "," + str(list(variables.values())[7]) + "," + str(list(variables.values())[8]) + "," + str(list(variables.values())[9]) + "," + str(list(variables.values())[10]) + "," + str(list(variables.values())[11]) + ",'"+ str(story) +"');\n")
                             id += 1
@@ -2455,7 +2395,7 @@ def create_equipments_database():
                                 file.write("insert into equipments values (" + str(id) + ",'" + name + "','" + path + "','" + dir_name + "','" + current_name + "','"+set1_folder_name +"'," + str(0) + "," + str(power) + "," + str(health) +
                                     "," + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense)
                                     + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration)
-                                    + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + 
+                                    + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + ","+ str(accuracy) + "," + str(mana) + 
                                     "," + str(list(variables.values())[0]) + ","+ str(list(variables.values())[1]) + "," + str(list(variables.values())[2]) + "," + str(list(variables.values())[3]) + "," + str(list(variables.values())[4]) + "," + str(list(variables.values())[5]) + "," + str(list(variables.values())[6])
                                     + "," + str(list(variables.values())[7]) + "," + str(list(variables.values())[8]) + "," + str(list(variables.values())[9]) + "," + str(list(variables.values())[10]) + "," + str(list(variables.values())[11]) + ",'"+ str(story) +"');\n")
                             id += 1
@@ -2495,7 +2435,7 @@ def create_equipments_database():
                                 file.write("insert into equipments values (" + str(id) + ",'" + name + "','" + path + "','" + dir_name + "','" + current_name + "','"+set1_folder_name +"'," + str(0) + "," + str(power) + "," + str(health) +
                                     "," + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense)
                                     + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration)
-                                    + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + 
+                                    + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + ","+ str(accuracy) + "," + str(mana) + 
                                     "," + str(list(variables.values())[0]) + ","+ str(list(variables.values())[1]) + "," + str(list(variables.values())[2]) + "," + str(list(variables.values())[3]) + "," + str(list(variables.values())[4]) + "," + str(list(variables.values())[5]) + "," + str(list(variables.values())[6])
                                     + "," + str(list(variables.values())[7]) + "," + str(list(variables.values())[8]) + "," + str(list(variables.values())[9]) + "," + str(list(variables.values())[10]) + "," + str(list(variables.values())[11]) + ",'"+ str(story) +"');\n")
                             id += 1
@@ -2620,7 +2560,7 @@ def create_equipments_database():
                                 file.write("insert into equipments values (" + str(id) + ",'" + name + "','" + path + "','" + dir_name + "','" + current_name + "','"+set1_folder_name +"'," + str(0) + "," + str(power) + "," + str(health) +
                                     "," + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense)
                                     + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration)
-                                    + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + 
+                                    + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + ","+ str(accuracy) + "," + str(mana) + 
                                     "," + str(list(variables.values())[0]) + ","+ str(list(variables.values())[1]) + "," + str(list(variables.values())[2]) + "," + str(list(variables.values())[3]) + "," + str(list(variables.values())[4]) + "," + str(list(variables.values())[5]) + "," + str(list(variables.values())[6])
                                     + "," + str(list(variables.values())[7]) + "," + str(list(variables.values())[8]) + "," + str(list(variables.values())[9]) + "," + str(list(variables.values())[10]) + "," + str(list(variables.values())[11]) + ",'"+ str(story) +"');\n")
                             id += 1
@@ -2660,7 +2600,7 @@ def create_equipments_database():
                                 file.write("insert into equipments values (" + str(id) + ",'" + name + "','" + path + "','" + dir_name + "','" + current_name + "','"+set1_folder_name +"'," + str(0) + "," + str(power) + "," + str(health) +
                                     "," + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense)
                                     + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration)
-                                    + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + 
+                                    + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + ","+ str(accuracy) + "," + str(mana) + 
                                     "," + str(list(variables.values())[0]) + ","+ str(list(variables.values())[1]) + "," + str(list(variables.values())[2]) + "," + str(list(variables.values())[3]) + "," + str(list(variables.values())[4]) + "," + str(list(variables.values())[5]) + "," + str(list(variables.values())[6])
                                     + "," + str(list(variables.values())[7]) + "," + str(list(variables.values())[8]) + "," + str(list(variables.values())[9]) + "," + str(list(variables.values())[10]) + "," + str(list(variables.values())[11]) + ",'"+ str(story) +"');\n")
                             id += 1
@@ -2699,6 +2639,7 @@ def create_collaboration_database():
     avoid=0
     absorbs_damage=0
     regenerate_vitality=0
+    accuracy=0
     mana=100
     rare="LG"
     path=""
@@ -2718,7 +2659,7 @@ def create_collaboration_database():
                     file.write("insert into collaborations values (" + str(id) + ",'" + name + "','" + path + "'," + str(power) + "," + str(health) + "," 
                               + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense) 
                               + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
-                              + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ","+ str(per_health)+","+str(per_physical_attack) +","+ str(per_physical_defense)
+                              + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + ","+ str(accuracy) + "," + str(mana) + ","+ str(per_health)+","+str(per_physical_attack) +","+ str(per_physical_defense)
                               + ","+str(per_magical_attack) +","+ str(per_magical_defense) + ","+str(per_chemical_attack) +","+ str(per_chemical_defense) + ","+str(per_atomic_attack) +","+ str(per_atomic_defense) + ","+str(per_mental_attack) +","+ str(per_mental_defense)+",'"+ str(story) +"');\n")
                 id=id+1      
 
@@ -2745,6 +2686,7 @@ def create_military_database():
     avoid=0
     absorbs_damage=0
     regenerate_vitality=0
+    accuracy=0
     mana=100
     rare="SR"
     clan=""
@@ -2775,7 +2717,7 @@ def create_military_database():
                             file.write("insert into military values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + current_name + "'," + str(0) + "," + str(power) + "," + str(health) + "," 
                               + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense) 
                               + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
-                              + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'"+ str(story) +"');\n")
+                              + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + ","+ str(accuracy) + "," + str(mana) + ",'"+ str(story) +"');\n")
 
                         id=id+1
             if "SSR" in dir_name:
@@ -2819,7 +2761,7 @@ def create_military_database():
                             file.write("insert into military values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + current_name + "'," + str(0) + "," + str(power) + "," + str(health) + "," 
                               + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense) 
                               + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
-                              + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'"+ str(story) +"');\n")
+                              + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + ","+ str(accuracy) + "," + str(mana) + ",'"+ str(story) +"');\n")
                         id=id+1
             if "UR" in dir_name:
                 current_dir =os.path.join(root,dir_name)
@@ -2862,7 +2804,7 @@ def create_military_database():
                             file.write("insert into military values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + current_name + "'," + str(0) + "," + str(power) + "," + str(health) + "," 
                               + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense) 
                               + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
-                              + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'"+ str(story) +"');\n")
+                              + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + ","+ str(accuracy) + "," + str(mana) + ",'"+ str(story) +"');\n")
                         id=id+1
             if "LG" in dir_name:
                 current_dir =os.path.join(root,dir_name)
@@ -2905,7 +2847,7 @@ def create_military_database():
                             file.write("insert into military values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + current_name + "'," + str(0) + "," + str(power) + "," + str(health) + "," 
                               + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense) 
                               + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
-                              + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'"+ str(story) +"');\n")
+                              + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + ","+ str(accuracy) + "," + str(mana) + ",'"+ str(story) +"');\n")
                         id=id+1
 
 def create_spell_database():
@@ -2931,6 +2873,7 @@ def create_spell_database():
     avoid=0
     absorbs_damage=0
     regenerate_vitality=0
+    accuracy=0
     mana=100
     rare="SR"
     clan=""
@@ -2960,7 +2903,7 @@ def create_spell_database():
                             file.write("insert into spell values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + current_name + "'," + str(0) + "," + str(power) + "," + str(health) + "," 
                               + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense) 
                               + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
-                              + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ",'');\n")
+                              + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + ","+ str(accuracy) + "," + str(mana) + ",'');\n")
 
                         id=id+1
             if "LG" in dir_name:
@@ -3009,7 +2952,7 @@ def create_spell_database():
                             file.write("insert into spell values (" + str(id) + ",'" + name + "','" + path + "','" + rare + "','" + current_name + "'," + str(0) + "," + str(power) + "," + str(health) + "," 
                               + str(physical_attack) + "," + str(physical_defense) + "," + str(magical_attack) + "," + str(magical_defense) + "," + str(chemical_attack) + "," + str(chemical_defense) 
                               + "," + str(atomic_attack) + "," + str(atomic_defense) + "," + str(mental_attack) + "," + str(mental_defense) + "," + str(speed) + "," + str(critical_damage) + "," + str(critical_rate) + "," + str(armor_penetration) 
-                              + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + "," + str(mana) + ","+ description +");\n")
+                              + "," + str(avoid) + "," + str(absorbs_damage) + "," + str(regenerate_vitality) + ","+ str(accuracy) + "," + str(mana) + ","+ description +");\n")
                         id=id+1
 
 #Generate Trading
@@ -5334,18 +5277,18 @@ def create_chest_spell():
 # create_military_trade()
 # create_spell_trade()
 
-create_chest_equipment()
-create_chest_card()
-create_chest_captain()
-create_chest_border()
-create_chest_collaboration()
-create_chest_currency()
-create_chest_medal()
-create_chest_monster()
-create_chest_pet()
-create_chest_symbol()
-create_chest_title()
-create_chest_collaboration_equipment()
-create_chest_military()
-create_chest_spell()
-create_chest_book()
+# create_chest_equipment()
+# create_chest_card()
+# create_chest_captain()
+# create_chest_border()
+# create_chest_collaboration()
+# create_chest_currency()
+# create_chest_medal()
+# create_chest_monster()
+# create_chest_pet()
+# create_chest_symbol()
+# create_chest_title()
+# create_chest_collaboration_equipment()
+# create_chest_military()
+# create_chest_spell()
+# create_chest_book()
