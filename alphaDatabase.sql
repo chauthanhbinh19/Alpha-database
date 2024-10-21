@@ -2094,7 +2094,7 @@ create table fact_captains(
     all_avoid double,
     all_absorbs_damage double,
     all_regenerate_vitality double,
-    all_accuracy double,
+    accuracy double,
     all_mana float,
     
     PRIMARY KEY(user_id,user_captain_id),
@@ -2126,7 +2126,7 @@ create table fact_books(
     all_avoid double,
     all_absorbs_damage double,
     all_regenerate_vitality double,
-    all_accuracy double,
+    accuracy double,
     all_mana float,
     
     PRIMARY KEY(user_id,user_book_id),
@@ -2158,7 +2158,7 @@ create table fact_monsters(
     all_avoid double,
     all_absorbs_damage double,
     all_regenerate_vitality double,
-    all_accuracy double,
+    accuracy double,
     all_mana float,
     
     PRIMARY KEY(user_id,user_monster_id),
@@ -2190,7 +2190,7 @@ create table fact_pets(
     all_avoid double,
     all_absorbs_damage double,
     all_regenerate_vitality double,
-    all_accuracy double,
+    accuracy double,
     all_mana float,
     
     PRIMARY KEY(user_id,user_pet_id),
@@ -2222,7 +2222,7 @@ create table fact_cards(
     all_avoid double,
     all_absorbs_damage double,
     all_regenerate_vitality double,
-    all_accuracy double,
+    accuracy double,
     all_mana float,
     
     PRIMARY KEY(user_id,user_card_id),
@@ -2254,7 +2254,7 @@ create table fact_military(
     all_avoid double,
     all_absorbs_damage double,
     all_regenerate_vitality double,
-    all_accuracy double,
+    accuracy double,
     all_mana float,
     
     PRIMARY KEY(user_id,user_military_id),
@@ -2536,108 +2536,6 @@ create table military_skills(
     
     PRIMARY KEY(user_id,fact_military_id,skill_id),
     FOREIGN KEY (fact_military_id) REFERENCES fact_military(user_military_id),
-    FOREIGN KEY (user_id) REFERENCES users(id),
-    FOREIGN KEY (skill_id) REFERENCES skills(id)
-);
-
-create table book_skills(
-    user_id int,
-    fact_book_id int,
-    skill_id int,
-    level int,
-    position int,
-    
-    health double,
-    physical_attack double,
-    physical_defense double,
-    magical_attack double,
-    magical_defense double,
-    chemical_attack double,
-    chemical_defense double,
-    atomic_attack double,
-    atomic_defense double,
-    mental_attack double,
-    mental_defense double,
-    speed double,
-    critical_damage double,
-    critical_rate double,
-    armor_penetration double,
-    avoid double,
-    absorbs_damage double,
-    regenerate_vitality double,
-    accuracy double,
-    mana float,
-    
-    PRIMARY KEY(user_id,fact_book_id,skill_id),
-    FOREIGN KEY (fact_book_id) REFERENCES fact_books(user_book_id),
-    FOREIGN KEY (user_id) REFERENCES users(id),
-    FOREIGN KEY (skill_id) REFERENCES skills(id)
-);
-
-create table monster_skills(
-    user_id int,
-    fact_monster_id int,
-    skill_id int,
-    level int,
-    position int,
-    
-    health double,
-    physical_attack double,
-    physical_defense double,
-    magical_attack double,
-    magical_defense double,
-    chemical_attack double,
-    chemical_defense double,
-    atomic_attack double,
-    atomic_defense double,
-    mental_attack double,
-    mental_defense double,
-    speed double,
-    critical_damage double,
-    critical_rate double,
-    armor_penetration double,
-    avoid double,
-    absorbs_damage double,
-    regenerate_vitality double,
-    accuracy double,
-    mana float,
-    
-    PRIMARY KEY(user_id,fact_monster_id,skill_id),
-    FOREIGN KEY (fact_monster_id) REFERENCES fact_monsters(user_monster_id),
-    FOREIGN KEY (user_id) REFERENCES users(id),
-    FOREIGN KEY (skill_id) REFERENCES skills(id)
-);
-
-create table pet_skills(
-    user_id int,
-    fact_pet_id int,
-    skill_id int,
-    level int,
-    position int,
-    
-    health double,
-    physical_attack double,
-    physical_defense double,
-    magical_attack double,
-    magical_defense double,
-    chemical_attack double,
-    chemical_defense double,
-    atomic_attack double,
-    atomic_defense double,
-    mental_attack double,
-    mental_defense double,
-    speed double,
-    critical_damage double,
-    critical_rate double,
-    armor_penetration double,
-    avoid double,
-    absorbs_damage double,
-    regenerate_vitality double,
-    accuracy double,
-    mana float,
-    
-    PRIMARY KEY(user_id,fact_pet_id,skill_id),
-    FOREIGN KEY (fact_pet_id) REFERENCES fact_pets(user_pet_id),
     FOREIGN KEY (user_id) REFERENCES users(id),
     FOREIGN KEY (skill_id) REFERENCES skills(id)
 );
@@ -3036,8 +2934,8 @@ CREATE TABLE campaign_rewards (
     campaign_id int,
     campaign_detail_id INT,
     item_id INT,
+    quantity INT DEFAULT 1,    
     chapter varchar(100),
-    quantity INT DEFAULT 1,                      
     PRIMARY KEY (campaign_id,campaign_detail_id, item_id,chapter),     
     FOREIGN KEY (campaign_id) REFERENCES campaigns(id),          
     FOREIGN KEY (campaign_detail_id) REFERENCES campaign_details(id),
@@ -3055,4 +2953,32 @@ CREATE TABLE user_campaign (
     FOREIGN KEY (user_id) REFERENCES users(id),
     FOREIGN KEY (campaign_id) REFERENCES campaigns(id),
     FOREIGN KEY (campaign_detail_id) REFERENCES campaign_details(id)
+);
+
+CREATE TABLE quests (
+    id INT PRIMARY KEY,
+    name VARCHAR(255),
+    description TEXT,
+    required_level INT,
+    is_active BOOLEAN DEFAULT TRUE
+);
+
+CREATE TABLE player_quests (
+    user_id INT,
+    quest_id INT,
+    status varchar(255),
+    start_time DATETIME,
+    end_time DATETIME,
+    PRIMARY KEY (user_id, quest_id),
+    FOREIGN KEY (user_id) REFERENCES users(id),
+    FOREIGN KEY (quest_id) REFERENCES quests(id)
+);
+
+CREATE TABLE quest_rewards (
+    currency_id INT,
+    quest_id INT,
+    amount INT,
+    PRIMARY KEY (currency_id, quest_id),
+    FOREIGN KEY (quest_id) REFERENCES quests(id),
+    FOREIGN KEY (currency_id) REFERENCES currency(id),
 );

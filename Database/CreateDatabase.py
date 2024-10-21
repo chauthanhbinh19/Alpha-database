@@ -2,7 +2,7 @@ import json
 import os
 import random
 
-# for so in range(533, 1296):
+# for so in range(533, 1300):
 #     chest = random.randint(414, 532)
 #     with open('test.txt', 'a') as file:
 #         file.write("insert into chest_item values (" + str(chest) + "," + str(so) + "," + str(1) + ");\n")
@@ -44,7 +44,7 @@ def create_campaign ():
                 level=i
                 enemies = random.sample(range(1, 40001), 6) 
                 enemy1, enemy2, enemy3, enemy4, enemy5, enemy6 = enemies
-                items = random.sample(range(533, 1296), 4) 
+                items = random.sample(range(533, 1300), 4) 
                 item1, item2, item3, item4 = items
                 # Normal
                 file.write("insert into campaign_details values ("+ str(count)+ ","+ str(1)+ ",'Chapter "+ str(i+1)+"','"+ str("Eloria")+"','"+ str("Normal")+"',"
@@ -535,5 +535,80 @@ def create_campaign ():
                 file.write("insert into campaign_rewards values ("+str(count)+","+str(40)+","+str(item4)+","+str(1)+",'Chapter "+ str(i+1)+"');\n")
         
         count=count+1
-    
-create_campaign()
+
+def create_quest():
+    Equipment=[
+        "Amnitus_Equipment","Angelis_Equipment","Bellion_Equipment","Benzamin_Equipment","Celestial_Blood",
+        "Celestial_Body","Celestial_Equipment","Ceverus_Equipment","Delius_Equipment","Domitius_Equipment",
+        "Etherium_Equipment","Everlyn_Equipment","EvilFruit_Equipment","Extra_Equipment","Faltus_Equipment",
+        "Fealan_Equipment","Gamma_Equipment","Gem_Equipment","Hagoro_Equipment","Hakalite_Equipment",
+        "Heatherus_Equipment","Ignis_Equipment","Ivitus_Equipment","Karis_Equipment","Karmus_Equipment",
+        "Lotus_Equipment","Luminius_Equipment","Macus_Equipment","Morganis_Equipment","Mythical_Object",
+        "Nimigazin_Equipment","Omonitus_Equipment","Pet_Equipment","Qiyantus_Equipment","Rainbow_Equipment",
+        "Redvenger_Equipment","Retanic_Equipment","Souls_Equipment","Support_Equipment","Syncroharon_Equipment",
+        "Uni_Equipment","Zodiac_Equipment","Zpower_Equipment","Pet","Monster","Military","Collaboration",
+        "CollborationEquipment","Book","Captain","Card"
+    ]
+    count=1
+    for equipment in Equipment:
+        with open('quests.txt', 'a') as file:
+            file.write("Insert into quests values ("+str(count)+",'Sweep campaigns 10 times','',1,true);\n")
+            file.write("Insert into quest_rewards values ("+str(43)+","+str(count)+",1000);\n")
+            count=count+1
+            file.write("Insert into quests values ("+str(count)+",'Sweep campaigns 20 times','',1,true);\n")
+            file.write("Insert into quest_rewards values ("+str(43)+","+str(count)+",2000);\n")
+            count=count+1
+            file.write("Insert into quests values ("+str(count)+",'Sweep campaigns 30 times','',1,true);\n")
+            file.write("Insert into quest_rewards values ("+str(43)+","+str(count)+",3000);\n")
+            count=count+1
+            file.write("Insert into quests values ("+str(count)+",'Sweep campaigns 40 times','',1,true);\n")
+            file.write("Insert into quest_rewards values ("+str(43)+","+str(count)+",4000);\n")
+            count=count+1
+            file.write("Insert into quests values ("+str(count)+",'Sweep campaigns 50 times','',1,true);\n")
+            file.write("Insert into quest_rewards values ("+str(43)+","+str(count)+",5000);\n")
+            count=count+1
+            file.write("Insert into quests values ("+str(count)+",'Log in for today','',1,true);\n")
+            file.write("Insert into quest_rewards values ("+str(43)+","+str(count)+",1000);\n")
+            count=count+1
+            file.write("Insert into quests values ("+str(count)+",'Summon one hero','',1,true);\n")
+            file.write("Insert into quest_rewards values ("+str(43)+","+str(count)+",1000);\n")
+            count=count+1
+            file.write("Insert into quests values ("+str(count)+",'Upgrade equipment level','',1,true);\n")
+            file.write("Insert into quest_rewards values ("+str(43)+","+str(count)+",4000);\n")
+            count=count+1
+            file.write("Insert into quests values ("+str(count)+",'Open 5 chests','',1,true);\n")
+            file.write("Insert into quest_rewards values ("+str(43)+","+str(count)+",20000);\n")
+            count=count+1
+            file.write("Insert into quests values ("+str(count)+",'Upgrade skills one','',1,true);\n")
+            file.write("Insert into quest_rewards values ("+str(43)+","+str(count)+",10000);\n")
+            count=count+1
+            file.write("Insert into quests values ("+str(count)+",'Upgrade heroes level','',1,true);\n")
+            file.write("Insert into quest_rewards values ("+str(43)+","+str(count)+",10000);\n")
+            count=count+1
+            file.write("Insert into quests values ("+str(count)+",'Upgrade pets level','',1,true);\n")
+            file.write("Insert into quest_rewards values ("+str(43)+","+str(count)+",10000);\n")
+            count=count+1
+            file.write("Insert into quests values ("+str(count)+",'Upgrade monsters level','',1,true);\n")
+            file.write("Insert into quest_rewards values ("+str(43)+","+str(count)+",10000);\n")
+            count=count+1
+            file.write("Insert into quests values ("+str(count)+",'Upgrade books level','',1,true);\n")
+            file.write("Insert into quest_rewards values ("+str(43)+","+str(count)+",10000);\n")
+            count=count+1
+            file.write("Insert into quests values ("+str(count)+",'Upgrade captains level','',1,true);\n")
+            file.write("Insert into quest_rewards values ("+str(43)+","+str(count)+",10000);\n")
+            count=count+1
+            file.write("Insert into quests values ("+str(count)+",'Upgrade military level','',1,true);\n")
+            file.write("Insert into quest_rewards values ("+str(43)+","+str(count)+",10000);\n")
+            count=count+1
+            file.write("Insert into quests values ("+str(count)+",'Upgrade spell level','',1,true);\n")
+            file.write("Insert into quest_rewards values ("+str(43)+","+str(count)+",10000);\n")
+            count=count+1
+            file.write("Insert into quests values ("+str(count)+",'Upgrade collaborations level','',1,true);\n")
+            file.write("Insert into quest_rewards values ("+str(43)+","+str(count)+",10000);\n")
+            count=count+1
+            file.write("Insert into quests values ("+str(count)+",'Upgrade collaboration equipments level','',1,true);\n")
+            file.write("Insert into quest_rewards values ("+str(43)+","+str(count)+",10000);\n")
+            count=count+1
+
+# create_campaign()
+create_quest()
